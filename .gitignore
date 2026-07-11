@@ -1,0 +1,29 @@
+# ---- Copyrighted / raw source material — NEVER commit (respect copyright) ----
+sources/reference-texts/*.pdf
+sources/notebooklm-exports/*.zip
+sources/notebooklm-exports/raw_extracted/
+content/normalized/normalized_sources/
+# keep the ABPath blueprint PDF out of the public repo too (redistribution)
+sources/abpath/*.pdf
+
+# ---- Scratch / temp ----
+scratch_*.txt
+scratch_*.json
+scratch_*.mjs
+*.tmp
+
+# ---- Node / build ----
+app/node_modules/
+app/dist/
+node_modules/
+.env
+.env.local
+app/.env
+app/.env.local
+
+# ---- OS ----
+.DS_Store
+**/.DS_Store
+
+# ---- Workflow / agent transcripts (local only) ----
+.claude/projects/

@@ -1,0 +1,646 @@
+{
+  "target": 20,
+  "candidates": 20,
+  "plan": [
+    {
+      "plan_id": "CP-001",
+      "case_id": "C-001",
+      "domain": "6. Hazards of Transfusion: Specific Adverse Events",
+      "section_id": "S6",
+      "entity": "Hemolytic Transfusion Reactions",
+      "blueprint_node_id": "S6.a",
+      "topic_path": "6. Hazards of Transfusion: Specific Adverse Events \u203a Hemolytic Transfusion Reactions",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-045",
+          "path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion-1.md",
+          "title": "Noninfectious Complications and Hazards of Blood Transfusion(1).docx"
+        },
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-061",
+          "path": "content/normalized/normalized_sources/transfusion-medicine-waiha-serology-and-platelet-bacterial-mitigation.md",
+          "title": "Transfusion Medicine_ WAIHA Serology and Platelet Bacterial Mitigation.docx"
+        },
+        {
+          "source_id": "SRC-032",
+          "path": "content/normalized/normalized_sources/essentials-of-transfusion-medicine-and-blood-management.md",
+          "title": "Essentials of Transfusion Medicine and Blood Management.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-002",
+      "case_id": "C-002",
+      "domain": "6. Hazards of Transfusion: Specific Adverse Events",
+      "section_id": "S6",
+      "entity": "Signs and Symptoms",
+      "blueprint_node_id": "S6.a.ii",
+      "topic_path": "6. Hazards of Transfusion: Specific Adverse Events \u203a Hemolytic Transfusion Reactions \u203a Signs and Symptoms",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-024",
+          "path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+          "title": "Clinical Principles of Erythrocytes and Blood Components.docx"
+        },
+        {
+          "source_id": "SRC-032",
+          "path": "content/normalized/normalized_sources/essentials-of-transfusion-medicine-and-blood-management.md",
+          "title": "Essentials of Transfusion Medicine and Blood Management.docx"
+        },
+        {
+          "source_id": "SRC-027",
+          "path": "content/normalized/normalized_sources/domain-2-clinical-practice-patient-management-study-guide.md",
+          "title": "Domain 2_ Clinical Practice & Patient Management Study Guide.docx"
+        },
+        {
+          "source_id": "SRC-023",
+          "path": "content/normalized/normalized_sources/clinical-principles-and-guidelines-for-therapeutic-apheresis.md",
+          "title": "Clinical Principles and Guidelines for Therapeutic Apheresis.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-003",
+      "case_id": "C-003",
+      "domain": "6. Hazards of Transfusion: Specific Adverse Events",
+      "section_id": "S6",
+      "entity": "Differential Diagnosis",
+      "blueprint_node_id": "S6.a.v",
+      "topic_path": "6. Hazards of Transfusion: Specific Adverse Events \u203a Hemolytic Transfusion Reactions \u203a Differential Diagnosis",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-001",
+          "path": "content/normalized/normalized_sources/advanced-antibody-identification-and-special-laboratory-techniques.md",
+          "title": "Advanced Antibody Identification and Special Laboratory Techniques.docx"
+        },
+        {
+          "source_id": "SRC-044",
+          "path": "content/normalized/normalized_sources/master-curriculum-map-blood-banking-and-transfusion-medicine-board-review-editio.md",
+          "title": "Master Curriculum Map_ Blood Banking and Transfusion Medicine (Board Review Edition).docx"
+        },
+        {
+          "source_id": "SRC-061",
+          "path": "content/normalized/normalized_sources/transfusion-medicine-waiha-serology-and-platelet-bacterial-mitigation.md",
+          "title": "Transfusion Medicine_ WAIHA Serology and Platelet Bacterial Mitigation.docx"
+        },
+        {
+          "source_id": "SRC-050",
+          "path": "content/normalized/normalized_sources/pulmonary-transfusion-reactions-taco-trali-and-tad-clinical-guide.md",
+          "title": "Pulmonary Transfusion Reactions_ TACO, TRALI, and TAD Clinical Guide.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-004",
+      "case_id": "C-004",
+      "domain": "6. Hazards of Transfusion: Specific Adverse Events",
+      "section_id": "S6",
+      "entity": "Laboratory Investigation",
+      "blueprint_node_id": "S6.a.vi",
+      "topic_path": "6. Hazards of Transfusion: Specific Adverse Events \u203a Hemolytic Transfusion Reactions \u203a Laboratory Investigation",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-013",
+          "path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards-1.md",
+          "title": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx"
+        },
+        {
+          "source_id": "SRC-006",
+          "path": "content/normalized/normalized_sources/advanced-transfusion-medicine-and-cellular-therapy-standards.md",
+          "title": "Advanced Transfusion Medicine and Cellular Therapy Standards.docx"
+        },
+        {
+          "source_id": "SRC-027",
+          "path": "content/normalized/normalized_sources/domain-2-clinical-practice-patient-management-study-guide.md",
+          "title": "Domain 2_ Clinical Practice & Patient Management Study Guide.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-005",
+      "case_id": "C-005",
+      "domain": "1. Clinical Practice",
+      "section_id": "S1",
+      "entity": "Anemia in Oncology Patients",
+      "blueprint_node_id": "S1.c",
+      "topic_path": "1. Clinical Practice \u203a Anemia in Oncology Patients",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-002",
+          "path": "content/normalized/normalized_sources/advanced-blood-banking-and-transfusion-medicine-review-nodes.md",
+          "title": "Advanced Blood Banking and Transfusion Medicine Review Nodes.docx"
+        },
+        {
+          "source_id": "SRC-013",
+          "path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards-1.md",
+          "title": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx"
+        },
+        {
+          "source_id": "SRC-012",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-mastery-nodes.md",
+          "title": "Blood Banking and Transfusion Medicine Mastery Nodes.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-006",
+      "case_id": "C-006",
+      "domain": "1. Clinical Practice",
+      "section_id": "S1",
+      "entity": "Platelet Antibody Assays HLA/HPA",
+      "blueprint_node_id": "S1.d.iii",
+      "topic_path": "1. Clinical Practice \u203a Immune Thrombocytopenia \u203a Platelet Antibody Assays HLA/HPA",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-028",
+          "path": "content/normalized/normalized_sources/domain-4-advanced-technologies-specialized-testing-study-guide.md",
+          "title": "Domain 4_ Advanced Technologies & Specialized Testing Study Guide.docx"
+        },
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-026",
+          "path": "content/normalized/normalized_sources/clinical-protocols-for-platelet-refractoriness-and-hla-alloimmunization.md",
+          "title": "Clinical Protocols for Platelet Refractoriness and HLA Alloimmunization.docx"
+        },
+        {
+          "source_id": "SRC-006",
+          "path": "content/normalized/normalized_sources/advanced-transfusion-medicine-and-cellular-therapy-standards.md",
+          "title": "Advanced Transfusion Medicine and Cellular Therapy Standards.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-007",
+      "case_id": "C-007",
+      "domain": "1. Clinical Practice",
+      "section_id": "S1",
+      "entity": "Tests for Heparin-Induced Thrombocytopenia",
+      "blueprint_node_id": "S1.d.iv",
+      "topic_path": "1. Clinical Practice \u203a Immune Thrombocytopenia \u203a Tests for Heparin-Induced Thrombocytopenia",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-045",
+          "path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion-1.md",
+          "title": "Noninfectious Complications and Hazards of Blood Transfusion(1).docx"
+        },
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-050",
+          "path": "content/normalized/normalized_sources/pulmonary-transfusion-reactions-taco-trali-and-tad-clinical-guide.md",
+          "title": "Pulmonary Transfusion Reactions_ TACO, TRALI, and TAD Clinical Guide.docx"
+        },
+        {
+          "source_id": "SRC-023",
+          "path": "content/normalized/normalized_sources/clinical-principles-and-guidelines-for-therapeutic-apheresis.md",
+          "title": "Clinical Principles and Guidelines for Therapeutic Apheresis.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-008",
+      "case_id": "C-008",
+      "domain": "3. RBCs and RBC Components",
+      "section_id": "S3",
+      "entity": "Erythropoietin",
+      "blueprint_node_id": "S3.a.i",
+      "topic_path": "3. RBCs and RBC Components \u203a Red Cell Production and Kinetics \u203a Erythropoietin",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-025",
+          "path": "content/normalized/normalized_sources/clinical-protocols-for-hdfn-and-neonatal-transfusion-management.md",
+          "title": "Clinical Protocols for HDFN and Neonatal Transfusion Management.docx"
+        },
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-017",
+          "path": "content/normalized/normalized_sources/clinical-essentials-of-obstetric-and-pediatric-transfusion-medicine-1.md",
+          "title": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine(1).docx"
+        },
+        {
+          "source_id": "SRC-024",
+          "path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+          "title": "Clinical Principles of Erythrocytes and Blood Components.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-009",
+      "case_id": "C-009",
+      "domain": "3. RBCs and RBC Components",
+      "section_id": "S3",
+      "entity": "Regulation of Production",
+      "blueprint_node_id": "S3.a.i.1",
+      "topic_path": "3. RBCs and RBC Components \u203a Red Cell Production and Kinetics \u203a Erythropoietin \u203a Regulation of Production",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-024",
+          "path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+          "title": "Clinical Principles of Erythrocytes and Blood Components.docx"
+        },
+        {
+          "source_id": "SRC-005",
+          "path": "content/normalized/normalized_sources/advanced-principles-of-rbc-metabolism-and-storage-physiology.md",
+          "title": "Advanced Principles of RBC Metabolism and Storage Physiology.docx"
+        },
+        {
+          "source_id": "SRC-002",
+          "path": "content/normalized/normalized_sources/advanced-blood-banking-and-transfusion-medicine-review-nodes.md",
+          "title": "Advanced Blood Banking and Transfusion Medicine Review Nodes.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-010",
+      "case_id": "C-010",
+      "domain": "3. RBCs and RBC Components",
+      "section_id": "S3",
+      "entity": "Glucose",
+      "blueprint_node_id": "S3.c.i.1",
+      "topic_path": "3. RBCs and RBC Components \u203a Red Cell Metabolism and Preservation \u203a Metabolism \u203a Glucose",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-024",
+          "path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+          "title": "Clinical Principles of Erythrocytes and Blood Components.docx"
+        },
+        {
+          "source_id": "SRC-005",
+          "path": "content/normalized/normalized_sources/advanced-principles-of-rbc-metabolism-and-storage-physiology.md",
+          "title": "Advanced Principles of RBC Metabolism and Storage Physiology.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-011",
+      "case_id": "C-011",
+      "domain": "5. Apheresis",
+      "section_id": "S5",
+      "entity": "Therapeutic Phlebotomy",
+      "blueprint_node_id": "S5.c.i",
+      "topic_path": "5. Apheresis \u203a Specialized Therapeutic Hemapheresis and Phlebotomy \u203a Therapeutic Phlebotomy",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-031",
+          "path": "content/normalized/normalized_sources/essentials-of-plasma-and-platelet-transfusion-medicine.md",
+          "title": "Essentials of Plasma and Platelet Transfusion Medicine.docx"
+        },
+        {
+          "source_id": "SRC-052",
+          "path": "content/normalized/normalized_sources/study-guide-domain-1-technical-serological-logic.md",
+          "title": "Study Guide_ Domain 1 \u2013 Technical & Serological Logic.docx"
+        },
+        {
+          "source_id": "SRC-059",
+          "path": "content/normalized/normalized_sources/transfusion-medicine-board-review-final-high-yield-nodes.md",
+          "title": "Transfusion Medicine Board Review_ Final High-Yield Nodes.docx"
+        },
+        {
+          "source_id": "SRC-032",
+          "path": "content/normalized/normalized_sources/essentials-of-transfusion-medicine-and-blood-management.md",
+          "title": "Essentials of Transfusion Medicine and Blood Management.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-012",
+      "case_id": "C-012",
+      "domain": "5. Apheresis",
+      "section_id": "S5",
+      "entity": "Current Devices and Technology",
+      "blueprint_node_id": "S5.a.ii",
+      "topic_path": "5. Apheresis \u203a Apheresis: Principles and Technology of Hemapheresis \u203a Current Devices and Technology",
+      "designation": "AR",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-028",
+          "path": "content/normalized/normalized_sources/domain-4-advanced-technologies-specialized-testing-study-guide.md",
+          "title": "Domain 4_ Advanced Technologies & Specialized Testing Study Guide.docx"
+        },
+        {
+          "source_id": "SRC-052",
+          "path": "content/normalized/normalized_sources/study-guide-domain-1-technical-serological-logic.md",
+          "title": "Study Guide_ Domain 1 \u2013 Technical & Serological Logic.docx"
+        },
+        {
+          "source_id": "SRC-002",
+          "path": "content/normalized/normalized_sources/advanced-blood-banking-and-transfusion-medicine-review-nodes.md",
+          "title": "Advanced Blood Banking and Transfusion Medicine Review Nodes.docx"
+        },
+        {
+          "source_id": "SRC-027",
+          "path": "content/normalized/normalized_sources/domain-2-clinical-practice-patient-management-study-guide.md",
+          "title": "Domain 2_ Clinical Practice & Patient Management Study Guide.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-013",
+      "case_id": "C-013",
+      "domain": "15. Obstetric and Pediatric Patients",
+      "section_id": "S15",
+      "entity": "ABO Incompatibility",
+      "blueprint_node_id": "S15.a.i",
+      "topic_path": "15. Obstetric and Pediatric Patients \u203a Hemolytic Disease of the Fetus and Newborn \u203a ABO Incompatibility",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-035",
+          "path": "content/normalized/normalized_sources/foundations-of-transplantation-immunohematology.md",
+          "title": "Foundations of Transplantation Immunohematology.docx"
+        },
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-017",
+          "path": "content/normalized/normalized_sources/clinical-essentials-of-obstetric-and-pediatric-transfusion-medicine-1.md",
+          "title": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine(1).docx"
+        },
+        {
+          "source_id": "SRC-024",
+          "path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+          "title": "Clinical Principles of Erythrocytes and Blood Components.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-014",
+      "case_id": "C-014",
+      "domain": "15. Obstetric and Pediatric Patients",
+      "section_id": "S15",
+      "entity": "Sickle Cell Disease (Pathophysiology and Treatment)",
+      "blueprint_node_id": "S15.d.i",
+      "topic_path": "15. Obstetric and Pediatric Patients \u203a Congenital Hemoglobinopathies and Hemolytic Anemias \u203a Sickle Cell Disease (Pathophysiology and Treatment)",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-059",
+          "path": "content/normalized/normalized_sources/transfusion-medicine-board-review-final-high-yield-nodes.md",
+          "title": "Transfusion Medicine Board Review_ Final High-Yield Nodes.docx"
+        },
+        {
+          "source_id": "SRC-004",
+          "path": "content/normalized/normalized_sources/advanced-immunohematology-and-transfusion-medicine-review.md",
+          "title": "Advanced Immunohematology and Transfusion Medicine Review.docx"
+        },
+        {
+          "source_id": "SRC-041",
+          "path": "content/normalized/normalized_sources/immunohematology-mastery-high-yield-blood-banking-subdomains.md",
+          "title": "Immunohematology Mastery_ High-Yield Blood Banking Subdomains.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-015",
+      "case_id": "C-015",
+      "domain": "7. Plasma Components and Derivatives",
+      "section_id": "S7",
+      "entity": "Immunoglobulins",
+      "blueprint_node_id": "S7.a.iii",
+      "topic_path": "7. Plasma Components and Derivatives \u203a Plasma Composition \u203a Immunoglobulins",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-031",
+          "path": "content/normalized/normalized_sources/essentials-of-plasma-and-platelet-transfusion-medicine.md",
+          "title": "Essentials of Plasma and Platelet Transfusion Medicine.docx"
+        },
+        {
+          "source_id": "SRC-047",
+          "path": "content/normalized/normalized_sources/principles-and-clinical-management-of-therapeutic-apheresis.md",
+          "title": "Principles and Clinical Management of Therapeutic Apheresis.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-016",
+      "case_id": "C-016",
+      "domain": "7. Plasma Components and Derivatives",
+      "section_id": "S7",
+      "entity": "Plasma Products \u2013 Indications and Clinical Use",
+      "blueprint_node_id": "S7.b.i",
+      "topic_path": "7. Plasma Components and Derivatives \u203a Preparation of Plasma Derivatives \u203a Plasma Products \u2013 Indications and Clinical Use",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-007",
+          "path": "content/normalized/normalized_sources/biochemical-pathways-of-carbohydrate-blood-group-synthesis.md",
+          "title": "Biochemical Pathways of Carbohydrate Blood Group Synthesis.docx"
+        },
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-009",
+          "path": "content/normalized/normalized_sources/blood-banking-regulatory-compliance-and-quality-management-systems.md",
+          "title": "Blood Banking Regulatory Compliance and Quality Management Systems.docx"
+        },
+        {
+          "source_id": "SRC-006",
+          "path": "content/normalized/normalized_sources/advanced-transfusion-medicine-and-cellular-therapy-standards.md",
+          "title": "Advanced Transfusion Medicine and Cellular Therapy Standards.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-017",
+      "case_id": "C-017",
+      "domain": "16. Hematopoietic Progenitor Cell (HPC) Transplantation",
+      "section_id": "S16",
+      "entity": "Autologous",
+      "blueprint_node_id": "S16.a.i",
+      "topic_path": "16. Hematopoietic Progenitor Cell (HPC) Transplantation \u203a Biology of Marrow Transplantation \u203a Autologous",
+      "designation": "AR",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-035",
+          "path": "content/normalized/normalized_sources/foundations-of-transplantation-immunohematology.md",
+          "title": "Foundations of Transplantation Immunohematology.docx"
+        },
+        {
+          "source_id": "SRC-013",
+          "path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards-1.md",
+          "title": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx"
+        },
+        {
+          "source_id": "SRC-003",
+          "path": "content/normalized/normalized_sources/advanced-immunohematology-and-blood-banking-operations-guide.md",
+          "title": "Advanced Immunohematology and Blood Banking Operations Guide.docx"
+        },
+        {
+          "source_id": "SRC-034",
+          "path": "content/normalized/normalized_sources/foundations-of-cell-and-tissue-therapy-regulation-and-practice.md",
+          "title": "Foundations of Cell and Tissue Therapy Regulation and Practice.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-018",
+      "case_id": "C-018",
+      "domain": "8. Infectious Hazards of Transfusion",
+      "section_id": "S8",
+      "entity": "Transfusion-Transmitted Hepatitis",
+      "blueprint_node_id": "S8.a",
+      "topic_path": "8. Infectious Hazards of Transfusion \u203a Transfusion-Transmitted Hepatitis",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-010",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "title": "Blood Banking and Transfusion Medicine Board Curriculum.docx"
+        },
+        {
+          "source_id": "SRC-005",
+          "path": "content/normalized/normalized_sources/advanced-principles-of-rbc-metabolism-and-storage-physiology.md",
+          "title": "Advanced Principles of RBC Metabolism and Storage Physiology.docx"
+        },
+        {
+          "source_id": "SRC-061",
+          "path": "content/normalized/normalized_sources/transfusion-medicine-waiha-serology-and-platelet-bacterial-mitigation.md",
+          "title": "Transfusion Medicine_ WAIHA Serology and Platelet Bacterial Mitigation.docx"
+        },
+        {
+          "source_id": "SRC-013",
+          "path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards-1.md",
+          "title": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-019",
+      "case_id": "C-019",
+      "domain": "10. Surgery Patients",
+      "section_id": "S10",
+      "entity": "Shock",
+      "blueprint_node_id": "S10.c.i",
+      "topic_path": "10. Surgery Patients \u203a Transfusion Therapy for Trauma and Burn Patients \u203a Shock",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-045",
+          "path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion-1.md",
+          "title": "Noninfectious Complications and Hazards of Blood Transfusion(1).docx"
+        },
+        {
+          "source_id": "SRC-047",
+          "path": "content/normalized/normalized_sources/principles-and-clinical-management-of-therapeutic-apheresis.md",
+          "title": "Principles and Clinical Management of Therapeutic Apheresis.docx"
+        },
+        {
+          "source_id": "SRC-053",
+          "path": "content/normalized/normalized_sources/study-guide-domain-3-regulatory-quality-and-operations.md",
+          "title": "Study Guide_ Domain 3 \u2013 Regulatory, Quality, and Operations.docx"
+        },
+        {
+          "source_id": "SRC-023",
+          "path": "content/normalized/normalized_sources/clinical-principles-and-guidelines-for-therapeutic-apheresis.md",
+          "title": "Clinical Principles and Guidelines for Therapeutic Apheresis.docx"
+        }
+      ]
+    },
+    {
+      "plan_id": "CP-020",
+      "case_id": "C-020",
+      "domain": "12. Platelets",
+      "section_id": "S12",
+      "entity": "Platelets and Hemostasis",
+      "blueprint_node_id": "S12.b",
+      "topic_path": "12. Platelets \u203a Platelets and Hemostasis",
+      "designation": "C",
+      "coverage_support": 1.0,
+      "source_files": [
+        {
+          "source_id": "SRC-031",
+          "path": "content/normalized/normalized_sources/essentials-of-plasma-and-platelet-transfusion-medicine.md",
+          "title": "Essentials of Plasma and Platelet Transfusion Medicine.docx"
+        },
+        {
+          "source_id": "SRC-032",
+          "path": "content/normalized/normalized_sources/essentials-of-transfusion-medicine-and-blood-management.md",
+          "title": "Essentials of Transfusion Medicine and Blood Management.docx"
+        },
+        {
+          "source_id": "SRC-051",
+          "path": "content/normalized/normalized_sources/specialized-transfusion-medicine-and-clinical-quality-systems.md",
+          "title": "Specialized Transfusion Medicine and Clinical Quality Systems.docx"
+        },
+        {
+          "source_id": "SRC-012",
+          "path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-mastery-nodes.md",
+          "title": "Blood Banking and Transfusion Medicine Mastery Nodes.docx"
+        }
+      ]
+    }
+  ]
+}

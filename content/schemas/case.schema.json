@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tala-bbtm/schemas/case.schema.json",
+  "title": "TeachingCase",
+  "description": "A staged, source-grounded transfusion-medicine teaching case with decision points.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "title", "domains", "blueprint_node_ids", "clinical_setup",
+    "findings", "decision_points", "teaching_explanation", "pitfalls",
+    "source_references", "support_confidence", "review"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^C-[0-9]{3}$", "description": "Stable unique ID." },
+    "title": { "type": "string", "minLength": 4 },
+    "domains": {
+      "type": "array", "minItems": 1,
+      "items": { "type": "string" },
+      "description": "One or more blueprint domain/subdomain tags."
+    },
+    "blueprint_node_ids": {
+      "type": "array", "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "designation": { "type": "string", "enum": ["C", "AR", "F"] },
+    "difficulty": { "type": "string", "enum": ["easy", "moderate", "hard"] },
+    "clinical_setup": {
+      "type": "string", "minLength": 40,
+      "description": "The clinical scenario / patient presentation."
+    },
+    "findings": {
+      "type": "array",
+      "description": "Relevant laboratory / transfusion findings as labelled data points.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "value"],
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "string" },
+          "flag": { "type": "string", "enum": ["normal", "abnormal", "critical", "n/a"], "default": "n/a" }
+        }
+      }
+    },
+    "decision_points": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Staged questions the learner answers before revealing the key.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["prompt", "answer", "rationale"],
+        "properties": {
+          "stage": { "type": "integer", "minimum": 1 },
+          "prompt": { "type": "string", "minLength": 8 },
+          "options": { "type": "array", "items": { "type": "string" } },
+          "answer": { "type": "string", "minLength": 1 },
+          "rationale": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
+    "answer_key": { "type": "string", "description": "Consolidated correct pathway / final answer." },
+    "teaching_explanation": { "type": "string", "minLength": 40 },
+    "pitfalls": {
+      "type": "array", "minItems": 1,
+      "items": { "type": "string" },
+      "description": "Common board traps / clinical pitfalls."
+    },
+    "source_references": {
+      "type": "array", "minItems": 1,
+      "items": { "$ref": "reference.schema.json" }
+    },
+    "support_confidence": { "type": "string", "enum": ["high", "moderate", "low"] },
+    "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "learner_note": { "type": ["string", "null"], "default": null },
+    "review": { "$ref": "review.schema.json" },
+    "created_at": { "type": "string" },
+    "generator": { "type": "string" }
+  }
+}

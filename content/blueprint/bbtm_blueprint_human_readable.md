@@ -1,0 +1,1118 @@
+# ABPath Blood Banking / Transfusion Medicine — Blueprint Ontology
+
+_Parsed from the official Content Specification. 17 domains · 1078 nodes · 813 leaf topics._
+
+**Designations:** `C` Core · `AR` Advanced Resident · `F` Fellow
+
+
+## 1. Clinical Practice
+
+  - **a.** Autoimmune Hemolytic Anemia
+    - **i.** Classification, Epidemiology, and Causes `C`
+    - **ii.** Warm Autoimmune Hemolytic Anemia `AR`
+      - **1.** Pathophysiology `AR`
+      - **2.** Autoantibodies `AR`
+      - **3.** Clinical Features `AR`
+      - **4.** Laboratory Features `AR`
+      - **5.** Treatment/Transfusion `AR`
+      - **6.** Treatment/Pharmacologic `F`
+    - **iii.** Cold Hemagglutinin Disease `AR`
+      - **1.** Pathophysiology `AR`
+      - **2.** Autoantibodies `AR`
+      - **3.** Clinical Features `AR`
+      - **4.** Laboratory Features `AR`
+      - **5.** Treatment/Transfusion `AR`
+      - **6.** Treatment/Pharmacologic `F`
+    - **iv.** Paroxysmal Cold Hemoglobinuria `AR`
+      - **1.** Pathophysiology `AR`
+      - **2.** Autoantibodies `AR`
+      - **3.** Clinical Features `AR`
+      - **4.** Laboratory Features `AR`
+      - **5.** Treatment/Transfusion `AR`
+      - **6.** Treatment/Pharmacologic `F`
+    - **v.** Drug-Induced Immune Hemolytic Anemia
+      - **1.** General considerations `AR`
+      - **2.** Drug-Adsorption Mechanism `F`
+      - **3.** Drug-Dependent Antibody Mechanism `F`
+      - **4.** Autoimmune Induction Mechanism `F`
+  - **b.** Paroxysmal Nocturnal Hemoglobinuria
+    - **i.** General Considerations `AR`
+    - **ii.** Clinical Presentation and Course `F`
+    - **iii.** Causes and Pathogenesis `F`
+    - **iv.** Laboratory Features `F`
+    - **v.** Treatment-Transfusion `F`
+  - **c.** Anemia in Oncology Patients `C`
+    - **i.** Causes `C`
+    - **ii.** Clinical Features `C`
+    - **iii.** Management
+      - **1.** Growth Factors `AR`
+      - **2.** Transfusion Therapy `F`
+  - **d.** Immune Thrombocytopenia
+    - **i.** Classification, Epidemiology, and Causes `C`
+    - **ii.** General Tests to Investigate Thrombocytopenia `C`
+    - **iii.** Platelet Antibody Assays HLA/HPA `C`
+    - **iv.** Tests for Heparin-Induced Thrombocytopenia `C`
+    - **v.** Immune Thrombocytopenia
+      - **1.** Pathogenesis `C`
+      - **2.** Clinical Features `C`
+      - **3.** Laboratory Features `C`
+      - **4.** Treatment `C`
+      - **5.** Immune Thrombocytopenic Purpura in Pregnancy `AR`
+      - **6.** Acute Immune Thrombocytopenic Purpura of Childhood `AR`
+      - **7.** Chronic Immune Thrombocytopenic Purpura of Childhood `AR`
+      - **8.** Secondary Immune Thrombocytopenic Purpura `AR`
+      - **9.** Platelet Genotyping `F`
+    - **vi.** Drug-Induced Immune Thrombocytopenia
+      - **1.** Heparin-Induced Thrombocytopenia `C`
+        - **a.** Pathogenesis `C`
+        - **b.** Treatment and Management `C`
+      - **2.** Typical Drug-Induced Immune Thrombocytopenia `F`
+      - **3.** Atypical Drug-Induced Thrombocytopenic Purpura `F`
+      - **4.** Drug-Induced Thrombotic Thrombocytopenic Purpura and Hemolytic Uremic Syndrome `F`
+    - **vii.** Alloimmune Thrombocytopenia
+      - **1.** Platelet Alloantigens `C`
+        - **a.** Immunogenetic and Frequency of Alloimmune Thrombocytopenia `C`
+      - **2.** Neonatal Alloimmune Thrombocytopenia
+        - **a.** Pathophysiology and Clinical Features `C`
+        - **b.** Neonatal Treatment `AR`
+        - **c.** Prenatal Management `AR`
+      - **3.** Platelet Transfusion Refractoriness
+        - **a.** Causes, Mechanisms, and Management `C`
+      - **4.** Post transfusion Purpura `F`
+        - **a.** Pathophysiology and Clinical Features `F`
+        - **b.** Treatment `F`
+      - **5.** Passive Alloimmune Thrombocytopenia `F`
+      - **6.** Transplantation-Associated Alloimmune Thrombocytopenia `F`
+        - **a.** Hematopoietic Transplantation `F`
+        - **b.** Solid Organ Transplantation `F`
+  - **e.** Bleeding from Congenital and Acquired Coagulation Defects, and Antithrombotic Therapy
+    - **i.** Liver Disease `C`
+      - **1.** Pathophysiology `C`
+      - **2.** Laboratory Features `C`
+      - **3.** Management of Bleeding `C`
+    - **ii.** Vitamin K Deficiency `C`
+      - **1.** Role of Vitamin K in Hemostasis `C`
+      - **2.** Hemorrhagic Disease of the Newborn `C`
+      - **3.** Other Causes of Vitamin K Deficiency `C`
+      - **4.** Treatment `C`
+    - **iii.** Disseminated Intravascular Coagulation `C`
+      - **1.** Pathophysiology `C`
+      - **2.** Clinical Features `C`
+      - **3.** Laboratory Features `C`
+      - **4.** Treatment `C`
+    - **iv.** Coagulation Factor Inhibitors
+      - **1.** Lupus Anticoagulants `C`
+      - **2.** Factor VIII Inhibitors `AR`
+      - **3.** Acquired von Willebrand Syndrome `F`
+      - **4.** Factor V Inhibitors `F`
+      - **5.** Acquired Factor X Deficiency `F`
+      - **6.** Other Coagulation Inhibitors `F`
+    - **v.** Acquired Platelet Function Disorders
+      - **1.** Drug-Induced Platelet Dysfunction `C`
+      - **2.** Uremia `C`
+      - **3.** Cardiopulmonary Bypass `C`
+    - **vi.** Antithrombotic Therapy
+      - **1.** Warfarin `C`
+      - **2.** Heparin `C`
+      - **3.** Low Molecular Weight Heparins `AR`
+      - **4.** Factor Xa Inhibitors `AR`
+      - **5.** Direct Thrombin Inhibitors `AR`
+      - **6.** Fibrinolytic Agents `AR`
+    - **vii.** Congenital Coagulopathies/Thrombophilias
+      - **1.** von Willebrand Disease `C`
+      - **2.** Factor Deficiencies (At III, Protein C, Protein S Deficiencies) C
+  - **f.** Granulocyte Transfusion (Primary Donor Issues) `F`
+    - **i.** Indications and Patient Selection `F`
+    - **ii.** Donor Selection and Criteria `F`
+    - **iii.** Donor Stimulation – Corticosteroids and G-CSF `F`
+    - **iv.** Product Collection `F`
+    - **v.** Product Storage and Transport `F`
+    - **vi.** Product Selection – Special Needs `F`
+    - **vii.** Infusion and Monitoring `F`
+    - **viii.** Adverse Events (Donor and Recipient) `F`
+    - **ix.** Clinical Outcomes `F`
+
+## 2. Cell and Tissue Therapy
+
+  - **a.** HLA Antigens and Alleles
+    - **i.** Major Histocompatibility Complex `AR`
+    - **ii.** Class I and II Antigens and Their Function `AR`
+    - **iii.** Polymorphism of HLA System and Nomenclature `AR`
+    - **iv.** Identification of HLA Antigens, Antibodies, and Alleles
+      - **1.** Serologic Methods `AR`
+      - **2.** Cellular Methods `F`
+      - **3.** Nucleic Acid-Based Methods `F`
+      - **4.** Crossmatching `F`
+    - **v.** Genotypes, Phenotypes, and Haplotypes `F`
+    - **vi.** Medical and Biological Significance of HLA
+      - **1.** Transplantation `F`
+        - **a.** Hematopoietic Progenitor `F`
+        - **b.** Solid Organ `F`
+      - **2.** Disease Association `F`
+  - **b.** Tissue Banking
+    - **i.** Transfusion Service Support of Tissue Transplantation `AR`
+    - **ii.** Human Allograft Applications `F`
+    - **iii.** Tissue Donation `F`
+      - **1.** Living Donors `F`
+      - **2.** Deceased Donors `F`
+      - **3.** Referral for Donation `F`
+    - **iv.** Organization of Tissue Banking in the United States `F`
+    - **v.** Public Attitudes Regarding Organ and Tissue Donation `F`
+    - **vi.** Tissue Transplant-Transmissible Diseases `F`
+    - **vii.** Tissue Donor Suitability and Tissue Transplant Risk Reduction `F`
+      - **1.** Donor Histology Screening `F`
+      - **2.** Donor Physical Assessment `F`
+      - **3.** Tissue Recovery Methods `F`
+      - **4.** Infectious Disease Testing `F`
+      - **5.** Tissue Sterilization `F`
+    - **viii.** General Principles of Tissue Preservation and Clinical Use `F`
+      - **1.** Bone `F`
+      - **2.** Cartilage, Meniscus, Tendon, Ligament & Dura Mater `F`
+      - **3.** Skin `F`
+      - **4.** Ocular Tissue `F`
+      - **5.** Cardiovascular Tissue `F`
+      - **6.** Peripheral Nerve `F`
+      - **7.** Parathyroid `F`
+      - **8.** Reproductive Tissue F/AP `F`
+        - **a.** Semen `F`
+        - **b.** Oocytes and Embryos `F`
+        - **c.** Extraembryonic `F`
+    - **ix.** Tissue Banking and Transplantation Oversight `F`
+  - **c.** Adoptive Immunotherapy
+    - **i.** Immunotherapy Targets for Cancer `AR`
+    - **ii.** T-Cell Immunotherapy Targets for Infections `F`
+    - **iii.** Types of Adoptive Immunotherapy `F`
+      - **1.** Non-specific T-cells `F`
+      - **2.** Antigen-Specific T-cell Therapies `F`
+      - **3.** Genetically-Modified T-cells `F`
+    - **iv.** Approaches to Improving Cellular Immunotherapy `F`
+    - **v.** Adoptive Immunotherapy Regulatory Issues `F`
+  - **d.** Gene Therapy in Transfusion Medicine
+    - **i.** Targeted Genes `F`
+    - **ii.** Vector Design `F`
+    - **iii.** Viral Vectors `F`
+    - **iv.** Adeno-Associated Virus `F`
+    - **v.** Adenoviral Vectors `F`
+    - **vi.** Non-Viral Gene Therapy `F`
+    - **vii.** Clinical Protocols and Trials `F`
+  - **e.** Tissue Engineering and Regenerative Medicine `F`
+    - **i.** Overview `F`
+    - **ii.** Skin `F`
+    - **iii.** Blood Vessel `F`
+    - **iv.** Bone `F`
+    - **v.** Cartliage `F`
+    - **vi.** Urology `F`
+    - **vii.** Cardiac `F`
+    - **viii.** Corneal `F`
+
+## 3. RBCs and RBC Components
+
+  - **a.** Red Cell Production and Kinetics
+    - **i.** Erythropoietin `C`
+      - **1.** Regulation of Production `C`
+      - **2.** Interaction with- and Effects on Erythroid Progenitor Cells `C`
+    - **ii.** Nutritional Requirements for Erythropoiesis `C`
+    - **iii.** Influence of Pathologic States on Erythropoiesis `C`
+  - **b.** Oxygen Delivery and Use of Red Cells
+    - **i.** Regulation of Systematic Oxygen Delivery `C`
+    - **ii.** Regulation of Regional Oxygen Delivery `C`
+    - **iii.** Regulation of Oxygen Delivery in the Microcirculation `C`
+      - **1.** Red Cell Transfusion and the Microcirculation `C`
+      - **2.** Effect of Red Cell Storage on Microcirculation (N Oxide) `C`
+  - **c.** Red Cell Metabolism and Preservation
+    - **i.** Metabolism
+      - **1.** Glucose `C`
+      - **2.** Alternative Substrates `C`
+      - **3.** Regulation of Energy Metabolism `C`
+      - **4.** Synthetic Processes `C`
+      - **5.** Membrane Metabolism `C`
+    - **ii.** Red Cell Preservation in Transfusion Medicine
+      - **1.** General Principles `C`
+      - **2.** Collection and Separation Procedures `C`
+      - **3.** Anticoagulant-Nutrient Solutions `C`
+      - **4.** Additive Solutions `C`
+      - **5.** Additional Factors Influencing RBC Quality `F`
+      - **6.** Functionality `F`
+      - **7.** Rejuvenation `F`
+      - **8.** Frozen Storage `F`
+      - **9.** Validation of RBC Storage Systems `F`
+  - **d.** Red Cell Immunology and Compatibility Testing
+    - **i.** Red Cell Immunology
+      - **1.** Immune Response – Components and Characteristics `C`
+      - **2.** Blood Group Antibodies
+        - **a.** Physical Properties & Characteristics `C`
+      - **3.** Red Cell Antigen-Antibody Interactions `C`
+        - **a.** Direct Agglutination `C`
+        - **b.** Hemolysis `C`
+        - **c.** Antiglobulin test (DAT) `C`
+    - **ii.** Compatibility Testing
+      - **1.** Donor Testing `C`
+      - **2.** Patient Testing `C`
+        - **a.** Specimen Collection `C`
+        - **b.** ABO Typing `C`
+        - **c.** Rh Typing `C`
+        - **d.** Tests for Unexpected Antibodies `C`
+        - **e.** Reagent Red Cells for Antibody Detection `AR`
+        - **f.** Automated Pre-Transfusion Testing `AR`
+        - **g.** Additional Techniques `AR`
+        - **h.** Molecular Techniques `F`
+      - **3.** Principles of Antibody Identification `C`
+      - **4.** Pre-Transfusion Testing `C`
+        - **a.** Prior Records Check `C`
+        - **b.** Selection of Blood for Transfusion `C`
+        - **c.** Serologic Crossmatch `C`
+        - **d.** Electronic Crossmatch `C`
+        - **e.** Labeling `C`
+        - **f.** Issue `C`
+        - **g.** Emergency Release `C`
+        - **h.** Bedside Check `C`
+        - **i.** Hemovigilance `C`
+  - **e.** Carbohydrate Blood Groups and Blood Group Systems
+    - **i.** ABH Antigens
+      - **1.** Biochemistry `C`
+      - **2.** Antigenic Variants `C`
+      - **3.** Secretion `AR`
+      - **4.** Se and H genes `AR`
+      - **5.** H-Deficient Phenotypes and Genotypes `AR`
+      - **6.** Medical Implications of ABH and Secretor Systems `F`
+        - **a.** ABO-Incompatible Solid Organ Transplantation `F`
+        - **b.** ABO-Incompatible Hematopoietic Progenitor Cell Transplantation `F`
+    - **ii.** Lewis System `AR`
+    - **iii.** li System `AR`
+    - **iv.** P System `AR`
+  - **f.** Rh and LW Blood Group Systems
+    - **i.** Rh Blood Group System – General Information & Nomenclature `C`
+    - **ii.** Rh Genes and Their Expressed Proteins `AR`
+    - **iii.** Molecular Basis for Rh Antigen Expression `AR`
+      - **1.** D Antigen `AR`
+      - **2.** C/c and E/e Antigens `AR`
+      - **3.** RH Genotyping `AR`
+    - **iv.** Rh-membrane Complex `AR`
+    - **v.** Immune Response to Rh `AR`
+      - **1.** Medical Aspects `AR`
+      - **2.** Serologic Aspects `AR`
+      - **3.** Molecular Aspects `AR`
+    - **vi.** Rh Function `F`
+    - **vii.** LW Blood Group System `F`
+      - **1.** General Information `F`
+      - **2.** Genes and Their Expressed Proteins `F`
+      - **3.** Molecular Basis for Antigen Expression `F`
+      - **4.** LW Function `F`
+  - **g.** Other Protein Blood Group System
+    - **i.** Kell and Kx Blood
+      - **1.** Structure and Function of the Kell and XK Proteins `AR`
+      - **2.** Kell-Transfusion Medicine Aspects `AR`
+        - **a.** Transfusions `AR`
+        - **b.** Hemolytic Disease of the Fetus and Newborn `AR`
+      - **3.** Kell Variants `F`
+    - **ii.** Duffy
+      - **1.** Structure and Function of the Duffy Protein `AR`
+      - **2.** Duffy-Transfusion Medicine Aspects `AR`
+        - **a.** Transfusions `AR`
+        - **b.** Hemolytic Disease of the Fetus and Newborn `AR`
+    - **iii.** Kidd
+      - **1.** Structure and Function of the Kidd Protein `AR`
+      - **2.** Kidd-Transfusion Medicine Aspects `AR`
+        - **a.** Transfusions `AR`
+        - **b.** Hemolytic Disease of the Fetus and Newborn `AR`
+    - **iv.** MNS `F`
+      - **1.** Structure and Function of Glycoproteins A & B `F`
+      - **2.** MNS – Transfusion Medicine Aspects `F`
+    - **v.** Diego `F`
+    - **vi.** Gerbich `F`
+    - **vii.** Colton and GIL `F`
+    - **viii.** Lutheran `F`
+    - **ix.** Indian, Xg, and Scianna `F`
+    - **x.** Chido/Rodgers `F`
+    - **xi.** Knops `F`
+    - **xii.** Cartwright, Dombrock, Cromer, and JMH `F`
+    - **xiii.** OK and RAPH `F`
+
+## 4. Anemia and Red Blood Cell Transfusion
+
+  - **a.** Physiologic Adaptations to Blood Loss and Anemia `C`
+    - **i.** Oxygen Transport to Blood Loss and Anemia `C`
+    - **ii.** Adaptive Mechanisms in Anemia `C`
+    - **iii.** Microcirculatory Effects of Anemia and Red Cell Transfusion `C`
+    - **iv.** Pathophysiologic Processes and Anemia – Interactions `C`
+  - **b.** Clinical Outcomes of Anemia and Red Cell Transfusion `C`
+    - **i.** Risks of Anemia `C`
+    - **ii.** Efficacy of Transfusion `C`
+      - **1.** Adults `C`
+      - **2.** Children `C`
+  - **c.** Transfusion Guidelines `C`
+  - **d.** Red Cell Transfusions – Decision Making `C`
+    - **i.** The Bleeding Patient `C`
+    - **ii.** The Surgical Patient `C`
+    - **iii.** The Patient with Chronic Anemia `C`
+    - **iv.** Transfusion Threshold `C`
+    - **v.** Dose and Administration `C`
+
+## 5. Apheresis
+
+  - **a.** Apheresis: Principles and Technology of Hemapheresis
+    - **i.** General Information and Principles `C`
+    - **ii.** Current Devices and Technology `AR`
+    - **iii.** Donor Apheresis `AR`
+      - **1.** Donor Care `AR`
+      - **2.** Specific Products and Procedures `AR`
+      - **3.** Adverse Effects on Donors and Recipients `AR`
+    - **iv.** Therapeutic Apheresis `AR`
+      - **1.** Procedural and Technical Aspects `AR`
+        - **a.** Substances Removed `AR`
+        - **b.** Volume Removed `AR`
+        - **c.** Replacement Fluids (Technical & Composition) `AR`
+        - **d.** Schedule of Procedures (Timing, Number, & Location) `AR`
+        - **e.** Vascular Access `AR`
+        - **f.** Anticoagulant `AR`
+        - **g.** Oversight `AR`
+        - **h.** Adverse Effects `AR`
+  - **b.** Therapeutic Plasma Exchange
+    - **i.** General Principles `AR`
+      - **1.** Mathematic Principles `AR`
+      - **2.** Regulation of IgG Metabolism `AR`
+      - **3.** Replacement Fluids (Clinical Aspects) `AR`
+      - **4.** Selective Extraction of Plasma Components `AR`
+      - **5.** Indication and Treatment Intensity Categories `AR`
+    - **ii.** Neurologic Disorders
+      - **1.** Guillain-Barré Syndrome `AR`
+      - **2.** Chronic Inflammatory Demyelinating Polyneuropathy `AR`
+      - **3.** Peripheral Neuropathy and Monoclonal Gammopathy `AR`
+      - **4.** Myasthenia Gravis `AR`
+      - **5.** Lambert-Eaton Myasthenic Syndrome `F`
+      - **6.** Neuromyotonia and Limbic Encephalitis `F`
+      - **7.** Stiff-Person Syndrome `F`
+      - **8.** Paraneoplastic Neurologic Syndromes `F`
+      - **9.** Nonneoplastic Disorders of with CNS Antibodies `F`
+      - **10.** Multiple Sclerosis `F`
+    - **iii.** Hematologic and Oncologic Disorders
+      - **1.** Thrombotic Thrombocytopenic Purpera `C`
+      - **2.** Monoclonal Proteins `AR`
+      - **3.** Blood Cell Alloantibodies `F`
+      - **4.** Hemolytic Uremic Syndrome `F`
+      - **5.** Posttransfusion Purpera `F`
+      - **6.** Idiopathic (Immune) Thrombocytopenic Purpera `F`
+      - **7.** Autoimmune Hemolytic Anemia `F`
+      - **8.** Pure Red Cell Aplasia and Aplastic Anemia `F`
+      - **9.** Coagulation Factor Inhibitors `F`
+    - **iv.** Rheumatic and Other Immunologic Disorders
+      - **1.** Goodpasture Syndrome `AR`
+      - **2.** Cryoglobulinemia `F`
+      - **3.** Rheumatoid Arthritis `F`
+      - **4.** Systemic Lupus Erythematosus `F`
+      - **5.** Rapidly Progressive Glomerulonephritis `F`
+      - **6.** Solid Organ Transplantation `F`
+        - **a.** Rejection `F`
+        - **b.** Disease Recurrence `F`
+    - **v.** Toxic and Metabolic Disorders
+      - **1.** Hypercholesterolemia `F`
+      - **2.** Refsum Disease `F`
+      - **3.** Drug Overdose and Poisoning `F`
+      - **4.** Acute Liver Failure `F`
+  - **c.** Specialized Therapeutic Hemapheresis and Phlebotomy
+    - **i.** Therapeutic Phlebotomy `C`
+      - **1.** Polycythemia Vera `C`
+      - **2.** Secondary Erythrocytosis `C`
+      - **3.** Hereditary Hemochromatosis `C`
+    - **ii.** Red Cell Exchange
+      - **1.** Principles and Techniques `AR`
+      - **2.** Sickle Cell Disease `AR`
+      - **3.** Acute and Emergent Complications `AR`
+        - **a.** Indications and Management `AR`
+      - **4.** Chronic Conditions or Preventive Strategies `AR`
+        - **a.** Indications and Management `AR`
+      - **5.** Malaria `F`
+      - **6.** Babesiosis `F`
+    - **iii.** Extracorporeal Photochemotherapy
+      - **1.** Cutaneous T-cell Lymphoma `AR`
+      - **2.** Graft-Versus-Host Disease `AR`
+      - **3.** Techniques and Mechanisms `F`
+      - **4.** Cardiac Allograft Rejection `F`
+    - **iv.** Therapeutic Platelet Apheresis `F`
+      - **1.** Primary Thrombocytosis `F`
+      - **2.** Secondary Thrombocytosis `F`
+    - **v.** Therapeutic White Cell Apheresis `F`
+      - **1.** Hyperleukocytosis `F`
+      - **2.** Inflammatory Bowel Disease `F`
+    - **vi.** Selective Extraction of Low-Density Lipoproteins `F`
+      - **1.** Principles, Indications, and Techniques `F`
+
+## 6. Hazards of Transfusion: Specific Adverse Events
+
+  - **a.** Hemolytic Transfusion Reactions `C`
+    - **i.** Incidence `C`
+    - **ii.** Signs and Symptoms `C`
+    - **iii.** Complications `C`
+    - **iv.** Causes `C`
+    - **v.** Differential Diagnosis `C`
+    - **vi.** Laboratory Investigation `C`
+    - **vii.** Pathophysiology `C`
+    - **viii.** Treatment `C`
+    - **ix.** Prevention `C`
+  - **b.** Febrile, Allergic, and Non-Immune Transfusion Reactions
+    - **i.** Febrile Non-Hemolytic `C`
+      - **1.** Description and Characteristics `C`
+      - **2.** Causes `C`
+      - **3.** Diagnosis `C`
+      - **4.** Treatment `C`
+      - **5.** Prevention `C`
+    - **ii.** Allergic
+      - **1.** Description and Characteristics `C`
+      - **2.** Causes `C`
+      - **3.** Diagnosis `C`
+      - **4.** Treatment `C`
+      - **5.** Prevention `C`
+    - **iii.** Transfusion-Associated Circulatory Overload `C`
+      - **1.** Description and Characteristics `C`
+      - **2.** Causes `C`
+      - **3.** Diagnosis `C`
+      - **4.** Treatment `C`
+      - **5.** Prevention `C`
+    - **iv.** Anaphylactic and Anaphylactoid `AR`
+      - **1.** Description and Characteristics `AR`
+      - **2.** Causes `AR`
+      - **3.** Diagnosis `AR`
+      - **4.** Treatment `AR`
+      - **5.** Prevention `AR`
+    - **v.** Massive and Rapid Transfusion – Complications `AR`
+      - **1.** Definitions and Description `AR`
+      - **2.** Citrate Toxicity `AR`
+      - **3.** Electrolyte and Acid/Base Disorders `AR`
+      - **4.** Hypothermia `AR`
+      - **5.** Microaggregate Reactions `AR`
+    - **vi.** Special Transfusion Settings `AR`
+      - **1.** Granulocyte Transfusion `AR`
+      - **2.** Autologous Transfusion `AR`
+    - **vii.** Toxic Reactions from Blood Manufacture or Processing `F`
+      - **1.** Hypotension `F`
+      - **2.** Ocular `F`
+      - **3.** Plasticizer Toxicity `F`
+      - **4.** Dimethyl Sulfoxide Toxicity &Cryopreserved Progenitor Cells `F`
+  - **c.** Transfusion-Associated Graft-Versus-Host Disease `AR`
+    - **i.** Pathophysiology `AR`
+    - **ii.** Incidence `AR`
+    - **iii.** Risk Factors-General `AR`
+    - **iv.** Fetuses and Neonates `AR`
+    - **v.** Patient Populations at Risk `AR`
+      - **1.** Congenital Immunodeficiency Syndromes `AR`
+      - **2.** Malignancies `AR`
+      - **3.** Hematopoietic Progenitor Cell Transplants `AR`
+      - **4.** Solid Organ Transplants `AR`
+    - **vi.** Immunocompetent Patients-Risk Factors `AR`
+    - **vii.** Clinical Presentation and Diagnosis `AR`
+    - **viii.** Treatment `AR`
+    - **ix.** Prevention `AR`
+  - **d.** Transfusion-Induced Iron Overload `AR`
+    - **i.** Pathophysiology `AR`
+    - **ii.** Iron Burden of Transfusions `AR`
+    - **iii.** Clinical Features `AR`
+    - **iv.** Measurement of Iron Burden `AR`
+    - **v.** Management `AR`
+      - **1.** Goals `AR`
+      - **2.** Chelation Therapy `AR`
+  - **e.** Transfusion-Related Acute Lung Injury `C`
+    - **i.** Incidence and Epidemiology `C`
+    - **ii.** Clinical Features `C`
+    - **iii.** Pathophysiology `C`
+      - **1.** Acute Lung Injury-Features `C`
+      - **2.** Causes `C`
+      - **3.** Mechanisms of Lung Damage `C`
+      - **4.** Multiple Hit/Threshold Theory `C`
+    - **iv.** Diagnosis and Differential Diagnosis `C`
+      - **1.** Clinical, Physiologic, Radiologic, & Laboratory Features `C`
+      - **2.** Consensus Definition `C`
+    - **v.** Treatment and Management `C`
+    - **vi.** Donor Investigation `C`
+    - **vii.** Prevention `C`
+  - **f.** Posttransfusion Purpura `AR`
+    - **i.** Pathophysiology and Clinical Features `AR`
+    - **ii.** Treatment `AR`
+  - **g.** Transfusion-Associated Dyspnea `C`
+
+## 7. Plasma Components and Derivatives
+
+  - **a.** Plasma Composition
+    - **i.** General Features and Factors Influencing Plasma Composition `C`
+    - **ii.** Albumin `C`
+    - **iii.** Immunoglobulins `C`
+    - **iv.** von Willebrand Factor Cleaving Protease `AR`
+    - **v.** Coagulation Factors, Coagulation Factor Inhibitors, and von Willebrand Factor (e.g., description, half-life) `AR`
+    - **vi.** Alpha-1-Antitrypsin `F`
+    - **vii.** C1 Inhibitor `F`
+  - **b.** Preparation of Plasma Derivatives
+    - **i.** Plasma Products – Indications and Clinical Use `C`
+      - **1.** Prothrombin Complex Concentrate (PCC) `C`
+    - **ii.** Adverse Effects `C`
+    - **iii.** Plasma Procurement `AR`
+    - **iv.** Pathogen Inactivation/Removal `AR`
+    - **v.** Plasma Manufacture `F`
+    - **vi.** Industry Safety Programs `F`
+    - **vii.** Recombinant DNA Technology and Manufacturing `F`
+      - **1.** Recombinant Factor VIIa `F`
+  - **c.** Plasma Transfusion and the Use of Albumin and Rh Immune Globulin
+    - **i.** Fresh Frozen, Frozen, Cryo-Poor, Thawed & Stored Plasma `C`
+      - **1.** Manufacture and Features `C`
+      - **2.** Clinical Use, Indications, and Guidelines for Use `C`
+        - **a.** Surgery `C`
+        - **b.** Massive Transfusion, Trauma, and Disseminated Intravascular Coagulation `C`
+        - **c.** Intensive Care `C`
+        - **d.** Liver Disease `C`
+        - **e.** Warfarin Reversal `C`
+        - **f.** Therapeutic Apheresis `C`
+      - **3.** Dosing `C`
+      - **4.** Risks and Adverse Effects `C`
+      - **5.** Pathogen-Inactivated Plasma `C`
+    - **ii.** Cryoprecipitate `C`
+      - **1.** Manufacture and Features `C`
+      - **2.** Clinical Use, Indications, and Guidelines for Use `C`
+      - **3.** Risks and Adverse Effects `C`
+    - **iii.** Albumin `AR`
+      - **1.** Manufacture and Features `AR`
+      - **2.** Clinical Use, Indications, and Guidelines for Use `AR`
+      - **3.** Risks and Adverse Effects `AR`
+    - **iv.** Rh Immune Globulin `AR`
+      - **1.** Manufacture and Features `AR`
+      - **2.** Clinical Use, Indications, and Guidelines for Use `AR`
+      - **3.** Risks and Adverse Effects `AR`
+    - **v.** IVIG `AR`
+      - **1.** Manufacture and Features `AR`
+      - **2.** Clinical Use, Indications, and Guidelines for Use `AR`
+      - **3.** Risks and Adverse Effects `AR`
+    - **vi.** Other Plasma Derivatives
+      - **1.** Fibrinogen Concentrates `AR`
+      - **2.** Alpha-1-Antitrypsin `F`
+      - **3.** C1 Inhibitor `F`
+
+## 8. Infectious Hazards of Transfusion
+
+  - **a.** Transfusion-Transmitted Hepatitis
+    - **i.** Incidence `C`
+    - **ii.** Hepatitis B Virus `C`
+      - **1.** Epidemiology `C`
+      - **2.** Transmission `C`
+      - **3.** Clinical Features `C`
+        - **a.** Acute Infection `C`
+        - **b.** Chronic Infection `C`
+      - **4.** Serologic and Molecular Markers of Infection `C`
+      - **5.** Donor Testing and Counseling `C`
+      - **6.** Prevention `C`
+      - **7.** Treatment `C`
+    - **iii.** Hepatitis C Virus `C`
+      - **1.** Epidemiology `C`
+      - **2.** Transmission `C`
+      - **3.** Clinical Features `C`
+        - **a.** Acute Infection `C`
+        - **b.** Chronic Infection `C`
+      - **4.** Prevention `C`
+      - **5.** Treatment `C`
+    - **iv.** Hepatitis A Virus `F`
+      - **1.** Epidemiology `F`
+      - **2.** Transmission `F`
+      - **3.** Clinical Features `F`
+      - **4.** Donor Testing and Counseling `F`
+      - **5.** Prevention `F`
+      - **6.** Treatment `F`
+    - **v.** Hepatitis D `F`
+      - **1.** Epidemiology `F`
+      - **2.** Diagnosis `F`
+      - **3.** Transmission `F`
+      - **4.** Clinical Features `F`
+      - **5.** Prevention `F`
+    - **vi.** Hepatitus E Virus `F`
+      - **1.** Epidemiology `F`
+      - **2.** Diagnosis `F`
+      - **3.** Transmission `F`
+      - **4.** Clinical Features `F`
+      - **5.** Prevention `F`
+  - **b.** Retroviruses
+    - **i.** Overview `C`
+    - **ii.** Human Immunodeficiency Virus `C`
+      - **1.** General Information and Epidemiology `C`
+      - **2.** Incidence and Prevalence Among Blood Donors `C`
+      - **3.** Window Period and Risk of Transmission `C`
+      - **4.** Donor Testing and Counseling `C`
+      - **5.** Clinical Features `C`
+      - **6.** Prevention `C`
+      - **7.** Treatment `C`
+    - **iii.** Human T-cell Lymphotropic Viruses (HTLV I/II) `F`
+      - **1.** General Information and Epidemiology `F`
+      - **2.** Incidence and Prevalence Among Blood Donors `F`
+      - **3.** Window Period and Risk of Transmission `F`
+      - **4.** Donor Testing and Counseling `F`
+      - **5.** Clinical Features `F`
+      - **6.** Prevention `F`
+      - **7.** Treatment `F`
+  - **c.** Cytomegalovirus (CMV)
+    - **1.** General Information and Epidemiology `C`
+    - **2.** Incidence and Prevalence Among Blood Donors `C`
+    - **3.** Clinical Features `C`
+    - **4.** Prevention `C`
+    - **5.** Treatment `C`
+    - **6.** Window Period and Risk of Transmission `AR`
+    - **7.** Donor Testing and Counseling `AR`
+  - **d.** Other Viruses
+    - **i.** Other Herpesviruses `C`
+    - **ii.** West Nile Virus `AR`
+      - **1.** General Information and Epidemiology `AR`
+      - **2.** Transmission `AR`
+      - **3.** Donor Testing and Counseling `AR`
+      - **4.** Clinical Features `AR`
+      - **5.** Prevention `AR`
+    - **iii.** Parvovirus B19 `F`
+      - **1.** General Information and Epidemiology `F`
+      - **2.** Transmission `F`
+      - **3.** Clinical Features `F`
+    - **iv.** Zika, Dengue, and Chikungunya `F`
+  - **e.** Transfusion Transmission of Parasites
+    - **i.** Chagas Disease
+      - **1.** General Information and Epidemiology `AR`
+      - **2.** Transmission `AR`
+      - **3.** Donor Testing and Counseling `AR`
+      - **4.** Clinical Features `F`
+      - **5.** Prevention `F`
+    - **ii.** Malaria
+      - **1.** General Information and Epidemiology `AR`
+      - **2.** Transmission `AR`
+      - **3.** Donor Testing and Counseling `AR`
+      - **4.** Clinical Features `F`
+      - **5.** Prevention `F`
+    - **iii.** Babesiosis
+      - **1.** General Information and Epidemiology `AR`
+      - **2.** Transmission `AR`
+      - **3.** Donor Testing and Counseling `AR`
+      - **4.** Clinical Features `F`
+      - **5.** Prevention `F`
+    - **iv.** Leishmaniasis
+      - **1.** General Information and Epidemiology `F`
+      - **2.** Transmission `F`
+      - **3.** Donor Testing and Counseling `F`
+      - **4.** Clinical Features `F`
+      - **5.** Prevention `F`
+  - **f.** Bacterial Contamination of Blood Products `AR`
+    - **i.** Red Blood Cells – Overview and Epidemiology `AR`
+    - **ii.** Allogeneic RBCs – Agents and Incidence `AR`
+    - **iii.** Autologous RBCs – Agents and Incidence `AR`
+    - **iv.** Plasma, Cryoprecipitate, and Derivatives – Agents and Incidence `AR`
+    - **v.** Platelets `AR`
+      - **1.** Sources of Contamination `AR`
+      - **2.** Agents and Incidence `AR`
+      - **3.** Clinical Features `AR`
+      - **4.** Treatment `AR`
+      - **5.** Prevention `AR`
+    - **vi.** Strategies to Reduce the Risk of Posttransfusion Sepsis `AR`
+      - **1.** Donor Screening `AR`
+      - **2.** Skin Preparation `AR`
+      - **3.** Diversion `AR`
+      - **4.** Apheresis versus Whole Blood-Derived Platelets `AR`
+      - **5.** Storage Time and Temperature `AR`
+      - **6.** Bacterial Detection `AR`
+      - **7.** Bacterial Elimination `AR`
+      - **8.** Syphilis `AR`
+  - **g.** Prion Diseases `F`
+    - **i.** General Information and Epidemiology `F`
+    - **ii.** Transmission `F`
+    - **iii.** Clinical Features `F`
+    - **iv.** Risk Management – Donor Selection `F`
+    - **v.** Blood Component Processing `F`
+    - **vi.** Plasma Derivative Manufacture `F`
+    - **vii.** Cellular, Tissue, and Organ Transplantation `F`
+  - **h.** Pathogen Inactivation
+  - **i.** Overview and Description `AR`
+    - **ii.** Plasma
+      - **1.** Psoralen Ultraviolet Light Treatment `C`
+      - **2.** Solvent/Detergent Treatment `AR`
+      - **3.** Methylene Blue Light Treatment `AR`
+      - **4.** Riboflavin Light Treatment `AR`
+    - **iii.** Platelets
+      - **1.** Psoralen Ultraviolet Light Treatment `C`
+      - **2.** Riboflavin Light Treatment `AR`
+      - **3.** Thionine Light Treatment `AR`
+    - **iv.** Red Cells `F`
+      - **1.** Alkylating Agents `F`
+      - **2.** Photosensitizers `F`
+      - **3.** Riboflavin Light Treatment `F`
+    - **v.** Emerging Technologies `F`
+
+## 9. Blood Donors and Blood Collection
+
+  - **a.** Recruitment and Screening of Donors and the Collection, Processing and Testing of Blood
+    - **i.** Organization of Blood Services
+      - **1.** United States `C`
+      - **2.** Outside the United States `F`
+    - **ii.** Blood Donor Recruitment `AR`
+    - **iii.** Collection Process
+      - **1.** Donor Evaluation `AR`
+        - **a.** Consent `AR`
+        - **b.** History & Physical Examination `AR`
+        - **c.** Laboratory Testing `AR`
+        - **d.** Deferral Criteria `AR`
+      - **2.** Blood Collection `AR`
+        - **a.** Whole Blood `AR`
+        - **b.** Component Separation `AR`
+        - **c.** Leukocyte Reduction `AR`
+        - **d.** Automated Collection `AR`
+      - **3.** Blood Component Testing `AR`
+        - **a.** ABO/Rh `AR`
+        - **b.** Antibody Screening `AR`
+        - **c.** Infectious Disease `AR`
+      - **4.** Distribution `AR`
+      - **5.** Source Plasma `AR`
+    - **iv.** Blood Donor Adverse Events
+      - **1.** Donor Reactions `AR`
+        - **a.** Categories `AR`
+        - **b.** Incidence `AR`
+        - **c.** Clinical Features `AR`
+        - **d.** Risk Factors `AR`
+        - **e.** Treatment `AR`
+        - **f.** Prevention `AR`
+      - **2.** Phlebotomy-Related `AR`
+        - **a.** Categories `AR`
+        - **b.** Incidence `AR`
+        - **c.** Clinical Features `AR`
+        - **d.** Risk Factors `AR`
+        - **e.** Treatment `AR`
+        - **f.** Prevention `AR`
+      - **3.** Long-Term Effects of Donation `F`
+        - **a.** Iron `F`
+        - **b.** Platelets `F`
+        - **c.** Plasma Proteins `F`
+
+## 10. Surgery Patients
+
+  - **a.** Alternatives to Transfusion: Perioperative Blood Management `AR`
+    - **i.** Preoperative `AR`
+      - **1.** Autologous Blood Donation `AR`
+      - **2.** Anemia Optimization `AR`
+        - **a.** Iron `AR`
+        - **b.** Erythropoietin `AR`
+    - **ii.** Intraoperative/Postoperative `AR`
+      - **1.** Acute Normovolemic Hemodilution `AR`
+      - **2.** Intraoperative Autologous Blood Recovery and Reinfusion (Cell Salvage) `AR`
+      - **3.** Postoperative Autologous Blood Recovery and Reinfusion `AR`
+  - **b.** Hemostasis for Surgery/Invasive Procedures
+    - **i.** Preprocedure Blood Components
+      - **1.** Common Laboratory Tests of Hemostasis and Their Relationship with Procedure-Related Bleeding `C`
+      - **2.** Procedure-Related Bleeding
+        - **a.** Central Venous Catheter `AR`
+        - **b.** Liver Biopsy `AR`
+        - **c.** Thoracentesis and Paracentesis `AR`
+        - **d.** Gastrointestinal Endoscopy and Biopsy `AR`
+        - **e.** Procedures on Upper Airway, Bronchoscopy, and Transbronchial Lung Biopsy `AR`
+        - **f.** Renal Biopsy `AR`
+        - **g.** Epidural Anesthesia, Lumbar Puncture, and Neurosurgical Procedures `AR`
+        - **h.** Angiography `AR`
+    - **ii.** Treatment of Bleeding `F`
+      - **1.** Local `F`
+        - **a.** Physical – Sutures, Electrocautery, Compression, Direct Packing, etc. `F`
+        - **b.** Topical Agents `F`
+        - **c.** Topical Sealants `F`
+        - **d.** Topical Thrombin `F`
+        - **e.** Topical Antifibrinolytics `F`
+      - **2.** Generalized `F`
+        - **a.** Skin and Membrane `F`
+        - **b.** Purpura and Soft Tissue `F`
+        - **c.** Small Vessel Bleeding During Surgery `F`
+        - **d.** DDAVP `F`
+  - **c.** Transfusion Therapy for Trauma and Burn Patients
+    - **i.** Shock
+      - **1.** General Information and Definition `C`
+      - **2.** Hemorrhagic Shock and Classification `C`
+        - **a.** Acidosis `C`
+        - **b.** Hypothermia `C`
+        - **c.** Coagulopathy `C`
+      - **3.** Trauma Patient
+        - **a.** Initial Resuscitation
+          - **a.** Damage Control `C`
+          - **b.** Blood Component Therapy `C`
+          - **c.** Hemostatic Agents `AR`
+          - **d.** Pharmacologic Agents `AR`
+        - **b.** Intraoperative
+          - **a.** Blood Component Therapy `C`
+          - **b.** Damage Control `AR`
+          - **c.** Temperature `AR`
+          - **d.** Autotransfusion `AR`
+          - **e.** Solid Organ Injury `AR`
+          - **f.** Hemostatic Agents `AR`
+          - **g.** Pharmacologic Agents `AR`
+        - **c.** Recovery Phase `C`
+          - **a.** Blood Component Therapy `C`
+        - **d.** Massive Transfusion `C`
+          - **a.** Definition `C`
+          - **b.** Blood Component Therapy `C`
+          - **c.** Complications `C`
+      - **4.** Patients with Thermal Injuries (Burns) `F`
+        - **a.** Initial Resuscitations `F`
+          - **a.** Fluid Therapy `F`
+            - **1.** Colloid `F`
+            - **2.** Crystalloid `F`
+          - **b.** Transfusion Therapy `F`
+          - **c.** Hemostatic Agents `F`
+          - **d.** Pharmacologic Agents `F`
+  - **d.** Transfusion Therapy in Solid Organ Transplantation
+    - **i.** Organ Procurement and Transplants `F`
+    - **ii.** Immunologic Barriers – ABO and HLA `AR`
+      - **a.** Across Immunologic Barriers `AR`
+      - **b.** Organ Selection `AR`
+      - **c.** Plasma Exchange `F`
+      - **d.** Pharmacologic Agents `F`
+    - **iii.** Immunohematology `AR`
+      - **a.** Patient Alloantibodies `AR`
+      - **b.** Passenger Lymphocyte Antibodies `AR`
+    - **iv.** Transfusion Therapy `AR`
+      - **a.** Liver `AR`
+      - **b.** Heart `AR`
+      - **c.** Lung `AR`
+      - **d.** Kidney `AR`
+      - **e.** Pancreas `AR`
+      - **f.** Other `AR`
+    - **v.** Special Needs `AR`
+      - **a.** CMV Low Risk `AR`
+      - **b.** Leukocyte Reduction `AR`
+      - **c.** Irradiation `AR`
+
+## 11. Biovigilance and Transfusion-Related Immunomodulation
+
+  - **a.** Biovigilance/Hemovigilance `F`
+    - **i.** Requirements for Effective Program `F`
+    - **ii.** Scope `F`
+      - **1.** Reporting Criteria `F`
+        - **a.** Adverse Reactions `F`
+        - **b.** Adverse Incidents `F`
+        - **c.** Near Misses `F`
+      - **2.** Biovigilance `F`
+        - **a.** Passive Reporting versus Active Surveillance `F`
+        - **b.** Traceability `F`
+      - **3.** Blood Donors `F`
+      - **4.** Transfusion Recipients `F`
+
+## 12. Platelets
+
+  - **a.** Platelet Production (Thrombopoiesis) `C`
+    - **i.** Megakaryocyte Development, Maturation, and Differentiation `C`
+    - **ii.** Thrombopoietic/Megakaryocyte/Hematopoietic Growth Factors `C`
+    - **iii.** Genetic and Cellular Regulation of Thrombopoiesis `C`
+    - **iv.** Platelet Production, Shedding, and Release `C`
+  - **b.** Platelets and Hemostasis `C`
+    - **i.** Normal Platelet Plug and Clot Formation `C`
+    - **ii.** Genetic/Congenital Platelet Disorders `C`
+    - **iii.** Acquired Platelet Disorders `C`
+  - **c.** Platelet Transfusions
+    - **i.** Collection and Storage of Platelet Preparations/Concentrates `C`
+    - **ii.** Clinical Platelet Transfusions (Indications, Dose, and Schedule) `C`
+    - **iii.** Alternatives to Platelet Transfusions (Thrombopoietic & Pharmacologic Agents) `AR`
+  - **d.** Platelet Immunity `AR`
+    - **i.** Platelet Antigens (ABO, HLA, Platelet Specific) `AR`
+    - **ii.** Disorders of Platelet Alloimmunization `AR`
+    - **iii.** Platelet Autoimmunity `AR`
+  - **e.** Platelets in the Bloodstream `AR`
+    - **i.** Platelet Circulation, Distribution, and Destruction `AR`
+    - **ii.** Platelet Survival Kinetics in Health and Disease `AR`
+
+## 13. Neutrophils
+
+  - **a.** Neutrophil/Granulocyte Transfusions – Primary Clinical Issues `AR`
+    - **i.** Neutrophil Collection, Storage, and Transfusion `AR`
+    - **ii.** Alternatives to Neutrophil Transfusions (Myelopoietic Factors) `AR`
+
+## 14. Intravascular Cell Kinetics `F`
+
+  - **a.** Concepts of Post-Transfusion Recovery and Tracking Labeled/Tracer Cells `F`
+
+## 15. Obstetric and Pediatric Patients
+
+  - **a.** Hemolytic Disease of the Fetus and Newborn
+    - **i.** ABO Incompatibility `C`
+    - **ii.** Rh(D) and Other Fetal-Maternal RBC Incompatibilities `C`
+    - **iii.** Management `AR`
+      - **1.** Diagnostic and Surveillance Tests `AR`
+      - **2.** Fetal and Neonatal Transfusions, Phototherapy, IVIG, etc `AR`
+  - **b.** Obstetric Transfusion Practices `AR`
+    - **i.** Maternal Hematologic Disorders During Pregnancy `AR`
+    - **ii.** Maternal Hemorrhagic and Transfusions During Pregnancy `AR`
+    - **iii.** Fetal (Intrauterine) Transfusions `AR`
+  - **c.** Congenital Disorders of Clotting and Anticoagulant Protein
+    - **i.** Developmental Physiology of Plasma Proteins `C`
+    - **ii.** Hemophilia A, B, and von Willebrand Disease
+      - **1.** Pathophysiology and Treatment `C`
+      - **2.** DDAVP `C`
+      - **3.** Congenital Disorders of Non-Hemophilia Clotting Proteins `F`
+      - **4.** Congenital Disorders of Anticoagulant/Prothrombotic Proteins `F`
+  - **d.** Congenital Hemoglobinopathies and Hemolytic Anemias
+    - **i.** Sickle Cell Disease (Pathophysiology and Treatment) `C`
+    - **ii.** Non-Sickle Cell Hemoglobinopathies `C`
+    - **iii.** Thalassemias (Pathophysiology and Treatment) `C`
+    - **iv.** Congenital Red Cell Membrane and Enzyme Defects `AR`
+  - **e.** Neonatal Transfusions
+    - **i.** Anemia of Prematurity (Pathophysiology and Treatment) `C`
+    - **ii.** Thrombocytopenia of Prematurity (Pathophysiology and Treatment) `C`
+    - **iii.** Neonatal Blood Banking Practices (Dedicated Units, WBC-Reduction, Irradiation, etc.) `AR`
+    - **iv.** Neonatal/Infant Plasma, Cryoprecipitate, and Neutrophil Transfusions `AR`
+
+## 16. Hematopoietic Progenitor Cell (HPC) Transplantation
+
+  - **a.** Biology of Marrow Transplantation
+    - **i.** Autologous `AR`
+    - **ii.** Allogeneic/Syngeneic `AR`
+    - **iii.** Indications, Methods, Results, and Adverse Effects `F`
+  - **b.** Biology of HPC and HPC Transplantation
+    - **i.** HLA Typing for HPC Transplantation `AR`
+    - **ii.** HPC Biology `F`
+    - **iii.** Identification and Measurement of HPC `F`
+    - **iv.** Allogeneic/Syngeneic Donor Selection, Quantification, Eligibility `F`
+    - **v.** Processing Requirements for HPC `F`
+      - **1.** General `F`
+      - **2.** Patient-Specific `F`
+    - **vi.** Regulatory, Compliance, and Accreditation `F`
+  - **c.** HPC Sources and Collection `AR`
+    - **i.** HPC Apheresis – Characteristics and Adverse Effects `AR`
+      - **1.** Biology of Stem Cell Mobilization `AR`
+      - **2.** Apheresis Consideration
+        - **a.** Techniques, Vascular Access, Donor Management, and Adverse Events (Allogeneic vs. Autologous) `AR`
+      - **3.** Mobilization Regimens
+        - **a.** Indications, Dose, Schedule, Efficacy, and Adverse Effects Chemotherapy Growth Factors – G-CSF, GM-CSF Adhesion Blockers-Plerixafor `F`
+        - **b.** Scheduling Mobilization and Apheresis Collection `F`
+        - **c.** Monitoring Mobilization and HPC Collection `F`
+        - **d.** Collection of Lymphocytes for Infusion (Donor Lymphocyte Infusion [DLI]) `F`
+      - **4.** Scheduling Mobilization and Apheresis Collection `F`
+    - **ii.** HPC-Marrow `F`
+      - **1.** Methods of Harvesting `F`
+      - **2.** Characteristics `F`
+      - **3.** Adverse Effects `F`
+    - **iii.** HPC Cord Blood
+      - **1.** Characteristics and Methods `F`
+        - **a.** Cord Blood Banking Donor Eligibility, Collection Methods, Processing, Testing, and Cryopreservation `F`
+        - **b.** Cord Blood Characteristics `F`
+        - **c.** Donor Selection for Transplant (Related and Unrelated) `F`
+    - **iv.** Selection of Appropriate HPC Source for a Given Patient `F`
+  - **d.** HPC Processing – Goals, Guidelines, and Methods (Preparation for Infusion) `F`
+    - **i.** HPC for Autologous Transplants `F`
+    - **ii.** HPC for Allogeneic Transplants `F`
+      - **1.** Indications for Plasma, RBC Reduction `F`
+    - **iii.** Preparation for Cells for Donor Lymphocyte Infusion `F`
+    - **iv.** Cord Blood `F`
+    - **v.** Processing of Other CT Products (e.g., Antigen-Directed T-cells, Marrow Stromal Cells) `F`
+  - **e.** HPC Storage and Preservation `F`
+    - **i.** Liquid Storage and Transport -Anticoagulant, Time, Temperature, Preservative, Cell Concentration `F`
+    - **ii.** Rationale for Cryopreservation `F`
+    - **iii.** Cryopreservation Theory and Practice `F`
+      - **1.** Cryoprotectants `F`
+      - **2.** Cryopreservation Techniques -Controlled Rate, “Dump Freeze” `F`
+      - **3.** Storage -Mechanical and Liquid Nitrogen (Vapor vs. Liquid) `F`
+  - **f.** Management of RBC Antigen Incompatibility in Allogeneic Transplantation
+    - **i.** Patient Transfusion Management `AR`
+      - **1.** Major or Minor ABO Incompatibility `AR`
+        - **a.** Immediate vs. Delayed Hemolysis `AR`
+      - **2.** Passenger Lymphocyte Syndrome (PLS) `AR`
+        - **a.** Cause, Diagnosis, Course, Therapy, Prevention `AR`
+    - **ii.** Graft Management -Depletion of RBC (Major), Plasma (Minor) `F`
+  - **g.** HPC Assessment – Pre- and Post-Processing and Post Thaw `F`
+    - **i.** Cell Counts and Methods `F`
+    - **ii.** HPC Measurement and Enumeration `F`
+      - **1.** Flow Cytometry `F`
+      - **2.** Non-Flow Methods `F`
+    - **iii.** HPC Viability Assessment Techniques `F`
+    - **iv.** HPC Cell Culture Assays `F`
+    - **v.** HPC Functional and Differentiation Assays `F`
+    - **vi.** HPC Microbial Assessment `F`
+      - **1.** Gram Stain and Cultures `F`
+  - **h.** Cell Selection Methods and Applications `F`
+  - **i.** Positive and Negative Selection `F`
+    - **1.** Techniques, Results, Indications `F`
+      - **ii.** CD34 Cells and Others (e.g., Treg) `F`
+      - **iii.** Tumor Purging and T-cell Depletion `F`
+        - **i.** HPC and CTP Thawing and Post-Thaw Processing
+          - **i.** (Apheresis, Marrow, Cord Blood, etc.) `F`
+          - **ii.** Direct HPC Infusion vs. Pre-Infusion Cell Washing `F`
+          - **iii.** Special Considerations for Preparation of Cord Blood HPC for Infusion `F`
+  - **j.** HPC and CTP Infusion `F`
+    - **i.** General Guidelines `F`
+      - **1.** Filters, No Irradiation, Infusion Rate DMOS Limits, Infusion Pumps `F`
+    - **ii.** Adverse Effects and Infusion Reactions
+      - **1.** Incidence, Causes, Diagnosis, and Management `F`
+    - **iii.** Management and Infusion of Contaminated Products `F`
+  - **k.** Engraftment
+    - **i.** Definition, Chimerism, Relationship to CD34+ Cell Doses `F`
+    - **ii.** Rates – Autologous vs. Allogeneic, Related vs. MUD, HPC Source, Conditioning `F`
+    - **iii.** Engraftment Failure – Causes and Management `F`
+    - **iv.** Immune Reconstitution Post-Transplant `F`
+    - **v.** Donor Lymphocyte Infusion – Rationale, Efficacy `F`
+  - **l.** HPC Laboratory Quality Assurance and Accreditation `F`
+    - **i.** AABB, FACT, CAP, NMDP `F`
+    - **ii.** Regulatory Considerations Federal GMP, GTP, State Supplies, Laboratory Development, Deviations, Non-Conforming HPC and CTP `F`
+  - **m.** Laboratory Administration
+    - **i.** Staff Hiring and Training `F`
+    - **ii.** Facilities `F`
+    - **iii.** Equipment and Supplies `F`
+    - **iv.** Laboratory Development `F`
+    - **v.** Deviations, Non-Conforming HPC and CTP `F`
+  - **n.** Experimental Cell Therapies
+    - **i.** Institutional vs. Commercially Sponsored `F`
+    - **ii.** Types (e.g., Marrow Stromal, Adoptive Therapy with T-cells, Genetically- Modified Cells) `F`
+    - **iii.** Special Requirements for Processing (Clean Room, etc.) `F`
+    - **iv.** Regulatory Considerations `F`
+
+## 17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management
+
+  - **a.** Current Legal Issues
+    - **i.** Blood Transfusion Injury Claims
+      - **1.** Informed Consent `C`
+      - **2.** Blood Shield Laws `F`
+      - **3.** Negligence `F`
+      - **4.** Standard of Care `F`
+      - **5.** Causation `F`
+    - **ii.** HIPAA Privacy Rule `C`
+    - **iii.** Donor Injury `F`
+    - **iv.** Cord Blood `F`
+    - **v.** Tissue Banking `F`
+  - **b.** Current Good Manufacturing Practice
+    - **i.** General Overview `C`
+    - **ii.** Licensing Products and Establishments `AR`
+    - **iii.** Recalls and FDA Enforcement Activities `AR`
+    - **iv.** Safety Initiatives `AR`
+    - **v.** Enforcement Options `AR`
+    - **vi.** Rationale `AR`
+      - **1.** Standard Operating Procedures `AR`
+      - **2.** Record Keeping `AR`
+      - **3.** Personnel and Training `AR`
+      - **4.** Calibration `AR`
+      - **5.** Validation `AR`
+      - **6.** Labeling `AR`
+      - **7.** Error Management `AR`
+      - **8.** Quality Control Unit and Internal Audits `AR`
+      - **9.** Facilities and Equipment `AR`
+      - **10.** Process and Production Controls `AR`
+    - **vii.** Information Management `AR`
+    - **viii.** Common Violations `AR`
+  - **c.** Hospital Transfusion Services, Transfusion Committee, and Quality Assurance
+    - **i.** Role of the Medical Director `AR`
+      - **1.** Administrative `AR`
+      - **2.** Clinical `AR`
+      - **3.** Education `AR`
+    - **ii.** Quality Assurance `AR`
+      - **1.** Process Control `AR`
+      - **2.** Error Management `AR`
+      - **3.** Improving Transfusion Practice `AR`
+    - **iii.** Regulatory and Accreditation Requirements `AR`
+      - **1.** Food and Drug Administration `AR`
+      - **2.** AABB `AR`
+      - **3.** Joint Commission `AR`
+      - **4.** College of American Pathologists `AR`
+    - **iv.** Transfusion Committee `AR`
+      - **1.** Membership `AR`
+      - **2.** Functions `AR`
+      - **3.** Oversight of Transfusion Policies, Procedures and Guidelines `AR`
+      - **4.** Education `AR`
+    - **v.** Other Administrative Issues `AR`
+  - **d.** Transplant Organizations and Networks in the Regulation of Cellular and Tissue Therapy Programs
+    - **i.** Hematopoietic Progenitor Cells `F`
+      - **1.** Sources `F`
+      - **2.** Indications `F`
+      - **3.** HLA Matching `F`
+      - **4.** Donor Registries and Networks, Outcomes Registries, Professional Associations and Networks `F`
+      - **5.** Accreditation Organizations `F`
+    - **ii.** Other Cellular Therapies `F`
+      - **1.** Organizational Aspects `F`
+      - **2.** Accreditation and Regulation `F`
+    - **iii.** Tissue Banks `F`
+      - **1.** Organizational Aspects `F`
+      - **2.** Accreditation and Regulation `F`

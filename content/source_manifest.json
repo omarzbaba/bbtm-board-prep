@@ -1,0 +1,610 @@
+{
+  "schema": "bbtm-source-manifest/v1",
+  "generated_at_iso": "2026-07-11T22:34:34.964378+00:00",
+  "description": "Authoritative manifest of APPROVED source materials for the BB/TM board-prep content pipeline. Only files listed under `approved` may ground generated questions/cases.",
+  "approved": {
+    "abpath_blueprint": {
+      "file": "sources/abpath/Content-Specification-BBTM_SS_Final_01222026-2.pdf",
+      "role": "Official ABPath Blood Banking/Transfusion Medicine Content Specification (exam blueprint). Authoritative for ontology + coverage.",
+      "sha256": "4f791c0509ea2276bed6aae72404f482080d044c7cc223bbdbefda7d4de2576d",
+      "size_bytes": 514913
+    },
+    "reference_texts": [
+      {
+        "file": "sources/reference-texts/AABB Technical Manual-20th ed-2020.pdf",
+        "role": "Reference textbook / standard \u2014 citeable source pointer. Not re-extracted in full; NotebookLM corpus distills these.",
+        "sha256": "8c89c7c59d2f5bdf98bcd8e5da0c54ecbfd0d1d64cf2d4aea4dd6c103c698569",
+        "size_bytes": 21912903
+      },
+      {
+        "file": "sources/reference-texts/Harmening.pdf",
+        "role": "Reference textbook / standard \u2014 citeable source pointer. Not re-extracted in full; NotebookLM corpus distills these.",
+        "sha256": "89e4ec2306f55b06b1b733e2887c74ee93c291fb3d39eb10f3222aa2a5a8d9a2",
+        "size_bytes": 22387151
+      },
+      {
+        "file": "sources/reference-texts/Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf",
+        "role": "Reference textbook / standard \u2014 citeable source pointer. Not re-extracted in full; NotebookLM corpus distills these.",
+        "sha256": "520a9e89eb61d05a924f3cc95f20a8ffac64c7edb72f9768e1dd0113c762d51f",
+        "size_bytes": 4054794
+      }
+    ],
+    "notebooklm_corpus": {
+      "raw_archive": {
+        "file": "sources/notebooklm-exports/drive-download-20260711T222309Z-2-001.zip",
+        "role": "Preserved raw NotebookLM Drive export ZIP (unchanged).",
+        "sha256": "11324b1848fc7d4bbd647b5b78b7fc1046f73be3fbafcca9011273354b95d3ee",
+        "integrity_verified": true
+      },
+      "extracted_documents": [
+        {
+          "id": "SRC-001",
+          "original_filename": "Advanced Antibody Identification and Special Laboratory Techniques.docx",
+          "normalized_path": "content/normalized/normalized_sources/advanced-antibody-identification-and-special-laboratory-techniques.md",
+          "docx_sha256": "e624954bf33b3fb39ddcd77c63f8eb0e5f86c7f44ca9af92a796c94be1d52893",
+          "word_count": 750,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-002",
+          "original_filename": "Advanced Blood Banking and Transfusion Medicine Review Nodes.docx",
+          "normalized_path": "content/normalized/normalized_sources/advanced-blood-banking-and-transfusion-medicine-review-nodes.md",
+          "docx_sha256": "76c321ac73d3a889f0d424d8f56bb6881e39d236ab8dca1bd589c59c293e282a",
+          "word_count": 879,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-003",
+          "original_filename": "Advanced Immunohematology and Blood Banking Operations Guide.docx",
+          "normalized_path": "content/normalized/normalized_sources/advanced-immunohematology-and-blood-banking-operations-guide.md",
+          "docx_sha256": "bfd16fb137adec31d8b17654b60007f8f21223b9d376c3fd37b7a4c8e2137e71",
+          "word_count": 2007,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-004",
+          "original_filename": "Advanced Immunohematology and Transfusion Medicine Review.docx",
+          "normalized_path": "content/normalized/normalized_sources/advanced-immunohematology-and-transfusion-medicine-review.md",
+          "docx_sha256": "b7ef9a739640845c7b99679148f8c41f3822dec6c566fd6dc7adbe05b4b512ee",
+          "word_count": 909,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-005",
+          "original_filename": "Advanced Principles of RBC Metabolism and Storage Physiology.docx",
+          "normalized_path": "content/normalized/normalized_sources/advanced-principles-of-rbc-metabolism-and-storage-physiology.md",
+          "docx_sha256": "9179d1106a57f63baf0145d8888ea7a589b5cd02cd9ea7039be7cc687002fbe1",
+          "word_count": 662,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-006",
+          "original_filename": "Advanced Transfusion Medicine and Cellular Therapy Standards.docx",
+          "normalized_path": "content/normalized/normalized_sources/advanced-transfusion-medicine-and-cellular-therapy-standards.md",
+          "docx_sha256": "85f16c5c8480445b271f4c984937b2c7bb1e685796dfbc307cf7ffa817fd01a5",
+          "word_count": 763,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-007",
+          "original_filename": "Biochemical Pathways of Carbohydrate Blood Group Synthesis.docx",
+          "normalized_path": "content/normalized/normalized_sources/biochemical-pathways-of-carbohydrate-blood-group-synthesis.md",
+          "docx_sha256": "9ff56a9599f4f542b3edc22926a0b57eb4836237ddc34a61a8e8488ca4e78916",
+          "word_count": 726,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-008",
+          "original_filename": "Blood Banking Board Readiness and Gap Analysis.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-banking-board-readiness-and-gap-analysis.md",
+          "docx_sha256": "1f60764ef870f9452cfcac33ff0844c5e9e9eb72a34fd6e2a1c1fd36f5f71ebc",
+          "word_count": 567,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-009",
+          "original_filename": "Blood Banking Regulatory Compliance and Quality Management Systems.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-banking-regulatory-compliance-and-quality-management-systems.md",
+          "docx_sha256": "4099de61990a93ba5994dcbb9f16cb1f48f2df01c817caf2fb3c4be6f95a679f",
+          "word_count": 694,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-010",
+          "original_filename": "Blood Banking and Transfusion Medicine Board Curriculum.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+          "docx_sha256": "3fe6f4fb6d5001aa761dd47143bce85d669861ffbb38bcd4139abaf28d852f03",
+          "word_count": 979,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-011",
+          "original_filename": "Blood Banking and Transfusion Medicine Board Review Nodes.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-review-nodes.md",
+          "docx_sha256": "5cceb4e2a305ee07c9a6839aa4bbfd3163735423cdb7172947da19e0b37a435c",
+          "word_count": 834,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-012",
+          "original_filename": "Blood Banking and Transfusion Medicine Mastery Nodes.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-mastery-nodes.md",
+          "docx_sha256": "84c30355400e9db9987cc0550dc45e52d70209603016c3cea9c4870e8f07e0aa",
+          "word_count": 838,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-013",
+          "original_filename": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards-1.md",
+          "docx_sha256": "f4d319a223df1039a5f417c71f36f1b3f20252116841210ff1a6c2e9c763d969",
+          "word_count": 820,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-014",
+          "original_filename": "Blood Safety Protocols and Infectious Disease Look-back Standards.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards.md",
+          "docx_sha256": "55b5436ee237414f6d183ef254ecbbd06c176270e21a05841a01ff07ec0a9f87",
+          "word_count": 820,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-013"
+        },
+        {
+          "id": "SRC-015",
+          "original_filename": "Blood Safety and Infectious Transfusion Hazards(1).docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-safety-and-infectious-transfusion-hazards-1.md",
+          "docx_sha256": "713d3482ceff666339784e3c1920061efc425591eb538cb5974ae15a5cbecdaf",
+          "word_count": 735,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-016",
+          "original_filename": "Blood Safety and Infectious Transfusion Hazards.docx",
+          "normalized_path": "content/normalized/normalized_sources/blood-safety-and-infectious-transfusion-hazards.md",
+          "docx_sha256": "c6575640865f566a2d8c0cb73e5f0466dad93ecb6289473d0652d8293cb2197c",
+          "word_count": 735,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-015"
+        },
+        {
+          "id": "SRC-017",
+          "original_filename": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine(1).docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-essentials-of-obstetric-and-pediatric-transfusion-medicine-1.md",
+          "docx_sha256": "95ed175a25e3b48d38ab86893c806580d702fbba58fec1513d4cb75daca8e3fd",
+          "word_count": 749,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-018",
+          "original_filename": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-essentials-of-obstetric-and-pediatric-transfusion-medicine.md",
+          "docx_sha256": "da8af71348212fbc24da7b20339ec0497845ca32f302af86d96d311168f23530",
+          "word_count": 749,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-017"
+        },
+        {
+          "id": "SRC-019",
+          "original_filename": "Clinical Foundations of Immunohematology and Transfusion Medicine.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-foundations-of-immunohematology-and-transfusion-medicine.md",
+          "docx_sha256": "44460dbc93ecedfc9c727244dbccf1c15c1881e543b47b913813e84fb5bb0717",
+          "word_count": 799,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-020",
+          "original_filename": "Clinical Foundations of Rh Variants and RhIg Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-foundations-of-rh-variants-and-rhig-management.md",
+          "docx_sha256": "2f65b747ffec3ff00367581b759a3e1f7a36c2dbc807885f49782a2f82f6aa42",
+          "word_count": 858,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-021",
+          "original_filename": "Clinical Immunohematology and Hemostasis Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-immunohematology-and-hemostasis-management.md",
+          "docx_sha256": "83ebed0da004500ad0b39114b8a9ba41bf4d9afc83e34071d8448e83ef7a0e0f",
+          "word_count": 799,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-019"
+        },
+        {
+          "id": "SRC-022",
+          "original_filename": "Clinical Management of Noninfectious Transfusion Complications.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-management-of-noninfectious-transfusion-complications.md",
+          "docx_sha256": "3ddf167da1d9fe819c936b1bff59aa45021191474bb057e7aff5107287b22ac4",
+          "word_count": 0,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-023",
+          "original_filename": "Clinical Principles and Guidelines for Therapeutic Apheresis.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-principles-and-guidelines-for-therapeutic-apheresis.md",
+          "docx_sha256": "f8abe1ca2918814c45c16bf3d5087038dbbd566efe72a71bc80039730c42362c",
+          "word_count": 738,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-024",
+          "original_filename": "Clinical Principles of Erythrocytes and Blood Components.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+          "docx_sha256": "3cde3a4b03875c422a1d054f1a364051fc84d8b7f50c22c8ac874d047238af92",
+          "word_count": 826,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-025",
+          "original_filename": "Clinical Protocols for HDFN and Neonatal Transfusion Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-protocols-for-hdfn-and-neonatal-transfusion-management.md",
+          "docx_sha256": "1caad706cd656e8b42270464d64bcc2984f43edc25b5735052463d27edab5a4c",
+          "word_count": 710,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-026",
+          "original_filename": "Clinical Protocols for Platelet Refractoriness and HLA Alloimmunization.docx",
+          "normalized_path": "content/normalized/normalized_sources/clinical-protocols-for-platelet-refractoriness-and-hla-alloimmunization.md",
+          "docx_sha256": "fc2253d0548e685804154cf57d80934f5fa88ad151907c9b754b3719ce17155e",
+          "word_count": 784,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-027",
+          "original_filename": "Domain 2_ Clinical Practice & Patient Management Study Guide.docx",
+          "normalized_path": "content/normalized/normalized_sources/domain-2-clinical-practice-patient-management-study-guide.md",
+          "docx_sha256": "4891d8375e50788273b7335997f0442186c2de2062785636563074dea558ea1d",
+          "word_count": 1619,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-028",
+          "original_filename": "Domain 4_ Advanced Technologies & Specialized Testing Study Guide.docx",
+          "normalized_path": "content/normalized/normalized_sources/domain-4-advanced-technologies-specialized-testing-study-guide.md",
+          "docx_sha256": "f47ceffa040cc2e961300ce2b366b9d53662c909394bdf4c7686ddd78119fa14",
+          "word_count": 1402,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-029",
+          "original_filename": "Enzymatic Pathways of Carbohydrate Blood Group Synthesis.docx",
+          "normalized_path": "content/normalized/normalized_sources/enzymatic-pathways-of-carbohydrate-blood-group-synthesis.md",
+          "docx_sha256": "10a1df208eef438617b3fdcfb655cfb31585ce6ce3fd697486c8cf7dd979ae48",
+          "word_count": 726,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-007"
+        },
+        {
+          "id": "SRC-030",
+          "original_filename": "Essentials of Immunohematology and Clinical Transfusion Practice.docx",
+          "normalized_path": "content/normalized/normalized_sources/essentials-of-immunohematology-and-clinical-transfusion-practice.md",
+          "docx_sha256": "0c83aaf538fcb83274353f0cff2f2fbd84c87f0ee446b0249fdbad0fd2a2fe47",
+          "word_count": 799,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-019"
+        },
+        {
+          "id": "SRC-031",
+          "original_filename": "Essentials of Plasma and Platelet Transfusion Medicine.docx",
+          "normalized_path": "content/normalized/normalized_sources/essentials-of-plasma-and-platelet-transfusion-medicine.md",
+          "docx_sha256": "08e9583c63de3538b09b35eec502ca2b3bc4dd9c43569dda3f7a6a350bfe5b16",
+          "word_count": 829,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-032",
+          "original_filename": "Essentials of Transfusion Medicine and Blood Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/essentials-of-transfusion-medicine-and-blood-management.md",
+          "docx_sha256": "0843812897e5f664868990fd5234b303d86fa0878ec8879d7544b1cbdfba1978",
+          "word_count": 1766,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-033",
+          "original_filename": "Foundations of Blood Bank Administration and Laboratory Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/foundations-of-blood-bank-administration-and-laboratory-management.md",
+          "docx_sha256": "0187b08b2a26dab4ce109d43f6b75205617bf31db1fe7a403a1653ef72664701",
+          "word_count": 808,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-034",
+          "original_filename": "Foundations of Cell and Tissue Therapy Regulation and Practice.docx",
+          "normalized_path": "content/normalized/normalized_sources/foundations-of-cell-and-tissue-therapy-regulation-and-practice.md",
+          "docx_sha256": "fd033dd4c62ce7a9078c22bd1062e72df4853475377ccaef96f819cb9fce4621",
+          "word_count": 712,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-035",
+          "original_filename": "Foundations of Transplantation Immunohematology.docx",
+          "normalized_path": "content/normalized/normalized_sources/foundations-of-transplantation-immunohematology.md",
+          "docx_sha256": "39f66fd8e276b4db5ff64d8282e3b101fd922909cedfc65b4f5dad97c93867e5",
+          "word_count": 777,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-036",
+          "original_filename": "Fundamentals of Cell and Tissue Therapy Regulation and Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/fundamentals-of-cell-and-tissue-therapy-regulation-and-management.md",
+          "docx_sha256": "c1c44d91d7119c4ac6f5ef63895b6bf93ece3980e65b7e4188215a0d44da9096",
+          "word_count": 712,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-034"
+        },
+        {
+          "id": "SRC-037",
+          "original_filename": "Gap Analysis_ BB_TM Board Content Coverage (AABB Technical Manual, 20th Ed.).docx",
+          "normalized_path": "content/normalized/normalized_sources/gap-analysis-bb-tm-board-content-coverage-aabb-technical-manual-20th-ed.md",
+          "docx_sha256": "7edcbe8481b84d905f94e5021f299e2b791bccfe1988d1f31610e95436720e51",
+          "word_count": 985,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-038",
+          "original_filename": "Hematopoietic Progenitor Cell Transplantation Essentials.docx",
+          "normalized_path": "content/normalized/normalized_sources/hematopoietic-progenitor-cell-transplantation-essentials.md",
+          "docx_sha256": "646fb1be1fb9b64af4994646021a5929505077853646311b71a15edbd8c23e1a",
+          "word_count": 782,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-039",
+          "original_filename": "Hematopoietic Progenitor Cell Transplantation Principles and Practice.docx",
+          "normalized_path": "content/normalized/normalized_sources/hematopoietic-progenitor-cell-transplantation-principles-and-practice.md",
+          "docx_sha256": "3ddf167da1d9fe819c936b1bff59aa45021191474bb057e7aff5107287b22ac4",
+          "word_count": 0,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-022"
+        },
+        {
+          "id": "SRC-040",
+          "original_filename": "Immune Hemolysis and Hematopoietic Progenitor Cell Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/immune-hemolysis-and-hematopoietic-progenitor-cell-management.md",
+          "docx_sha256": "fc8d9683f51e867419201bfbdd4fb7e33c5dcbd542c62690fa453de4189a16b4",
+          "word_count": 1224,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-041",
+          "original_filename": "Immunohematology Mastery_ High-Yield Blood Banking Subdomains.docx",
+          "normalized_path": "content/normalized/normalized_sources/immunohematology-mastery-high-yield-blood-banking-subdomains.md",
+          "docx_sha256": "aaaed3c4afbafdf5646995696852c3a5a64e752c32bd7c4f5c5abc61b26ec987",
+          "word_count": 792,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-042",
+          "original_filename": "Infectious Hazards of Blood Transfusion and Safety Protocols.docx",
+          "normalized_path": "content/normalized/normalized_sources/infectious-hazards-of-blood-transfusion-and-safety-protocols.md",
+          "docx_sha256": "27ce6b3423eb0e65568d798d989d1f247a8349f269579201c1cc856be9056113",
+          "word_count": 735,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-015"
+        },
+        {
+          "id": "SRC-043",
+          "original_filename": "Master Board-Review Guide_ Transfusion Medicine.docx",
+          "normalized_path": "content/normalized/normalized_sources/master-board-review-guide-transfusion-medicine.md",
+          "docx_sha256": "12d18d3b5329703a7655ea81ea77a6fe7915ea62a070e7ab1ee93c5c5975a649",
+          "word_count": 1447,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-044",
+          "original_filename": "Master Curriculum Map_ Blood Banking and Transfusion Medicine (Board Review Edition).docx",
+          "normalized_path": "content/normalized/normalized_sources/master-curriculum-map-blood-banking-and-transfusion-medicine-board-review-editio.md",
+          "docx_sha256": "6dc75d0e0a503449d2640d3cffd978b90670f1d09145fbc0b44f91df0364bb06",
+          "word_count": 1295,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-045",
+          "original_filename": "Noninfectious Complications and Hazards of Blood Transfusion(1).docx",
+          "normalized_path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion-1.md",
+          "docx_sha256": "6d33557e217c09fe5b8b8e72dd41f580104fd3cf48442cdef8fb90d3774bcaca",
+          "word_count": 746,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-046",
+          "original_filename": "Noninfectious Complications and Hazards of Blood Transfusion.docx",
+          "normalized_path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion.md",
+          "docx_sha256": "095af3eede4b9f69e3f3594e8b0cb55df0436f738560acf92bb78ce131f23d50",
+          "word_count": 746,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-045"
+        },
+        {
+          "id": "SRC-047",
+          "original_filename": "Principles and Clinical Management of Therapeutic Apheresis.docx",
+          "normalized_path": "content/normalized/normalized_sources/principles-and-clinical-management-of-therapeutic-apheresis.md",
+          "docx_sha256": "6b541a59a57583d19c380ff3d81dd3e9eded3fa9f291a89f4a5acbb4884d6ffa",
+          "word_count": 725,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-048",
+          "original_filename": "Principles and Pathophysiology of Erythrocyte Transfusion Medicine.docx",
+          "normalized_path": "content/normalized/normalized_sources/principles-and-pathophysiology-of-erythrocyte-transfusion-medicine.md",
+          "docx_sha256": "9bd55c23d568a76ca6a841db297fc4ea61a6d2ed827ac1ca88ce8010c85a0d7b",
+          "word_count": 826,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-024"
+        },
+        {
+          "id": "SRC-049",
+          "original_filename": "Principles of Blood Bank Administration and Laboratory Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/principles-of-blood-bank-administration-and-laboratory-management.md",
+          "docx_sha256": "3bb01782c885723f4c9e6b31d5272122637548930632b6aa76c4997207ad67db",
+          "word_count": 808,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-033"
+        },
+        {
+          "id": "SRC-050",
+          "original_filename": "Pulmonary Transfusion Reactions_ TACO, TRALI, and TAD Clinical Guide.docx",
+          "normalized_path": "content/normalized/normalized_sources/pulmonary-transfusion-reactions-taco-trali-and-tad-clinical-guide.md",
+          "docx_sha256": "a81cea76676b9f45c2247eceb6567185f50b6172951a80cb8a676b6f29c9a7b9",
+          "word_count": 666,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-051",
+          "original_filename": "Specialized Transfusion Medicine and Clinical Quality Systems.docx",
+          "normalized_path": "content/normalized/normalized_sources/specialized-transfusion-medicine-and-clinical-quality-systems.md",
+          "docx_sha256": "a80548f2f1e4f8aa93a3fb98f5da7dde73b8b921eed688e5e1411a152fc5da99",
+          "word_count": 1129,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-052",
+          "original_filename": "Study Guide_ Domain 1 \u2013 Technical & Serological Logic.docx",
+          "normalized_path": "content/normalized/normalized_sources/study-guide-domain-1-technical-serological-logic.md",
+          "docx_sha256": "642a7c1aa351574a7f5b6c7633505e6afe041e0758965241f91b3d8bacf80d37",
+          "word_count": 1351,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-053",
+          "original_filename": "Study Guide_ Domain 3 \u2013 Regulatory, Quality, and Operations.docx",
+          "normalized_path": "content/normalized/normalized_sources/study-guide-domain-3-regulatory-quality-and-operations.md",
+          "docx_sha256": "65e02a8acda8f3b00730c82b4b6e188452d53742b8468689bb615499bb9d72e0",
+          "word_count": 1797,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-054",
+          "original_filename": "The Blood Bank Board Certification Study Suite.docx",
+          "normalized_path": "content/normalized/normalized_sources/the-blood-bank-board-certification-study-suite.md",
+          "docx_sha256": "1a67c56fea885e5e0b852b5b2757125f73fe4d380b80cba2236a8d55f06afe51",
+          "word_count": 216,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-055",
+          "original_filename": "The Clinician\u2019s Essential Guide to Apheresis Principles and Practice.docx",
+          "normalized_path": "content/normalized/normalized_sources/the-clinician-s-essential-guide-to-apheresis-principles-and-practice.md",
+          "docx_sha256": "045dfa9d93097dbe3ee392130f021dd537669eae9234cf4412b2966af2457e02",
+          "word_count": 725,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-047"
+        },
+        {
+          "id": "SRC-056",
+          "original_filename": "The Hematology of Cold Autoantibodies and PCH.docx",
+          "normalized_path": "content/normalized/normalized_sources/the-hematology-of-cold-autoantibodies-and-pch.md",
+          "docx_sha256": "32b5550b652cc6c66a61790a714df48ac485a149dcb14282f63ffe731ba02ffa",
+          "word_count": 788,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-057",
+          "original_filename": "The Rh Blood Group System_ Variants and Clinical Management.docx",
+          "normalized_path": "content/normalized/normalized_sources/the-rh-blood-group-system-variants-and-clinical-management.md",
+          "docx_sha256": "918fc69f7c60e48c1256ec4e8d7283aa2d672684c666b50bf79dc669f16a5ee1",
+          "word_count": 858,
+          "is_exact_duplicate": true,
+          "duplicate_of": "SRC-020"
+        },
+        {
+          "id": "SRC-058",
+          "original_filename": "Transfusion Complications and Clinical Diagnostic Logic.docx",
+          "normalized_path": "content/normalized/normalized_sources/transfusion-complications-and-clinical-diagnostic-logic.md",
+          "docx_sha256": "72e0c9c367dae677666ba9bed0e6b0bcaae8f9c94b2b01db3a706c3556351012",
+          "word_count": 1054,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-059",
+          "original_filename": "Transfusion Medicine Board Review_ Final High-Yield Nodes.docx",
+          "normalized_path": "content/normalized/normalized_sources/transfusion-medicine-board-review-final-high-yield-nodes.md",
+          "docx_sha256": "f491ef9b3400a6509d29fbcea1ce8ae1964d257c72096c0c0bfc7ee132b0bd6c",
+          "word_count": 1021,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-060",
+          "original_filename": "Transfusion Medicine_ Metabolic Complications and Information Systems.docx",
+          "normalized_path": "content/normalized/normalized_sources/transfusion-medicine-metabolic-complications-and-information-systems.md",
+          "docx_sha256": "451b3f832e30025cfc53bfd62760df663fcc7d96fcd53e1a2646bc928a1b059e",
+          "word_count": 943,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        },
+        {
+          "id": "SRC-061",
+          "original_filename": "Transfusion Medicine_ WAIHA Serology and Platelet Bacterial Mitigation.docx",
+          "normalized_path": "content/normalized/normalized_sources/transfusion-medicine-waiha-serology-and-platelet-bacterial-mitigation.md",
+          "docx_sha256": "bd70dbbc9ab8b834ce767b92192d4c28d1378e86a6f23e28b187c8152272986c",
+          "word_count": 875,
+          "is_exact_duplicate": false,
+          "duplicate_of": null
+        }
+      ]
+    }
+  },
+  "excluded": [
+    {
+      "id": "EXC-PPTX",
+      "original_filename": "AI_Workshop_API_Summit_v4 new.pptx",
+      "classification": "excluded_artifact",
+      "reason": "Non-educational artifact (not part of the BB/TM study corpus); unrelated presentation file swept into the Drive export.",
+      "size_bytes": 814568135,
+      "docx_sha256": null
+    }
+  ],
+  "counts": {
+    "approved_content_docs": 61,
+    "unique_content_docs": 47,
+    "exact_duplicates": 14,
+    "near_duplicate_pairs": 0,
+    "excluded_artifacts": 1,
+    "total_words_unique": 43376
+  }
+}

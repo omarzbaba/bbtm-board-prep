@@ -1,0 +1,14 @@
+{
+  "archives": [
+    {
+      "archive": "drive-download-20260711T222309Z-2-001.zip",
+      "sha256": "11324b1848fc7d4bbd647b5b78b7fc1046f73be3fbafcca9011273354b95d3ee",
+      "ingested_at": "2026-07-11T22:31:49.842877+00:00",
+      "documents_added": [
+        "<initial ingest \u2014 61 docx>"
+      ],
+      "documents_skipped": 1,
+      "note": "Initial pilot ingest (Phase 0)."
+    }
+  ]
+}

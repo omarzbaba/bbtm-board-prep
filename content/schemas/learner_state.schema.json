@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tala-bbtm/schemas/learner_state.schema.json",
+  "title": "LearnerState",
+  "description": "Per-learner runtime state persisted locally (and optionally synced to a backend). Keyed by item id. This is Tala's saved progress, notes, and weak-item marks — never baked into seed content.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+    "learner_id": { "type": "string", "description": "Local or backend learner identity." },
+    "updated_at": { "type": "string" },
+    "notes": {
+      "type": "object",
+      "description": "Free-text notes keyed by item id (question or case).",
+      "additionalProperties": { "type": "string" }
+    },
+    "weak_marks": {
+      "type": "object",
+      "description": "Weak-item flags keyed by item id.",
+      "additionalProperties": { "type": "boolean" }
+    },
+    "attempts": {
+      "type": "object",
+      "description": "Per-question attempt history keyed by question id.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "seen": { "type": "integer", "minimum": 0 },
+          "correct": { "type": "integer", "minimum": 0 },
+          "last_choice": { "type": ["string", "null"] },
+          "last_result": { "type": ["string", "null"], "enum": ["correct", "incorrect", null] },
+          "last_seen_at": { "type": ["string", "null"] },
+          "box": { "type": "integer", "minimum": 0, "maximum": 5, "description": "Leitner spaced-repetition box." }
+        }
+      }
+    },
+    "case_progress": {
+      "type": "object",
+      "description": "Per-case progress keyed by case id.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "completed": { "type": "boolean" },
+          "revealed_stages": { "type": "array", "items": { "type": "integer" } },
+          "last_seen_at": { "type": ["string", "null"] }
+        }
+      }
+    }
+  },
+  "required": ["version", "notes", "weak_marks", "attempts"]
+}

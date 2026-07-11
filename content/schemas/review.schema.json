@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tala-bbtm/schemas/review.schema.json",
+  "title": "ReviewState",
+  "description": "Authoring/audit review state of a generated item (distinct from a learner's personal notes/weak-marks, which live in per-learner runtime storage).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "source_support"],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "machine-generated",
+        "auto-audited-pass",
+        "needs-human-review",
+        "human-approved",
+        "flagged-inaccurate",
+        "revised"
+      ],
+      "description": "Lifecycle state in the content pipeline."
+    },
+    "source_support": {
+      "type": "string",
+      "enum": ["pass", "partial", "uncertain", "fail"],
+      "description": "Result of the source-support check: is every asserted fact traceable to an approved source?"
+    },
+    "audit_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "unsupported-claim", "ambiguous-stem", "multiple-defensible-answers",
+          "weak-distractor", "duplicate-coverage", "blueprint-mismatch",
+          "overclaims-as-policy", "numeric-value-unverified", "too-esoteric-thin-source"
+        ]
+      },
+      "default": []
+    },
+    "auditor": { "type": "string", "description": "Which audit pass/agent last touched this item." },
+    "audited_at": { "type": "string", "description": "ISO-8601 timestamp of last audit." },
+    "notes": { "type": "string", "description": "Reviewer/auditor notes." }
+  }
+}

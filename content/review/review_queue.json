@@ -1,0 +1,826 @@
+{
+  "schema": "review-queue/v1",
+  "generated_at": "2026-07-11T23:36:09.193273+00:00",
+  "questions_needing_review": [
+    {
+      "id": "Q-0003",
+      "domain": "1. Clinical Practice",
+      "subdomain": "Tests for Heparin-Induced Thrombocytopenia",
+      "blueprint_node_id": "S1.d.iv",
+      "designation": "C",
+      "difficulty": "moderate",
+      "cognitive_level": "analysis",
+      "stem": "A hospitalized patient who is receiving unfractionated heparin as an anticoagulant develops a new, otherwise unexplained fall in platelet count, and the team suspects heparin-induced thrombocytopenia (HIT). The blood banking/transfusion medicine content outline classifies HIT within the same \"Immune Thrombocytopenia\" subdomain as immune thrombocytopenia (ITP), a disorder for which the outline specifies that platelet antibody assays (HLA and HPA antibody testing) are central to laboratory investigation. Based on this classification of HIT as an immune thrombocytopenia, which of the following laboratory approaches is most appropriately directed at confirming the diagnosis in this patient, as opposed to the alternative processes listed below?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An assay designed to detect an antibody-mediated (immune) process directed against platelets, consistent with HIT's classification alongside ITP as an immune thrombocytopenia"
+        },
+        {
+          "id": "B",
+          "text": "ADAMTS13 activity testing combined with the PLASMIC score, the approach used to differentiate thrombotic thrombocytopenic purpura (TTP) from other microangiopathies"
+        },
+        {
+          "id": "C",
+          "text": "Serum ionized calcium measurement, the approach used to identify citrate-related toxicity that can occur during apheresis procedures"
+        },
+        {
+          "id": "D",
+          "text": "A direct antiglobulin test (DAT), the approach used to distinguish immune from nonimmune (mechanical) destruction of red blood cells"
+        }
+      ],
+      "correct_option_id": "A",
+      "explanation_correct": "The content outline places HIT in the same \"Immune Thrombocytopenia\" subdomain as ITP, and it specifies that ITP investigation centers on platelet antibody assays (HLA and HPA antibody testing) rather than on coagulation-factor assays, electrolyte measurements, or red-cell hemolysis markers. By this same classification logic, confirming HIT requires an approach that detects an antibody-mediated process directed at platelets, not the mechanistically unrelated tests offered as distractors (TTP-specific ADAMTS13/PLASMIC testing, citrate-related calcium monitoring, or the red-cell-specific DAT).",
+      "option_explanations": {
+        "A": "Correct: the outline groups HIT with ITP under Immune Thrombocytopenia, and ITP's investigation is explicitly antibody-assay based, so an antibody-directed platelet test is the category consistent with HIT's classification.",
+        "B": "Incorrect: ADAMTS13 testing with the PLASMIC score is the approach described for differentiating TTP from other microangiopathies, a distinct entity unrelated to heparin exposure \u2014 a plausible trap for a test-taker who generalizes any apheresis-associated cytopenia to TTP.",
+        "C": "Incorrect: ionized calcium measurement addresses citrate toxicity from apheresis anticoagulation (presenting with paresthesias/tetany from hypocalcemia), a real apheresis complication but one that does not reflect an antibody-mediated platelet process and would not confirm HIT.",
+        "D": "Incorrect: the DAT is described as distinguishing immune from nonimmune (mechanical) red-cell hemolysis; it detects red-cell-bound antibody, not platelet-directed antibody, so it is the wrong cell line/tool for confirming HIT."
+      },
+      "teaching_point": "",
+      "source_references": [
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Section I, Domain: Clinical Practice \u2014 Subdomains and High-Yield Facts",
+          "supports": "HIT is classified within the same 'Immune Thrombocytopenia' subdomain as ITP; ITP investigation relies on HLA and HPA platelet antibody assays.",
+          "blueprint_node_id": "S1.d.iv",
+          "confidence": "low"
+        },
+        {
+          "source_id": "SRC-023",
+          "source_type": "notebooklm",
+          "locator": "Diagnostic Approach and Laboratory Findings sections",
+          "supports": "TTP is differentiated from other microangiopathies using the PLASMIC score combined with ADAMTS13 testing; citrate toxicity from apheresis anticoagulation chelates ionized calcium and causes paresthesias/tetany.",
+          "blueprint_node_id": "S1.d.iv",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-045",
+          "source_type": "notebooklm",
+          "locator": "Diagnostic Approach and Common Board Traps sections",
+          "supports": "The direct antiglobulin test (DAT) is used to distinguish immune (positive DAT) from nonimmune/mechanical (negative DAT) red-cell hemolysis.",
+          "blueprint_node_id": "S1.d.iv",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S1"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "overclaims-as-policy",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-11T23:36:09.193273+00:00",
+        "notes": "Verified against all four sources directly.\n\nWHAT IS ACTUALLY SUPPORTED:\n- SRC-010 line 7: \"classification and pathogenesis of Immune Thrombocytopenia (ITP) and Heparin-Induced Thrombocytopenia (HIT)\" appear together under the Clinical Practice domain's \"Immune Thrombocytopenia\" subdomain header (line 5) \u2014 the stem's premise that HIT and ITP are grouped in the same subdomain is grounded.\n- SRC-010 line 15: \"ITP involves platelet destruction where HLA and HPA antibody assays are critical for investigation\" \u2014 grounded exactly as cited.\n- Distractor B is well grounded: SRC-023 line 35 (\"Utilizing"
+      },
+      "created_at": "2026-07-11T23:36:09.193273+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "answer_agrees": true,
+        "flags": [
+          "unsupported-claim",
+          "overclaims-as-policy",
+          "too-esoteric-thin-source"
+        ],
+        "independent_answer": "A",
+        "severity": "high",
+        "single_best_answer": true,
+        "source_support": "partial",
+        "verdict_notes": "Verified against all four sources directly.\n\nWHAT IS ACTUALLY SUPPORTED:\n- SRC-010 line 7: \"classification and pathogenesis of Immune Thrombocytopenia (ITP) and Heparin-Induced Thrombocytopenia (HIT)\" appear together under the Clinical Practice domain's \"Immune Thrombocytopenia\" subdomain header (line 5) \u2014 the stem's premise that HIT and ITP are grouped in the same subdomain is grounded.\n- SRC-010 line 15: \"ITP involves platelet destruction where HLA and HPA antibody assays are critical for investigation\" \u2014 grounded exactly as cited.\n- Distractor B is well grounded: SRC-023 line 35 (\"Utilizing the PLASMIC score to discriminate TTP from other microangiopathies while awaiting ADAMTS13 results\").\n- Distractor C is well grounded: SRC-023 lines 25, 39 (citrate toxicity \u2192 hypocalcemia, paresthesias/tetany).\n- Distractor D is well grounded: SRC-045 lines 37, 75 (DAT used in lab workup; nonimmune/mechanical hemolysis has negative DAT).\n\nTHE CENTRAL PROBLEM: the question's actual thesis \u2014 that HIT is \"confirmed\" by an antibody-mediated, platelet-directed assay because it shares a subdomain label with ITP \u2014 is not stated anywhere in the sources. None of the four documents mention any HIT-specific testing at all: no PF4/heparin antibody ELISA, no serotonin-release assay (SRA), no heparin-induced platelet activation assay (HIPA), nothing beyond the single phrase \"classification and pathogenesis... of HIT\" in the curriculum's high-level subdomain list. The blueprint node being tested is explicitly \"Tests for Heparin-Induced Thrombocytopenia\" (S1.d.iv, C), yet the approved sources contain zero substantive content on that exact topic. The question manufactures grounding by inference (subdomain co-location + ITP's specific assay type) rather than by citing actual HIT-testing content, and the question's own metadata (groundable: false, support_confidence: low, SRC-010 reference confidence: low) effectively concedes this.\n\nThis inferential bridge is also clinically imprecise: in real transfusion medicine, HIT is confirmed via anti-PF4/heparin immunoassays plus functional platelet-activation assays \u2014 a distinct antibody target/mechanism from the HLA/HPA alloantibody testing used for ITP-adjacent platelet refractoriness/NAIT/PTP workups. Option A's generic wording (\"antibody-mediated process directed against platelets\") is vague enough to not be flatly wrong, but the explanation text explicitly invites the reader to equate \"HIT's classification alongside ITP\" with sharing ITP's specific assay category, which teaches a shaky mechanistic parallel not established by, and arguably in tension with, standard hematology teaching.\n\nINDEPENDENT ANSWER: Despite the flawed justification chain, A is still clearly the best of the four options using outside clinical knowledge \u2014 B (ADAMTS13/PLASMIC) is TTP-specific, C (ionized calcium) is apheresis/citrate-specific, D (DAT) is RBC-specific \u2014 none plausibly \"confirm\" HIT. So independent_answer = A and it agrees with the key; the distractors are strong and mechanistically distinct (single_best_answer = true), so there is no multiplicity-of-answer concern.\n\nBOTTOM LINE: distractors and stem premises are individually well-sourced, but the load-bearing inferential leap for the correct answer is not stated in the approved sources and stands in for content on the actual blueprint topic that the sources simply do not cover. Recommend either sourcing an item bank/source that actually discusses PF4-heparin antibody/functional HIT assays, or substantially rewriting the stem so it does not present curriculum-outline analogical reasoning as if it were a grounded clinical fact.",
+        "suggested_fix": "Replace the \"classification logic\" framing with a genuinely source-grounded stem, or source a passage that actually discusses HIT-specific testing (e.g., anti-PF4/heparin antibody immunoassay, functional serotonin-release/platelet-activation assay) rather than inferring the correct answer solely from HIT and ITP sharing a subdomain label. If no source in this set covers HIT testing methodology, this item should not be built from these four sources for the S1.d.iv.C node \u2014 either find/cite a source with that content or retarget the question to a node the sources actually cover (e.g., ITP's HLA/HPA assay itself, which is well grounded in SRC-010)."
+      }
+    },
+    {
+      "id": "Q-0074",
+      "domain": "17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management",
+      "subdomain": "Informed Consent",
+      "blueprint_node_id": "S17.a.i.1",
+      "designation": "C",
+      "difficulty": "hard",
+      "cognitive_level": "application",
+      "stem": "A 52-year-old man undergoes elective orthopedic surgery. Before the operation, he signs a standard hospital form consenting to \"the surgical procedure and associated medical treatment.\" During surgery he receives two units of RBCs for unexpected blood loss. No preoperative discussion specifically addressed the risks of transfusion-transmitted infection, the benefits of transfusion, or alternatives such as autologous blood salvage. Postoperatively he develops a delayed hemolytic transfusion reaction and later states that, had he known of the available alternatives, he would have requested them. He files suit against the hospital. Which of the following legal theories most accurately reflects the basis of his claim?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Battery, because the transfusion was performed without obtaining any consent from the patient"
+        },
+        {
+          "id": "B",
+          "text": "Negligence, because the treating clinicians breached their duty to obtain adequately informed consent"
+        },
+        {
+          "id": "C",
+          "text": "Strict liability, because blood components are treated as inherently defective products"
+        },
+        {
+          "id": "D",
+          "text": "A claim of informed refusal, because the patient's right to decline the transfusion was not honored"
+        },
+        {
+          "id": "E",
+          "text": "A HIPAA violation, because his protected health information was used without authorization"
+        }
+      ],
+      "correct_option_id": "B",
+      "explanation_correct": "The patient signed a general treatment consent form, so some consent was obtained before the transfusion \u2014 this rules out battery, which applies specifically when a transfusion is performed without obtaining any consent at all. What was missing here was adequate disclosure: the Doctrine of Informed Consent requires clinicians to explain the risks (including transfusion-transmitted infections), benefits, and alternatives of transfusion before it is given. Failing to do so is a breach of the duty owed to the patient, which \u2014 combined with resulting harm (the hemolytic reaction), causation, and damages \u2014 satisfies the elements of negligence rather than the intentional tort of battery.",
+      "option_explanations": {
+        "A": "Incorrect. Battery is reserved for cases where a transfusion is given without obtaining any consent whatsoever (an unauthorized touching); here a general consent form was signed, so the deficiency was in the adequacy of disclosure, not the total absence of consent.",
+        "B": "Correct. The clinicians obtained consent but failed to satisfy the informed consent doctrine by not explaining risks (including transfusion-transmitted infections), benefits, and alternatives \u2014 a breach of duty that, combined with resulting harm, fits the negligence framework.",
+        "C": "Incorrect. Strict liability holds a provider responsible for a defective product regardless of fault, but the source material notes this doctrine is rarely applied to blood in most states, making it an implausible basis for this claim.",
+        "D": "Incorrect. Informed refusal concerns a competent patient's legal right to decline transfusion (e.g., on religious or personal grounds); this vignette involves a patient who received a transfusion without adequate disclosure, not one who was denied the right to refuse it.",
+        "E": "Incorrect. HIPAA governs the privacy and security of protected health information, not the process of disclosing risks, benefits, and alternatives before a treatment decision; nothing in the vignette involves unauthorized disclosure of PHI."
+      },
+      "teaching_point": "Distinguish the intentional tort of battery (transfusion given with no consent at all) from negligence based on inadequate informed consent (consent obtained but risks, benefits, and alternatives not properly disclosed, satisfying the standard elements of duty, breach, harm, causation, and damages); recognize strict liability, informed refusal, and HIPAA as classic but inapplicable distractor doctrines in this context.",
+      "source_references": [
+        {
+          "source_id": "SRC-004",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 45 - Medicolegal & Ethical Aspects, 'Liability Framework' and 'Consent' bullets",
+          "supports": "Defines battery as performing a transfusion without obtaining any consent, and separately defines the informed consent doctrine as requiring disclosure of risks (RTTIs), benefits, and alternatives.",
+          "blueprint_node_id": "S17.a.i.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-006",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 63 - Advanced Medicolegal Scenarios, 'Liability Frameworks' and 'Logic of Negligence' sections",
+          "supports": "States that transfusion without informed consent is an intentional tort of battery, that strict liability is rarely applied to blood, lists the five elements of negligence (duty, breach, harm, causation, damages), and defines informed consent as educating the recipient on risks, benefits, and alternatives.",
+          "blueprint_node_id": "S17.a.i.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-012",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 54 - Management of Transfusion Refusal, 'Informed Refusal' bullet",
+          "supports": "Establishes informed refusal as a competent adult's legal right to decline transfusion based on religious or personal beliefs, used here as a distinct distractor concept from informed consent.",
+          "blueprint_node_id": "S17.a.i.1",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "moderate",
+      "tags": [
+        "S17"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "ambiguous-stem",
+          "multiple-defensible-answers"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-11T23:36:09.193273+00:00",
+        "notes": "Independently read all three sources at the cited locators. Most individual facts check out, but I found a substantive contradiction between two of the sources that undermines the question's core answer-differentiating logic, plus a causation mismatch in the stem.\n\nWHAT CHECKS OUT:\n- SRC-004 (Node 45, line 95): \"Battery: Performing a transfusion without obtaining any consent.\" \u2014 matches distractor A rationale.\n- SRC-004 (Node 45, line 101): \"Consent: The Doctrine of Informed Consent requires clinicians to explain risks (RTTIs), benefits, and alternatives to the patient.\" \u2014 matches the correct-"
+      },
+      "created_at": "2026-07-11T23:36:09.193273+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "source_support": "partial",
+        "single_best_answer": false,
+        "independent_answer": "B",
+        "answer_agrees": true,
+        "flags": [
+          "unsupported-claim",
+          "ambiguous-stem",
+          "multiple-defensible-answers"
+        ],
+        "severity": "medium",
+        "verdict_notes": "Independently read all three sources at the cited locators. Most individual facts check out, but I found a substantive contradiction between two of the sources that undermines the question's core answer-differentiating logic, plus a causation mismatch in the stem.\n\nWHAT CHECKS OUT:\n- SRC-004 (Node 45, line 95): \"Battery: Performing a transfusion without obtaining any consent.\" \u2014 matches distractor A rationale.\n- SRC-004 (Node 45, line 101): \"Consent: The Doctrine of Informed Consent requires clinicians to explain risks (RTTIs), benefits, and alternatives to the patient.\" \u2014 matches the correct-answer rationale's core premise.\n- SRC-006 (Node 63, lines 45-47): \"Strict Liability: ... rarely applied to blood in most states\" and \"Informed Consent: Clinicians are required to educate the recipient about the transfusion and obtain consent, detailing the risks, benefits, and alternatives.\" \u2014 supports distractor C's rationale and reinforces the informed-consent premise.\n- SRC-006 (Node 63, lines 51-61): the five elements of negligence (duty, breach, harm, causation, damages) are stated essentially verbatim as in the explanation.\n- SRC-012 (Node 54, line 69): \"Informed Refusal: Competent adults have the legal right to refuse transfusion based on religious ... or personal beliefs.\" \u2014 matches distractor D rationale.\n- SRC-004 (Node 45, line 105): HIPAA governs PHI privacy/security \u2014 matches distractor E rationale.\n\nSUBSTANTIVE PROBLEM #1 \u2014 Contradictory battery definitions across sources: SRC-004 (Node 45, line 95) defines battery as \"Performing a transfusion without obtaining any consent,\" but SRC-006 (Node 63, line 43) defines it as \"Performing a transfusion without obtaining any informed consent is legally classified as an intentional tort of battery.\" These are materially different thresholds. The question's entire distinction between option A (battery) and option B (negligence) rests on the SRC-004 phrasing (a bare/general consent was obtained, so it's not battery, only inadequately informed). But under SRC-006's own wording, since the patient never received ANY informed consent specific to the transfusion (no risk/benefit/alternative discussion occurred \u2014 only a blanket surgical consent form was signed), a test-taker citing SRC-006 alone could defensibly classify this exact fact pattern as battery, not negligence. This is a direct textual contradiction between two of the three approved sources on the very point the question hinges on, which is why I marked single_best_answer = false and flagged multiple-defensible-answers.\n\nSUBSTANTIVE PROBLEM #2 \u2014 Inferential leap not explicit in the sources: none of the three sources explicitly states that a failure of adequately informed consent (as distinct from a total absence of consent) is litigated/classified as \"negligence.\" All three sources present Battery, Negligence, Strict Liability, and (separately) the Informed Consent doctrine as adjacent, parallel bullets under \"Liability Framework\"/\"Liability Frameworks\" without an explicit connecting sentence tying informed-consent failures to the negligence tort specifically. SRC-004's own definition of \"Negligence\" is \"Failure to follow established standards of care (e.g., mislabeling a sample) that leads to injury\" \u2014 a lab/technical-error example, not an informed-consent example. The mapping of \"inadequate informed consent \u2192 negligence cause of action\" is standard real-world legal doctrine and is very likely the intended teaching point, but it is a synthesis the question/explanation asserts as though directly stated by the sources, when it is not explicitly spelled out in any of the three passages. This supports the unsupported-claim flag (source_support = partial rather than pass).\n\nSUBSTANTIVE PROBLEM #3 \u2014 Causation mismatch in the stem (quality issue): the stem specifies that the missing disclosure was about \"risks of transfusion-transmitted infection,\" but the harm the patient actually suffered is a \"delayed hemolytic transfusion reaction\" \u2014 an unrelated complication not tied to the undisclosed infection risk. Real informed-consent negligence claims generally require that the undisclosed risk be the one that materialized (or that the harm flow from being denied a viable alternative). This mismatch is a logical soft spot in the stem \u2014 a sharp test-taker could reasonably wonder whether the causation element is actually satisfied, or whether the DHTR instead implicates ordinary lab/technical negligence (matching SRC-004's own \"mislabeling a sample\" example of negligence) rather than an informed-consent-based negligence claim. This is why I flagged ambiguous-stem.\n\nNET ASSESSMENT: Despite these issues, B (negligence) remains the best-supported and clearly intended answer given the overall weight of the source material (SRC-004's cleaner \"any consent\" battery definition, the informed-consent doctrine requiring risk/benefit/alternative disclosure appearing in all relevant nodes, and the negligence-elements framework that maps well onto the vignette). My independent answer is also B, so answer_agrees = true. However, given the direct SRC-006 contradiction on the battery threshold and the unstated inferential link between \"inadequate informed consent\" and \"negligence,\" I cannot certify this as a cleanly single-best-answer question purely from the sources as written \u2014 hence single_best_answer = false and severity = medium rather than none/low. Recommended fix: either (a) reconcile/footnote the SRC-004 vs SRC-006 battery-definition discrepancy in the explanation so the \"not battery because some consent was signed\" reasoning is defensible against SRC-006's stricter \"informed consent\" wording, or (b) revise the stem so the harm that materializes is causally linked to the specific undisclosed risk/alternative (e.g., have the harm be an allogeneic-transfusion complication that autologous salvage would have avoided), rather than an incidental DHTR paired with an infection-risk disclosure gap."
+      }
+    },
+    {
+      "id": "Q-0078",
+      "domain": "17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management",
+      "subdomain": "Rationale",
+      "blueprint_node_id": "S17.b.vi",
+      "designation": "AR",
+      "difficulty": "hard",
+      "cognitive_level": "application",
+      "stem": "A 45-year-old woman presents with fever, confusion, thrombocytopenia, and schistocytes on peripheral smear, consistent with thrombotic thrombocytopenic purpura (TTP). Therapeutic plasma exchange (TPE) is initiated urgently. Although 5% human serum albumin is the standard replacement fluid for most TPE procedures, the transfusion medicine physician instead selects fresh frozen plasma (FFP) as the replacement fluid for this patient. What is the underlying rationale for choosing plasma over albumin as the replacement fluid specifically in TTP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasma simultaneously supplies the deficient ADAMTS13 protease while the exchange procedure removes the anti-ADAMTS13 inhibitor and ultra-large von Willebrand factor multimers"
+        },
+        {
+          "id": "B",
+          "text": "Plasma carries a lower risk of allergic and infectious complications than albumin, making it the safer universal replacement fluid"
+        },
+        {
+          "id": "C",
+          "text": "Because a 1.0-plasma-volume exchange removes only about 63% to 70% of the pathogenic substance, plasma's coagulation factor content is needed to compensate for the incomplete removal"
+        },
+        {
+          "id": "D",
+          "text": "The causative autoantibody in TTP is roughly 80% intravascular like IgM, so a high-oncotic-pressure fluid is required to prevent hypovolemic shock"
+        },
+        {
+          "id": "E",
+          "text": "Plasma avoids the citrate toxicity risk that albumin infusion carries during high-volume exchange procedures"
+        }
+      ],
+      "correct_option_id": "A",
+      "explanation_correct": "TPE is first-line therapy in TTP for a dual reason unique to this disease: the exchange procedure removes the pathogenic anti-ADAMTS13 autoantibody (inhibitor) and the ultra-large von Willebrand factor multimers that drive microvascular platelet thrombosis, while using plasma as the replacement fluid simultaneously restores the functional ADAMTS13 protease that the patient lacks. This is precisely why plasma, not albumin, is designated the fluid of choice for TTP even though albumin is preferred in most other TPE indications to limit allergic and infectious risk.",
+      "option_explanations": {
+        "A": "Correct. Plasma both replaces the deficient ADAMTS13 protease and, via the exchange process, removes the inhibitory autoantibody and ultra-large vWF multimers responsible for TTP's microangiopathy \u2014 the specific rationale for choosing plasma over albumin in this disease.",
+        "B": "Incorrect; this reverses the stated risk profile. Albumin, not plasma, is standard for most TPE because it minimizes allergic reaction and infectious risk, while plasma replacement carries a higher risk of allergic reactions and citrate load.",
+        "C": "Incorrect. The ~63-70% removal figure for a single 1.0-plasma-volume exchange is a general kinetic property of apheresis efficiency (exponential, asymptotic removal), not a rationale tied to replacement fluid selection, and coagulation factor replacement is not invoked in the source as a fix for incomplete substance removal.",
+        "D": "Incorrect. The 80% intravascular distribution described applies to IgM kinetics in conditions like hyperviscosity syndrome/Waldenstr\u00f6m macroglobulinemia, not to TTP pathophysiology, and it is not the reason plasma is chosen as replacement fluid.",
+        "E": "Incorrect; this reverses the true relationship. Plasma replacement increases the risk of citrate-related complications (and allergic reactions) compared with albumin, not the reverse."
+      },
+      "teaching_point": "In TTP, plasma is selected as the TPE replacement fluid (overriding the usual albumin-first practice) because it uniquely restores the deficient ADAMTS13 protease while the apheresis procedure itself clears the inhibitory autoantibody and ultra-large vWF multimers driving disease.",
+      "source_references": [
+        {
+          "source_id": "SRC-023",
+          "source_type": "notebooklm",
+          "locator": "Management > Replacement Fluids",
+          "supports": "States that plasma (FFP) is the replacement fluid of choice for TTP specifically to supply ADAMTS13, while albumin is standard for most other TPE to minimize allergic/infectious risk.",
+          "blueprint_node_id": "S17.b.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-023",
+          "source_type": "notebooklm",
+          "locator": "Source-Grounded Teaching Pearls > ADAMTS13 and TTP",
+          "supports": "Explains TPE is first-line in TTP because it removes both the ADAMTS13 inhibitor and ultra-large vWF multimers while replacing the deficient protease.",
+          "blueprint_node_id": "S17.b.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-023",
+          "source_type": "notebooklm",
+          "locator": "High-Yield Comparison Points > Albumin vs. Plasma Replacement",
+          "supports": "Notes plasma provides all proteins but increases risk of citrate load and allergic reactions compared with albumin, used to construct reversed distractors.",
+          "blueprint_node_id": "S17.b.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-023",
+          "source_type": "notebooklm",
+          "locator": "Core Concepts > Removal Efficiency; Common Board Traps > IgG vs. IgM Kinetics",
+          "supports": "Provides the ~63-70% removal figure for a 1.0-PV exchange and the IgM 80% intravascular fact used to build plausible-but-misapplied distractors.",
+          "blueprint_node_id": "S17.b.vi",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "high",
+      "tags": [
+        "S17"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "pass",
+        "audit_flags": [
+          "blueprint-mismatch"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-11T23:36:09.193273+00:00",
+        "notes": "CONTENT/SOURCE AUDIT (all facts checked against SRC-023, lines 1-79):\n\nStem premise \u2014 \"5% albumin is standard for most TPE; TPE initiated for TTP\" \u2014 directly supported: line 47, \"5% Human Serum Albumin is standard for most TPE to minimize allergic reactions and infectious risk; Plasma (FFP) is the fluid of choice for TTP to provide ADAMTS13.\"\n\nOption A (keyed correct) \u2014 supported by combining two explicit source sentences: line 47 (\"Plasma (FFP) is the fluid of choice for TTP to provide ADAMTS13\") and line 79 (\"ADAMTS13 and TTP: TPE is first-line because it removes both the inhibitor and ultra"
+      },
+      "created_at": "2026-07-11T23:36:09.193273+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "answer_agrees": true,
+        "flags": [
+          "blueprint-mismatch"
+        ],
+        "independent_answer": "A",
+        "severity": "high",
+        "single_best_answer": true,
+        "source_support": "pass",
+        "verdict_notes": "CONTENT/SOURCE AUDIT (all facts checked against SRC-023, lines 1-79):\n\nStem premise \u2014 \"5% albumin is standard for most TPE; TPE initiated for TTP\" \u2014 directly supported: line 47, \"5% Human Serum Albumin is standard for most TPE to minimize allergic reactions and infectious risk; Plasma (FFP) is the fluid of choice for TTP to provide ADAMTS13.\"\n\nOption A (keyed correct) \u2014 supported by combining two explicit source sentences: line 47 (\"Plasma (FFP) is the fluid of choice for TTP to provide ADAMTS13\") and line 79 (\"ADAMTS13 and TTP: TPE is first-line because it removes both the inhibitor and ultra-large vWF multimers while replacing the deficient protease\"). This is a clean, non-fabricated synthesis \u2014 both dual mechanisms (removal of inhibitor + ULvWF multimers, replacement of ADAMTS13) are explicitly in the source. Independently, A is the best/only defensible answer from this source.\n\nOption B \u2014 correctly identified as reversed. Source states albumin (not plasma) has the lower allergic/infectious risk (line 47, line 71: \"Albumin has a lower reaction risk...Plasma...increases the risk of citrate load and allergic reactions\").\n\nOption C \u2014 the 63-70% figure is real (line 7) but the source never ties it to a need for coagulation-factor compensation; this is a plausible-but-unsupported fabricated inference, correctly flagged as a distractor. (Note: source line 41 does mention coagulation/fibrinogen depletion with albumin exchange, but that is not invoked anywhere as a rationale for choosing plasma to \"compensate for incomplete removal\" \u2014 the option correctly conflates two unrelated facts and the rationale text correctly rejects this.)\n\nOption D \u2014 misapplies the \"80% intravascular\" IgM fact (line 63, stated in context of hyperviscosity/Waldenstr\u00f6m, line 23) to the TTP autoantibody; source never states the TTP inhibitor is 80% intravascular or IgM-like, so this is correctly a misapplied-fact distractor.\n\nOption E \u2014 correctly identified as reversed; line 71 states plasma increases citrate-load risk relative to albumin, not the reverse.\n\nAll numeric values (63-70%, 80% IgM intravascular) are verbatim from the source and not distorted. No fabricated thresholds. Source support = pass.\n\nLocators check out: \"Management > Replacement Fluids\" corresponds to the bolded \"Replacement Fluids:\" line under the \"##### Management\" header (line 47); \"Source-Grounded Teaching Pearls > ADAMTS13 and TTP\" and \"High-Yield Comparison Points > Albumin vs. Plasma Replacement\" are verbatim section/heading matches (lines 73/79 and 67/71). The \"Common Board Traps\" locator drops the \"and Distractors\" suffix from the actual heading (line 59, \"Common Board Traps and Distractors\") but is otherwise correctly identified.\n\nMAJOR ISSUE \u2014 BLUEPRINT MISMATCH: The assigned blueprint node is \"17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management \u203a Current Good Manufacturing Practice \u203a Rationale\" (S17.b.vi, AR). This question is pure clinical/pathophysiologic content \u2014 replacement-fluid selection rationale in TTP therapeutic plasma exchange. It has no connection to Current Good Manufacturing Practice (cGMP), which in blood banking covers SOPs, validation, deviation/CAPA management, document control, personnel qualification, and quality-system regulation. Even the underlying source document itself (SRC-023, \"Clinical Principles and Guidelines for Therapeutic Apheresis\") is a clinical-medicine guideline, not a cGMP/quality-systems document \u2014 confirming that both the source and the resulting question are mismatched to this blueprint node. This item reads as though it was built for an ASFA/apheresis clinical-indications node and mis-filed under cGMP Rationale. It should be re-tagged to an appropriate clinical apheresis/TTP node (or a \"rationale for therapy selection\" node under transfusion therapy) rather than under Current Good Manufacturing Practice.\n\nNo other quality issues found: stem is unambiguous, distractors are plausible and well-constructed board traps built from genuine (but misapplied/reversed) source facts, cognitive level (application) is appropriate, and there is only one defensible best answer (A) from the source."
+      }
+    }
+  ],
+  "cases_needing_review": [
+    {
+      "id": "C-004",
+      "title": "Suspected Acute Hemolytic Transfusion Reaction: Investigation Pathway",
+      "domains": [
+        "6. Hazards of Transfusion: Specific Adverse Events"
+      ],
+      "blueprint_node_ids": [
+        "S6.a.vi"
+      ],
+      "designation": "C",
+      "difficulty": "moderate",
+      "clinical_setup": "A 54-year-old man with acute myeloid leukemia is admitted to the oncology ward for symptomatic anemia and receives a single unit of crossmatched RBCs. Shortly after the transfusion is completed, the bedside nurse reports concern to the transfusion service; the infusion is stopped, and a post-transfusion specimen along with the implicated unit and attached tubing are sent to the blood bank for work-up under the facility's nonconforming-event (NCE) process.",
+      "findings": [
+        {
+          "label": "Reason for transfusion",
+          "value": "Hgb 7.0 g/dL, symptomatic anemia in a patient with AML (illustrative)",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Repeat Hgb after 1 unit RBC",
+          "value": "7.1 g/dL \u2014 essentially no rise (expected roughly 8.0 g/dL, i.e., ~1 g/dL increment per unit transfused)",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Direct antiglobulin test (DAT), post-transfusion specimen",
+          "value": "Positive",
+          "flag": "critical"
+        },
+        {
+          "label": "Clerical/identification record review",
+          "value": "Discrepancy found \u2014 specimen/patient identification mismatch at collection",
+          "flag": "critical"
+        },
+        {
+          "label": "Implicated unit and attached tubing",
+          "value": "Quarantined in-house pending investigation (not discarded, not reissued)",
+          "flag": "n/a"
+        },
+        {
+          "label": "Biological Product Deviation (BPD) criteria assessment",
+          "value": "All 5 criteria met: manufacturing-associated, deviation from specification, potential safety/purity/potency impact, occurred under facility control, product distributed/administered",
+          "flag": "critical"
+        }
+      ],
+      "decision_points": [
+        {
+          "stage": 1,
+          "prompt": "The bedside nurse stops the infusion and notifies the transfusion service of a possible reaction, sending the patient's post-transfusion specimen and the implicated unit/tubing to the lab. Before any test result is available, what must the transfusion service do first under the nonconforming-event (NCE) framework?",
+          "options": [
+            "Discard the unit immediately so it cannot be reissued",
+            "Document the event, determine its potential impact on product safety, and quarantine the remaining unit/tubing in-house",
+            "Wait until the DAT result returns before taking any action",
+            "Immediately file a Biological Product Deviation report with the FDA"
+          ],
+          "answer": "Document the event, determine its potential impact on product safety, and quarantine the remaining unit/tubing in-house.",
+          "rationale": "SRC-027's NCE management sequence begins with Documentation (capture the facts, classify by risk severity) and Impact Determination (evaluate effect on the product's safety, purity, or potency), followed immediately by Quarantine/Recall \u2014 securing affected product in-house. This mirrors the 'quarantine of products' and 'investigation of manufacturing deficiencies' safety layers in SRC-013. Discarding the unit or waiting for lab results would destroy evidence needed for investigation; BPD reporting only comes later, after root cause analysis confirms the criteria are met."
+        },
+        {
+          "stage": 2,
+          "prompt": "With the unit quarantined and the event documented, which single laboratory test on the post-transfusion specimen is emphasized as the key tool to determine whether the reaction has an immune-mediated hemolytic basis?",
+          "options": [
+            "Peripheral blood smear for schistocytes",
+            "Direct antiglobulin test (DAT)",
+            "HLA class I antibody screen",
+            "One-time T. cruzi antibody screen"
+          ],
+          "answer": "Direct antiglobulin test (DAT).",
+          "rationale": "SRC-027 notes that current transfusion-medicine practice (Ch. 14 update) 'focuses on the positive DAT' as the hallmark of immune-mediated hemolysis. A positive DAT on the post-transfusion specimen indicates antibody and/or complement coating red cells, supporting an immune-mediated hemolytic process."
+        },
+        {
+          "stage": 3,
+          "prompt": "DAT returns positive, and the repeat Hgb shows essentially no rise from baseline despite transfusion of a full unit (well short of the expected ~1 g/dL increment). What is the next required step in the investigation?",
+          "options": [
+            "Close the event since the DAT already explains the reaction",
+            "Interview staff and review records (collection, labeling, compatibility testing, issue) to reconstruct the event, then perform root cause analysis",
+            "Proceed directly to CAPA without reviewing records",
+            "Refer the case only to the ordering physician with no quality-system follow-up"
+          ],
+          "answer": "Interview staff and review records to reconstruct the event, then perform root cause analysis to identify the underlying, correctable cause.",
+          "rationale": "SRC-027's NCE steps place Investigation (interview staff, review records) and Root Cause Analysis (identify the underlying, controllable cause) after impact determination/quarantine and before CAPA. The inadequate Hgb increment, measured against the ~1 g/dL-per-unit benchmark from SRC-006, is objective evidence that transfused red cells are not surviving in circulation, reinforcing the need for full investigation rather than closing the event on the DAT alone."
+        },
+        {
+          "stage": 4,
+          "prompt": "Record review uncovers a patient/specimen identification discrepancy at collection, and the implicated unit had already been fully administered before the error was recognized. Does this event meet the criteria for mandatory Biological Product Deviation (BPD) reporting to the FDA?",
+          "options": [
+            "No \u2014 clerical errors are never reportable",
+            "No \u2014 reporting is only required if the patient dies",
+            "Yes \u2014 all five BPD criteria are satisfied",
+            "Reporting is discretionary and left to the medical director"
+          ],
+          "answer": "Yes \u2014 all five BPD criteria are satisfied.",
+          "rationale": "SRC-027 lists five criteria that must all be met for mandatory BPD reporting: associated with manufacturing (including collection/labeling), a deviation from established specifications, may affect safety/purity/potency, occurred while the facility had control of the product, and involved a product that was distributed (here, administered to the patient). Because the identification error meets all five, the transfusion service must report the BPD, complete root cause analysis and CAPA, and conduct an effectiveness review."
+        }
+      ],
+      "answer_key": "Suspected reaction \u2192 stop administration; send post-transfusion specimen + implicated unit/tubing to the transfusion service \u2192 Document the event, determine impact on product safety, and quarantine the remaining unit/tubing in-house (NCE Documentation + Quarantine/Recall step, mirroring the 'quarantine of products' safety layer) \u2192 Perform DAT on the post-transfusion specimen to test for immune-mediated hemolysis, and check the Hgb increment against the ~1 g/dL-per-unit benchmark \u2192 Investigate: interview staff and review records (collection, labeling, compatibility testing, issue) \u2192 Root Cause Analysis identifies a patient/specimen identification error \u2192 Because all 5 BPD criteria are met (manufacturing-associated, deviation from specification, potential safety/purity/potency impact, occurred under facility control, product distributed/administered), file a Biological Product Deviation report to the FDA, complete CAPA, and conduct an effectiveness review.",
+      "teaching_explanation": "This case links two threads the exam blueprint treats separately but that converge in real practice: the serologic/hematologic evidence of hemolysis and the quality-system response that 'laboratory investigation' of a hemolytic transfusion reaction actually requires. SRC-010 frames hemolytic reactions (acute and delayed) as a distinct Hazards-of-Transfusion subdomain whose workup and prevention differ from TRALI, TACO, and TA-GVHD. Once a reaction is suspected, SRC-027's nonconforming-event framework governs the response: document and classify the event, determine impact on product safety, and quarantine the implicated unit and tubing in-house \u2014 echoing the 'quarantine of products' and 'investigation of manufacturing deficiencies' layers of blood safety in SRC-013. The DAT (SRC-027, Ch.14 immune-mediated hemolysis update) is the pivotal serologic test for immune-mediated destruction, while the expected ~1 g/dL-per-unit hemoglobin increment (SRC-006) gives an objective, quantitative signal that transfused red cells are not surviving in circulation. When investigation and root cause analysis (SRC-027) trace the event to a patient/specimen misidentification, all five Biological Product Deviation criteria are satisfied, mandating FDA reporting alongside CAPA and an effectiveness review.",
+      "pitfalls": [
+        "Quarantine (securing an implicated product still in-house) and recall (retrieving product already distributed elsewhere) are distinct NCE actions in SRC-027 \u2014 do not use the terms interchangeably on the exam.",
+        "A positive DAT documents immune-mediated red cell coating/destruction but is not itself the root cause; SRC-027's investigation step (staff interview plus record review) is what identifies the underlying, correctable cause such as a specimen/patient identification error.",
+        "Biological Product Deviation reporting is not automatic just because an error occurred \u2014 SRC-027 requires all five criteria to be met simultaneously, including that the product was already distributed; an error caught before the unit left the transfusion service would not meet that criterion.",
+        "SRC-010 separates acute and delayed hemolytic transfusion reactions as distinct entities with their own incidence, pathophysiology, and prevention considerations \u2014 do not assume the same workup and reporting timeline applies uniformly to both."
+      ],
+      "source_references": [
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain V: Hazards of Transfusion",
+          "supports": "Hemolytic transfusion reactions (acute and delayed) form a distinct subdomain of the Hazards-of-Transfusion domain, separate from TRALI/TACO/TA-GVHD, with incidence, pathophysiology, and prevention differing between acute and delayed forms.",
+          "blueprint_node_id": "S6.a.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-013",
+          "source_type": "notebooklm",
+          "locator": "Core Concepts \u2013 Five Layers of Safety",
+          "supports": "Quarantine of implicated products and investigation of manufacturing/process deficiencies are core layers of the blood-safety response framework invoked once a suspected reaction or error is identified.",
+          "blueprint_node_id": "S6.a.vi",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-006",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 65 \u2013 Intravascular Cell Kinetics & Expected Increments",
+          "supports": "Expected RBC increment (~1 g/dL Hgb, or ~3% Hct, per unit transfused) is the benchmark used to recognize an inadequate post-transfusion response consistent with ongoing red cell destruction.",
+          "blueprint_node_id": "S6.a.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-027",
+          "source_type": "notebooklm",
+          "locator": "Section 6 \u2013 Specialized Clinical Subdomains",
+          "supports": "A positive DAT is the key serologic marker emphasized for identifying immune-mediated red cell hemolysis (Ch.14 Immune-Mediated Hemolysis/AIHA update).",
+          "blueprint_node_id": "S6.a.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-027",
+          "source_type": "notebooklm",
+          "locator": "Section 3 \u2013 Management of Nonconforming Events (NCE)",
+          "supports": "Nonconforming-event management proceeds through documentation, impact determination, quarantine/recall, investigation (staff interview plus record review), root cause analysis, CAPA, reporting, and effectiveness review.",
+          "blueprint_node_id": "S6.a.vi",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-027",
+          "source_type": "notebooklm",
+          "locator": "Section 3 \u2013 Biological Product Deviations (BPD) Reporting",
+          "supports": "Biological Product Deviation reporting to the FDA is mandatory only when all five criteria are met: manufacturing-associated, deviation from cGMP/specification, potential safety/purity/potency impact, occurred under facility control, and involves a distributed product.",
+          "blueprint_node_id": "S6.a.vi",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "moderate",
+      "tags": [
+        "S6"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unrealistic-scenario",
+          "incorrect-answer-key",
+          "unsupported-claim"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-11T23:36:09.193273+00:00",
+        "notes": "Verified against all four sources directly.\n\nSTRONG MATCHES (verbatim-level support):\n- NCE step sequence (Documentation \u2192 Impact Determination \u2192 Quarantine/Recall \u2192 Investigation \u2192 RCA \u2192 CAPA \u2192 Reporting \u2192 Effectiveness Review) matches SRC-027 \u00a73 exactly, including the quarantine-vs-recall distinction used in the pitfalls list (\"Secure affected products in-house or initiate a recall for distributed products\").\n- The 5 BPD criteria (manufacturing-associated; deviation from cGMP/spec; potential safety/purity/potency impact; occurred under facility control; product distributed) are quoted almost"
+      },
+      "created_at": "2026-07-11T23:36:09.193273+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "source_support": "partial",
+        "clinically_realistic": false,
+        "flags": [
+          "unrealistic-scenario",
+          "incorrect-answer-key",
+          "unsupported-claim"
+        ],
+        "severity": "medium",
+        "verdict_notes": "Verified against all four sources directly.\n\nSTRONG MATCHES (verbatim-level support):\n- NCE step sequence (Documentation \u2192 Impact Determination \u2192 Quarantine/Recall \u2192 Investigation \u2192 RCA \u2192 CAPA \u2192 Reporting \u2192 Effectiveness Review) matches SRC-027 \u00a73 exactly, including the quarantine-vs-recall distinction used in the pitfalls list (\"Secure affected products in-house or initiate a recall for distributed products\").\n- The 5 BPD criteria (manufacturing-associated; deviation from cGMP/spec; potential safety/purity/potency impact; occurred under facility control; product distributed) are quoted almost verbatim from SRC-027.\n- \"~1 g/dL Hgb rise per unit RBC\" is directly supported by SRC-006, Subdomain Node 65 (\"one unit of RBCs typically raises the hemoglobin by 1 g/dL or the hematocrit by 3%\"). The 7.0\u21927.1 vs expected 8.0 arithmetic is internally correct.\n- SRC-010 supports hemolytic reactions as a distinct Hazards-of-Transfusion subdomain with acute-vs-delayed distinctions in incidence/pathophysiology/prevention.\n- DAT-as-key-marker claim is traceable to SRC-027's note that the Technical Manual's Ch.14 update \"Focuses on the positive DAT\" for immune-mediated hemolysis/AIHA \u2014 a reasonable (if generalized from AIHA to HTR) extension.\n\nPROBLEMS FOUND:\n\n1. Internal scenario inconsistency (clinically_realistic = false): clinical_setup states \"Shortly after the transfusion is completed... the infusion is stopped\" \u2014 but an infusion that has already completed cannot be \"stopped.\" Decision Point 1's prompt compounds this by describing \"the bedside nurse stops the infusion\" as if it were interrupted mid-administration, contradicting the setup's \"transfusion is completed\" framing. The case never resolves whether the reaction was caught during administration or discovered afterward, which matters clinically (mid-infusion cessation is the standard first action in suspected AHTR) and is a real internal-consistency defect.\n\n2. Sequence error in answer_key and Stage-4 rationale (incorrect-answer-key, moderate): SRC-027 explicitly orders CAPA (step 6) before Reporting (step 7): \"Corrective Action (CAPA)... Reporting: Notify external regulatory... Effectiveness Review.\" The case's answer_key states the facility should \"file a Biological Product Deviation report to the FDA, complete CAPA, and conduct an effectiveness review\" \u2014 reversing Reporting and CAPA. Stage-4's rationale text similarly says \"must report the BPD, complete root cause analysis and CAPA\" \u2014 RCA has already occurred by this stage per the case's own Stage-3, and CAPA is source-sequenced before Reporting, not after. This doesn't corrupt the tested MCQ answer itself (which is simply \"yes, all 5 criteria met\") but the supporting explanatory sequence given to learners is out of order relative to the cited source.\n\n3. Stretched source citation (unsupported-claim, low-moderate, already partly self-flagged): SRC-013's \"Five Layers of Safety\" (donor screening, deferral registries, blood testing, quarantine of products, investigation of manufacturing deficiencies) is explicitly a framework for infectious-disease/donor-screening safety (Subdomain Node 8 \u2013 Infectious Safety & Look-back), not a framework for hemolytic-transfusion-reaction NCE workup. The case appropriately hedges this with \"mirrors\" language and a \"moderate\" confidence rating, so it is not a fabrication, but it is a cross-context analogy dressed as direct support and could mislead a learner into thinking SRC-013 addresses HTR investigation.\n\n4. Minor realism gap (not separately flagged, low severity): the case never specifies presenting signs/symptoms (fever, chills, flank/back pain, hemoglobinuria, hypotension) that would prompt \"the bedside nurse reports concern\" \u2014 the findings table is lab-values-only. Not incorrect, just thin for a case ostensibly triggered by a bedside-recognized reaction.\n\nNo fabricated/unsupported numeric values were found, and no MCQ answer option is factually wrong per the sources \u2014 the core teaching content (DAT centrality, Hgb increment benchmark, NCE steps, BPD 5-criteria test) is solid and well-grounded. Deductions are for the internal timeline contradiction and the CAPA/Reporting order inversion in the explanatory text, plus one stretched (though hedged) cross-source citation.",
+        "suggested_fix": "(1) Fix the clinical_setup/Stage-1 timeline contradiction: either state the reaction was recognized DURING the transfusion and the infusion was stopped mid-bag, or state it was recognized just after completion and drop \"the infusion is stopped\" language (e.g., \"the line is clamped, the residual bag/tubing preserved\"). Pick one and make clinical_setup and Stage-1's prompt agree. Also consider adding 1-2 concrete presenting signs (fever/chills, flank pain, hemoglobinuria) to the findings so \"the nurse reports concern\" has a clinical basis. (2) Correct the answer_key and Stage-4 rationale to match SRC-027's explicit order: Root Cause Analysis \u2192 CAPA \u2192 Reporting (BPD to FDA) \u2192 Effectiveness Review, rather than Reporting-then-CAPA. (3) Either drop the SRC-013 'Five Layers of Safety' citation or reword source_references/pitfalls to explicitly note it is an infectious-disease-safety framework being used as an analogy, not a direct HTR-NCE citation, to avoid implying SRC-013 itself discusses hemolytic-reaction workup.\""
+      }
+    },
+    {
+      "id": "C-009",
+      "title": "Compensated to Decompensated Anemia: Erythropoietin, 2,3-DPG, and the Transfusion Decision",
+      "domains": [
+        "3. RBCs and RBC Components"
+      ],
+      "blueprint_node_ids": [
+        "S3.a.i.1"
+      ],
+      "designation": "C",
+      "difficulty": "moderate",
+      "clinical_setup": "A 68-year-old woman presents with a two-month history of gradually worsening fatigue. At her initial visit she is found to have moderate anemia but is hemodynamically normal and only mildly symptomatic. Six weeks later, with her anemia now more severe, she returns with new tachycardia, tachypnea, dizziness, weakness, and exertional chest tightness, prompting reassessment of her compensatory status and transfusion need.",
+      "findings": [
+        {
+          "label": "Initial hemoglobin (Visit 1)",
+          "value": "8.9 g/dL",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Initial heart rate (Visit 1)",
+          "value": "88/min",
+          "flag": "normal"
+        },
+        {
+          "label": "Initial respiratory rate (Visit 1)",
+          "value": "16/min",
+          "flag": "normal"
+        },
+        {
+          "label": "Follow-up hemoglobin (Visit 2, ~6 weeks later)",
+          "value": "6.2 g/dL",
+          "flag": "critical"
+        },
+        {
+          "label": "Follow-up heart rate (Visit 2)",
+          "value": "118/min",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Follow-up respiratory rate (Visit 2)",
+          "value": "34/min",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Symptom pattern (Visit 2)",
+          "value": "New dizziness, weakness, and exertional chest tightness (angina)",
+          "flag": "abnormal"
+        },
+        {
+          "label": "2,3-DPG status of the units selected for transfusion",
+          "value": "Depleted, consistent with storage lesion",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Reference P50 (normal O2 affinity benchmark)",
+          "value": "Approximately 26-28 mmHg",
+          "flag": "n/a"
+        },
+        {
+          "label": "Hemoglobin after transfusion of 2 RBC units (expected, per dosing rule)",
+          "value": "Approximately 8.2 g/dL",
+          "flag": "normal"
+        }
+      ],
+      "decision_points": [
+        {
+          "stage": 1,
+          "prompt": "At Visit 1, the patient's hemoglobin is 8.9 g/dL, yet her heart rate (88/min) and respiratory rate (16/min) are normal and she reports only mild fatigue. What physiologic mechanisms explain why she remains relatively asymptomatic at this degree of anemia?",
+          "options": [],
+          "answer": "Her body is compensating through several concurrent mechanisms: increased 2,3-DPG (shifting the oxyhemoglobin dissociation curve to the right so more oxygen is released to tissues per gram of hemoglobin), increased cardiac output, and redistribution of blood flow to vital organs \u2014 together with erythropoietin-driven stimulation of marrow red cell production, which regulates red cell production itself.",
+          "rationale": "SRC-002 states the body adapts to anemia by increasing cardiac output, increasing RBC 2,3-DPG, and redistributing blood flow to vital organs, and that increased 2,3-DPG produces a rightward shift that facilitates oxygen release to tissues. SRC-024 establishes that red cell production is regulated by erythropoietin and that its function is governed by the hemoglobin-oxygen dissociation curve and 2,3-DPG."
+        },
+        {
+          "stage": 2,
+          "prompt": "At Visit 2 she has Hgb 6.2 g/dL, HR 118/min, RR 34/min, dizziness, weakness, and new exertional chest tightness. Does she meet criteria for transfusion, and why is it insufficient to simply compare her hemoglobin to the 7-8 g/dL restrictive threshold?",
+          "options": [
+            "Withhold transfusion because Hgb 6.2 g/dL alone does not clearly fall far below the restrictive range",
+            "Transfuse because her tachycardia, tachypnea, dizziness, weakness, and angina indicate that compensatory mechanisms have failed, independent of comparing a single number to a threshold meant for stable patients",
+            "Repeat the CBC in one week before deciding",
+            "Order an antibody screen only, since transfusion decisions do not depend on symptoms"
+          ],
+          "answer": "Transfuse. Her tachycardia (>100/min), tachypnea (>30/min), dizziness, weakness, and angina are the clinical signs described as occurring when physiologic compensatory mechanisms fail, so she is symptomatic from her anemia. The restrictive transfusion trigger of 7-8 g/dL is an evidence-based threshold intended for hemodynamically stable patients, not a substitute for recognizing decompensation.",
+          "rationale": "SRC-024 states anemia symptoms (tachycardia >100, tachypnea >30, dizziness, weakness, angina) typically manifest when physiologic compensatory mechanisms fail, and separately notes that evidence-based guidelines (TRICC, FOCUS) support a restrictive trigger of 7-8 g/dL specifically for stable patients."
+        },
+        {
+          "stage": 3,
+          "prompt": "The team plans to transfuse 2 units of RBCs. Using the standard RBC dosing rule, what post-transfusion hemoglobin would you expect, and does this support the plan?",
+          "options": [],
+          "answer": "Each unit of RBCs is expected to raise hemoglobin by about 1 g/dL (and hematocrit by about 3%) in an average adult. Two units should raise her hemoglobin from 6.2 g/dL to approximately 8.2 g/dL, moving her above both the restrictive threshold and the level associated with her decompensation symptoms.",
+          "rationale": "SRC-024 states that one unit of RBCs in an average adult should increase hemoglobin by 1 g/dL and hematocrit by 3%."
+        },
+        {
+          "stage": 4,
+          "prompt": "Immediately after transfusion, will the donor units unload oxygen to her tissues as effectively as her own (compensated) red cells did before her anemia worsened?",
+          "options": [
+            "Yes, oxygen delivery normalizes as soon as the hemoglobin rises",
+            "No \u2014 stored donor RBCs have storage-lesion-depleted 2,3-DPG causing a transient left shift and increased oxygen affinity; normal unloading capacity is restored only after roughly 6-24 hours",
+            "No, transfused red cells never regain normal 2,3-DPG function",
+            "Oxygen delivery is unaffected by 2,3-DPG status of transfused units"
+          ],
+          "answer": "Not immediately. Stored donor RBCs undergo a storage lesion that depletes 2,3-DPG, left-shifting the oxyhemoglobin curve and increasing hemoglobin's oxygen affinity, so less oxygen is released to tissues right after infusion. Roughly 6 to 24 hours post-transfusion are required to restore normal 2,3-DPG levels and oxygen-unloading capacity \u2014 unlike her own pre-transfusion red cells, whose 2,3-DPG had been adaptively raised to compensate for her anemia.",
+          "rationale": "SRC-005 states that post-transfusion RBCs require 6 to 24 hours to restore normal 2,3-DPG levels, and that a shift to the left occurs when 2,3-DPG is depleted (as in storage lesion), increasing oxygen affinity and reducing tissue oxygen release."
+        }
+      ],
+      "answer_key": "Recognize that this patient's initial well-tolerated moderate anemia reflects effective physiologic compensation (2,3-DPG-mediated right shift, increased cardiac output, blood-flow redistribution, and erythropoietin-driven marrow stimulation). When she returns with tachycardia (>100/min), tachypnea (>30/min), dizziness, weakness, and angina, these signs indicate that compensatory mechanisms have failed \u2014 transfusion is indicated regardless of exact conformity to the 7-8 g/dL restrictive threshold, which is intended for hemodynamically stable patients. Dose transfusion using the standard rule (1 unit RBCs \u2248 +1 g/dL Hgb, +3% Hct) to plan the number of units. After transfusion, anticipate a transient functional lag: stored donor RBCs have storage-lesion-depleted 2,3-DPG (left-shifted curve, increased O2 affinity), requiring roughly 6-24 hours post-transfusion to restore normal oxygen-unloading capacity, in contrast to the patient's own red cells, which had adaptively elevated 2,3-DPG to compensate for her anemia.",
+      "teaching_explanation": "Erythropoietin-driven regulation of red cell production is only one arm of a layered physiologic response to anemia. The sources frame red cell production as regulated by erythropoietin, with the erythron's core purpose being oxygen delivery governed by the hemoglobin-oxygen dissociation curve and 2,3-DPG. Faster-acting compensations \u2014 increased cardiac output, blood-flow redistribution to vital organs, and increased 2,3-DPG (rightward curve shift, more oxygen unloaded per gram of hemoglobin) \u2014 mask worsening anemia until they are overwhelmed, at which point tachycardia (>100/min), tachypnea (>30/min), dizziness, weakness, and angina appear. Recognizing this failure point, rather than fixating on a single hemoglobin number, drives the transfusion decision; the 7-8 g/dL restrictive trigger (TRICC, FOCUS) is a guideline for stable patients, not an absolute cutoff. Once transfusion is chosen, dosing is predictable (1 unit \u2248 +1 g/dL Hgb, +3% Hct), but the clinician should also recognize that transfused units carry their own storage lesion: 2,3-DPG is depleted during storage, transiently left-shifting the curve and blunting oxygen release until 2,3-DPG regenerates over 6-24 hours. This links the \"regulation of production\" concept (erythropoietin driving marrow output over a longer time course) to the immediate, non-marrow physiologic and storage-related factors that determine whether corrected hemoglobin actually translates into restored tissue oxygen delivery.",
+      "pitfalls": [
+        "Treating the 7-8 g/dL restrictive transfusion threshold as an absolute number rather than a guideline for hemodynamically stable patients \u2014 a tachycardic, tachypneic, symptomatic patient needs transfusion even near or above that number.",
+        "Assuming transfused blood restores tissue oxygen delivery the instant hemoglobin rises, while ignoring that storage-lesion-related 2,3-DPG depletion left-shifts the curve and requires roughly 6-24 hours to normalize.",
+        "Believing that using 'fresher' blood would have produced a better clinical outcome \u2014 large randomized trials (ARIPI, RECESS, ABLE, TRANSFUSE) showed no mortality difference between fresh and older RBC units despite documented storage lesion changes.",
+        "Conflating the rapid physiologic compensations for anemia (2,3-DPG shift, increased cardiac output, flow redistribution) with erythropoietin-driven marrow production increase \u2014 both are compensatory, but they operate on very different time courses."
+      ],
+      "source_references": [
+        {
+          "source_id": "SRC-024",
+          "source_type": "notebooklm",
+          "locator": "Core Concepts; Clinical Presentations; Management sections",
+          "supports": "Red cell production is regulated by erythropoietin, with RBC function governed by the Hgb-O2 dissociation curve and 2,3-DPG; anemia symptoms (tachycardia >100, tachypnea >30, dizziness, weakness, angina) manifest when compensatory mechanisms fail; restrictive transfusion trigger of 7-8 g/dL applies to stable patients (TRICC, FOCUS); one RBC unit raises Hgb ~1 g/dL and Hct ~3%.",
+          "blueprint_node_id": "S3.a.i.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Node 46 - Oxygen Transport & Physiologic Adaptations to Anemia",
+          "supports": "The body compensates for anemia by increasing cardiac output, increasing RBC 2,3-DPG, and redistributing blood flow to vital organs; increased 2,3-DPG produces a rightward curve shift facilitating oxygen release; normal P50 is approximately 26-28 mmHg.",
+          "blueprint_node_id": "S3.a.i.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-005",
+          "source_type": "notebooklm",
+          "locator": "Management; Common Board Traps and Distractors sections",
+          "supports": "Post-transfusion RBCs require 6-24 hours to restore normal 2,3-DPG levels; a left shift (increased O2 affinity, less tissue O2 release) occurs when 2,3-DPG is depleted as in the storage lesion; large trials (ARIPI, RECESS) show no mortality difference between fresh and older RBC units.",
+          "blueprint_node_id": "S3.a.i.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain III overview",
+          "supports": "Erythropoietin regulation is listed as a core Major Concept within Domain III (RBCs and RBC Components), confirming EPO-mediated regulation of production as an exam-relevant topic, though the granular renal/hypoxia-sensing mechanism is not elaborated in these curriculum-level sources.",
+          "blueprint_node_id": "S3.a.i.1",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "moderate",
+      "tags": [
+        "S3"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "incorrect-answer-key",
+          "missing-decision-logic"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-11T23:36:09.193273+00:00",
+        "notes": "Verified against SRC-024 (clinical-principles-of-erythrocytes-and-blood-components.md), SRC-005 (advanced-principles-of-rbc-metabolism-and-storage-physiology.md), SRC-002 (advanced-blood-banking-and-transfusion-medicine-review-nodes.md, Node 46), and SRC-010 (board-curriculum.md).\n\nWELL-SUPPORTED, VERBATIM-MATCHING FACTS: anemia symptom list \"tachycardia (pulse >100), tachypnea (respiration >30), dizziness, weakness, and angina\" manifesting \"when physiologic compensatory mechanisms fail\" (SRC-024 line 25); compensatory mechanisms \"increasing cardiac output, increasing RBC 2,3-DPG levels, and r"
+      },
+      "created_at": "2026-07-11T23:36:09.193273+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "source_support": "partial",
+        "clinically_realistic": true,
+        "flags": [
+          "unsupported-claim",
+          "incorrect-answer-key",
+          "missing-decision-logic"
+        ],
+        "severity": "medium",
+        "verdict_notes": "Verified against SRC-024 (clinical-principles-of-erythrocytes-and-blood-components.md), SRC-005 (advanced-principles-of-rbc-metabolism-and-storage-physiology.md), SRC-002 (advanced-blood-banking-and-transfusion-medicine-review-nodes.md, Node 46), and SRC-010 (board-curriculum.md).\n\nWELL-SUPPORTED, VERBATIM-MATCHING FACTS: anemia symptom list \"tachycardia (pulse >100), tachypnea (respiration >30), dizziness, weakness, and angina\" manifesting \"when physiologic compensatory mechanisms fail\" (SRC-024 line 25); compensatory mechanisms \"increasing cardiac output, increasing RBC 2,3-DPG levels, and redistributing blood flow to vital organs\" plus rightward-shift O2 release (SRC-002 lines 23-27); restrictive transfusion trigger 7-8 g/dL for stable patients per TRICC/FOCUS (SRC-024 line 53); RBC dosing rule +1 g/dL Hgb / +3% Hct per unit (SRC-024 line 55); 6-24 hour 2,3-DPG recovery post-transfusion and left-shift/increased O2 affinity from storage-lesion 2,3-DPG depletion (SRC-005 lines 35, 57; SRC-024 line 85); P50 ~26-28 mmHg (SRC-002 line 21, SRC-005 line 29); no-mortality-difference fresh-vs-old RBC trials (ARIPI/ABLE/TRANSFUSE per SRC-024 line 69, ARIPI/RECESS per SRC-005 line 63, correctly combined). The dosing arithmetic (6.2 + 2\u00d71.0 = 8.2 g/dL) is correct.\n\nPROBLEMS FOUND:\n\n1. (Moderate) Unsupported/overreaching claim \u2014 EPO tied to acute symptom-masking. Decision Point 1's answer states the patient is asymptomatic at Visit 1 partly because of \"erythropoietin-driven stimulation of marrow red cell production,\" bundled with the compensatory mechanisms. But SRC-002's explicit \"Compensatory Mechanisms\" list (Node 46) contains only increased cardiac output, increased 2,3-DPG, and blood-flow redistribution \u2014 it does not include EPO/marrow stimulation as a mechanism for masking anemia symptoms. SRC-024's only EPO statement is the generic \"red cell production is regulated by erythropoietin\" (not linked to acute symptom masking). This is an inferential extension beyond what the cited sources state, and it sits in tension with the case's own pitfall #4, which explicitly warns against \"conflating the rapid physiologic compensations for anemia... with erythropoietin-driven marrow production increase.\" The answer_key and Decision Point 1 do exactly the conflation the pitfalls list warns against.\n\n2. (Moderate) Likely mislabeled finding \u2014 the post-transfusion Hgb finding (\"Approximately 8.2 g/dL\") is flagged \"normal.\" 8.2 g/dL is not a normal hemoglobin by any standard reference range (~12-16 g/dL for an adult woman); it is still moderate anemia, merely above the restrictive transfusion threshold. Labeling it \"normal\" risks teaching learners that transfusion to 8.2 g/dL restores normal hemoglobin status.\n\n3. (Moderate) Weakened pedagogical logic in Decision Point 2 / answer_key. The answer_key frames transfusion as indicated \"regardless of exact conformity to the 7-8 g/dL restrictive threshold,\" implying the case demonstrates transfusing despite the number not clearly crossing the threshold. But the patient's actual Hgb at Visit 2 (6.2 g/dL) is unambiguously below the entire 7-8 g/dL restrictive range \u2014 the numeric trigger and the symptom-based trigger both already point to transfusion, so the scenario doesn't actually create the \"number vs. symptoms\" tension it claims to teach. One of the distractor options (\"Hgb 6.2 g/dL alone does not clearly fall far below the restrictive range\") is also weak/implausible as a distractor since 6.2 clearly is below 7. A cleaner version of this teaching point would set Visit 2 Hgb near/within the 7-8 g/dL band while keeping the patient symptomatic.\n\nNo fabricated numeric facts from the sources were found (P50, DPG recovery window, dosing rule, symptom thresholds, trial names all check out), and the overall clinical vignette (gradual anemia \u2192 decompensation with tachycardia/tachypnea/dizziness/angina \u2192 transfusion \u2192 transient post-transfusion 2,3-DPG lag) is physiologically coherent and realistic. The issues are pedagogical/precision issues rather than dangerous or fabricated clinical content, hence medium rather than high severity.",
+        "suggested_fix": "(1) In Decision Point 1's answer and the answer_key, either remove the EPO/marrow-stimulation clause from the explanation of why she is asymptomatic at Visit 1, or explicitly caveat it as a slower, separate-timescale contributor (consistent with pitfall #4) rather than bundling it with the acute compensations from SRC-002. (2) Change the flag on \"Hemoglobin after transfusion of 2 RBC units\" from \"normal\" to \"abnormal\" (or a neutral \"improved, still below normal range\" label), since 8.2 g/dL remains anemic by standard reference ranges. (3) Either revise the Visit 2 hemoglobin to a value within/near the 7-8 g/dL restrictive band (e.g., ~7.3-7.8 g/dL) so the case genuinely illustrates transfusing despite numeric threshold conformity, or reword the answer_key/Decision Point 2 to acknowledge that in this specific instance the numeric and symptom-based triggers happen to agree, and reframe the teaching point around recognizing decompensation promptly rather than \"regardless of the threshold.\""
+      }
+    },
+    {
+      "id": "C-010",
+      "title": "Glucose, Glycolysis, and the Storage Lesion: Interpreting an Aging RBC Unit",
+      "domains": [
+        "3. RBCs and RBC Components"
+      ],
+      "blueprint_node_ids": [
+        "S3.c.i.1"
+      ],
+      "designation": "C",
+      "difficulty": "moderate",
+      "clinical_setup": "A 68-year-old man with myelodysplastic syndrome presents with progressive fatigue, dizziness, and a resting tachycardia consistent with decompensating chronic anemia. His hemoglobin is 6.8 g/dL, and the physician orders one unit of RBCs under a restrictive transfusion strategy. The blood bank technologist retrieves a leukoreduced RBC unit collected 40 days earlier in AS-3 additive solution (42-day dating period) and, before issuing it, reviews its expected storage biochemistry and performs the standard visual inspection.",
+      "findings": [
+        {
+          "label": "Hemoglobin (patient)",
+          "value": "6.8 g/dL",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Pulse (patient)",
+          "value": "Tachycardic, >100/min",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Unit anticoagulant-preservative / age",
+          "value": "AS-3 additive solution; collected 40 days ago (42-day dating period)",
+          "flag": "n/a"
+        },
+        {
+          "label": "Unit visual inspection",
+          "value": "Clear, red supernatant; no turbidity, brown, or purple discoloration",
+          "flag": "normal"
+        },
+        {
+          "label": "Unit supernatant glucose",
+          "value": "Decreased relative to collection",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Unit supernatant pH",
+          "value": "Decreased",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Unit supernatant lactic acid",
+          "value": "Increased",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Unit supernatant potassium (K+)",
+          "value": "Increased",
+          "flag": "abnormal"
+        },
+        {
+          "label": "Unit ATP",
+          "value": "Relatively preserved (additive solutions maintain ATP effectively)",
+          "flag": "normal"
+        },
+        {
+          "label": "Unit 2,3-DPG",
+          "value": "Depleted (additive solutions do not prevent 2,3-DPG loss by the second week of storage)",
+          "flag": "abnormal"
+        }
+      ],
+      "decision_points": [
+        {
+          "stage": 1,
+          "prompt": "The technologist notes the unit's supernatant glucose has fallen well below its value at collection. What is the physiologic basis for this, and why does the anticoagulant-preservative solution contain dextrose in the first place?",
+          "options": [],
+          "answer": "Mature RBCs lack mitochondria and nuclei and generate about 90% of their ATP via anaerobic glycolysis (the Embden-Meyerhof pathway). Because this pathway consumes glucose as its substrate, the dextrose in the anticoagulant-preservative solution exists specifically to fuel ongoing glycolysis during cold storage; its gradual consumption (with corresponding lactate production and pH decline) is an expected, not pathologic, storage process.",
+          "rationale": "Both sources state mature RBCs rely on anaerobic glycolysis for ~90% of ATP production, and both list decreased glucose (alongside decreased pH and ATP) as core storage-lesion laboratory findings."
+        },
+        {
+          "stage": 2,
+          "prompt": "Given the unit's age (40 of 42 allowed days in AS-3), which supernatant chemistry pattern is expected, and does the unit's clear, red appearance (without turbidity or discoloration) raise concern for bacterial contamination?",
+          "options": [],
+          "answer": "Expected pattern: decreased glucose and pH, increased lactic acid and potassium \u2014 the classic storage-lesion markers. The clear, red, non-turbid appearance argues against contamination; murky, brown, or purple discoloration (not seen here) is the finding that should trigger quarantine for suspected bacterial contamination.",
+          "rationale": "Storage lesion markers are explicitly listed as decreased glucose and pH with increased lactic acid and potassium in the unit supernatant. Separately, visual inspection teaching states murky, brown, or purple-colored units suggest bacterial contamination and must be quarantined \u2014 a distinct finding from the expected biochemical drift of storage."
+        },
+        {
+          "stage": 3,
+          "prompt": "The clinical team asks whether this near-expiration unit should be withheld from the symptomatic adult in favor of requesting a 'fresher' unit, reasoning that 2,3-DPG depletion will left-shift the oxyhemoglobin curve and blunt tissue oxygen delivery. Should the unit be withheld?",
+          "options": [],
+          "answer": "No. The unit should be transfused as ordered. Multiple large randomized trials (ARIPI, ABLE, TRANSFUSE, RECESS) found no significant mortality difference between recipients of fresh versus older RBC units, and 2,3-DPG is regenerated within 6 to 24 hours after transfusion once the cells re-equilibrate in the recipient's circulation.",
+          "rationale": "Both sources explicitly cite these trials as showing no mortality difference between fresh and older blood, listed as a 'common board trap.' The advanced-principles source also states 2,3-DPG recovery post-transfusion requires 6-24 hours, meaning any transient left shift is self-correcting."
+        },
+        {
+          "stage": 4,
+          "prompt": "Suppose this same near-expiration AS-3 unit were instead being considered for a large-volume neonatal exchange transfusion rather than for this stable adult. Does the 'age of blood doesn't matter' teaching still apply unmodified?",
+          "options": [],
+          "answer": "No \u2014 this is the recognized exception. While mortality trials support using standard-age units in general adult populations, the potassium that accumulates in the supernatant during storage (and that leaks even faster if the unit has been irradiated) can precipitate hyperkalemic cardiac arrhythmias when large volumes are infused rapidly into a neonate, so unit age/potassium content becomes clinically relevant in that specific setting.",
+          "rationale": "The source explicitly flags that while potassium elevation is often negligible in adults, it can cause hyperkalemic cardiac arrhythmias during large-volume neonatal transfusions, and separately notes irradiation accelerates potassium leakage \u2014 together identifying neonatal massive/exchange transfusion as the scenario where storage age is clinically consequential."
+        }
+      ],
+      "answer_key": "Recognize that mature RBCs have no mitochondria and depend on anaerobic (Embden-Meyerhof) glycolysis for ~90% of ATP, making glucose the obligatory fuel. Its gradual consumption during storage \u2014 with parallel falls in pH and ATP/2,3-DPG and rises in lactate and potassium \u2014 is the expected \"storage lesion,\" not evidence of a defective or contaminated unit (contamination is instead suggested by turbid/discolored supernatant, which this unit does not show). Because large RCTs (ARIPI, ABLE, TRANSFUSE, RECESS) show no mortality difference between fresh and near-expiration RBC units in general adult populations, and because 2,3-DPG regenerates within 6-24 hours post-transfusion, the near-expiration AS-3 unit should be transfused as ordered for this stable, symptomatic adult rather than delayed in favor of \"fresher\" blood. The one validated exception to \"age of blood doesn't matter\" is large-volume neonatal transfusion, where storage-related potassium accumulation (worsened by irradiation) can precipitate hyperkalemic arrhythmia.",
+      "teaching_explanation": "Mature RBCs are obligate anaerobic glycolytic cells: lacking mitochondria and a nucleus, they generate roughly 90% of their ATP through the Embden-Meyerhof pathway, using glucose as the essential substrate. A branch of this pathway, the Luebering-Rapoport shunt, produces 2,3-DPG, the principal allosteric effector that governs hemoglobin's oxygen affinity (2,3-DPG bound = T-state/low affinity; expelled = R-state/high affinity). Anticoagulant-preservative solutions are engineered around this biochemistry: CPD/CP2D/ACD-A (21-day shelf life, no adenine) supply glucose alone, CPDA-1 (35 days) adds adenine to better sustain ATP synthesis, and modern additive solutions AS-1/3/5 (42 days) extend shelf life further. As storage proceeds, glucose is progressively consumed and its glycolytic end-product lactic acid accumulates, driving supernatant pH down; falling pH in turn impairs glycolytic enzyme activity, and ATP and 2,3-DPG fall while extracellular potassium rises as the Na+/K+-ATPase falters \u2014 together, the biochemical and morphologic 'storage lesion' (decreased pH/ATP/2,3-DPG/glucose; increased lactate, potassium, and free hemoglobin; echinocyte transformation and microvesiculation). A key nuance is that ATP maintenance (viability, tied to the FDA's \u226575% 24-hour post-transfusion survival requirement) and 2,3-DPG maintenance (function/oxygen delivery) diverge: additive solutions are good at the former but do not prevent 2,3-DPG depletion by the second week of storage. Despite this predictable drift, randomized trials found no mortality difference between fresh and older blood in general use, so clinicians should not delay transfusion or specially request fresh units for typical adult recipients \u2014 2,3-DPG normalizes within 6-24 hours post-transfusion regardless. The validated exception is large-volume neonatal transfusion, where accumulated (and irradiation-accelerated) supernatant potassium can cause hyperkalemic arrhythmias, making unit age/freshness a genuine clinical consideration in that population.",
+      "pitfalls": [
+        "Mistaking the expected storage-lesion pattern (decreased glucose/pH, increased lactate/potassium) for evidence of a defective or contaminated unit \u2014 contamination is instead suggested by a murky, brown, or purple supernatant, not by anticipated biochemical drift.",
+        "Assuming that because 2,3-DPG is depleted in older units, transfusing older blood worsens clinical outcomes \u2014 randomized trials (ARIPI, ABLE, TRANSFUSE, RECESS) show no mortality difference, and 2,3-DPG regenerates within 6-24 hours post-transfusion.",
+        "Overgeneralizing 'age of blood doesn't matter' to neonates receiving large-volume transfusions \u2014 storage-related (and irradiation-accelerated) potassium accumulation can cause hyperkalemic arrhythmias in this population specifically.",
+        "Conflating 'additive solutions preserve ATP well' with 'additive solutions prevent all storage lesion effects' \u2014 ATP (viability) and 2,3-DPG (function) diverge, and AS solutions do not stop 2,3-DPG loss by the second week of storage."
+      ],
+      "source_references": [
+        {
+          "source_id": "SRC-024",
+          "source_type": "notebooklm",
+          "locator": "",
+          "supports": "Mature RBCs lack nucleus/mitochondria and rely on anaerobic (Embden-Meyerhof) glycolysis for 90% of ATP; storage lesion defined as decreased pH/ATP/2,3-DPG and increased plasma K+; storage lesion supernatant markers listed as decreased glucose and pH with increased lactic acid and potassium; anticoagulant shelf lives (CPD/CP2D 21 days, CPDA-1 35 days, AS 42 days); ARIPI/ABLE/TRANSFUSE trials show ",
+          "blueprint_node_id": "S3.c.i.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-005",
+          "source_type": "notebooklm",
+          "locator": "",
+          "supports": "2,3-DPG produced via Luebering-Rapoport shunt as primary regulator of hemoglobin oxygen affinity; detailed storage lesion lab findings (decreased pH, ATP, 2,3-DPG, glucose; increased lactic acid, K+, free hemoglobin); anticoagulant shelf-life details including CPDA-1 adenine rationale; additive solutions maintain ATP but do not prevent 2,3-DPG depletion by second week of storage; 2,3-DPG recovery ",
+          "blueprint_node_id": "S3.c.i.1",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "high",
+      "tags": [
+        "S3"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "incorrect-answer-key"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-11T23:36:09.193273+00:00",
+        "notes": "Verified against SRC-024 and SRC-005. The overwhelming majority of the case is well-supported: mature RBCs lacking mitochondria and relying on anaerobic (Embden-Meyerhof) glycolysis for ~90% of ATP; storage-lesion supernatant markers (decreased glucose/pH, increased lactate/K+); murky/brown/purple discoloration as the contamination red flag (not routine storage biochemistry drift); the ARIPI/ABLE/TRANSFUSE/RECESS \"no mortality difference\" trials (ARIPI+ABLE+TRANSFUSE from SRC-024, ARIPI+RECESS from SRC-005 \u2014 legitimate merge across the two approved sources); 2,3-DPG regeneration in 6-24h post-"
+      },
+      "created_at": "2026-07-11T23:36:09.193273+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "source_support": "partial",
+        "clinically_realistic": true,
+        "flags": [
+          "incorrect-answer-key"
+        ],
+        "severity": "medium",
+        "verdict_notes": "Verified against SRC-024 and SRC-005. The overwhelming majority of the case is well-supported: mature RBCs lacking mitochondria and relying on anaerobic (Embden-Meyerhof) glycolysis for ~90% of ATP; storage-lesion supernatant markers (decreased glucose/pH, increased lactate/K+); murky/brown/purple discoloration as the contamination red flag (not routine storage biochemistry drift); the ARIPI/ABLE/TRANSFUSE/RECESS \"no mortality difference\" trials (ARIPI+ABLE+TRANSFUSE from SRC-024, ARIPI+RECESS from SRC-005 \u2014 legitimate merge across the two approved sources); 2,3-DPG regeneration in 6-24h post-transfusion; CPD/CPDA-1/AS shelf-life figures (21/35/42 days); and the neonatal large-volume-transfusion potassium/irradiation exception \u2014 all directly traceable to explicit source statements. The clinical vignette (68-year-old MDS patient, Hgb 6.8, restrictive-strategy order, near-expiration AS-3 unit) is realistic and internally coherent, and no fabricated numeric lab values are used (findings use qualitative decreased/increased/preserved descriptors only).\n\nOne genuine internal inconsistency was found. The top-level answer_key states glucose consumption occurs \"with parallel falls in pH and ATP/2,3-DPG ... is the expected storage lesion\" \u2014 i.e., it explicitly groups ATP with 2,3-DPG and pH as things that fall together. But the case's own findings table flags \"Unit ATP\" as flag:\"normal\" / \"Relatively preserved (additive solutions maintain ATP effectively)\" while flagging 2,3-DPG as flag:\"abnormal\"/\"Depleted\" for this same unit \u2014 and the teaching_explanation and pitfall #4 explicitly build the case's central pedagogical point around the fact that ATP and 2,3-DPG do NOT move in parallel under additive-solution storage (SRC-005: \"Additive solutions are excellent at maintaining ATP (viability) but do not prevent the depletion of 2,3-DPG (function) by the second week of storage\"). So the answer_key's own summary line contradicts the specific finding it presents two paragraphs later and the \"ATP/2,3-DPG divergence\" pearl that pitfall #4 is designed to teach. This is a real self-contradiction in the core teaching content, not just a wording nitpick, since a learner reading only the answer_key would come away with the opposite of what the findings table and pitfalls are trying to teach.",
+        "suggested_fix": "Reword the answer_key sentence to remove ATP from the \"parallel falls\" grouping and instead state the divergence explicitly, e.g.: \"...its gradual consumption during storage \u2014 with parallel falls in pH and rises in lactate and potassium, plus depletion of 2,3-DPG despite comparatively well-preserved ATP (additive solutions maintain ATP for viability but do not prevent 2,3-DPG loss by the second week) \u2014 is the expected 'storage lesion'...\" This aligns the top-level summary with the findings table, the teaching_explanation, and pitfall #4, all of which correctly describe the ATP/2,3-DPG divergence."
+      }
+    }
+  ],
+  "summary": {
+    "questions_total": 78,
+    "questions_accepted": 75,
+    "questions_flagged": 3,
+    "cases_total": 20,
+    "cases_accepted": 17,
+    "cases_flagged": 3
+  }
+}

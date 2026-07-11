@@ -1,0 +1,1163 @@
+{
+  "phase": 1,
+  "generated_at_iso": "2026-07-11T22:33:02.254734+00:00",
+  "corpus": "NotebookLM BB/TM board-prep export",
+  "counts": {
+    "approved_content_docs": 61,
+    "unique_content_docs": 47,
+    "exact_duplicates": 14,
+    "near_duplicate_pairs": 0,
+    "excluded_artifacts": 1,
+    "total_words_unique": 43376
+  },
+  "approved_sources": [
+    {
+      "id": "SRC-001",
+      "original_filename": "Advanced Antibody Identification and Special Laboratory Techniques.docx",
+      "normalized_path": "content/normalized/normalized_sources/advanced-antibody-identification-and-special-laboratory-techniques.md",
+      "classification": "approved_content",
+      "docx_sha256": "e624954bf33b3fb39ddcd77c63f8eb0e5f86c7f44ca9af92a796c94be1d52893",
+      "normalized_text_sha256": "0c0381e56ea26fef03e78066d34b9471d72d3ba45c2e5a80c124753124481529",
+      "size_bytes": 10478,
+      "word_count": 750,
+      "section_hints": [
+        "3. RBCs and RBC Components (6)",
+        "15. Obstetric and Pediatric Patients (4)",
+        "1. Clinical Practice (2)",
+        "6. Hazards of Transfusion (1)",
+        "7. Plasma Components and Derivatives (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-002",
+      "original_filename": "Advanced Blood Banking and Transfusion Medicine Review Nodes.docx",
+      "normalized_path": "content/normalized/normalized_sources/advanced-blood-banking-and-transfusion-medicine-review-nodes.md",
+      "classification": "approved_content",
+      "docx_sha256": "76c321ac73d3a889f0d424d8f56bb6881e39d236ab8dca1bd589c59c293e282a",
+      "normalized_text_sha256": "9648fff717b230e5f5d3ca7145442b28f09a246d4c7d09b89aa59121ede544ec",
+      "size_bytes": 11247,
+      "word_count": 879,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (5)",
+        "7. Plasma Components and Derivatives (4)",
+        "1. Clinical Practice (3)",
+        "17. Administration and Laboratory Management (3)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-003",
+      "original_filename": "Advanced Immunohematology and Blood Banking Operations Guide.docx",
+      "normalized_path": "content/normalized/normalized_sources/advanced-immunohematology-and-blood-banking-operations-guide.md",
+      "classification": "approved_content",
+      "docx_sha256": "bfd16fb137adec31d8b17654b60007f8f21223b9d376c3fd37b7a4c8e2137e71",
+      "normalized_text_sha256": "ff01cb6d5a19f8cd6fd39c7ba06ded6a83182063245ee9f5f5f80b09f76baf4c",
+      "size_bytes": 16337,
+      "word_count": 2007,
+      "section_hints": [
+        "3. RBCs and RBC Components (6)",
+        "17. Administration and Laboratory Management (6)",
+        "8. Infectious Hazards of Transfusion (3)",
+        "1. Clinical Practice (1)",
+        "2. Cell and Tissue Therapy (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-004",
+      "original_filename": "Advanced Immunohematology and Transfusion Medicine Review.docx",
+      "normalized_path": "content/normalized/normalized_sources/advanced-immunohematology-and-transfusion-medicine-review.md",
+      "classification": "approved_content",
+      "docx_sha256": "b7ef9a739640845c7b99679148f8c41f3822dec6c566fd6dc7adbe05b4b512ee",
+      "normalized_text_sha256": "e2528386a697dc1a806d1e7d4f13a001ed8b639229c930562c33d6a0f7e19e64",
+      "size_bytes": 11484,
+      "word_count": 909,
+      "section_hints": [
+        "17. Administration and Laboratory Management (5)",
+        "15. Obstetric and Pediatric Patients (3)",
+        "1. Clinical Practice (2)",
+        "3. RBCs and RBC Components (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-005",
+      "original_filename": "Advanced Principles of RBC Metabolism and Storage Physiology.docx",
+      "normalized_path": "content/normalized/normalized_sources/advanced-principles-of-rbc-metabolism-and-storage-physiology.md",
+      "classification": "approved_content",
+      "docx_sha256": "9179d1106a57f63baf0145d8888ea7a589b5cd02cd9ea7039be7cc687002fbe1",
+      "normalized_text_sha256": "436740fab24bcc72d5d59537715138c2b335cbd7bcfdf8cabd27b754bffb3a65",
+      "size_bytes": 10208,
+      "word_count": 662,
+      "section_hints": [
+        "3. RBCs and RBC Components (4)",
+        "1. Clinical Practice (1)",
+        "8. Infectious Hazards of Transfusion (1)",
+        "15. Obstetric and Pediatric Patients (1)",
+        "17. Administration and Laboratory Management (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-006",
+      "original_filename": "Advanced Transfusion Medicine and Cellular Therapy Standards.docx",
+      "normalized_path": "content/normalized/normalized_sources/advanced-transfusion-medicine-and-cellular-therapy-standards.md",
+      "classification": "approved_content",
+      "docx_sha256": "85f16c5c8480445b271f4c984937b2c7bb1e685796dfbc307cf7ffa817fd01a5",
+      "normalized_text_sha256": "e061fa2b671346f6e456e993db2e03ca28b2f9ccb27b0960987179d406734c92",
+      "size_bytes": 10782,
+      "word_count": 763,
+      "section_hints": [
+        "17. Administration and Laboratory Management (4)",
+        "2. Cell and Tissue Therapy (3)",
+        "1. Clinical Practice (2)",
+        "3. RBCs and RBC Components (2)",
+        "12. Platelets (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-007",
+      "original_filename": "Biochemical Pathways of Carbohydrate Blood Group Synthesis.docx",
+      "normalized_path": "content/normalized/normalized_sources/biochemical-pathways-of-carbohydrate-blood-group-synthesis.md",
+      "classification": "approved_content",
+      "docx_sha256": "9ff56a9599f4f542b3edc22926a0b57eb4836237ddc34a61a8e8488ca4e78916",
+      "normalized_text_sha256": "7bca9a90b6fba4ac6869252830c215da1ce157ffd29a859bc34e85c642b81648",
+      "size_bytes": 9973,
+      "word_count": 726,
+      "section_hints": [
+        "3. RBCs and RBC Components (5)",
+        "1. Clinical Practice (1)",
+        "6. Hazards of Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-008",
+      "original_filename": "Blood Banking Board Readiness and Gap Analysis.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-banking-board-readiness-and-gap-analysis.md",
+      "classification": "approved_content",
+      "docx_sha256": "1f60764ef870f9452cfcac33ff0844c5e9e9eb72a34fd6e2a1c1fd36f5f71ebc",
+      "normalized_text_sha256": "f2cde3f22052d1b4c89e6e05ce7438ff19d60959a847e9f5ff874ffdbdcbaafd",
+      "size_bytes": 9584,
+      "word_count": 567,
+      "section_hints": [
+        "2. Cell and Tissue Therapy (6)",
+        "14. Intravascular Cell Kinetics (3)",
+        "1. Clinical Practice (2)",
+        "3. RBCs and RBC Components (2)",
+        "15. Obstetric and Pediatric Patients (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-009",
+      "original_filename": "Blood Banking Regulatory Compliance and Quality Management Systems.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-banking-regulatory-compliance-and-quality-management-systems.md",
+      "classification": "approved_content",
+      "docx_sha256": "4099de61990a93ba5994dcbb9f16cb1f48f2df01c817caf2fb3c4be6f95a679f",
+      "normalized_text_sha256": "13c201cecc7f007b9d903ec9793e4519b69fd8269a775087b996318f5998a168",
+      "size_bytes": 10578,
+      "word_count": 694,
+      "section_hints": [
+        "17. Administration and Laboratory Management (6)",
+        "3. RBCs and RBC Components (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-010",
+      "original_filename": "Blood Banking and Transfusion Medicine Board Curriculum.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-curriculum.md",
+      "classification": "approved_content",
+      "docx_sha256": "3fe6f4fb6d5001aa761dd47143bce85d669861ffbb38bcd4139abaf28d852f03",
+      "normalized_text_sha256": "f35767b764bd4b07889aa222a77b527634481a64c13e74f5ee935d43b381d795",
+      "size_bytes": 11528,
+      "word_count": 979,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (8)",
+        "1. Clinical Practice (6)",
+        "5. Apheresis (5)",
+        "6. Hazards of Transfusion (5)",
+        "16. HPC Transplantation (5)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-011",
+      "original_filename": "Blood Banking and Transfusion Medicine Board Review Nodes.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-board-review-nodes.md",
+      "classification": "approved_content",
+      "docx_sha256": "5cceb4e2a305ee07c9a6839aa4bbfd3163735423cdb7172947da19e0b37a435c",
+      "normalized_text_sha256": "2ed8817ff463ed9f85d6137be00d565023665873329d6202d3392355e53a3360",
+      "size_bytes": 10975,
+      "word_count": 834,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (4)",
+        "17. Administration and Laboratory Management (4)",
+        "2. Cell and Tissue Therapy (3)",
+        "5. Apheresis (3)",
+        "1. Clinical Practice (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-012",
+      "original_filename": "Blood Banking and Transfusion Medicine Mastery Nodes.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-banking-and-transfusion-medicine-mastery-nodes.md",
+      "classification": "approved_content",
+      "docx_sha256": "84c30355400e9db9987cc0550dc45e52d70209603016c3cea9c4870e8f07e0aa",
+      "normalized_text_sha256": "7ca01c95d97b22a57938bf57ce9a6e04aa2e07df2f9cdd1640515cb4272e8c47",
+      "size_bytes": 11196,
+      "word_count": 838,
+      "section_hints": [
+        "3. RBCs and RBC Components (5)",
+        "1. Clinical Practice (2)",
+        "15. Obstetric and Pediatric Patients (2)",
+        "16. HPC Transplantation (2)",
+        "17. Administration and Laboratory Management (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-013",
+      "original_filename": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards-1.md",
+      "classification": "approved_content",
+      "docx_sha256": "f4d319a223df1039a5f417c71f36f1b3f20252116841210ff1a6c2e9c763d969",
+      "normalized_text_sha256": "c69424cdb5e845e10fb9f3248aa3684cd947831608275f401ec6b90b2c2200bb",
+      "size_bytes": 10605,
+      "word_count": 820,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (10)",
+        "9. Blood Donors and Blood Collection (2)",
+        "17. Administration and Laboratory Management (2)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-014",
+      "original_filename": "Blood Safety Protocols and Infectious Disease Look-back Standards.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-safety-protocols-and-infectious-disease-look-back-standards.md",
+      "classification": "approved_content",
+      "docx_sha256": "55b5436ee237414f6d183ef254ecbbd06c176270e21a05841a01ff07ec0a9f87",
+      "normalized_text_sha256": "c69424cdb5e845e10fb9f3248aa3684cd947831608275f401ec6b90b2c2200bb",
+      "size_bytes": 10608,
+      "word_count": 820,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (10)",
+        "9. Blood Donors and Blood Collection (2)",
+        "17. Administration and Laboratory Management (2)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)"
+      ],
+      "exact_duplicate_of": "SRC-013",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-015",
+      "original_filename": "Blood Safety and Infectious Transfusion Hazards(1).docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-safety-and-infectious-transfusion-hazards-1.md",
+      "classification": "approved_content",
+      "docx_sha256": "713d3482ceff666339784e3c1920061efc425591eb538cb5974ae15a5cbecdaf",
+      "normalized_text_sha256": "090fbcd1b0825a0a4440cd2669f51cd5c377c952aa9de2d8fec870cffb333ab8",
+      "size_bytes": 10582,
+      "word_count": 735,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (13)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "9. Blood Donors and Blood Collection (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-016",
+      "original_filename": "Blood Safety and Infectious Transfusion Hazards.docx",
+      "normalized_path": "content/normalized/normalized_sources/blood-safety-and-infectious-transfusion-hazards.md",
+      "classification": "approved_content",
+      "docx_sha256": "c6575640865f566a2d8c0cb73e5f0466dad93ecb6289473d0652d8293cb2197c",
+      "normalized_text_sha256": "090fbcd1b0825a0a4440cd2669f51cd5c377c952aa9de2d8fec870cffb333ab8",
+      "size_bytes": 10581,
+      "word_count": 735,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (13)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "9. Blood Donors and Blood Collection (1)"
+      ],
+      "exact_duplicate_of": "SRC-015",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-017",
+      "original_filename": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine(1).docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-essentials-of-obstetric-and-pediatric-transfusion-medicine-1.md",
+      "classification": "approved_content",
+      "docx_sha256": "95ed175a25e3b48d38ab86893c806580d702fbba58fec1513d4cb75daca8e3fd",
+      "normalized_text_sha256": "45383fc02fb9c3ab101693472190c3c7b2c698a204f1cbf4933d66f2865feef7",
+      "size_bytes": 10478,
+      "word_count": 749,
+      "section_hints": [
+        "15. Obstetric and Pediatric Patients (7)",
+        "3. RBCs and RBC Components (5)",
+        "7. Plasma Components and Derivatives (3)",
+        "1. Clinical Practice (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-018",
+      "original_filename": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-essentials-of-obstetric-and-pediatric-transfusion-medicine.md",
+      "classification": "approved_content",
+      "docx_sha256": "da8af71348212fbc24da7b20339ec0497845ca32f302af86d96d311168f23530",
+      "normalized_text_sha256": "45383fc02fb9c3ab101693472190c3c7b2c698a204f1cbf4933d66f2865feef7",
+      "size_bytes": 10479,
+      "word_count": 749,
+      "section_hints": [
+        "15. Obstetric and Pediatric Patients (7)",
+        "3. RBCs and RBC Components (5)",
+        "7. Plasma Components and Derivatives (3)",
+        "1. Clinical Practice (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": "SRC-017",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-019",
+      "original_filename": "Clinical Foundations of Immunohematology and Transfusion Medicine.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-foundations-of-immunohematology-and-transfusion-medicine.md",
+      "classification": "approved_content",
+      "docx_sha256": "44460dbc93ecedfc9c727244dbccf1c15c1881e543b47b913813e84fb5bb0717",
+      "normalized_text_sha256": "240b552ef6bb3a7c0426c463155cc1215bf5dcfbf6e08302486ff06838f02c7f",
+      "size_bytes": 10867,
+      "word_count": 799,
+      "section_hints": [
+        "1. Clinical Practice (7)",
+        "6. Hazards of Transfusion (5)",
+        "7. Plasma Components and Derivatives (4)",
+        "3. RBCs and RBC Components (3)",
+        "5. Apheresis (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-020",
+      "original_filename": "Clinical Foundations of Rh Variants and RhIg Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-foundations-of-rh-variants-and-rhig-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "2f65b747ffec3ff00367581b759a3e1f7a36c2dbc807885f49782a2f82f6aa42",
+      "normalized_text_sha256": "85792676ef490106f6a7ed7c48b1a533a2254e0bcddb1dd457d86d9ceb1453a7",
+      "size_bytes": 10606,
+      "word_count": 858,
+      "section_hints": [
+        "3. RBCs and RBC Components (4)",
+        "15. Obstetric and Pediatric Patients (4)",
+        "1. Clinical Practice (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-021",
+      "original_filename": "Clinical Immunohematology and Hemostasis Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-immunohematology-and-hemostasis-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "83ebed0da004500ad0b39114b8a9ba41bf4d9afc83e34071d8448e83ef7a0e0f",
+      "normalized_text_sha256": "240b552ef6bb3a7c0426c463155cc1215bf5dcfbf6e08302486ff06838f02c7f",
+      "size_bytes": 10867,
+      "word_count": 799,
+      "section_hints": [
+        "1. Clinical Practice (7)",
+        "6. Hazards of Transfusion (5)",
+        "7. Plasma Components and Derivatives (4)",
+        "3. RBCs and RBC Components (3)",
+        "5. Apheresis (2)"
+      ],
+      "exact_duplicate_of": "SRC-019",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-022",
+      "original_filename": "Clinical Management of Noninfectious Transfusion Complications.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-management-of-noninfectious-transfusion-complications.md",
+      "classification": "approved_content",
+      "docx_sha256": "3ddf167da1d9fe819c936b1bff59aa45021191474bb057e7aff5107287b22ac4",
+      "normalized_text_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 6480,
+      "word_count": 0,
+      "section_hints": [],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-023",
+      "original_filename": "Clinical Principles and Guidelines for Therapeutic Apheresis.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-principles-and-guidelines-for-therapeutic-apheresis.md",
+      "classification": "approved_content",
+      "docx_sha256": "f8abe1ca2918814c45c16bf3d5087038dbbd566efe72a71bc80039730c42362c",
+      "normalized_text_sha256": "1636dd86a7ca5fc4d233822e44b9a4d96917347703db9695063eead0ae0cee3e",
+      "size_bytes": 10583,
+      "word_count": 738,
+      "section_hints": [
+        "5. Apheresis (5)",
+        "6. Hazards of Transfusion (3)",
+        "7. Plasma Components and Derivatives (3)",
+        "1. Clinical Practice (2)",
+        "3. RBCs and RBC Components (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-024",
+      "original_filename": "Clinical Principles of Erythrocytes and Blood Components.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-principles-of-erythrocytes-and-blood-components.md",
+      "classification": "approved_content",
+      "docx_sha256": "3cde3a4b03875c422a1d054f1a364051fc84d8b7f50c22c8ac874d047238af92",
+      "normalized_text_sha256": "2869bf8833bbfc73098d070ca98fe330c1cb5f436f92caa111dd0c5d658defbe",
+      "size_bytes": 10965,
+      "word_count": 826,
+      "section_hints": [
+        "3. RBCs and RBC Components (11)",
+        "15. Obstetric and Pediatric Patients (3)",
+        "1. Clinical Practice (2)",
+        "4. Anemia and Red Blood Cell Transfusion (2)",
+        "6. Hazards of Transfusion (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-025",
+      "original_filename": "Clinical Protocols for HDFN and Neonatal Transfusion Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-protocols-for-hdfn-and-neonatal-transfusion-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "1caad706cd656e8b42270464d64bcc2984f43edc25b5735052463d27edab5a4c",
+      "normalized_text_sha256": "aeb0b7f70fdac53d1ddeff902647cf2b484951df47f1b5d617af9501fbc03a95",
+      "size_bytes": 10324,
+      "word_count": 710,
+      "section_hints": [
+        "15. Obstetric and Pediatric Patients (6)",
+        "3. RBCs and RBC Components (5)",
+        "1. Clinical Practice (2)",
+        "7. Plasma Components and Derivatives (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-026",
+      "original_filename": "Clinical Protocols for Platelet Refractoriness and HLA Alloimmunization.docx",
+      "normalized_path": "content/normalized/normalized_sources/clinical-protocols-for-platelet-refractoriness-and-hla-alloimmunization.md",
+      "classification": "approved_content",
+      "docx_sha256": "fc2253d0548e685804154cf57d80934f5fa88ad151907c9b754b3719ce17155e",
+      "normalized_text_sha256": "756a7426a487fee37b272af09379af071e1d071c964ab8e075efd3d0ce4e14ee",
+      "size_bytes": 10518,
+      "word_count": 784,
+      "section_hints": [
+        "12. Platelets (3)",
+        "3. RBCs and RBC Components (2)",
+        "16. HPC Transplantation (2)",
+        "1. Clinical Practice (1)",
+        "2. Cell and Tissue Therapy (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-027",
+      "original_filename": "Domain 2_ Clinical Practice & Patient Management Study Guide.docx",
+      "normalized_path": "content/normalized/normalized_sources/domain-2-clinical-practice-patient-management-study-guide.md",
+      "classification": "approved_content",
+      "docx_sha256": "4891d8375e50788273b7335997f0442186c2de2062785636563074dea558ea1d",
+      "normalized_text_sha256": "3f03d699eb8a8605cfc7885a1e7a3fc0f23eccb721b36e5fbb5425491aefa19e",
+      "size_bytes": 14814,
+      "word_count": 1619,
+      "section_hints": [
+        "17. Administration and Laboratory Management (8)",
+        "1. Clinical Practice (3)",
+        "3. RBCs and RBC Components (2)",
+        "15. Obstetric and Pediatric Patients (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-028",
+      "original_filename": "Domain 4_ Advanced Technologies & Specialized Testing Study Guide.docx",
+      "normalized_path": "content/normalized/normalized_sources/domain-4-advanced-technologies-specialized-testing-study-guide.md",
+      "classification": "approved_content",
+      "docx_sha256": "f47ceffa040cc2e961300ce2b366b9d53662c909394bdf4c7686ddd78119fa14",
+      "normalized_text_sha256": "92010da9e670cd47060122e8af2f95c4743b88aa930933bff35723a7d1693ee3",
+      "size_bytes": 13686,
+      "word_count": 1402,
+      "section_hints": [
+        "17. Administration and Laboratory Management (8)",
+        "16. HPC Transplantation (6)",
+        "3. RBCs and RBC Components (4)",
+        "1. Clinical Practice (2)",
+        "2. Cell and Tissue Therapy (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-029",
+      "original_filename": "Enzymatic Pathways of Carbohydrate Blood Group Synthesis.docx",
+      "normalized_path": "content/normalized/normalized_sources/enzymatic-pathways-of-carbohydrate-blood-group-synthesis.md",
+      "classification": "approved_content",
+      "docx_sha256": "10a1df208eef438617b3fdcfb655cfb31585ce6ce3fd697486c8cf7dd979ae48",
+      "normalized_text_sha256": "7bca9a90b6fba4ac6869252830c215da1ce157ffd29a859bc34e85c642b81648",
+      "size_bytes": 9974,
+      "word_count": 726,
+      "section_hints": [
+        "3. RBCs and RBC Components (5)",
+        "1. Clinical Practice (1)",
+        "6. Hazards of Transfusion (1)"
+      ],
+      "exact_duplicate_of": "SRC-007",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-030",
+      "original_filename": "Essentials of Immunohematology and Clinical Transfusion Practice.docx",
+      "normalized_path": "content/normalized/normalized_sources/essentials-of-immunohematology-and-clinical-transfusion-practice.md",
+      "classification": "approved_content",
+      "docx_sha256": "0c83aaf538fcb83274353f0cff2f2fbd84c87f0ee446b0249fdbad0fd2a2fe47",
+      "normalized_text_sha256": "240b552ef6bb3a7c0426c463155cc1215bf5dcfbf6e08302486ff06838f02c7f",
+      "size_bytes": 10867,
+      "word_count": 799,
+      "section_hints": [
+        "1. Clinical Practice (7)",
+        "6. Hazards of Transfusion (5)",
+        "7. Plasma Components and Derivatives (4)",
+        "3. RBCs and RBC Components (3)",
+        "5. Apheresis (2)"
+      ],
+      "exact_duplicate_of": "SRC-019",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-031",
+      "original_filename": "Essentials of Plasma and Platelet Transfusion Medicine.docx",
+      "normalized_path": "content/normalized/normalized_sources/essentials-of-plasma-and-platelet-transfusion-medicine.md",
+      "classification": "approved_content",
+      "docx_sha256": "08e9583c63de3538b09b35eec502ca2b3bc4dd9c43569dda3f7a6a350bfe5b16",
+      "normalized_text_sha256": "cfe60e8eef06c35f9eb8e2c9ef290e89864f20de39e548c5146e955690e5c605",
+      "size_bytes": 10795,
+      "word_count": 829,
+      "section_hints": [
+        "7. Plasma Components and Derivatives (6)",
+        "1. Clinical Practice (4)",
+        "12. Platelets (3)",
+        "5. Apheresis (2)",
+        "6. Hazards of Transfusion (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-032",
+      "original_filename": "Essentials of Transfusion Medicine and Blood Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/essentials-of-transfusion-medicine-and-blood-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "0843812897e5f664868990fd5234b303d86fa0878ec8879d7544b1cbdfba1978",
+      "normalized_text_sha256": "1ac1eb9544bb7b4cbe19ea240397c7f232ed5a333cba04f87d923aab9d9bd1e3",
+      "size_bytes": 15304,
+      "word_count": 1766,
+      "section_hints": [
+        "3. RBCs and RBC Components (5)",
+        "6. Hazards of Transfusion (5)",
+        "7. Plasma Components and Derivatives (4)",
+        "1. Clinical Practice (3)",
+        "5. Apheresis (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-033",
+      "original_filename": "Foundations of Blood Bank Administration and Laboratory Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/foundations-of-blood-bank-administration-and-laboratory-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "0187b08b2a26dab4ce109d43f6b75205617bf31db1fe7a403a1653ef72664701",
+      "normalized_text_sha256": "cf24cc229f5ce609a7ccee911bd4b55da70ab9c1842b7f8b56c2ec7331d90124",
+      "size_bytes": 10947,
+      "word_count": 808,
+      "section_hints": [
+        "17. Administration and Laboratory Management (6)",
+        "3. RBCs and RBC Components (3)",
+        "6. Hazards of Transfusion (2)",
+        "11. Biovigilance (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-034",
+      "original_filename": "Foundations of Cell and Tissue Therapy Regulation and Practice.docx",
+      "normalized_path": "content/normalized/normalized_sources/foundations-of-cell-and-tissue-therapy-regulation-and-practice.md",
+      "classification": "approved_content",
+      "docx_sha256": "fd033dd4c62ce7a9078c22bd1062e72df4853475377ccaef96f819cb9fce4621",
+      "normalized_text_sha256": "731362fa0aaa4056e15adf546af77c982e46c534655ff9ffc268f4b4e7ff5298",
+      "size_bytes": 10388,
+      "word_count": 712,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (4)",
+        "3. RBCs and RBC Components (3)",
+        "2. Cell and Tissue Therapy (2)",
+        "16. HPC Transplantation (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-035",
+      "original_filename": "Foundations of Transplantation Immunohematology.docx",
+      "normalized_path": "content/normalized/normalized_sources/foundations-of-transplantation-immunohematology.md",
+      "classification": "approved_content",
+      "docx_sha256": "39f66fd8e276b4db5ff64d8282e3b101fd922909cedfc65b4f5dad97c93867e5",
+      "normalized_text_sha256": "b5d2499d30dd10b2af49e7d9c0bc349d6d98d0f44a034f384fed1fc4da180d46",
+      "size_bytes": 10358,
+      "word_count": 777,
+      "section_hints": [
+        "16. HPC Transplantation (5)",
+        "3. RBCs and RBC Components (3)",
+        "1. Clinical Practice (1)",
+        "2. Cell and Tissue Therapy (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-036",
+      "original_filename": "Fundamentals of Cell and Tissue Therapy Regulation and Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/fundamentals-of-cell-and-tissue-therapy-regulation-and-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "c1c44d91d7119c4ac6f5ef63895b6bf93ece3980e65b7e4188215a0d44da9096",
+      "normalized_text_sha256": "731362fa0aaa4056e15adf546af77c982e46c534655ff9ffc268f4b4e7ff5298",
+      "size_bytes": 10391,
+      "word_count": 712,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (4)",
+        "3. RBCs and RBC Components (3)",
+        "2. Cell and Tissue Therapy (2)",
+        "16. HPC Transplantation (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": "SRC-034",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-037",
+      "original_filename": "Gap Analysis_ BB_TM Board Content Coverage (AABB Technical Manual, 20th Ed.).docx",
+      "normalized_path": "content/normalized/normalized_sources/gap-analysis-bb-tm-board-content-coverage-aabb-technical-manual-20th-ed.md",
+      "classification": "approved_content",
+      "docx_sha256": "7edcbe8481b84d905f94e5021f299e2b791bccfe1988d1f31610e95436720e51",
+      "normalized_text_sha256": "44c4f54dadf1168e7a18e3e11609c969a9bafdcef4b7a37c7ad7a6eb320d5207",
+      "size_bytes": 11189,
+      "word_count": 985,
+      "section_hints": [
+        "3. RBCs and RBC Components (4)",
+        "17. Administration and Laboratory Management (3)",
+        "1. Clinical Practice (2)",
+        "2. Cell and Tissue Therapy (2)",
+        "8. Infectious Hazards of Transfusion (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-038",
+      "original_filename": "Hematopoietic Progenitor Cell Transplantation Essentials.docx",
+      "normalized_path": "content/normalized/normalized_sources/hematopoietic-progenitor-cell-transplantation-essentials.md",
+      "classification": "approved_content",
+      "docx_sha256": "646fb1be1fb9b64af4994646021a5929505077853646311b71a15edbd8c23e1a",
+      "normalized_text_sha256": "28a2ff5c4aec602f709cac3be56679f6fe194bcac5b67569406d77af80257c1f",
+      "size_bytes": 10790,
+      "word_count": 782,
+      "section_hints": [
+        "16. HPC Transplantation (11)",
+        "8. Infectious Hazards of Transfusion (4)",
+        "15. Obstetric and Pediatric Patients (3)",
+        "2. Cell and Tissue Therapy (2)",
+        "9. Blood Donors and Blood Collection (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-039",
+      "original_filename": "Hematopoietic Progenitor Cell Transplantation Principles and Practice.docx",
+      "normalized_path": "content/normalized/normalized_sources/hematopoietic-progenitor-cell-transplantation-principles-and-practice.md",
+      "classification": "approved_content",
+      "docx_sha256": "3ddf167da1d9fe819c936b1bff59aa45021191474bb057e7aff5107287b22ac4",
+      "normalized_text_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 6480,
+      "word_count": 0,
+      "section_hints": [],
+      "exact_duplicate_of": "SRC-022",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-040",
+      "original_filename": "Immune Hemolysis and Hematopoietic Progenitor Cell Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/immune-hemolysis-and-hematopoietic-progenitor-cell-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "fc8d9683f51e867419201bfbdd4fb7e33c5dcbd542c62690fa453de4189a16b4",
+      "normalized_text_sha256": "aa15b090b7732963c54e7c299d3ca4550833ba70745ed20a009d8a35a755a39e",
+      "size_bytes": 12580,
+      "word_count": 1224,
+      "section_hints": [
+        "16. HPC Transplantation (10)",
+        "7. Plasma Components and Derivatives (3)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-041",
+      "original_filename": "Immunohematology Mastery_ High-Yield Blood Banking Subdomains.docx",
+      "normalized_path": "content/normalized/normalized_sources/immunohematology-mastery-high-yield-blood-banking-subdomains.md",
+      "classification": "approved_content",
+      "docx_sha256": "aaaed3c4afbafdf5646995696852c3a5a64e752c32bd7c4f5c5abc61b26ec987",
+      "normalized_text_sha256": "6995b9662a639b1ab14b70590786bcc78620a7ca0a8592c22617728bb1db956c",
+      "size_bytes": 10764,
+      "word_count": 792,
+      "section_hints": [
+        "6. Hazards of Transfusion (3)",
+        "15. Obstetric and Pediatric Patients (3)",
+        "3. RBCs and RBC Components (2)",
+        "17. Administration and Laboratory Management (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-042",
+      "original_filename": "Infectious Hazards of Blood Transfusion and Safety Protocols.docx",
+      "normalized_path": "content/normalized/normalized_sources/infectious-hazards-of-blood-transfusion-and-safety-protocols.md",
+      "classification": "approved_content",
+      "docx_sha256": "27ce6b3423eb0e65568d798d989d1f247a8349f269579201c1cc856be9056113",
+      "normalized_text_sha256": "090fbcd1b0825a0a4440cd2669f51cd5c377c952aa9de2d8fec870cffb333ab8",
+      "size_bytes": 10582,
+      "word_count": 735,
+      "section_hints": [
+        "8. Infectious Hazards of Transfusion (13)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "9. Blood Donors and Blood Collection (1)"
+      ],
+      "exact_duplicate_of": "SRC-015",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-043",
+      "original_filename": "Master Board-Review Guide_ Transfusion Medicine.docx",
+      "normalized_path": "content/normalized/normalized_sources/master-board-review-guide-transfusion-medicine.md",
+      "classification": "approved_content",
+      "docx_sha256": "12d18d3b5329703a7655ea81ea77a6fe7915ea62a070e7ab1ee93c5c5975a649",
+      "normalized_text_sha256": "b007cf6dab7dd86829a43e986d96306c419baedec72a845eca86d911346ef055",
+      "size_bytes": 14771,
+      "word_count": 1447,
+      "section_hints": [
+        "3. RBCs and RBC Components (8)",
+        "6. Hazards of Transfusion (8)",
+        "17. Administration and Laboratory Management (7)",
+        "16. HPC Transplantation (5)",
+        "7. Plasma Components and Derivatives (3)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-044",
+      "original_filename": "Master Curriculum Map_ Blood Banking and Transfusion Medicine (Board Review Edition).docx",
+      "normalized_path": "content/normalized/normalized_sources/master-curriculum-map-blood-banking-and-transfusion-medicine-board-review-editio.md",
+      "classification": "approved_content",
+      "docx_sha256": "6dc75d0e0a503449d2640d3cffd978b90670f1d09145fbc0b44f91df0364bb06",
+      "normalized_text_sha256": "86bedbc204dfe84e4a4e98b7523cd1661370306fde282b08a921cda66f6eea86",
+      "size_bytes": 13494,
+      "word_count": 1295,
+      "section_hints": [
+        "3. RBCs and RBC Components (11)",
+        "6. Hazards of Transfusion (8)",
+        "1. Clinical Practice (4)",
+        "7. Plasma Components and Derivatives (4)",
+        "8. Infectious Hazards of Transfusion (4)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-045",
+      "original_filename": "Noninfectious Complications and Hazards of Blood Transfusion(1).docx",
+      "normalized_path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion-1.md",
+      "classification": "approved_content",
+      "docx_sha256": "6d33557e217c09fe5b8b8e72dd41f580104fd3cf48442cdef8fb90d3774bcaca",
+      "normalized_text_sha256": "ebdc37f6501d8eba5ad5d7294b202de7da3f85bcc14973ec5fbdf6573ba962de",
+      "size_bytes": 10707,
+      "word_count": 746,
+      "section_hints": [
+        "6. Hazards of Transfusion (8)",
+        "1. Clinical Practice (2)",
+        "3. RBCs and RBC Components (2)",
+        "8. Infectious Hazards of Transfusion (2)",
+        "2. Cell and Tissue Therapy (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-046",
+      "original_filename": "Noninfectious Complications and Hazards of Blood Transfusion.docx",
+      "normalized_path": "content/normalized/normalized_sources/noninfectious-complications-and-hazards-of-blood-transfusion.md",
+      "classification": "approved_content",
+      "docx_sha256": "095af3eede4b9f69e3f3594e8b0cb55df0436f738560acf92bb78ce131f23d50",
+      "normalized_text_sha256": "ebdc37f6501d8eba5ad5d7294b202de7da3f85bcc14973ec5fbdf6573ba962de",
+      "size_bytes": 10710,
+      "word_count": 746,
+      "section_hints": [
+        "6. Hazards of Transfusion (8)",
+        "1. Clinical Practice (2)",
+        "3. RBCs and RBC Components (2)",
+        "8. Infectious Hazards of Transfusion (2)",
+        "2. Cell and Tissue Therapy (1)"
+      ],
+      "exact_duplicate_of": "SRC-045",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-047",
+      "original_filename": "Principles and Clinical Management of Therapeutic Apheresis.docx",
+      "normalized_path": "content/normalized/normalized_sources/principles-and-clinical-management-of-therapeutic-apheresis.md",
+      "classification": "approved_content",
+      "docx_sha256": "6b541a59a57583d19c380ff3d81dd3e9eded3fa9f291a89f4a5acbb4884d6ffa",
+      "normalized_text_sha256": "3ec1bf2f418c6e141816abdb25c4c8a1cae5bfd56d5a37a5c026f520b99ca3fb",
+      "size_bytes": 10689,
+      "word_count": 725,
+      "section_hints": [
+        "5. Apheresis (4)",
+        "6. Hazards of Transfusion (4)",
+        "1. Clinical Practice (3)",
+        "7. Plasma Components and Derivatives (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-048",
+      "original_filename": "Principles and Pathophysiology of Erythrocyte Transfusion Medicine.docx",
+      "normalized_path": "content/normalized/normalized_sources/principles-and-pathophysiology-of-erythrocyte-transfusion-medicine.md",
+      "classification": "approved_content",
+      "docx_sha256": "9bd55c23d568a76ca6a841db297fc4ea61a6d2ed827ac1ca88ce8010c85a0d7b",
+      "normalized_text_sha256": "2869bf8833bbfc73098d070ca98fe330c1cb5f436f92caa111dd0c5d658defbe",
+      "size_bytes": 10964,
+      "word_count": 826,
+      "section_hints": [
+        "3. RBCs and RBC Components (11)",
+        "15. Obstetric and Pediatric Patients (3)",
+        "1. Clinical Practice (2)",
+        "4. Anemia and Red Blood Cell Transfusion (2)",
+        "6. Hazards of Transfusion (2)"
+      ],
+      "exact_duplicate_of": "SRC-024",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-049",
+      "original_filename": "Principles of Blood Bank Administration and Laboratory Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/principles-of-blood-bank-administration-and-laboratory-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "3bb01782c885723f4c9e6b31d5272122637548930632b6aa76c4997207ad67db",
+      "normalized_text_sha256": "cf24cc229f5ce609a7ccee911bd4b55da70ab9c1842b7f8b56c2ec7331d90124",
+      "size_bytes": 10951,
+      "word_count": 808,
+      "section_hints": [
+        "17. Administration and Laboratory Management (6)",
+        "3. RBCs and RBC Components (3)",
+        "6. Hazards of Transfusion (2)",
+        "11. Biovigilance (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": "SRC-033",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-050",
+      "original_filename": "Pulmonary Transfusion Reactions_ TACO, TRALI, and TAD Clinical Guide.docx",
+      "normalized_path": "content/normalized/normalized_sources/pulmonary-transfusion-reactions-taco-trali-and-tad-clinical-guide.md",
+      "classification": "approved_content",
+      "docx_sha256": "a81cea76676b9f45c2247eceb6567185f50b6172951a80cb8a676b6f29c9a7b9",
+      "normalized_text_sha256": "3fe64d7b2c44900baad26ed501b755bbfef7f2eb8eea55d0ded5d932d041bf6f",
+      "size_bytes": 10194,
+      "word_count": 666,
+      "section_hints": [
+        "6. Hazards of Transfusion (5)",
+        "1. Clinical Practice (1)",
+        "2. Cell and Tissue Therapy (1)",
+        "3. RBCs and RBC Components (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-051",
+      "original_filename": "Specialized Transfusion Medicine and Clinical Quality Systems.docx",
+      "normalized_path": "content/normalized/normalized_sources/specialized-transfusion-medicine-and-clinical-quality-systems.md",
+      "classification": "approved_content",
+      "docx_sha256": "a80548f2f1e4f8aa93a3fb98f5da7dde73b8b921eed688e5e1411a152fc5da99",
+      "normalized_text_sha256": "94786261f899ab38ce490e175ccf90c83972197c692b07527e0317e0b6d5ba89",
+      "size_bytes": 12499,
+      "word_count": 1129,
+      "section_hints": [
+        "7. Plasma Components and Derivatives (6)",
+        "6. Hazards of Transfusion (3)",
+        "15. Obstetric and Pediatric Patients (3)",
+        "17. Administration and Laboratory Management (3)",
+        "1. Clinical Practice (2)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-052",
+      "original_filename": "Study Guide_ Domain 1 \u2013 Technical & Serological Logic.docx",
+      "normalized_path": "content/normalized/normalized_sources/study-guide-domain-1-technical-serological-logic.md",
+      "classification": "approved_content",
+      "docx_sha256": "642a7c1aa351574a7f5b6c7633505e6afe041e0758965241f91b3d8bacf80d37",
+      "normalized_text_sha256": "dd84ef4e398a1acaa1f2da4d42813018edc99ccbf2be77b8eb4a9ef6e1818e68",
+      "size_bytes": 12876,
+      "word_count": 1351,
+      "section_hints": [
+        "17. Administration and Laboratory Management (5)",
+        "3. RBCs and RBC Components (3)",
+        "9. Blood Donors and Blood Collection (3)",
+        "1. Clinical Practice (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-053",
+      "original_filename": "Study Guide_ Domain 3 \u2013 Regulatory, Quality, and Operations.docx",
+      "normalized_path": "content/normalized/normalized_sources/study-guide-domain-3-regulatory-quality-and-operations.md",
+      "classification": "approved_content",
+      "docx_sha256": "65e02a8acda8f3b00730c82b4b6e188452d53742b8468689bb615499bb9d72e0",
+      "normalized_text_sha256": "00111bf80e53b58b86d39b72afb81247d36de94952b2ceba6879616f4125dcc1",
+      "size_bytes": 14961,
+      "word_count": 1797,
+      "section_hints": [
+        "17. Administration and Laboratory Management (8)",
+        "5. Apheresis (2)",
+        "8. Infectious Hazards of Transfusion (2)",
+        "1. Clinical Practice (1)",
+        "3. RBCs and RBC Components (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-054",
+      "original_filename": "The Blood Bank Board Certification Study Suite.docx",
+      "normalized_path": "content/normalized/normalized_sources/the-blood-bank-board-certification-study-suite.md",
+      "classification": "approved_content",
+      "docx_sha256": "1a67c56fea885e5e0b852b5b2757125f73fe4d380b80cba2236a8d55f06afe51",
+      "normalized_text_sha256": "2d9c325c20fb1244d0b10ccb75065f918f0b4be2f11f2744e9d74e656a988cee",
+      "size_bytes": 7763,
+      "word_count": 216,
+      "section_hints": [
+        "3. RBCs and RBC Components (1)",
+        "15. Obstetric and Pediatric Patients (1)",
+        "17. Administration and Laboratory Management (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-055",
+      "original_filename": "The Clinician\u2019s Essential Guide to Apheresis Principles and Practice.docx",
+      "normalized_path": "content/normalized/normalized_sources/the-clinician-s-essential-guide-to-apheresis-principles-and-practice.md",
+      "classification": "approved_content",
+      "docx_sha256": "045dfa9d93097dbe3ee392130f021dd537669eae9234cf4412b2966af2457e02",
+      "normalized_text_sha256": "3ec1bf2f418c6e141816abdb25c4c8a1cae5bfd56d5a37a5c026f520b99ca3fb",
+      "size_bytes": 10685,
+      "word_count": 725,
+      "section_hints": [
+        "5. Apheresis (4)",
+        "6. Hazards of Transfusion (4)",
+        "1. Clinical Practice (3)",
+        "7. Plasma Components and Derivatives (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)"
+      ],
+      "exact_duplicate_of": "SRC-047",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-056",
+      "original_filename": "The Hematology of Cold Autoantibodies and PCH.docx",
+      "normalized_path": "content/normalized/normalized_sources/the-hematology-of-cold-autoantibodies-and-pch.md",
+      "classification": "approved_content",
+      "docx_sha256": "32b5550b652cc6c66a61790a714df48ac485a149dcb14282f63ffe731ba02ffa",
+      "normalized_text_sha256": "77338e5b7e9f9d9be49aa5e07dfd304fc631c3a3fc1816e7ce6d2c3840c4fb94",
+      "size_bytes": 10220,
+      "word_count": 788,
+      "section_hints": [
+        "1. Clinical Practice (3)",
+        "3. RBCs and RBC Components (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "6. Hazards of Transfusion (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-057",
+      "original_filename": "The Rh Blood Group System_ Variants and Clinical Management.docx",
+      "normalized_path": "content/normalized/normalized_sources/the-rh-blood-group-system-variants-and-clinical-management.md",
+      "classification": "approved_content",
+      "docx_sha256": "918fc69f7c60e48c1256ec4e8d7283aa2d672684c666b50bf79dc669f16a5ee1",
+      "normalized_text_sha256": "85792676ef490106f6a7ed7c48b1a533a2254e0bcddb1dd457d86d9ceb1453a7",
+      "size_bytes": 10606,
+      "word_count": 858,
+      "section_hints": [
+        "3. RBCs and RBC Components (4)",
+        "15. Obstetric and Pediatric Patients (4)",
+        "1. Clinical Practice (1)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": "SRC-020",
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-058",
+      "original_filename": "Transfusion Complications and Clinical Diagnostic Logic.docx",
+      "normalized_path": "content/normalized/normalized_sources/transfusion-complications-and-clinical-diagnostic-logic.md",
+      "classification": "approved_content",
+      "docx_sha256": "72e0c9c367dae677666ba9bed0e6b0bcaae8f9c94b2b01db3a706c3556351012",
+      "normalized_text_sha256": "9e802ba32cf7e68611d3b21fe76277ea45e85815a174a5c25b8a052c96f97004",
+      "size_bytes": 12170,
+      "word_count": 1054,
+      "section_hints": [
+        "6. Hazards of Transfusion (6)",
+        "3. RBCs and RBC Components (4)",
+        "7. Plasma Components and Derivatives (2)",
+        "8. Infectious Hazards of Transfusion (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-059",
+      "original_filename": "Transfusion Medicine Board Review_ Final High-Yield Nodes.docx",
+      "normalized_path": "content/normalized/normalized_sources/transfusion-medicine-board-review-final-high-yield-nodes.md",
+      "classification": "approved_content",
+      "docx_sha256": "f491ef9b3400a6509d29fbcea1ce8ae1964d257c72096c0c0bfc7ee132b0bd6c",
+      "normalized_text_sha256": "292d9b8c8c00392276d3683cd8d0a2a5979bd20fe08f60de47d254772fbbc8ba",
+      "size_bytes": 11880,
+      "word_count": 1021,
+      "section_hints": [
+        "5. Apheresis (7)",
+        "17. Administration and Laboratory Management (3)",
+        "7. Plasma Components and Derivatives (2)",
+        "15. Obstetric and Pediatric Patients (2)",
+        "1. Clinical Practice (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-060",
+      "original_filename": "Transfusion Medicine_ Metabolic Complications and Information Systems.docx",
+      "normalized_path": "content/normalized/normalized_sources/transfusion-medicine-metabolic-complications-and-information-systems.md",
+      "classification": "approved_content",
+      "docx_sha256": "451b3f832e30025cfc53bfd62760df663fcc7d96fcd53e1a2646bc928a1b059e",
+      "normalized_text_sha256": "559f65495d594edc718955f81413cde59ab18a717fbc2fc696defdf4bd1b7745",
+      "size_bytes": 11531,
+      "word_count": 943,
+      "section_hints": [
+        "6. Hazards of Transfusion (3)",
+        "3. RBCs and RBC Components (2)",
+        "7. Plasma Components and Derivatives (2)",
+        "17. Administration and Laboratory Management (2)",
+        "2. Cell and Tissue Therapy (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    },
+    {
+      "id": "SRC-061",
+      "original_filename": "Transfusion Medicine_ WAIHA Serology and Platelet Bacterial Mitigation.docx",
+      "normalized_path": "content/normalized/normalized_sources/transfusion-medicine-waiha-serology-and-platelet-bacterial-mitigation.md",
+      "classification": "approved_content",
+      "docx_sha256": "bd70dbbc9ab8b834ce767b92192d4c28d1378e86a6f23e28b187c8152272986c",
+      "normalized_text_sha256": "5a74ce91b552650bc1d0a9b953340a8318c3b90a8e65e17b9994e6772498aa28",
+      "size_bytes": 11113,
+      "word_count": 875,
+      "section_hints": [
+        "3. RBCs and RBC Components (5)",
+        "1. Clinical Practice (3)",
+        "8. Infectious Hazards of Transfusion (2)",
+        "4. Anemia and Red Blood Cell Transfusion (1)",
+        "5. Apheresis (1)"
+      ],
+      "exact_duplicate_of": null,
+      "near_duplicates": []
+    }
+  ],
+  "excluded_artifacts": [
+    {
+      "id": "EXC-PPTX",
+      "original_filename": "AI_Workshop_API_Summit_v4 new.pptx",
+      "classification": "excluded_artifact",
+      "reason": "Non-educational artifact (not part of the BB/TM study corpus); unrelated presentation file swept into the Drive export.",
+      "size_bytes": 814568135,
+      "docx_sha256": null
+    }
+  ]
+}

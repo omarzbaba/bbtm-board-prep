@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tala-bbtm/schemas/reference.schema.json",
+  "title": "SourceReference",
+  "description": "A traceable pointer from generated content back to an approved source and blueprint node. Excerpts must be short paraphrases, never long verbatim copies of copyrighted text.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_id", "source_type", "supports"],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "description": "ID from source_manifest / source_index (e.g. 'SRC-058'), the blueprint, or a reference-text key.",
+      "pattern": "^(SRC-[0-9]{3}|BLUEPRINT|AABB-TECH|HARMENING|AABB-STANDARDS)$"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["notebooklm", "blueprint", "reference-text"]
+    },
+    "source_title": { "type": "string", "description": "Human-readable source name." },
+    "locator": {
+      "type": "string",
+      "description": "In-source locator: heading/section name, node number, or citation marker. No page numbers required."
+    },
+    "supports": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 400,
+      "description": "Short paraphrase (in our own words) of exactly what this source supports. NOT a verbatim quote."
+    },
+    "blueprint_node_id": {
+      "type": "string",
+      "description": "Blueprint node this reference substantiates (e.g. 'S6.a')."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "moderate", "low"],
+      "description": "Directness/richness of support in the cited source."
+    }
+  }
+}

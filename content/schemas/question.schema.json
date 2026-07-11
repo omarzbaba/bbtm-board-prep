@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tala-bbtm/schemas/question.schema.json",
+  "title": "BoardQuestion",
+  "description": "A one-best-answer board-style MCQ grounded in approved sources and mapped to a blueprint node.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "domain", "subdomain", "blueprint_node_id", "designation", "difficulty",
+    "stem", "options", "correct_option_id", "explanation_correct",
+    "option_explanations", "source_references", "support_confidence", "review"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^Q-[0-9]{4}$", "description": "Stable unique ID." },
+    "domain": { "type": "string", "description": "Blueprint domain number + title (e.g. '6. Hazards of Transfusion')." },
+    "subdomain": { "type": "string", "description": "Blueprint subdomain title." },
+    "blueprint_node_id": { "type": "string", "description": "Most specific blueprint node id (e.g. 'S6.e')." },
+    "designation": { "type": "string", "enum": ["C", "AR", "F"], "description": "Blueprint designation of the mapped node." },
+    "difficulty": { "type": "string", "enum": ["easy", "moderate", "hard"] },
+    "cognitive_level": {
+      "type": "string",
+      "enum": ["recall", "interpretation", "application", "analysis"],
+      "description": "Board cognition target; most items should be interpretation/application."
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 20,
+      "description": "The clinical vignette / question stem, ending in a single clear lead-in question."
+    },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "text"],
+        "properties": {
+          "id": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+          "text": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "correct_option_id": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+    "explanation_correct": {
+      "type": "string",
+      "minLength": 30,
+      "description": "Why the correct answer is best, grounded in source content."
+    },
+    "option_explanations": {
+      "type": "object",
+      "description": "Per-option rationale keyed by option id; each incorrect option explains why it is wrong.",
+      "propertyNames": { "enum": ["A", "B", "C", "D", "E"] },
+      "additionalProperties": { "type": "string", "minLength": 5 }
+    },
+    "teaching_point": { "type": "string", "description": "One-line high-yield takeaway." },
+    "source_references": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "reference.schema.json" }
+    },
+    "support_confidence": {
+      "type": "string",
+      "enum": ["high", "moderate", "low"],
+      "description": "Overall confidence that the whole item is source-grounded."
+    },
+    "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "learner_note": {
+      "type": ["string", "null"],
+      "default": null,
+      "description": "Placeholder for learner-authored notes in seed content; live notes are stored per-learner at runtime keyed by item id."
+    },
+    "review": { "$ref": "review.schema.json" },
+    "created_at": { "type": "string" },
+    "generator": { "type": "string", "description": "Provenance of generation (model/workflow label)." }
+  }
+}

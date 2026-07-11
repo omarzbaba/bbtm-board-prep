@@ -1,0 +1,412 @@
+{
+  "phase": 0,
+  "generated_at_iso": "2026-07-11T22:31:49.842877+00:00",
+  "project_root": "/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank",
+  "actions": [
+    "Hashing raw ZIP (integrity anchor): drive-download-20260711T222309Z-2-001.zip ...",
+    "MOVED drive-download-20260711T222309Z-2-001.zip -> sources/notebooklm-exports/drive-download-20260711T222309Z-2-001.zip",
+    "MOVED drive-download-20260711T222309Z-2-001/ -> sources/notebooklm-exports/raw_extracted/",
+    "MOVED Content-Specification-BBTM_SS_Final_01222026-2.pdf -> sources/abpath/Content-Specification-BBTM_SS_Final_01222026-2.pdf",
+    "MOVED AABB Technical Manual-20th ed-2020.pdf -> sources/reference-texts/AABB Technical Manual-20th ed-2020.pdf",
+    "MOVED Harmening.pdf -> sources/reference-texts/Harmening.pdf",
+    "MOVED Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf -> sources/reference-texts/Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf"
+  ],
+  "pre_move_snapshot": {
+    "raw_zip": {
+      "name": "drive-download-20260711T222309Z-2-001.zip",
+      "abs_path": "/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank/drive-download-20260711T222309Z-2-001.zip",
+      "rel_path": "drive-download-20260711T222309Z-2-001.zip",
+      "size_bytes": 815392556,
+      "mtime_iso": "2026-07-11T22:23:57.064808+00:00",
+      "is_dir": false,
+      "sha256": "11324b1848fc7d4bbd647b5b78b7fc1046f73be3fbafcca9011273354b95d3ee"
+    },
+    "Content-Specification-BBTM_SS_Final_01222026-2.pdf": {
+      "name": "Content-Specification-BBTM_SS_Final_01222026-2.pdf",
+      "abs_path": "/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank/Content-Specification-BBTM_SS_Final_01222026-2.pdf",
+      "rel_path": "Content-Specification-BBTM_SS_Final_01222026-2.pdf",
+      "size_bytes": 514913,
+      "mtime_iso": "2026-07-11T19:47:35.166377+00:00",
+      "is_dir": false,
+      "sha256": "4f791c0509ea2276bed6aae72404f482080d044c7cc223bbdbefda7d4de2576d"
+    },
+    "AABB Technical Manual-20th ed-2020.pdf": {
+      "name": "AABB Technical Manual-20th ed-2020.pdf",
+      "abs_path": "/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank/AABB Technical Manual-20th ed-2020.pdf",
+      "rel_path": "AABB Technical Manual-20th ed-2020.pdf",
+      "size_bytes": 21912903,
+      "mtime_iso": "2026-07-11T19:47:48.375317+00:00",
+      "is_dir": false,
+      "sha256": "8c89c7c59d2f5bdf98bcd8e5da0c54ecbfd0d1d64cf2d4aea4dd6c103c698569"
+    },
+    "Harmening.pdf": {
+      "name": "Harmening.pdf",
+      "abs_path": "/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank/Harmening.pdf",
+      "rel_path": "Harmening.pdf",
+      "size_bytes": 22387151,
+      "mtime_iso": "2026-07-11T19:47:44.956559+00:00",
+      "is_dir": false,
+      "sha256": "89e4ec2306f55b06b1b733e2887c74ee93c291fb3d39eb10f3222aa2a5a8d9a2"
+    },
+    "Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf": {
+      "name": "Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf",
+      "abs_path": "/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank/Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf",
+      "rel_path": "Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf",
+      "size_bytes": 4054794,
+      "mtime_iso": "2026-07-11T19:47:38.416526+00:00",
+      "is_dir": false,
+      "sha256": "520a9e89eb61d05a924f3cc95f20a8ffac64c7edb72f9768e1dd0113c762d51f"
+    }
+  },
+  "raw_zip_integrity": {
+    "pre_sha256": "11324b1848fc7d4bbd647b5b78b7fc1046f73be3fbafcca9011273354b95d3ee",
+    "post_sha256": "11324b1848fc7d4bbd647b5b78b7fc1046f73be3fbafcca9011273354b95d3ee",
+    "unchanged": true,
+    "final_location": "sources/notebooklm-exports/drive-download-20260711T222309Z-2-001.zip"
+  },
+  "canonical_tree": {
+    "sources/notebooklm-exports/raw_extracted": [
+      {
+        "name": "AI_Workshop_API_Summit_v4 new.pptx",
+        "size_bytes": 814568135,
+        "ext": ".pptx"
+      },
+      {
+        "name": "Advanced Antibody Identification and Special Laboratory Techniques.docx",
+        "size_bytes": 10478,
+        "ext": ".docx"
+      },
+      {
+        "name": "Advanced Blood Banking and Transfusion Medicine Review Nodes.docx",
+        "size_bytes": 11247,
+        "ext": ".docx"
+      },
+      {
+        "name": "Advanced Immunohematology and Blood Banking Operations Guide.docx",
+        "size_bytes": 16337,
+        "ext": ".docx"
+      },
+      {
+        "name": "Advanced Immunohematology and Transfusion Medicine Review.docx",
+        "size_bytes": 11484,
+        "ext": ".docx"
+      },
+      {
+        "name": "Advanced Principles of RBC Metabolism and Storage Physiology.docx",
+        "size_bytes": 10208,
+        "ext": ".docx"
+      },
+      {
+        "name": "Advanced Transfusion Medicine and Cellular Therapy Standards.docx",
+        "size_bytes": 10782,
+        "ext": ".docx"
+      },
+      {
+        "name": "Biochemical Pathways of Carbohydrate Blood Group Synthesis.docx",
+        "size_bytes": 9973,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Banking Board Readiness and Gap Analysis.docx",
+        "size_bytes": 9584,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Banking Regulatory Compliance and Quality Management Systems.docx",
+        "size_bytes": 10578,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Banking and Transfusion Medicine Board Curriculum.docx",
+        "size_bytes": 11528,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Banking and Transfusion Medicine Board Review Nodes.docx",
+        "size_bytes": 10975,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Banking and Transfusion Medicine Mastery Nodes.docx",
+        "size_bytes": 11196,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Safety Protocols and Infectious Disease Look-back Standards(1).docx",
+        "size_bytes": 10605,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Safety Protocols and Infectious Disease Look-back Standards.docx",
+        "size_bytes": 10608,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Safety and Infectious Transfusion Hazards(1).docx",
+        "size_bytes": 10582,
+        "ext": ".docx"
+      },
+      {
+        "name": "Blood Safety and Infectious Transfusion Hazards.docx",
+        "size_bytes": 10581,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine(1).docx",
+        "size_bytes": 10478,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Essentials of Obstetric and Pediatric Transfusion Medicine.docx",
+        "size_bytes": 10479,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Foundations of Immunohematology and Transfusion Medicine.docx",
+        "size_bytes": 10867,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Foundations of Rh Variants and RhIg Management.docx",
+        "size_bytes": 10606,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Immunohematology and Hemostasis Management.docx",
+        "size_bytes": 10867,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Management of Noninfectious Transfusion Complications.docx",
+        "size_bytes": 6480,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Principles and Guidelines for Therapeutic Apheresis.docx",
+        "size_bytes": 10583,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Principles of Erythrocytes and Blood Components.docx",
+        "size_bytes": 10965,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Protocols for HDFN and Neonatal Transfusion Management.docx",
+        "size_bytes": 10324,
+        "ext": ".docx"
+      },
+      {
+        "name": "Clinical Protocols for Platelet Refractoriness and HLA Alloimmunization.docx",
+        "size_bytes": 10518,
+        "ext": ".docx"
+      },
+      {
+        "name": "Domain 2_ Clinical Practice & Patient Management Study Guide.docx",
+        "size_bytes": 14814,
+        "ext": ".docx"
+      },
+      {
+        "name": "Domain 4_ Advanced Technologies & Specialized Testing Study Guide.docx",
+        "size_bytes": 13686,
+        "ext": ".docx"
+      },
+      {
+        "name": "Enzymatic Pathways of Carbohydrate Blood Group Synthesis.docx",
+        "size_bytes": 9974,
+        "ext": ".docx"
+      },
+      {
+        "name": "Essentials of Immunohematology and Clinical Transfusion Practice.docx",
+        "size_bytes": 10867,
+        "ext": ".docx"
+      },
+      {
+        "name": "Essentials of Plasma and Platelet Transfusion Medicine.docx",
+        "size_bytes": 10795,
+        "ext": ".docx"
+      },
+      {
+        "name": "Essentials of Transfusion Medicine and Blood Management.docx",
+        "size_bytes": 15304,
+        "ext": ".docx"
+      },
+      {
+        "name": "Foundations of Blood Bank Administration and Laboratory Management.docx",
+        "size_bytes": 10947,
+        "ext": ".docx"
+      },
+      {
+        "name": "Foundations of Cell and Tissue Therapy Regulation and Practice.docx",
+        "size_bytes": 10388,
+        "ext": ".docx"
+      },
+      {
+        "name": "Foundations of Transplantation Immunohematology.docx",
+        "size_bytes": 10358,
+        "ext": ".docx"
+      },
+      {
+        "name": "Fundamentals of Cell and Tissue Therapy Regulation and Management.docx",
+        "size_bytes": 10391,
+        "ext": ".docx"
+      },
+      {
+        "name": "Gap Analysis_ BB_TM Board Content Coverage (AABB Technical Manual, 20th Ed.).docx",
+        "size_bytes": 11189,
+        "ext": ".docx"
+      },
+      {
+        "name": "Hematopoietic Progenitor Cell Transplantation Essentials.docx",
+        "size_bytes": 10790,
+        "ext": ".docx"
+      },
+      {
+        "name": "Hematopoietic Progenitor Cell Transplantation Principles and Practice.docx",
+        "size_bytes": 6480,
+        "ext": ".docx"
+      },
+      {
+        "name": "Immune Hemolysis and Hematopoietic Progenitor Cell Management.docx",
+        "size_bytes": 12580,
+        "ext": ".docx"
+      },
+      {
+        "name": "Immunohematology Mastery_ High-Yield Blood Banking Subdomains.docx",
+        "size_bytes": 10764,
+        "ext": ".docx"
+      },
+      {
+        "name": "Infectious Hazards of Blood Transfusion and Safety Protocols.docx",
+        "size_bytes": 10582,
+        "ext": ".docx"
+      },
+      {
+        "name": "Master Board-Review Guide_ Transfusion Medicine.docx",
+        "size_bytes": 14771,
+        "ext": ".docx"
+      },
+      {
+        "name": "Master Curriculum Map_ Blood Banking and Transfusion Medicine (Board Review Edition).docx",
+        "size_bytes": 13494,
+        "ext": ".docx"
+      },
+      {
+        "name": "Noninfectious Complications and Hazards of Blood Transfusion(1).docx",
+        "size_bytes": 10707,
+        "ext": ".docx"
+      },
+      {
+        "name": "Noninfectious Complications and Hazards of Blood Transfusion.docx",
+        "size_bytes": 10710,
+        "ext": ".docx"
+      },
+      {
+        "name": "Principles and Clinical Management of Therapeutic Apheresis.docx",
+        "size_bytes": 10689,
+        "ext": ".docx"
+      },
+      {
+        "name": "Principles and Pathophysiology of Erythrocyte Transfusion Medicine.docx",
+        "size_bytes": 10964,
+        "ext": ".docx"
+      },
+      {
+        "name": "Principles of Blood Bank Administration and Laboratory Management.docx",
+        "size_bytes": 10951,
+        "ext": ".docx"
+      },
+      {
+        "name": "Pulmonary Transfusion Reactions_ TACO, TRALI, and TAD Clinical Guide.docx",
+        "size_bytes": 10194,
+        "ext": ".docx"
+      },
+      {
+        "name": "Specialized Transfusion Medicine and Clinical Quality Systems.docx",
+        "size_bytes": 12499,
+        "ext": ".docx"
+      },
+      {
+        "name": "Study Guide_ Domain 1 \u2013 Technical & Serological Logic.docx",
+        "size_bytes": 12876,
+        "ext": ".docx"
+      },
+      {
+        "name": "Study Guide_ Domain 3 \u2013 Regulatory, Quality, and Operations.docx",
+        "size_bytes": 14961,
+        "ext": ".docx"
+      },
+      {
+        "name": "The Blood Bank Board Certification Study Suite.docx",
+        "size_bytes": 7763,
+        "ext": ".docx"
+      },
+      {
+        "name": "The Clinician\u2019s Essential Guide to Apheresis Principles and Practice.docx",
+        "size_bytes": 10685,
+        "ext": ".docx"
+      },
+      {
+        "name": "The Hematology of Cold Autoantibodies and PCH.docx",
+        "size_bytes": 10220,
+        "ext": ".docx"
+      },
+      {
+        "name": "The Rh Blood Group System_ Variants and Clinical Management.docx",
+        "size_bytes": 10606,
+        "ext": ".docx"
+      },
+      {
+        "name": "Transfusion Complications and Clinical Diagnostic Logic.docx",
+        "size_bytes": 12170,
+        "ext": ".docx"
+      },
+      {
+        "name": "Transfusion Medicine Board Review_ Final High-Yield Nodes.docx",
+        "size_bytes": 11880,
+        "ext": ".docx"
+      },
+      {
+        "name": "Transfusion Medicine_ Metabolic Complications and Information Systems.docx",
+        "size_bytes": 11531,
+        "ext": ".docx"
+      },
+      {
+        "name": "Transfusion Medicine_ WAIHA Serology and Platelet Bacterial Mitigation.docx",
+        "size_bytes": 11113,
+        "ext": ".docx"
+      }
+    ],
+    "sources/abpath": [
+      {
+        "name": "Content-Specification-BBTM_SS_Final_01222026-2.pdf",
+        "size_bytes": 514913,
+        "ext": ".pdf"
+      }
+    ],
+    "sources/reference-texts": [
+      {
+        "name": "AABB Technical Manual-20th ed-2020.pdf",
+        "size_bytes": 21912903,
+        "ext": ".pdf"
+      },
+      {
+        "name": "Harmening.pdf",
+        "size_bytes": 22387151,
+        "ext": ".pdf"
+      },
+      {
+        "name": "Standards for Blood Banks and Transfusion Services, 35th Edition effective April 1, 2026.pdf",
+        "size_bytes": 4054794,
+        "ext": ".pdf"
+      }
+    ],
+    "sources/notebooklm-exports": [
+      {
+        "name": "drive-download-20260711T222309Z-2-001.zip",
+        "size_bytes": 815392556,
+        "ext": ".zip"
+      }
+    ]
+  }
+}
