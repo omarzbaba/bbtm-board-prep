@@ -1,33 +1,33 @@
 # Case Audit Report
 
-_Generated 2026-07-11T23:36:09.233720+00:00. Each item was independently re-read against its approved sources by an adversarial auditor._
+_Generated 2026-07-12T17:45:42.726711+00:00. Each item was independently re-read against its approved sources by an adversarial auditor._
 
 ## Summary
 
-- Generated: **20**
-- Accepted into bank: **17**
+- Generated: **26**
+- Accepted into bank: **23**
 - Routed to review queue: **3**
 
 ### Source-support distribution
 
-- pass: 5
-- partial: 15
+- pass: 6
+- partial: 20
 
 ### Severity
 
-- low: 10
-- medium: 10
+- low: 14
+- medium: 12
 
 ### Audit flags raised
 
-- `unsupported-claim`: 14
-- `missing-decision-logic`: 5
-- `numeric-value-unverified`: 4
-- `blueprint-mismatch`: 4
+- `unsupported-claim`: 16
+- `numeric-value-unverified`: 8
+- `blueprint-mismatch`: 6
+- `missing-decision-logic`: 6
 - `incorrect-answer-key`: 3
+- `too-esoteric-thin-source`: 2
 - `overclaims-as-policy`: 2
 - `unrealistic-scenario`: 1
-- `too-esoteric-thin-source`: 1
 
 ## Items routed to human review
 

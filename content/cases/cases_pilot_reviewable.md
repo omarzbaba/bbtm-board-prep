@@ -1,6 +1,6 @@
-# Pilot Case Bank — reviewable (17 cases)
+# Pilot Case Bank — reviewable (23 cases)
 
-_Generated 2026-07-11T23:36:09.233720+00:00. Source-grounded, adversarially audited._
+_Generated 2026-07-12T17:45:42.726711+00:00. Source-grounded, adversarially audited._
 
 ## C-001 — Acute Hemolytic Transfusion Reaction from ABO-Incompatible RBC Transfusion Due to Clerical Error  `C`
 *6. Hazards of Transfusion: Specific Adverse Events* · support: high
@@ -776,5 +776,272 @@ _Generated 2026-07-11T23:36:09.233720+00:00. Source-grounded, adversarially audi
 
 **Sources:** `SRC-031`, `SRC-031`, `SRC-031`, `SRC-031`, `SRC-012`, `SRC-032`, `SRC-032`
 **Review:** auto-audited-pass · source-support: partial
+
+---
+
+## C-021 — TRALI After Plasma Transfusion: The HNA-3a/CTL2 Antibody Mechanism  `C`
+*6. Hazards of Transfusion: Specific Adverse Events* · support: moderate
+
+**Setup.** A 58-year-old man with cirrhosis and an acute variceal gastrointestinal bleed receives 2 units of fresh frozen plasma (FFP) prior to an urgent endoscopic procedure. He has no prior history of cardiac or pulmonary disease and no known transfusion reactions. Approximately 2 hours after the FFP infusion begins, he develops acute dyspnea, fever, and worsening hypoxemia unresponsive to increasing supplemental oxygen. The transfusion is stopped and the reaction is reported to the blood bank. The transfusion medicine physician is consulted to determine the diagnosis, the underlying immunologic mechanism, and the reporting obligations.
+
+**Findings.**
+- Temperature: 38.6°C (new fever from baseline afebrile) (abnormal)
+- Heart rate: 118 bpm (abnormal)
+- Blood pressure: 84/52 mmHg (down from 128/78 mmHg pre-transfusion) (abnormal)
+- Oxygen saturation: 86% on supplemental O2, escalating oxygen requirement (critical)
+- Chest radiograph: New bilateral pulmonary infiltrates; no cardiomegaly (abnormal)
+- Echocardiogram / volume status assessment: Normal LV function, no evidence of volume overload (normal)
+- Time course: Onset of respiratory compromise ~2 hours after starting FFP
+- Implicated unit antibody screen (donor HLA antibodies): Negative (normal)
+- Implicated unit antibody screen (donor HNA antibodies): Positive for anti-HNA-3a, an antibody against an antigen on the choline transporter CTL2 (critical)
+
+**Decision points.**
+1. The patient develops acute hypoxemic respiratory failure with new bilateral infiltrates within 2 hours of starting FFP, with no echocardiographic evidence of volume overload. What is the most likely diagnosis, and why should it be suspected aggressively here?
+   - **Answer:** Transfusion-related acute lung injury (TRALI)
+   - TRALI is among the most frequent transfusion-related fatalities reported to the FDA, alongside TACO and hemolytic reactions, and hemovigilance data show that noninfectious complications such as TACO and TRALI are commonly underrecognized and underreported. A high index of suspicion is therefore required whenever acute respiratory compromise follows transfusion, particularly with plasma-containing components and no evidence of cardiogenic/volume-overload etiology.
+2. The transfusion medicine physician wants to characterize the immunologic basis of the reaction and orders antibody testing on the implicated donor unit. Which antigen system framework should guide this workup?
+   - **Answer:** Non-HLA determinants, including Human Neutrophil Antigens (HNA)
+   - Histocompatibility testing explicitly separates the HLA system (Class I expressed on most nucleated cells and platelets; Class II restricted to antigen-presenting cells such as B lymphocytes and macrophages) from non-HLA determinants such as HNA and MICA. Antibody-mediated TRALI pathophysiology specifically implicates HNA as a recognized non-HLA determinant, so the donor unit workup should include HNA antibody testing rather than being limited to HLA typing/antibody screening alone.
+3. The donor unit antibody screen returns positive for an antibody directed against an antigen located on the choline transporter-like protein 2 (CTL2). Which specificity was most likely identified, and what is its clinical significance?
+   - **Answer:** Anti-HNA-3a — associated with the most severe and fatal TRALI reactions
+   - HNA-3a is located on the choline transporter CTL2, and antibodies to HNA-3a are specifically associated with the most severe and fatal TRALI reactions. This is distinct from antibodies to HNA-1a and HNA-1b (located on the FcγRIIIb receptor), which are the most common cause of neonatal alloimmune neutropenia rather than severe TRALI — the specific antibody target, not just 'an antibody was found,' determines the expected clinical severity.
+4. The patient requires escalation to noninvasive ventilatory support and ICU transfer. How should this reaction be graded for hemovigilance purposes, and what regulatory obligation applies if the patient does not survive?
+   - **Answer:** Classify as 'Life-threatening' severity; if fatal, report to FDA/CBER as soon as possible with a written follow-up within 7 days
+   - Per NHSN severity grading, a reaction that places the patient at immediate risk of death is classified as life-threatening. Suspected transfusion-related deaths must be reported to the FDA (CBER) as soon as possible via oral or electronic notification, followed by a mandatory written report within 7 days of the event.
+
+**Key pathway.** Diagnosis: Transfusion-Related Acute Lung Injury (TRALI). TRALI is one of the leading causes of transfusion-related fatality reported to the FDA (with TACO and hemolytic reactions) and is frequently underrecognized/underreported. Antibody workup on the implicated unit should evaluate non-HLA determinants — specifically Human Neutrophil Antigens (HNA) — because antibodies to HNA-3a (an antigen located on the choline transporter CTL2) are associated with the most severe and fatal TRALI reactions, distinct from HNA-1a/HNA-1b antibodies (the leading cause of neonatal alloimmune neutropenia, not severe TRALI). Given the life-threatening presentation, the reaction should be graded as life-threatening severity with definitive/probable imputability as appropriate, and if fatal, reported to FDA/CBER as soon as possible with a written follow-up within 7 days.
+
+**Teaching.** TRALI is one of the leading causes of transfusion-related fatality reported to the FDA, alongside TACO and hemolytic reactions, yet — like TACO — it is frequently underrecognized and underreported in hemovigilance systems, meaning true incidence and severity are likely underestimated. Mechanistically, TRALI in this case is antibody-mediated: the implicated donor unit carries an antibody directed against a leukocyte antigen. Histocompatibility frameworks distinguish the HLA system (Class I on most nucleated cells and platelets; Class II restricted to antigen-presenting cells) from non-HLA determinants such as Human Neutrophil Antigens (HNA) and MICA. HNA is organized into five antigen systems (HNA-1 through HNA-5); HNA-1 sits on the FcγRIIIb receptor and antibodies to HNA-1a/1b are the leading cause of neonatal alloimmune neutropenia, while HNA-3a — located on the choline transporter CTL2 — is the antibody specificity specifically associated with the most severe and fatal TRALI reactions. This distinction matters clinically: identifying an antibody is not enough — its specificity predicts severity. Because TRALI can progress to life-threatening respiratory failure or death, cases must be graded using NHSN severity criteria (non-severe, severe, life-threatening, death) and imputability categories (definitive, probable, possible, doubtful/ruled out), and any suspected transfusion-related fatality triggers mandatory FDA/CBER reporting — an oral or electronic report as soon as possible, followed by a written report within 7 days.
+
+**Pitfalls.**
+- Assuming any positive donor leukocyte antibody carries the same TRALI risk — antibodies to HNA-3a (on CTL2) are specifically linked to the most severe and fatal reactions, so the specific antigen target matters, not just antibody positivity.
+- Confusing HLA and non-HLA (HNA) antibody systems — HNA is explicitly categorized as a non-HLA determinant distinct from HLA Class I/II, and workups/consultative pathways differ accordingly.
+- Conflating HNA-1a/1b (the most common cause of neonatal alloimmune neutropenia) with HNA-3a (linked to severe/fatal TRALI) — these are different HNA specificities with different clinical syndromes.
+- Under-recognizing or under-reporting TRALI because its presentation overlaps with TACO and other causes of post-transfusion respiratory compromise — hemovigilance data show both are commonly underrecognized and underreported, and delaying FDA/CBER notification of a suspected fatal reaction beyond 'as soon as possible' (with a written report due within 7 days) risks a regulatory compliance failure.
+
+**Sources:** `SRC-032`, `SRC-004`, `SRC-028`
+**Review:** auto-audited-pass · source-support: partial
+
+---
+
+## C-023 — Citrate Toxicity During Massive Transfusion Protocol Activation  `AR`
+*6. Hazards of Transfusion: Specific Adverse Events* · support: high
+
+**Setup.** A 34-year-old man is brought to the trauma bay after a high-speed motor vehicle collision with a grade IV splenic laceration and ongoing intra-abdominal hemorrhage. The massive transfusion protocol (MTP) is activated, and he begins receiving RBCs, plasma, and platelets in a 1:1:1 ratio through a rapid infuser. After his sixth RBC unit and fourth plasma unit within about 35 minutes, he reports circumoral tingling and tingling in his fingertips, and the bedside nurse notes a fine tremor in his hands. He remains tachycardic and hypotensive from ongoing hemorrhage, and the cardiac monitor now shows a new dysrhythmia.
+
+**Findings.**
+- Heart rate: 118 bpm (abnormal)
+- Blood pressure: 88/52 mmHg (abnormal)
+- Core temperature: 35.4°C (mild hypothermia) (abnormal)
+- Ionized calcium: 0.78 mmol/L (MTP monitoring target >1.0 mmol/L) (critical)
+- Potassium: mildly elevated, trending upward on serial draws (abnormal)
+- INR: 1.9 (plasma transfusion trigger is INR >1.5) (abnormal)
+- aPTT: 68 seconds (plasma transfusion trigger is >60 seconds) (abnormal)
+- Platelet count: 42,000/µL (platelet transfusion trigger is <50,000/µL) (abnormal)
+- Fibrinogen: 85 mg/dL (cryoprecipitate trigger is <100 mg/dL) (abnormal)
+- Cardiac monitor: new dysrhythmia noted during rapid infusion (abnormal)
+- Components transfused so far: 6 RBC units, 4 plasma units, 1 platelet dose over ~35 minutes (approx. 1:1:1 ratio)
+
+**Decision points.**
+1. The patient develops perioral tingling, fingertip paresthesias, and a fine hand tremor during rapid 1:1:1 MTP resuscitation. What is the single best next diagnostic step?
+   - **Answer:** Order a STAT ionized calcium level.
+   - Perioral paresthesias, extremity tingling, and tremor during rapid transfusion of anticoagulated components are the classic presentation of citrate toxicity. Citrate chelates ionized (not total) calcium, so ionized calcium is the parameter that must be monitored frequently during MTP, with a target of >1.0 mmol/L (SRC-032, SRC-023).
+2. The ionized calcium returns at 0.78 mmol/L, below the MTP monitoring target. Hemorrhage is not yet controlled and transfusion must continue. What is the most appropriate management action?
+   - **Answer:** Administer IV calcium replacement while continuing transfusion.
+   - Hypocalcemia from citrate chelation necessitates monitoring and possible IV or oral calcium replacement; this is corrected alongside ongoing resuscitation rather than by halting lifesaving transfusion (SRC-023).
+3. Which components transfused so far are most responsible for the patient's citrate load, and why does this matter for a 1:1:1 MTP protocol?
+   - **Answer:** Plasma and platelets, because they contain roughly 5x more citrate per unit than RBCs.
+   - Rapid infusion of anticoagulated components leads to citrate toxicity because plasma and platelet units carry about 5 times more citrate than RBC units; a balanced 1:1:1 MTP ratio therefore increases cumulative citrate exposure compared with RBC-predominant resuscitation (SRC-032).
+4. After IV calcium correction, the patient remains in hemorrhagic shock and continues to require rapid MTP transfusion. The cardiac monitor shows a further new dysrhythmia. What other metabolic complication of massive transfusion must now be considered and monitored, separately from citrate toxicity?
+   - **Answer:** Hyperkalemia from potassium accumulation in stored RBC supernatant.
+   - Potassium leaks into the supernatant during RBC storage, and rapid infusion can cause cardiac arrest, particularly in neonates or patients with renal failure. Citrate toxicity, hyperkalemia, and hypothermia are three distinct metabolic complications of massive transfusion that can occur concurrently and each require dedicated monitoring (ionized calcium, potassium, and temperature) rather than being conflated with one another (SRC-032).
+
+**Key pathway.** Citrate toxicity is a metabolic complication of rapid/massive transfusion caused by citrate (the anticoagulant in blood components) chelating ionized calcium. Plasma and platelets carry roughly 5x more citrate per unit than RBCs, so balanced 1:1:1 MTP resuscitation increases citrate load. Classic presentation is perioral paresthesias, tingling in the extremities, and shivering, progressing to tetany or cardiac arrhythmias if unrecognized. The correct diagnostic step is a STAT ionized (not total) calcium, with an MTP monitoring target of >1.0 mmol/L; management is IV (or oral, in milder/apheresis settings) calcium replacement while hemorrhage control and transfusion continue. Citrate toxicity must be distinguished from — and monitored concurrently with — the two other metabolic complications of massive transfusion: hyperkalemia (potassium leaking from stored RBC supernatant, worsened by rapid infusion, especially in neonates or renal failure) and hypothermia (from infusing refrigerated components, which also worsens coagulopathy).
+
+**Teaching.** Citrate is the anticoagulant-preservative used in blood components; it works by chelating calcium to prevent clotting in the collection bag. When components are infused rapidly during massive or rapid transfusion, citrate is delivered faster than the body can metabolize it, and it chelates the patient's own ionized calcium, producing hypocalcemia. The clinical hallmark is perioral paresthesias with tingling in the extremities, and in apheresis literature this same mechanism is described as also causing shivering, with severe/untreated cases progressing to tetany or cardiac arrhythmias. Because plasma and platelet units contain roughly 5 times more citrate than RBC units, the citrate load rises disproportionately whenever plasma- and platelet-rich components are given — which is exactly the situation created by modern balanced (1:1:1) MTP protocols designed to prevent dilutional coagulopathy. The correct monitoring parameter is ionized calcium (not total calcium), which should be kept above 1.0 mmol/L during MTP, checked frequently alongside potassium and viscoelastic testing (TEG/ROTEM). Management of confirmed citrate-driven hypocalcemia is calcium replacement (IV in the acute/massive-transfusion setting, IV or oral in apheresis), given concurrently with ongoing resuscitation rather than by stopping transfusion. Citrate toxicity does not occur in isolation: massive transfusion produces two other metabolic complications that must be tracked in parallel — hyperkalemia (from potassium that leaks into the supernatant during RBC storage, which can precipitate cardiac arrest with rapid infusion, particularly in neonates or renal failure) and hypothermia (from infusing refrigerated components, which itself can cause arrhythmias and worsens coagulopathy by reducing enzymatic activity). Recognizing which of these three concurrent, mechanistically distinct complications is driving a new arrhythmia or symptom during MTP is a recurring board-level discrimination point. The same core citrate-hypocalcemia mechanism (chelation of ionized calcium, with citrate ultimately metabolized to bicarbonate causing mild metabolic alkalosis) also underlies citrate toxicity during therapeutic apheresis procedures, where ACD-A is the anticoagulant and plasma replacement (versus albumin) further increases citrate load.
+
+**Pitfalls.**
+- Ordering total (rather than ionized) serum calcium — citrate chelates the ionized fraction specifically, and total calcium can be misleadingly normal or only mildly reduced while the physiologically active ionized calcium is critically low.
+- Attributing all new symptoms/arrhythmias during MTP to a single cause — citrate toxicity, hyperkalemia (from stored RBC supernatant potassium), and hypothermia (from refrigerated components) are three separate, concurrent metabolic complications of massive transfusion and each requires its own monitoring parameter (ionized calcium, potassium, temperature).
+- Underestimating that balanced 1:1:1 MTP protocols, by increasing plasma and platelet volume relative to RBC-only resuscitation, raise citrate exposure because plasma/platelets carry about 5x more citrate per unit than RBCs.
+- Stopping lifesaving transfusion entirely to 'let calcium recover' instead of correcting hypocalcemia with calcium replacement while continuing hemorrhage control and transfusion in parallel.
+
+**Sources:** `SRC-032`, `SRC-023`, `SRC-043`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial
+
+---
+
+## C-025 — Fever and Hypotension During Autologous RBC Transfusion: Recognizing Non-Immune Bacterial Contamination (TTBI)  `AR`
+*6. Hazards of Transfusion: Specific Adverse Events* · support: moderate
+
+**Setup.** A 68-year-old man underwent elective right total hip arthroplasty. He had predonated 2 units of autologous RBCs 3 weeks preoperatively (documented donation hemoglobin 11.8 g/dL), each labeled "For Autologous Use Only" and released for his own use only at this facility. On postoperative day 1 he was transfused his second autologous RBC unit for symptomatic postoperative anemia. Twelve minutes into the transfusion he developed abrupt shaking rigors, and the bedside nurse pages you.
+
+**Findings.**
+- Baseline temperature (pre-transfusion): 37.1°C (normal)
+- Temperature at 12 minutes into transfusion: 39.6°C (rise of 2.5°C from baseline) (critical)
+- Heart rate: 130 bpm (baseline 82 bpm) (abnormal)
+- Blood pressure: 82/50 mmHg (baseline 128/74 mmHg) (critical)
+- Clinical sign: New shaking rigors (abnormal)
+- Unit label: Autologous RBC unit, "For Autologous Use Only," collected 3 weeks prior, donation Hb 11.8 g/dL
+- Donor-recipient relationship: Self (autologous donation, same facility, not shipped elsewhere)
+
+**Decision points.**
+1. The nurse reports rigors, tachycardia, and hypotension 12 minutes into the autologous RBC transfusion and asks whether to slow the rate and observe, or stop. What is the correct immediate action?
+   - **Answer:** Stop the transfusion immediately, keep the IV line open with saline, and notify the physician/blood bank.
+   - The described triad of high fever (≥2°C rise), rigors, tachycardia, and profound hypotension is the source-defined presentation of transfusion-transmitted bacterial infection (TTBI)/transfusion-associated sepsis. The suspected-TTBI workup requires stopping the transfusion immediately.
+2. Blood bank asks what specimens should be sent to evaluate for suspected TTBI. Which are correct?
+   - **Answer:** The patient's blood and the remaining component in the bag itself (not the segments).
+   - The source-grounded suspected-TTBI workup specifies stopping the transfusion and culturing both the patient's blood and the remaining component in the bag, explicitly not the segments, since segment contents may not reflect contamination present in the unit.
+3. Gram stain/culture of the residual unit grows a cold-growing gram-negative organism. Which organism is classically implicated in bacterial contamination of a refrigerated RBC unit, as distinct from a room-temperature platelet unit?
+   - **Answer:** Yersinia enterocolitica.
+   - RBCs are classically contaminated by cold-growing gram-negative organisms such as Yersinia enterocolitica, which can proliferate during refrigerated storage, whereas platelet units stored at room temperature are more typically contaminated by gram-positive skin organisms such as S. aureus.
+4. A colleague states, "This is his own predonated blood, so there's no infectious risk here and this can't be a contamination event." How should this be corrected using the rules governing autologous transfusion?
+   - **Answer:** Autologous units are not exempt from bacterial contamination risk or from infectious disease testing obligations (testing required if shipped to another facility); they simply have more lenient donor eligibility criteria and must be labeled "For Autologous Use Only."
+   - Autologous donation eligibility is less stringent than allogeneic (Hb ≥ 11.0 g/dL, no age limit) and units must be labeled "For Autologous Use Only," but autologous units still require infectious disease testing if shipped to another facility, and bacterial contamination introduced during phlebotomy/processing/refrigerated storage occurs independent of the donor-recipient relationship — self-donation does not confer immunity from non-immune contamination hazards.
+
+**Key pathway.** Stage 1: Stop the transfusion immediately, keep the line open with saline, and notify the physician/blood bank — the fever(≥2°C rise)/rigors/tachycardia/hypotension pattern is the source-defined presentation of TTBI (transfusion-associated sepsis). Stage 2: Culture the patient's blood AND the residual component remaining in the bag itself, not the pilot-tube segments. Stage 3: Yersinia enterocolitica — a cold-growing gram-negative organism classically implicated in refrigerated RBC unit contamination, versus gram-positive skin flora (e.g., S. aureus) in room-temperature platelet contamination. Stage 4: Autologous status does not eliminate contamination or testing obligations — donation eligibility is simply more lenient (Hb ≥ 11.0 g/dL, no age limit) and the unit must be labeled "For Autologous Use Only"; infectious disease testing is still required if the unit is shipped to another facility, and bacterial contamination during collection/storage is independent of the donor-recipient relationship.
+
+**Teaching.** In special transfusion settings such as autologous transfusion, the recipient is also the donor, but this does not eliminate the risk of non-immune transfusion reactions — particularly transfusion-transmitted bacterial infection (TTBI). TTBI presents with an abrupt high fever (≥2°C rise from baseline), rigors, tachycardia, and profound hypotension, and bacterial contamination is currently considered the most frequent infectious cause of transfusion-related death, most classically associated with room-temperature-stored platelets but also occurring in refrigerated RBC units via cold-growing gram-negative organisms such as Yersinia enterocolitica (versus gram-positive skin flora such as S. aureus in platelets). Any suspected TTBI mandates immediately stopping the transfusion and culturing both the patient's blood and the residual component remaining in the bag itself — not the attached segments, which may not reflect contamination present in the unit. Because autologous donation eligibility criteria are more lenient than allogeneic (hemoglobin ≥ 11.0 g/dL, no age limit) and because autologous units are not universally subjected to full infectious disease marker testing (testing is required only if the unit is shipped to another facility), it is a common misconception that "self" blood is risk-free. The safety concern illustrated here is non-immune bacterial contamination introduced during phlebotomy, processing, or storage — a hazard that applies equally to autologous and allogeneic components and is entirely independent of the donor-recipient relationship.
+
+**Pitfalls.**
+- Assuming autologous ("self") blood cannot transmit infection or become contaminated because the donor and recipient are the same person — bacterial contamination during collection or refrigerated storage occurs independent of the donor-recipient relationship.
+- Culturing only the pilot-tube segments rather than the residual component remaining in the bag when TTBI is suspected, which can produce a false-negative workup.
+- Underestimating a fever/rigors/hypotension presentation as a mild or benign reaction and continuing the transfusion rather than stopping it immediately and notifying the blood bank.
+- Assuming autologous units are always exempt from infectious disease marker testing — testing is still required if the unit will be shipped to another facility.
+
+**Sources:** `SRC-015`, `SRC-015`, `SRC-015`, `SRC-003`, `SRC-013`, `SRC-015`
+**Review:** auto-audited-pass · source-support: partial
+
+---
+
+## C-027 — Irradiator Calibration Lapse and an Unirradiated Unit: Safeguards Against TA-GVHD  `AR`
+*6. Hazards of Transfusion: Specific Adverse Events* · support: low
+
+**Setup.** A 38-year-old woman with acute myeloid leukemia is admitted to the inpatient hematology-oncology unit for consolidation chemotherapy. Her treating physician has ordered irradiated cellular blood components for the duration of her care. During a routine quality audit ahead of an AABB inspection, the blood bank's quality manager discovers that the facility's blood irradiator's annual calibration is two months overdue (last performed 14 months prior), and further chart review reveals that a leukoreduced RBC unit intended for irradiation was released and transfused to this patient without irradiation because of a labeling oversight during a busy overnight shift.
+
+**Findings.**
+- Blood irradiator annual calibration: Last performed 14 months ago (QC standard: yearly calibration) (abnormal)
+- Blood irradiator dose-delivery check: Documented with each use throughout the interval; no failures noted (normal)
+- RBC unit issued to patient: Leukoreduced RBC unit released and transfused WITHOUT irradiation (labeling oversight) (critical)
+- Biological Product Deviation (BPD) criteria met: 5 of 5 criteria satisfied: manufacturing-associated, deviation from specification, potential safety/purity/potency impact, occurred under facility control, product distributed (critical)
+- Pathogen-reduced platelet inventory (amotosalen/UVA, INTERCEPT): Available in inventory; FDA-cleared for platelets and plasma only — RBC pathogen-inactivation systems still in clinical trials
+- Proposed extracorporeal photopheresis (ECP) order for 'GVHD prevention': Suggested by a junior team member; ECP treats established GVHD/CTCL via apoptosis of the patient's own leukocytes and is not a donor-component processing step (abnormal)
+
+**Decision points.**
+1. Quality audit reveals the irradiator's annual calibration was last performed 14 months ago (2 months overdue), though the per-use dose-delivery check log shows no missed or failed checks during that interval. What is the most appropriate interpretation and immediate action?
+   - **Answer:** Recognize this as a Nonconforming Event requiring documentation, impact determination, investigation, root cause analysis, and CAPA, while noting the per-use dose-delivery checks provide direct dose verification despite the calibration lapse.
+   - Blood irradiator QC standards require yearly calibration plus a dose-delivery check with each use. A missed annual calibration is a deviation that must go through the standard Nonconforming Event workflow (documentation, impact determination, quarantine/recall as indicated, investigation, root cause analysis, CAPA, reporting, effectiveness review), but the per-use dose-delivery checks are the more direct, ongoing verification of actual delivered dose.
+2. A leukoreduced RBC unit intended to be irradiated was inadvertently released without irradiation and transfused to this immunocompromised inpatient. Which regulatory pathway applies, and why?
+   - **Answer:** This meets all five BPD criteria and must be reported to the FDA, alongside the internal Nonconforming Event workflow.
+   - Irradiation status is part of processing/labeling; omitting it is a deviation from specification that may affect the safety of a distributed, transfused product — satisfying all five BPD reporting criteria (associated with manufacturing, deviation from cGMP/specifications, may affect safety/purity/potency, occurred while the facility had control, and the product was distributed). BPD reporting is required 'regardless of licensure status' of the facility. Because the outcome (actual transfusion) already occurred, this is an actual event, not a Near-Miss Event, which by definition did not adversely affect the outcome.
+3. Reviewing systemic safeguards, the medical director asks whether pathogen-reduction technology could have prevented this specific RBC event, and which platform is described as removing the need for gamma irradiation.
+   - **Answer:** Amotosalen + UVA (INTERCEPT) is described as replacing the need for gamma irradiation and CMV testing, but PI technology is currently FDA-cleared only for platelets and plasma; RBC PI systems remain in clinical trials, so it would not have prevented this RBC-specific lapse.
+   - Amotosalen intercalates into DNA/RNA and forms cross-links upon UVA exposure, effectively replacing the need for gamma irradiation and CMV testing for the components to which it currently applies. Approved pathogen-inactivation technologies are FDA-cleared for platelets and plasma; RBC PI systems are still in clinical trials. This distinguishes which future cellular products (platelets/plasma) could rely on PI instead of irradiation, versus RBCs, which still depend on gamma irradiation for GVHD-risk mitigation today.
+4. A junior team member suggests scheduling extracorporeal photopheresis (ECP) for this patient as a way to 'prevent' TA-GVHD going forward. Is this an appropriate substitute for irradiating her cellular blood components?
+   - **Answer:** No — ECP is a therapeutic procedure performed on the patient's own leukocytes to treat established GVHD (or CTCL), not a donor-component processing step that prevents TA-GVHD before transfusion.
+   - The source defines ECP as collection of the buffy coat, treatment with 8-methoxypsoralen and UVA light, and reinfusion to induce apoptosis in leukocytes for conditions like GVHD and CTCL — a treatment modality applied to a patient with disease. This is conceptually and procedurally distinct from irradiating a donor blood component prior to issue, which is the step that actually prevents TA-GVHD by disabling donor lymphocyte proliferative capacity before the product reaches a susceptible host.
+
+**Key pathway.** The immunocompromised patient received an unirradiated cellular RBC unit due to (1) an overdue irradiator calibration that nonetheless had intact per-use dose-delivery checks, and (2) a labeling oversight that let the unit bypass irradiation entirely. This triggers both the internal Nonconforming Event pathway and mandatory FDA Biological Product Deviation reporting (all 5 criteria met) because the product was actually transfused, not merely a near-miss. Amotosalen+UVA (INTERCEPT) pathogen inactivation is described as replacing the need for gamma irradiation, but only for platelets and plasma today (RBC PI remains investigational), so it could not have substituted for irradiation in this RBC-specific lapse. Extracorporeal photopheresis (ECP) is a therapeutic procedure for established GVHD/CTCL performed on the patient's own leukocytes and is not an alternative to donor-component irradiation for TA-GVHD prevention.
+
+**Teaching.** TA-GVHD occurs when viable, immunocompetent donor lymphocytes in a transfused cellular blood component survive, engraft, and proliferate in a host who cannot recognize and reject them, and then attack host tissues. Prevention centers on disabling donor lymphocyte proliferative capacity before transfusion — historically via gamma irradiation, and more recently via FDA-cleared pathogen-reduction technology for select components (amotosalen + UVA/INTERCEPT is explicitly described as replacing the need for gamma irradiation and CMV testing). Because RBC pathogen-inactivation systems remain investigational, RBC components for at-risk patients still depend on gamma irradiation, which makes irradiator QC (yearly calibration plus a dose-delivery check with every use) a patient-safety-critical control. When that control fails and an unirradiated cellular product is transfused, this is not merely an internal quality note — it satisfies all five Biological Product Deviation criteria and must be run through both the Nonconforming Event pathway (documentation, impact determination, quarantine, investigation, root cause analysis, CAPA, reporting, effectiveness review) and FDA BPD reporting. The case also distinguishes ECP — a therapeutic apheresis procedure that treats a patient's own leukocytes to manage established GVHD or CTCL — from irradiation, a preventive processing step applied to the donor component before it ever reaches the patient; the two are mechanistically and clinically distinct despite both employing UV-based technology.
+
+IMPORTANT SOURCE-COVERAGE NOTE: The four approved sources for this case do NOT contain the classic enumerated list of TA-GVHD patient/donor risk factors typically tested under this exact blueprint node (e.g., HLA haplotype homozygosity/one-way HLA matching between donor and recipient, directed donations from blood relatives, congenital cellular immunodeficiency, intrauterine or neonatal exchange transfusion, purine-analog/fludarabine-based chemotherapy, or Hodgkin lymphoma). This case was therefore built around the only TA-GVHD-adjacent material the approved sources actually contain — irradiation and pathogen-inactivation prevention strategies plus the surrounding QC/regulatory framework — rather than the general patient/donor risk-factor list itself. Treat this case as reinforcing the prevention/QC layer of TA-GVHD, and supplement with outside material for the enumerated host/donor risk factors.
+
+**Pitfalls.**
+- Assuming a missed annual irradiator calibration alone proves that delivered doses were inadequate — the per-use dose-delivery check is the more direct verification and should be reviewed before assuming patient harm.
+- Classifying an unirradiated cellular unit that was actually transfused as a 'near-miss' — by definition a Near-Miss Event did not adversely affect the outcome; once the product is issued and transfused, it is an actual event requiring full Nonconforming Event workup and BPD reporting.
+- Assuming pathogen-inactivation (amotosalen/UVA) is currently a universal substitute for irradiation — it is FDA-cleared only for platelets and plasma, not RBCs, so RBC components for at-risk patients still require gamma irradiation today.
+- Confusing extracorporeal photopheresis (ECP) with irradiation as a TA-GVHD safeguard — ECP treats a patient's own leukocytes for established GVHD/CTCL and is not a method of preparing donor blood components to prevent TA-GVHD before transfusion.
+
+**Sources:** `SRC-027`, `SRC-027`, `SRC-027`, `SRC-027`, `SRC-002`, `SRC-023`
+**Review:** auto-audited-pass · source-support: partial
+
+---
+
+## C-028 — TA-GVHD Prevention Across the Perinatal Continuum: IUT, Premature Neonates, and Exchange Transfusion  `AR`
+*6. Hazards of Transfusion: Specific Adverse Events* · support: high
+
+**Setup.** A 29-year-old G2P1 with a history of RhD alloimmunization (anti-D titer rising to 1:16 on this pregnancy) is referred to maternal-fetal medicine at 28 weeks' gestation for fetal anemia surveillance. Serial MCA-PSV Doppler ultrasound shows a rising peak systolic velocity, and cordocentesis confirms severe fetal anemia, prompting intrauterine transfusion (IUT). The blood bank must select and prepare an appropriate cellular component. Labor subsequently proceeds prematurely at 29 weeks; the extremely low-birth-weight infant then requires further RBC support for anemia of prematurity and, later, an exchange transfusion for progressive unconjugated hyperbilirubinemia despite phototherapy — each step raising a distinct blood-component-selection question centered on preventing transfusion-associated graft-versus-host disease (TA-GVHD).
+
+**Findings.**
+- Gestational age at MFM referral: 28 weeks
+- Maternal anti-D titer: 1:16 (active alloimmunization; titers >4 indicate active rather than passive anti-D) (abnormal)
+- MCA-PSV Doppler: 1.8 MoM (critical)
+- Fetal hemoglobin (cordocentesis): 6.2 g/dL (critical)
+- IUT unit specification ordered: Group O, Rh-negative, <7 days old, gamma-irradiated, CMV-safe, HbS-negative (normal)
+- Delivery gestational age / birth weight: 29 weeks, 1100 g (critical)
+- Day-3 hemoglobin (anemia of prematurity): 8.5 g/dL with tachycardia, poor weight gain, increased O2 requirement (abnormal)
+- RBC unit initially dispensed for day-3 transfusion: Leukoreduced only, not irradiated (critical)
+- Total bilirubin trend on phototherapy: Rising unconjugated bilirubin despite phototherapy (460-490 nm) (abnormal)
+- Exchange-transfusion unit specification ordered: Group O compatible, fresh, gamma-irradiated (normal)
+
+**Decision points.**
+1. The MFM team requests a unit for intrauterine transfusion for a fetus with cordocentesis Hgb 6.2 g/dL. What specifications must the blood bank ensure for the IUT unit?
+   - **Answer:** Group O, Rh-negative (usually), <7 days old, gamma-irradiated, CMV-safe, and HbS-negative.
+   - IUT is indicated for severe fetal anemia (<10 g/dL Hgb) and requires units meeting all of these criteria simultaneously; irradiation is mandatory for IUT specifically to prevent TA-GVHD, alongside the group O/Rh-negative, freshness (<7 day), CMV-safety, and HbS-negative requirements.
+2. The infant is delivered at 29 weeks, birth weight 1100 g, and on day 3 needs a simple RBC transfusion for anemia of prematurity. The unit pulled from stock is leukoreduced. Is leukoreduction sufficient to prevent TA-GVHD in this neonate?
+   - **Answer:** No. Leukoreduction does not prevent TA-GVHD; gamma irradiation is separately mandatory for this <1200 g premature neonate.
+   - Gamma irradiation is essential for preventing TA-GVHD in high-risk patients including fetuses and neonates, and is specifically mandatory for premature neonates weighing <1200 g. Leukoreduction serves distinct purposes (prevents FNHTR, reduces CMV transmission risk, decreases HLA alloimmunization) and is not interchangeable with irradiation for TA-GVHD prevention.
+3. This neonate will likely require several small-volume transfusions over the coming weeks. What transfusion practice minimizes donor exposures across these repeated transfusions?
+   - **Answer:** Use small-volume aliquots (10-15 mL/kg) from a dedicated unit.
+   - Simple neonatal transfusions use small-volume aliquots (10-15 mL/kg) from dedicated units specifically to minimize the number of donor exposures for the neonate.
+4. Bilirubin continues to rise despite phototherapy and double-volume exchange transfusion is planned to prevent kernicterus. Does the exchange transfusion unit require irradiation?
+   - **Answer:** Yes. Irradiation is mandatory for exchange transfusion just as it is for IUT and premature neonates <1200 g.
+   - Irradiation is explicitly mandatory for IUT, exchange transfusion, and premature neonates <1200 g to prevent TA-GVHD — exchange transfusion is listed as its own independent indication, not an extension of the IUT requirement.
+
+**Key pathway.** Stage 1 — IUT unit: must be group O, Rh-negative (usually), less than 7 days old, gamma-irradiated, CMV-safe, and hemoglobin S–negative; a non-irradiated or leukoreduced-only unit is unacceptable regardless of freshness or CMV status. Stage 2 — Leukoreduction does NOT substitute for irradiation; the <1200 g premature neonate's RBC unit must be separately gamma-irradiated to prevent TA-GVHD even though it is already leukoreduced. Stage 3 — Use small-volume aliquots (10–15 mL/kg) drawn from a single dedicated donor unit to minimize donor exposures across repeated neonatal transfusions. Stage 4 — Yes: irradiation is independently mandatory for the exchange-transfusion unit, exactly as it is for IUT and for premature neonates <1200 g; hyperbilirubinemia management does not waive the TA-GVHD prevention requirement.
+
+**Teaching.** TA-GVHD results from viable donor T lymphocytes in a cellular blood component engrafting, proliferating, and attacking host tissue; gamma irradiation of cellular components (RBCs, platelets, granulocytes) inactivates these donor T lymphocytes before transfusion and is the specific preventive measure. The sources designate fetuses, neonates, immunocompromised patients (e.g., BMT recipients), and recipients of directed donations from blood relatives as the high-risk groups for whom irradiation is required. In the fetal/neonatal population this translates into three concrete, independently mandatory indications: intrauterine transfusion, exchange transfusion, and transfusion of premature neonates weighing <1200 g. IUT units carry additional compatibility requirements beyond irradiation — group O, Rh-negative (usually), less than 7 days old, CMV-safe, and hemoglobin S–negative — because the component must simultaneously satisfy fetal physiologic tolerance, infection-risk mitigation, and antisickling requirements. A key distinction the boards test is that leukoreduction and irradiation are separate interventions addressing separate risks: leukoreduction prevents febrile nonhemolytic reactions, reduces CMV transmission risk, and decreases HLA alloimmunization, but it does not reliably prevent TA-GVHD — only irradiation does. Finally, because neonates undergo repeated small-volume transfusions, practice minimizes donor exposure by using 10-15 mL/kg aliquots from a single dedicated unit rather than drawing from multiple different donor units.
+
+**Pitfalls.**
+- Assuming a leukoreduced unit is 'safe enough' and skipping irradiation — leukoreduction targets FNHTR, CMV transmission, and HLA alloimmunization, but does not prevent TA-GVHD; only gamma irradiation does.
+- Treating irradiation as an IUT-only requirement and forgetting it is independently mandatory for exchange transfusion and for any premature neonate <1200 g, even outside the intrauterine setting.
+- Overlooking that directed donations from blood relatives also require irradiation — if a family member donates for a neonate, irradiation is still mandatory regardless of the neonate's other risk factors.
+- Ordering an IUT unit that satisfies only some criteria (e.g., irradiated and fresh but not confirmed HbS-negative, or CMV-safe but not confirmed <7 days old) — all specified criteria (group O, Rh-negative, <7 days old, irradiated, CMV-safe, HbS-negative) must be met simultaneously, not selectively.
+
+**Sources:** `SRC-017`, `SRC-045`, `SRC-019`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial
+
+---
+
+## C-029 — Intrauterine Transfusion: Selecting Irradiated RBCs to Prevent TA-GVHD in a Fetus at Risk  `AR`
+*6. Hazards of Transfusion: Specific Adverse Events* · support: moderate
+
+**Setup.** A 29-year-old G2P1 woman with anti-D alloimmunization from a prior pregnancy is followed by maternal-fetal medicine. At 26 weeks' gestation, serial middle cerebral artery peak systolic velocity (MCA-PSV) Doppler measurements rise into a range consistent with fetal anemia, and her anti-D titer remains significantly elevated. The team plans an intrauterine transfusion (IUT) via cordocentesis and contacts the transfusion service to select and prepare the RBC unit for this immunologically vulnerable fetal recipient.
+
+**Findings.**
+- Maternal antibody: Anti-D, significantly elevated titer (abnormal)
+- Fetal MCA-PSV Doppler: Elevated, consistent with fetal anemia (abnormal)
+- Gestational age: 26 weeks
+- Ordered IUT RBC unit specification: Group O, Rh-negative, irradiated, HbS-negative, less than 7 days old
+- Available Unit A: Irradiated, Group O Rh-negative, HbS-negative, collected 10 days ago (abnormal)
+- Available Unit B: Irradiated, Group O Rh-negative, HbS-negative, collected 5 days ago (normal)
+
+**Decision points.**
+1. The maternal-fetal medicine team requests an RBC unit for intrauterine transfusion via cordocentesis. What unit specifications must the transfusion service provide?
+   - **Answer:** Group O, Rh-negative, irradiated, HbS-negative RBCs less than 7 days old.
+   - Per SRC-020, intrauterine transfusion typically requires Group O, Rh-negative, irradiated, HbS-negative RBCs less than 7 days old.
+2. The technologist asks whether a leukoreduced (but non-irradiated) unit is an acceptable substitute for this fetal recipient, since leukoreduction removes most donor white cells. How should the medical director respond?
+   - **Answer:** No - leukoreduction and irradiation serve distinct, non-interchangeable purposes; only irradiation prevents TA-GVHD.
+   - SRC-043 explicitly separates pretransfusion processing purposes: irradiation is for TA-GVHD prevention, while leukoreduction is for FNHTR/CMV prevention. SRC-012 corroborates that leukoreduction's protective role is against CMV transmission (removal of CMV-carrying leukocytes), not TA-GVHD.
+3. Inventory shows two irradiated, Group O Rh-negative, HbS-negative units: Unit A collected 10 days ago and Unit B collected 5 days ago. Which should be selected for this IUT, and why?
+   - **Answer:** Unit B, the 5-day-old unit.
+   - SRC-020 specifies IUT RBCs should be less than 7 days old. SRC-043 notes that hyperkalemia risk is increased especially with older irradiated units, a metabolic concern directly relevant to fetal/neonatal transfusion.
+4. Suppose irradiation had been omitted and, weeks after a transfusion, a fetus/neonate develops fever, rash, diarrhea, liver dysfunction, and pancytopenia. What is this entity and its expected outcome?
+   - **Answer:** TA-GVHD, a delayed transfusion reaction with approximately 90% fatality.
+   - SRC-043 classifies TA-GVHD among delayed reactions and states it carries approximately 90% fatality, underscoring why prospective irradiation of components for at-risk recipients (such as IUT candidates) is the operative prevention strategy rather than post-hoc treatment.
+
+**Key pathway.** Fetuses undergoing intrauterine transfusion (IUT) are a source-documented population at risk for TA-GVHD: they require Group O, Rh-negative, irradiated, HbS-negative RBCs less than 7 days old. Irradiation—not leukoreduction—is the specific, non-interchangeable measure that prevents TA-GVHD (leukoreduction instead targets FNHTR and CMV transmission). Older irradiated units carry an added hyperkalemia risk in fetal/neonatal recipients, so unit age (<7 days) is independently enforced. Once TA-GVHD occurs, it presents as a delayed reaction with approximately 90% fatality, which is why prospective irradiation for at-risk recipients like IUT candidates is the operative strategy rather than post-hoc treatment.
+
+**Teaching.** TA-GVHD results when viable, immunocompetent donor T-lymphocytes in a cellular blood component survive transfusion and engraft in a recipient unable to reject them. The sources document intrauterine transfusion recipients as a population for whom irradiated components are specifically mandated (Group O, Rh-negative, irradiated, HbS-negative, <7 days old), and they draw a sharp, testable distinction between the two most commonly confused pretransfusion processing steps: irradiation, which inactivates donor lymphocytes to prevent TA-GVHD, and leukoreduction, which instead reduces febrile nonhemolytic reactions and CMV transmission risk. These are not interchangeable, and boards frequently test this exact substitution error. Unit age also matters for this recipient population: because hyperkalemia risk rises with irradiated-unit storage age, IUT units are additionally constrained to less than 7 days old, layering a metabolic safety requirement on top of the immunologic one. When prevention fails, TA-GVHD behaves as a delayed reaction (as opposed to acute hemolytic or allergic reactions) and carries roughly 90% fatality, which is why the entire clinical and laboratory emphasis for at-risk recipients is prospective irradiation rather than post-onset treatment.
+
+**Pitfalls.**
+- Assuming leukoreduction is an adequate substitute for irradiation in TA-GVHD prevention - the sources explicitly separate their purposes (irradiation for TA-GVHD; leukoreduction for FNHTR/CMV).
+- Selecting an irradiated unit for an intrauterine transfusion without also checking unit age; IUT units should be less than 7 days old, and older irradiated units carry increased hyperkalemia risk.
+- Failing to recognize TA-GVHD as a delayed (not acute) reaction, which can cause diagnostic delay when a recipient re-presents days to weeks after transfusion with fever, rash, or cytopenias.
+- Underestimating the urgency of prevention given TA-GVHD's approximately 90% fatality once established, since prospective irradiation - not later treatment - is the operative strategy for at-risk recipients.
+
+**Sources:** `SRC-020`, `SRC-043`, `SRC-043`, `SRC-043`, `SRC-012`
+**Review:** auto-audited-pass · source-support: pass
 
 ---
