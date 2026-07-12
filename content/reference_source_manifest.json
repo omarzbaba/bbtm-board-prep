@@ -1,0 +1,21 @@
+{
+  "schema": "reference-source-manifest/v1",
+  "note": "Authoritative reference texts (user-provided) used to ground questions for blueprint topics the NotebookLM summaries do not cover. Raw texts gitignored; only transformative, cited questions are published.",
+  "sources": [
+    {
+      "source_id": "TXT-AABB",
+      "name": "AABB Technical Manual, 20th ed.",
+      "windows": 456
+    },
+    {
+      "source_id": "TXT-HARM",
+      "name": "Harmening, Modern Blood Banking & Transfusion Practices",
+      "windows": 513
+    },
+    {
+      "source_id": "TXT-STD",
+      "name": "AABB Standards for Blood Banks & Transfusion Services, 35th ed.",
+      "windows": 42
+    }
+  ]
+}

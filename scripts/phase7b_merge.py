@@ -57,6 +57,12 @@ def main():
                 "designation": g["designation"], "node_title": g["entity"],
             }
             obj, accept = build_question({"item": item, "question": q, "audit": audit})
+            # Respect the agent's decline flag (textbook grounding): if the passages did not
+            # cover the topic, never accept into the bank — route to review.
+            if q.get("groundable") is False:
+                accept = False
+                obj["review"]["status"] = "needs-human-review"
+                obj["review"]["audit_flags"] = list(set(obj["review"].get("audit_flags", []) + ["agent-declined-not-covered"]))
             ledger_q.append({"id": obj["id"], "accepted": accept, "domain": obj["domain"],
                              "designation": obj["designation"], "difficulty": obj["difficulty"],
                              "support_confidence": obj["support_confidence"], "audit": audit})

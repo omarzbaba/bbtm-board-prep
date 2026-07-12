@@ -1,0 +1,1883 @@
+[
+  {
+    "entity": "Platelet Alloantigens",
+    "section": "S1",
+    "designation": "C",
+    "key_term": "alloantigens",
+    "key_hits": 3,
+    "best": 40.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Lupus Anticoagulants",
+    "section": "S1",
+    "designation": "C",
+    "key_term": "anticoagulants",
+    "key_hits": 2,
+    "best": 9.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Uremia",
+    "section": "S1",
+    "designation": "C",
+    "key_term": "uremia",
+    "key_hits": 2,
+    "best": 20.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cardiopulmonary Bypass",
+    "section": "S1",
+    "designation": "C",
+    "key_term": "cardiopulmonary",
+    "key_hits": 3,
+    "best": 35.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Hemorrhagic Shock and Classification",
+    "section": "S10",
+    "designation": "C",
+    "key_term": "hemorrhagic",
+    "key_hits": 2,
+    "best": 11.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Platelet Production (Thrombopoiesis)",
+    "section": "S12",
+    "designation": "C",
+    "key_term": "thrombopoiesis",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Megakaryocyte Development, Maturation, and Differentiation",
+    "section": "S12",
+    "designation": "C",
+    "key_term": "megakaryocyte",
+    "key_hits": 1,
+    "best": 26.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Thrombopoietic/Megakaryocyte/Hematopoietic Growth Factors",
+    "section": "S12",
+    "designation": "C",
+    "key_term": "thrombopoietic",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Genetic and Cellular Regulation of Thrombopoiesis",
+    "section": "S12",
+    "designation": "C",
+    "key_term": "thrombopoiesis",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Platelet Production, Shedding, and Release",
+    "section": "S12",
+    "designation": "C",
+    "key_term": "shedding",
+    "key_hits": 1,
+    "best": 51.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Normal Platelet Plug and Clot Formation",
+    "section": "S12",
+    "designation": "C",
+    "key_term": "plug",
+    "key_hits": 2,
+    "best": 10.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Developmental Physiology of Plasma Proteins",
+    "section": "S15",
+    "designation": "C",
+    "key_term": "developmental",
+    "key_hits": 2,
+    "best": 19.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "DDAVP",
+    "section": "S15",
+    "designation": "C",
+    "key_term": "ddavp",
+    "key_hits": 3,
+    "best": 26.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Thalassemias (Pathophysiology and Treatment)",
+    "section": "S15",
+    "designation": "C",
+    "key_term": "thalassemias",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Interaction with- and Effects on Erythroid Progenitor Cells",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "erythroid",
+    "key_hits": 3,
+    "best": 18.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Nutritional Requirements for Erythropoiesis",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "nutritional",
+    "key_hits": 2,
+    "best": 11.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Regulation of Oxygen Delivery in the Microcirculation",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "microcirculation",
+    "key_hits": 1,
+    "best": 9.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Red Cell Transfusion and the Microcirculation",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "microcirculation",
+    "key_hits": 1,
+    "best": 18.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Effect of Red Cell Storage on Microcirculation (N Oxide)",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "microcirculation",
+    "key_hits": 1,
+    "best": 15.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Alternative Substrates",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "substrates",
+    "key_hits": 2,
+    "best": 10.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Anticoagulant-Nutrient Solutions",
+    "section": "S3",
+    "designation": "C",
+    "key_term": "nutrient",
+    "key_hits": 2,
+    "best": 71.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Physiologic Adaptations to Blood Loss and Anemia",
+    "section": "S4",
+    "designation": "C",
+    "key_term": "adaptations",
+    "key_hits": 1,
+    "best": 7.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Adaptive Mechanisms in Anemia",
+    "section": "S4",
+    "designation": "C",
+    "key_term": "adaptive",
+    "key_hits": 1,
+    "best": 10.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Microcirculatory Effects of Anemia and Red Cell Transfusion",
+    "section": "S4",
+    "designation": "C",
+    "key_term": "microcirculatory",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Pathophysiologic Processes and Anemia \u2013 Interactions",
+    "section": "S4",
+    "designation": "C",
+    "key_term": "pathophysiologic",
+    "key_hits": 1,
+    "best": 11.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Red Cell Transfusions \u2013 Decision Making",
+    "section": "S4",
+    "designation": "C",
+    "key_term": "making",
+    "key_hits": 2,
+    "best": 28.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Thrombotic Thrombocytopenic Purpera",
+    "section": "S5",
+    "designation": "C",
+    "key_term": "purpera",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Secondary Erythrocytosis",
+    "section": "S5",
+    "designation": "C",
+    "key_term": "erythrocytosis",
+    "key_hits": 3,
+    "best": 19.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Clinical, Physiologic, Radiologic, & Laboratory Features",
+    "section": "S6",
+    "designation": "C",
+    "key_term": "radiologic",
+    "key_hits": 1,
+    "best": 7.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "General Features and Factors Influencing Plasma Composition",
+    "section": "S7",
+    "designation": "C",
+    "key_term": "influencing",
+    "key_hits": 1,
+    "best": 8.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Pathogen-Inactivated Plasma",
+    "section": "S7",
+    "designation": "C",
+    "key_term": "inactivated",
+    "key_hits": 2,
+    "best": 27.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Other Herpesviruses",
+    "section": "S8",
+    "designation": "C",
+    "key_term": "herpesviruses",
+    "key_hits": 1,
+    "best": 14.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Psoralen Ultraviolet Light Treatment",
+    "section": "S8",
+    "designation": "C",
+    "key_term": "psoralen",
+    "key_hits": 3,
+    "best": 54.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Acute Immune Thrombocytopenic Purpura of Childhood",
+    "section": "S1",
+    "designation": "AR",
+    "key_term": "childhood",
+    "key_hits": 2,
+    "best": 11.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Chronic Immune Thrombocytopenic Purpura of Childhood",
+    "section": "S1",
+    "designation": "AR",
+    "key_term": "childhood",
+    "key_hits": 2,
+    "best": 16.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Low Molecular Weight Heparins",
+    "section": "S1",
+    "designation": "AR",
+    "key_term": "heparins",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Alternatives to Transfusion: Perioperative Blood Management",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "alternatives",
+    "key_hits": 3,
+    "best": 28.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Thoracentesis and Paracentesis",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "thoracentesis",
+    "key_hits": 1,
+    "best": 17.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Gastrointestinal Endoscopy and Biopsy",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "endoscopy",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Procedures on Upper Airway, Bronchoscopy, and Transbronchial Lung Biopsy",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "transbronchial",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Epidural Anesthesia, Lumbar Puncture, and Neurosurgical Procedures",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "neurosurgical",
+    "key_hits": 1,
+    "best": 6.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Angiography",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "angiography",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Autotransfusion",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "autotransfusion",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Immunologic Barriers \u2013 ABO and HLA",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "barriers",
+    "key_hits": 3,
+    "best": 21.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Across Immunologic Barriers",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "barriers",
+    "key_hits": 3,
+    "best": 15.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Passenger Lymphocyte Antibodies",
+    "section": "S10",
+    "designation": "AR",
+    "key_term": "passenger",
+    "key_hits": 2,
+    "best": 29.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Alternatives to Platelet Transfusions (Thrombopoietic & Pharmacologic Agents)",
+    "section": "S12",
+    "designation": "AR",
+    "key_term": "thrombopoietic",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Platelet Autoimmunity",
+    "section": "S12",
+    "designation": "AR",
+    "key_term": "autoimmunity",
+    "key_hits": 1,
+    "best": 6.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Platelets in the Bloodstream",
+    "section": "S12",
+    "designation": "AR",
+    "key_term": "bloodstream",
+    "key_hits": 2,
+    "best": 9.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Alternatives to Neutrophil Transfusions (Myelopoietic Factors)",
+    "section": "S13",
+    "designation": "AR",
+    "key_term": "myelopoietic",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Maternal Hemorrhagic and Transfusions During Pregnancy",
+    "section": "S15",
+    "designation": "AR",
+    "key_term": "hemorrhagic",
+    "key_hits": 2,
+    "best": 29.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Safety Initiatives",
+    "section": "S17",
+    "designation": "AR",
+    "key_term": "initiatives",
+    "key_hits": 1,
+    "best": 23.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Enforcement Options",
+    "section": "S17",
+    "designation": "AR",
+    "key_term": "options",
+    "key_hits": 2,
+    "best": 9.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Membership",
+    "section": "S17",
+    "designation": "AR",
+    "key_term": "membership",
+    "key_hits": 2,
+    "best": 17.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Immunotherapy Targets for Cancer",
+    "section": "S2",
+    "designation": "AR",
+    "key_term": "immunotherapy",
+    "key_hits": 1,
+    "best": 12.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "li System",
+    "section": "S3",
+    "designation": "AR",
+    "key_term": null,
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "P System",
+    "section": "S3",
+    "designation": "AR",
+    "key_term": null,
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Replacement Fluids (Technical & Composition)",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "composition",
+    "key_hits": 3,
+    "best": 12.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Schedule of Procedures (Timing, Number, & Location)",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "timing",
+    "key_hits": 2,
+    "best": 10.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Mathematic Principles",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "mathematic",
+    "key_hits": 3,
+    "best": 19.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Selective Extraction of Plasma Components",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "extraction",
+    "key_hits": 3,
+    "best": 14.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Peripheral Neuropathy and Monoclonal Gammopathy",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "gammopathy",
+    "key_hits": 1,
+    "best": 22.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Myasthenia Gravis",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "myasthenia",
+    "key_hits": 1,
+    "best": 19.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Goodpasture Syndrome",
+    "section": "S5",
+    "designation": "AR",
+    "key_term": "goodpasture",
+    "key_hits": 1,
+    "best": 16.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Electrolyte and Acid/Base Disorders",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "electrolyte",
+    "key_hits": 2,
+    "best": 19.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Special Transfusion Settings",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "settings",
+    "key_hits": 2,
+    "best": 11.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Malignancies",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "malignancies",
+    "key_hits": 3,
+    "best": 17.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Immunocompetent Patients-Risk Factors",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "immunocompetent",
+    "key_hits": 2,
+    "best": 25.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Iron Burden of Transfusions",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "burden",
+    "key_hits": 1,
+    "best": 12.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Measurement of Iron Burden",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "burden",
+    "key_hits": 1,
+    "best": 11.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Chelation Therapy",
+    "section": "S6",
+    "designation": "AR",
+    "key_term": "chelation",
+    "key_hits": 1,
+    "best": 6.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "von Willebrand Factor Cleaving Protease",
+    "section": "S7",
+    "designation": "AR",
+    "key_term": "cleaving",
+    "key_hits": 1,
+    "best": 49.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Coagulation Factors, Coagulation Factor Inhibitors, and von Willebrand Factor (e.g., description, half-life)",
+    "section": "S7",
+    "designation": "AR",
+    "key_term": "willebrand",
+    "key_hits": 3,
+    "best": 59.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Plasma Procurement",
+    "section": "S7",
+    "designation": "AR",
+    "key_term": "procurement",
+    "key_hits": 2,
+    "best": 8.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Bacterial Elimination",
+    "section": "S8",
+    "designation": "AR",
+    "key_term": "elimination",
+    "key_hits": 3,
+    "best": 15.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Methylene Blue Light Treatment",
+    "section": "S8",
+    "designation": "AR",
+    "key_term": "methylene",
+    "key_hits": 1,
+    "best": 39.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Thionine Light Treatment",
+    "section": "S8",
+    "designation": "AR",
+    "key_term": "thionine",
+    "key_hits": 2,
+    "best": 14.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Blood Donor Recruitment",
+    "section": "S9",
+    "designation": "AR",
+    "key_term": "recruitment",
+    "key_hits": 2,
+    "best": 30.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Autoimmune Induction Mechanism",
+    "section": "S1",
+    "designation": "F",
+    "key_term": "induction",
+    "key_hits": 3,
+    "best": 13.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Atypical Drug-Induced Thrombocytopenic Purpura",
+    "section": "S1",
+    "designation": "F",
+    "key_term": "atypical",
+    "key_hits": 3,
+    "best": 70.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Acquired von Willebrand Syndrome",
+    "section": "S1",
+    "designation": "F",
+    "key_term": "willebrand",
+    "key_hits": 3,
+    "best": 23.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Factor V Inhibitors",
+    "section": "S1",
+    "designation": "F",
+    "key_term": "inhibitors",
+    "key_hits": 3,
+    "best": 21.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Other Coagulation Inhibitors",
+    "section": "S1",
+    "designation": "F",
+    "key_term": "inhibitors",
+    "key_hits": 3,
+    "best": 22.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Donor Stimulation \u2013 Corticosteroids and G-CSF",
+    "section": "S1",
+    "designation": "F",
+    "key_term": "stimulation",
+    "key_hits": 3,
+    "best": 12.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Physical \u2013 Sutures, Electrocautery, Compression, Direct Packing, etc.",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "electrocautery",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Topical Agents",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "topical",
+    "key_hits": 2,
+    "best": 13.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Topical Sealants",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "sealants",
+    "key_hits": 1,
+    "best": 11.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Topical Thrombin",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "topical",
+    "key_hits": 2,
+    "best": 23.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Topical Antifibrinolytics",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "antifibrinolytics",
+    "key_hits": 1,
+    "best": 16.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Generalized",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "generalized",
+    "key_hits": 2,
+    "best": 14.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Small Vessel Bleeding During Surgery",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "vessel",
+    "key_hits": 3,
+    "best": 19.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "DDAVP",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "ddavp",
+    "key_hits": 3,
+    "best": 23.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Pharmacologic Agents",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "pharmacologic",
+    "key_hits": 1,
+    "best": 16.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Patients with Thermal Injuries (Burns)",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "burns",
+    "key_hits": 2,
+    "best": 12.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Initial Resuscitations",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "resuscitations",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Organ Procurement and Transplants",
+    "section": "S10",
+    "designation": "F",
+    "key_term": "procurement",
+    "key_hits": 2,
+    "best": 9.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Adverse Incidents",
+    "section": "S11",
+    "designation": "F",
+    "key_term": "incidents",
+    "key_hits": 2,
+    "best": 13.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Near Misses",
+    "section": "S11",
+    "designation": "F",
+    "key_term": "misses",
+    "key_hits": 1,
+    "best": 14.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Passive Reporting versus Active Surveillance",
+    "section": "S11",
+    "designation": "F",
+    "key_term": "passive",
+    "key_hits": 3,
+    "best": 24.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Congenital Disorders of Anticoagulant/Prothrombotic Proteins",
+    "section": "S15",
+    "designation": "F",
+    "key_term": "prothrombotic",
+    "key_hits": 1,
+    "best": 12.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Allogeneic/Syngeneic Donor Selection, Quantification, Eligibility",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "quantification",
+    "key_hits": 1,
+    "best": 6.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Indications, Dose, Schedule, Efficacy, and Adverse Effects Chemotherapy Growth Factors \u2013 G-CSF, GM-CSF Adhesion Blockers-Plerixafor",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "blockers",
+    "key_hits": 1,
+    "best": 8.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Scheduling Mobilization and Apheresis Collection",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "scheduling",
+    "key_hits": 1,
+    "best": 10.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Methods of Harvesting",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "harvesting",
+    "key_hits": 1,
+    "best": 6.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Rationale for Cryopreservation",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "rationale",
+    "key_hits": 1,
+    "best": 6.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cryoprotectants",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "cryoprotectants",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cryopreservation Techniques -Controlled Rate, \u201cDump Freeze\u201d",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "dump",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "HPC Measurement and Enumeration",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "enumeration",
+    "key_hits": 2,
+    "best": 69.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "HPC Microbial Assessment",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "microbial",
+    "key_hits": 3,
+    "best": 16.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "CD34 Cells and Others (e.g., Treg)",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "treg",
+    "key_hits": 2,
+    "best": 14.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Tumor Purging and T-cell Depletion",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "purging",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "(Apheresis, Marrow, Cord Blood, etc.)",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "etc",
+    "key_hits": 2,
+    "best": 32.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "HPC and CTP Infusion",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "ctp",
+    "key_hits": 1,
+    "best": 18.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Filters, No Irradiation, Infusion Rate DMOS Limits, Infusion Pumps",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "dmos",
+    "key_hits": 1,
+    "best": 8.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Rates \u2013 Autologous vs. Allogeneic, Related vs. MUD, HPC Source, Conditioning",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "mud",
+    "key_hits": 3,
+    "best": 41.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Immune Reconstitution Post-Transplant",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "reconstitution",
+    "key_hits": 2,
+    "best": 37.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Donor Lymphocyte Infusion \u2013 Rationale, Efficacy",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "rationale",
+    "key_hits": 1,
+    "best": 21.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Staff Hiring and Training",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "hiring",
+    "key_hits": 1,
+    "best": 28.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Institutional vs. Commercially Sponsored",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "sponsored",
+    "key_hits": 1,
+    "best": 6.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Types (e.g., Marrow Stromal, Adoptive Therapy with T-cells, Genetically- Modified Cells)",
+    "section": "S16",
+    "designation": "F",
+    "key_term": "adoptive",
+    "key_hits": 1,
+    "best": 40.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Blood Shield Laws",
+    "section": "S17",
+    "designation": "F",
+    "key_term": "shield",
+    "key_hits": 3,
+    "best": 36.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Causation",
+    "section": "S17",
+    "designation": "F",
+    "key_term": "causation",
+    "key_hits": 1,
+    "best": 12.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Donor Registries and Networks, Outcomes Registries, Professional Associations and Networks",
+    "section": "S17",
+    "designation": "F",
+    "key_term": "networks",
+    "key_hits": 2,
+    "best": 13.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Organizational Aspects",
+    "section": "S17",
+    "designation": "F",
+    "key_term": "organizational",
+    "key_hits": 1,
+    "best": 8.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Referral for Donation",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "referral",
+    "key_hits": 1,
+    "best": 34.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Tissue Donor Suitability and Tissue Transplant Risk Reduction",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "suitability",
+    "key_hits": 2,
+    "best": 27.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Donor Histology Screening",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "histology",
+    "key_hits": 1,
+    "best": 10.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cartilage, Meniscus, Tendon, Ligament & Dura Mater",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "meniscus",
+    "key_hits": 2,
+    "best": 83.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Peripheral Nerve",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "nerve",
+    "key_hits": 3,
+    "best": 13.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Parathyroid",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "parathyroid",
+    "key_hits": 3,
+    "best": 21.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Semen",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "semen",
+    "key_hits": 3,
+    "best": 20.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Oocytes and Embryos",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "oocytes",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Extraembryonic",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "extraembryonic",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "T-Cell Immunotherapy Targets for Infections",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "immunotherapy",
+    "key_hits": 1,
+    "best": 18.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Types of Adoptive Immunotherapy",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "adoptive",
+    "key_hits": 1,
+    "best": 11.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Genetically-Modified T-cells",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "genetically",
+    "key_hits": 2,
+    "best": 15.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Approaches to Improving Cellular Immunotherapy",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "immunotherapy",
+    "key_hits": 1,
+    "best": 25.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Adeno-Associated Virus",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "adeno",
+    "key_hits": 3,
+    "best": 21.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Adenoviral Vectors",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "adenoviral",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Clinical Protocols and Trials",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "protocols",
+    "key_hits": 3,
+    "best": 10.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Tissue Engineering and Regenerative Medicine",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "regenerative",
+    "key_hits": 2,
+    "best": 14.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Blood Vessel",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "vessel",
+    "key_hits": 3,
+    "best": 21.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cartliage",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "cartliage",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Urology",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "urology",
+    "key_hits": 2,
+    "best": 16.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Corneal",
+    "section": "S2",
+    "designation": "F",
+    "key_term": "corneal",
+    "key_hits": 3,
+    "best": 20.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Additional Factors Influencing RBC Quality",
+    "section": "S3",
+    "designation": "F",
+    "key_term": "influencing",
+    "key_hits": 1,
+    "best": 17.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Functionality",
+    "section": "S3",
+    "designation": "F",
+    "key_term": "functionality",
+    "key_hits": 1,
+    "best": 11.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Medical Implications of ABH and Secretor Systems",
+    "section": "S3",
+    "designation": "F",
+    "key_term": "implications",
+    "key_hits": 2,
+    "best": 8.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Structure and Function of Glycoproteins A & B",
+    "section": "S3",
+    "designation": "F",
+    "key_term": "glycoproteins",
+    "key_hits": 3,
+    "best": 12.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Chido/Rodgers",
+    "section": "S3",
+    "designation": "F",
+    "key_term": "chido",
+    "key_hits": 2,
+    "best": 23.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cartwright, Dombrock, Cromer, and JMH",
+    "section": "S3",
+    "designation": "F",
+    "key_term": "cartwright",
+    "key_hits": 1,
+    "best": 8.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Lambert-Eaton Myasthenic Syndrome",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "eaton",
+    "key_hits": 1,
+    "best": 41.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Neuromyotonia and Limbic Encephalitis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "neuromyotonia",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Stiff-Person Syndrome",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "stiff",
+    "key_hits": 1,
+    "best": 31.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Paraneoplastic Neurologic Syndromes",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "paraneoplastic",
+    "key_hits": 1,
+    "best": 23.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Nonneoplastic Disorders of with CNS Antibodies",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "nonneoplastic",
+    "key_hits": 1,
+    "best": 19.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Multiple Sclerosis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "sclerosis",
+    "key_hits": 3,
+    "best": 27.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Posttransfusion Purpera",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "purpera",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Idiopathic (Immune) Thrombocytopenic Purpera",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "purpera",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Pure Red Cell Aplasia and Aplastic Anemia",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "aplastic",
+    "key_hits": 1,
+    "best": 37.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Coagulation Factor Inhibitors",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "inhibitors",
+    "key_hits": 3,
+    "best": 32.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Cryoglobulinemia",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "cryoglobulinemia",
+    "key_hits": 1,
+    "best": 15.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Rheumatoid Arthritis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "rheumatoid",
+    "key_hits": 2,
+    "best": 24.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Systemic Lupus Erythematosus",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "erythematosus",
+    "key_hits": 1,
+    "best": 29.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Rapidly Progressive Glomerulonephritis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "glomerulonephritis",
+    "key_hits": 1,
+    "best": 30.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Disease Recurrence",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "recurrence",
+    "key_hits": 2,
+    "best": 11.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Hypercholesterolemia",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "hypercholesterolemia",
+    "key_hits": 1,
+    "best": 15.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Refsum Disease",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "refsum",
+    "key_hits": 1,
+    "best": 19.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Drug Overdose and Poisoning",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "poisoning",
+    "key_hits": 3,
+    "best": 32.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Primary Thrombocytosis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "thrombocytosis",
+    "key_hits": 2,
+    "best": 13.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Secondary Thrombocytosis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "thrombocytosis",
+    "key_hits": 2,
+    "best": 23.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Hyperleukocytosis",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "hyperleukocytosis",
+    "key_hits": 1,
+    "best": 12.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Inflammatory Bowel Disease",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "bowel",
+    "key_hits": 1,
+    "best": 26.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Selective Extraction of Low-Density Lipoproteins",
+    "section": "S5",
+    "designation": "F",
+    "key_term": "lipoproteins",
+    "key_hits": 2,
+    "best": 41.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Ocular",
+    "section": "S6",
+    "designation": "F",
+    "key_term": "ocular",
+    "key_hits": 1,
+    "best": 12.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Plasticizer Toxicity",
+    "section": "S6",
+    "designation": "F",
+    "key_term": "plasticizer",
+    "key_hits": 2,
+    "best": 16.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Alpha-1-Antitrypsin",
+    "section": "S7",
+    "designation": "F",
+    "key_term": "antitrypsin",
+    "key_hits": 1,
+    "best": 15.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Donor Testing and Counseling",
+    "section": "S8",
+    "designation": "F",
+    "key_term": "counseling",
+    "key_hits": 1,
+    "best": 31.8,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Hepatitus E Virus",
+    "section": "S8",
+    "designation": "F",
+    "key_term": "hepatitus",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Alkylating Agents",
+    "section": "S8",
+    "designation": "F",
+    "key_term": "alkylating",
+    "key_hits": 1,
+    "best": 13.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Photosensitizers",
+    "section": "S8",
+    "designation": "F",
+    "key_term": "photosensitizers",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Emerging Technologies",
+    "section": "S8",
+    "designation": "F",
+    "key_term": "emerging",
+    "key_hits": 2,
+    "best": 7.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Outside the United States",
+    "section": "S9",
+    "designation": "F",
+    "key_term": "outside",
+    "key_hits": 3,
+    "best": 28.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Bleeding from Congenital and Acquired Coagulation Defects, and Antithrombotic Therapy",
+    "section": "S1",
+    "designation": null,
+    "key_term": "antithrombotic",
+    "key_hits": 1,
+    "best": 33.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Coagulation Factor Inhibitors",
+    "section": "S1",
+    "designation": null,
+    "key_term": "inhibitors",
+    "key_hits": 3,
+    "best": 29.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Antithrombotic Therapy",
+    "section": "S1",
+    "designation": null,
+    "key_term": "antithrombotic",
+    "key_hits": 1,
+    "best": 16.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Congenital Coagulopathies/Thrombophilias",
+    "section": "S1",
+    "designation": null,
+    "key_term": "thrombophilias",
+    "key_hits": 0,
+    "best": 0.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Preprocedure Blood Components",
+    "section": "S10",
+    "designation": null,
+    "key_term": "preprocedure",
+    "key_hits": 1,
+    "best": 9.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Transfusion Therapy for Trauma and Burn Patients",
+    "section": "S10",
+    "designation": null,
+    "key_term": "burn",
+    "key_hits": 2,
+    "best": 14.4,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Congenital Disorders of Clotting and Anticoagulant Protein",
+    "section": "S15",
+    "designation": null,
+    "key_term": "clotting",
+    "key_hits": 3,
+    "best": 19.2,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Hemophilia A, B, and von Willebrand Disease",
+    "section": "S15",
+    "designation": null,
+    "key_term": "willebrand",
+    "key_hits": 3,
+    "best": 36.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Congenital Hemoglobinopathies and Hemolytic Anemias",
+    "section": "S15",
+    "designation": null,
+    "key_term": "hemoglobinopathies",
+    "key_hits": 2,
+    "best": 12.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Apheresis Consideration",
+    "section": "S16",
+    "designation": null,
+    "key_term": "consideration",
+    "key_hits": 3,
+    "best": 10.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Mobilization Regimens",
+    "section": "S16",
+    "designation": null,
+    "key_term": "regimens",
+    "key_hits": 2,
+    "best": 22.1,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "HPC and CTP Thawing and Post-Thaw Processing",
+    "section": "S16",
+    "designation": null,
+    "key_term": "ctp",
+    "key_hits": 1,
+    "best": 22.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Blood Transfusion Injury Claims",
+    "section": "S17",
+    "designation": null,
+    "key_term": "claims",
+    "key_hits": 2,
+    "best": 19.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Transplant Organizations and Networks in the Regulation of Cellular and Tissue Therapy Programs",
+    "section": "S17",
+    "designation": null,
+    "key_term": "networks",
+    "key_hits": 2,
+    "best": 14.0,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Adoptive Immunotherapy",
+    "section": "S2",
+    "designation": null,
+    "key_term": "adoptive",
+    "key_hits": 1,
+    "best": 16.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Red Cell Production and Kinetics",
+    "section": "S3",
+    "designation": null,
+    "key_term": "kinetics",
+    "key_hits": 1,
+    "best": 25.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Red Cell Immunology and Compatibility Testing",
+    "section": "S3",
+    "designation": null,
+    "key_term": "immunology",
+    "key_hits": 3,
+    "best": 17.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Red Cell Immunology",
+    "section": "S3",
+    "designation": null,
+    "key_term": "immunology",
+    "key_hits": 3,
+    "best": 17.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Apheresis: Principles and Technology of Hemapheresis",
+    "section": "S5",
+    "designation": null,
+    "key_term": "hemapheresis",
+    "key_hits": 2,
+    "best": 51.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Hematologic and Oncologic Disorders",
+    "section": "S5",
+    "designation": null,
+    "key_term": "oncologic",
+    "key_hits": 1,
+    "best": 12.6,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Rheumatic and Other Immunologic Disorders",
+    "section": "S5",
+    "designation": null,
+    "key_term": "rheumatic",
+    "key_hits": 1,
+    "best": 12.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Specialized Therapeutic Hemapheresis and Phlebotomy",
+    "section": "S5",
+    "designation": null,
+    "key_term": "hemapheresis",
+    "key_hits": 2,
+    "best": 35.3,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Extracorporeal Photochemotherapy",
+    "section": "S5",
+    "designation": null,
+    "key_term": "photochemotherapy",
+    "key_hits": 2,
+    "best": 25.5,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Plasma Composition",
+    "section": "S7",
+    "designation": null,
+    "key_term": "composition",
+    "key_hits": 3,
+    "best": 11.9,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Leishmaniasis",
+    "section": "S8",
+    "designation": null,
+    "key_term": "leishmaniasis",
+    "key_hits": 3,
+    "best": 21.7,
+    "reason": "textbooks do not substantively cover this topic"
+  },
+  {
+    "entity": "Recruitment and Screening of Donors and the Collection, Processing and Testing of Blood",
+    "section": "S9",
+    "designation": null,
+    "key_term": "recruitment",
+    "key_hits": 2,
+    "best": 20.4,
+    "reason": "textbooks do not substantively cover this topic"
+  }
+]
