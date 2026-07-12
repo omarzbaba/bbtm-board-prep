@@ -33,6 +33,7 @@ export function TopNav() {
         <nav className="nav-links" aria-label="Primary">
           <NavLink to="/practice" className={({ isActive }) => (isActive ? "active" : "")}>Practice</NavLink>
           <NavLink to="/cases" className={({ isActive }) => (isActive ? "active" : "")}>Cases</NavLink>
+          <NavLink to="/notebook" className={({ isActive }) => (isActive ? "active" : "")}>Notebook</NavLink>
           <NavLink to="/coverage" className={({ isActive }) => (isActive ? "active" : "")}>Coverage</NavLink>
           <NavLink to="/search" className={({ isActive }) => (isActive ? "active" : "")}>Search</NavLink>
         </nav>

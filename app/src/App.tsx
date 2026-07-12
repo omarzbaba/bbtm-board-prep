@@ -7,6 +7,7 @@ import { Practice } from "./pages/Practice";
 import { CaseMode } from "./pages/CaseMode";
 import { Coverage } from "./pages/Coverage";
 import { SearchPage } from "./pages/SearchPage";
+import { Notebook } from "./pages/Notebook";
 import { About } from "./pages/About";
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
               <Route path="/practice" element={<Practice />} />
               <Route path="/cases" element={<CaseMode />} />
               <Route path="/coverage" element={<Coverage />} />
+              <Route path="/notebook" element={<Notebook />} />
               <Route path="/search" element={<SearchPage />} />
               <Route path="/about" element={<About />} />
               <Route path="*" element={<Dashboard />} />

@@ -14,11 +14,19 @@ Supabase OAuth/login step. Everything else is wired — you just add credentials
 2. **Create the table:** open the project's SQL editor and run [`schema.sql`](schema.sql).
    (Or, with the CLI: `supabase link --project-ref <ref>` then `supabase db push`.)
 3. **Get credentials:** Project Settings → API → copy the **Project URL** and the
-   **anon public** key.
-4. **Add them and redeploy:**
-   - In the GitHub repo: Settings → Secrets and variables → Actions → add
-     `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`, then re-run the Pages deploy.
-   - Or locally: put them in `app/.env.local` and rebuild.
+   **anon public** key (the publishable one — *not* the secret service_role key).
+4. **Wire them up — one command:**
+   ```bash
+   ./scripts/setup-supabase.sh "<PROJECT_URL>" "<ANON_KEY>"
+   ```
+   This sets the two repo secrets and triggers a redeploy. (Prefer the manual route?
+   Repo → Settings → Secrets and variables → Actions → add `VITE_SUPABASE_URL` and
+   `VITE_SUPABASE_ANON_KEY`, then re-run the Pages deploy. Or locally: put them in
+   `app/.env.local` and rebuild.)
+
+> Or just paste the two **public** values (Project URL + anon key) to Claude and it
+> will run step 4 for you — those are safe to share; the anon key is designed to ship
+> in the client. Never share the service_role key.
 
 Once set, the app shows a green **● synced** badge and Tala can use the same profile ID
 on any device to load her progress. Without them, it stays local-first (badge reads

@@ -17,6 +17,7 @@ export function Practice() {
   const difficulty = params.get("difficulty") || "";
   const weakOnly = params.get("weak") === "1";
   const unseenOnly = params.get("unseen") === "1";
+  const focusId = params.get("focus") || "";
 
   const setParam = (k: string, v: string) => {
     const next = new URLSearchParams(params);
@@ -30,6 +31,10 @@ export function Practice() {
   );
 
   const pool = useMemo(() => {
+    if (focusId) {
+      const one = questions.filter((q) => q.id === focusId);
+      if (one.length) return one;
+    }
     let qs = questions.filter((q) => {
       if (domainFilter && q.domain !== domainFilter) return false;
       if (difficulty && q.difficulty !== difficulty) return false;
@@ -49,7 +54,7 @@ export function Practice() {
 
   const [idx, setIdx] = useState(0);
   const [chosen, setChosen] = useState<string | null>(null);
-  useEffect(() => { setIdx(0); setChosen(null); }, [domainFilter, difficulty, weakOnly, unseenOnly]);
+  useEffect(() => { setIdx(0); setChosen(null); }, [domainFilter, difficulty, weakOnly, unseenOnly, focusId]);
 
   const q: BoardQuestion | undefined = pool[idx];
   const options = useMemo(() => (q ? stableShuffle(q.options, q.id) : []), [q]);
@@ -71,8 +76,17 @@ export function Practice() {
 
   const rationaleFor = (oid: string) => q!.option_explanations?.[oid as keyof typeof q.option_explanations];
 
+  const focused = !!focusId && pool.length === 1 && pool[0].id === focusId;
+
   return (
     <div className="stack gap-5">
+      {focused && (
+        <div className="notice row gap-2 wrap">
+          <span>📓 Viewing a single question from your notebook.</span>
+          <span className="spacer" />
+          <button className="btn ghost sm" onClick={() => setParam("focus", "")}>Clear · practice all →</button>
+        </div>
+      )}
       {/* Filter bar */}
       <div className="card pad row gap-3 wrap">
         <select className="select" style={{ width: "auto", minWidth: 180 }} value={domainFilter}

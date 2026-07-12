@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { useContent } from "../store/contentStore";
 import { useLearner } from "../store/learnerStore";
 import type { TeachingCase } from "../types";
@@ -132,13 +133,26 @@ function CaseView({ c, onBack }: { c: TeachingCase; onBack: () => void }) {
 export function CaseMode() {
   const { bundle } = useContent();
   const cases = bundle!.cases;
-  const [openId, setOpenId] = useState<string | null>(null);
+  const [params, setParams] = useSearchParams();
+  const [openId, setOpenId] = useState<string | null>(params.get("open"));
   const open = useMemo(() => cases.find((c) => c.id === openId) || null, [cases, openId]);
+
+  // Deep-link support: /cases?open=C-003 (e.g. from the Notebook)
+  useEffect(() => {
+    const target = params.get("open");
+    if (target && target !== openId) setOpenId(target);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [params]);
+
+  const close = () => {
+    setOpenId(null);
+    if (params.get("open")) { const n = new URLSearchParams(params); n.delete("open"); setParams(n, { replace: true }); }
+  };
 
   if (cases.length === 0) {
     return <Empty title="No teaching cases yet" body="Cases will appear here once the content bank is built." />;
   }
-  if (open) return <CaseView c={open} onBack={() => setOpenId(null)} />;
+  if (open) return <CaseView c={open} onBack={close} />;
 
   return (
     <div className="stack gap-4">
