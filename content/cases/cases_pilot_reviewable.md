@@ -1,6 +1,6 @@
 # Pilot Case Bank — reviewable (23 cases)
 
-_Generated 2026-07-12T17:45:42.726711+00:00. Source-grounded, adversarially audited._
+_Generated 2026-07-12T18:38:47.777921+00:00. Source-grounded, adversarially audited._
 
 ## C-001 — Acute Hemolytic Transfusion Reaction from ABO-Incompatible RBC Transfusion Due to Clerical Error  `C`
 *6. Hazards of Transfusion: Specific Adverse Events* · support: high

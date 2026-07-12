@@ -1,6 +1,6 @@
-# Pilot Question Bank — reviewable (411 questions)
+# Pilot Question Bank — reviewable (535 questions)
 
-_Generated 2026-07-12T17:45:42.726711+00:00. Source-grounded, adversarially audited. Correct answers and source traces shown for review._
+_Generated 2026-07-12T18:38:47.777921+00:00. Source-grounded, adversarially audited. Correct answers and source traces shown for review._
 
 ## Q-0001 — Anemia in Oncology Patients  `C` · moderate
 *1. Clinical Practice* · node `S1.c` · support: moderate
@@ -9762,5 +9762,2938 @@ A 32-year-old woman arrives in the emergency department in hemorrhagic shock aft
 
 **Sources:** `SRC-012`, `SRC-003`
 **Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0443 — Warm Autoimmune Hemolytic Anemia  `AR` · moderate
+*1. Clinical Practice* · node `S1.a.ii` · support: high
+
+A 52-year-old woman presents with a 3-week history of progressive fatigue, dyspnea, and scleral icterus. She has had no recent transfusions, pregnancies, or new medications. Examination reveals mild splenomegaly. Laboratory studies show Hgb 7.2 g/dL, an elevated reticulocyte count, elevated LDH, undetectable haptoglobin, and elevated indirect bilirubin. The peripheral smear shows numerous spherocytes without schistocytes. The direct antiglobulin test (DAT) is positive for both IgG and C3d, and the acid eluate reacts with all reagent and donor RBCs tested (panreactive), including in the absence of any drug in the test system. The cold agglutinin titer is within normal limits. Which of the following best describes the primary mechanism responsible for this patient's red cell destruction?
+
+- **A.** A drug modifies the RBC membrane so that plasma proteins adsorb nonspecifically, producing a positive DAT without a true antibody-mediated process
+- **B.** A cold-reactive IgM autoantibody with anti-I specificity binds RBCs at low temperature and fixes complement, producing intravascular hemolysis
+- **C.** A biphasic IgG hemolysin with anti-P specificity binds RBCs in the cold and fixes complement on rewarming, producing acute intravascular hemolysis
+- **D.** IgG (with or without C3b) opsonizes the RBC membrane, and splenic and hepatic macrophages bearing Fc and complement receptors phagocytose the coated cells, producing extravascular hemolysis ✅
+- **E.** RBCs are mechanically fragmented as they pass through platelet-rich microthrombi in the microvasculature
+
+**Correct (D):** Warm autoimmune hemolytic anemia (WAIHA) is caused by IgG autoantibodies that react optimally at 37°C (indirect antiglobulin phase). These IgG (often with bound C3b) molecules opsonize the RBC membrane, and macrophages in the spleen and liver, which bear Fc and C3b receptors, recognize and phagocytose (partially or completely) the opsonized cells. This produces predominantly extravascular hemolysis, generates spherocytes as macrophages remove membrane in a nondestructive fashion, and corresponds to the DAT pattern seen in the majority (about 67%) of WAIHA patients (IgG plus C3d), with a panreactive eluate. This patient's findings — spherocytes without schistocytes, DAT positive for IgG and C3d, panreactive eluate, normal cold agglutinin titer, and no drug exposure — are all consistent with this extravascular, macrophage-mediated mechanism rather than the alternatives listed.
+> Pearl: WAIHA is driven by IgG autoantibodies (optimal reactivity at 37°C) that opsonize RBCs; destruction is predominantly extravascular via Fc/C3b-receptor-mediated macrophage phagocytosis in the spleen and liver. This must be distinguished from complement-mediated intravascular mechanisms (cold agglutinin syndrome's IgM anti-I, PCH's biphasic IgG anti-P hemolysin), drug-induced mechanisms (hapten, immune-complex, NIPA), and the mechanical fragmentation of microangiopathic processes like TTP.
+
+- *B wrong:* This describes cold agglutinin syndrome (CAS), which involves an IgM autoantibody with anti-I specificity and high-titer cold agglutinins (>1,000 at 4°C); CAS classically shows a DAT positive for C3 only (anti-IgG negative), unlike this patient's IgG-and-C3d-positive DAT and normal cold agglutinin titer.
+- *C wrong:* This describes paroxysmal cold hemoglobinuria (PCH), diagnosed by a positive Donath-Landsteiner test identifying a biphasic IgG hemolysin with anti-P specificity that classically follows a viral illness in children and causes acute intravascular hemolysis after cold exposure; this adult patient has no such history.
+- *A wrong:* This describes nonimmunologic protein adsorption (NIPA), a drug-induced immune hemolytic anemia mechanism in which a drug-modified membrane nonspecifically adsorbs plasma proteins, producing a positive DAT for multiple proteins with a nonreactive eluate; this patient has no drug exposure and has a panreactive (not nonreactive) eluate.
+- *E wrong:* This describes the microangiopathic hemolytic anemia (MAHA) of TTP, in which platelet microthrombi mechanically fragment RBCs, producing schistocytes; this patient's smear shows spherocytes without schistocytes, arguing against a mechanical/microangiopathic process.
+
+**Sources:** `SRC-061`, `SRC-019`, `SRC-040`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0444 — Autoantibodies  `AR` · hard
+*1. Clinical Practice* · node `S1.a.iv.2` · support: high
+
+A 6-year-old boy is brought to the emergency department with fever, pallor, and dark urine that began this afternoon after he played outside in cold weather. Three days earlier he had a viral upper respiratory illness. Laboratory studies show a falling hemoglobin, elevated LDH, low haptoglobin, and hemoglobinuria. The polyspecific direct antiglobulin test (DAT) is positive; monospecific testing shows anti-IgG negative and anti-C3 positive. A Donath-Landsteiner test is positive. Which of the following best describes the underlying mechanism responsible for this patient's hemolysis?
+
+- **A.** An IgM antibody directly agglutinates and mechanically lyses RBCs in the cold without activating the complement cascade
+- **B.** A biphasic IgG antibody with anti-P specificity attaches to RBCs and fixes complement while the blood is cold in the peripheral circulation; upon rewarming to core body temperature, complement-mediated intravascular hemolysis occurs as the IgG dissociates from the cell surface ✅
+- **C.** A panreactive IgG autoantibody binds RBCs at 37°C and mediates predominantly extravascular hemolysis via splenic macrophages
+- **D.** An IgG antibody activates the complement cascade only at 37°C, with no antecedent cold-dependent binding step required
+- **E.** A high-titer IgM antibody with anti-I specificity agglutinates RBCs in the cold, leading to extravascular clearance of complement-coated cells by splenic macrophages
+
+**Correct (B):** PCH is caused by a biphasic IgG autoantibody (the Donath-Landsteiner antibody) with anti-P specificity. The antibody binds RBCs and fixes complement while the cells are cooled in the peripheral circulation (e.g., acral areas exposed to cold); when the cells recirculate to warmer core temperature, the complement cascade completes and produces acute intravascular hemolysis and hemoglobinuria. Because the IgG antibody itself dissociates from the RBC surface upon warming while C3 remains fixed, the DAT pattern is characteristically anti-IgG negative but anti-C3 positive — exactly as seen in this patient, who also fits the classic PCH demographic of a child with hemolysis following a recent viral illness and cold exposure.
+> Pearl: PCH is caused by a biphasic IgG (Donath-Landsteiner) antibody with anti-P specificity that binds and fixes complement on RBCs in the cold, with hemolysis completing upon rewarming; this produces a distinctive DAT pattern (anti-C3 positive, anti-IgG negative) that distinguishes it from both CAS (IgM anti-I) and WAIHA (IgG, extravascular).
+
+- *E wrong:* This describes cold agglutinin syndrome (CAS), which involves an IgM anti-I antibody in typically elderly patients — a classic board trap for confusing CAS with PCH, which is IgG anti-P and occurs in children.
+- *C wrong:* This describes warm autoimmune hemolytic anemia (WAIHA), which involves IgG binding at body temperature with extravascular splenic clearance, not the cold-dependent biphasic process of PCH.
+- *A wrong:* Incorrect because PCH hemolysis is complement-mediated (DAT anti-C3 positive) and the responsible antibody is IgG, not IgM, and does not act by direct mechanical agglutination.
+- *D wrong:* Incorrect because it omits the defining cold-dependent binding phase; the antibody is termed 'biphasic' precisely because complement fixation occurs during the cold phase before hemolysis is completed upon rewarming.
+
+**Sources:** `SRC-019`, `SRC-019`, `SRC-019`, `SRC-019`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0445 — Cold Hemagglutinin Disease  `AR` · hard
+*1. Clinical Practice* · node `S1.a.iii` · support: high
+
+A 72-year-old woman is evaluated in January for several weeks of fatigue accompanied by episodes of blue-gray discoloration of her fingertips that resolve with rewarming, plus one episode of dark urine after prolonged outdoor cold exposure. CBC shows mild anemia; LDH is elevated, haptoglobin is decreased, and indirect bilirubin is elevated. The polyspecific direct antiglobulin test (DAT) is strongly positive. Monospecific testing shows the anti-C3d reagent positive and the anti-IgG reagent negative. A cold agglutinin titer performed at 4°C is greater than 1,000, and the autoantibody demonstrates anti-I specificity.
+
+- **A.** An eluate prepared from this patient's RBCs would demonstrate a strongly pan-reactive IgG antibody against all reagent RBCs tested at 37°C, confirming the diagnosis
+- **B.** The causative autoantibody is IgG, coats the RBC surface, and is cleared predominantly by splenic macrophages via Fc-receptor-mediated extravascular hemolysis
+- **C.** The causative autoantibody is IgM with anti-I specificity; its efficient complement-fixing capacity deposits C3 on the RBC membrane, accounting for the anti-C3d-positive/anti-IgG-negative DAT, with RBC destruction occurring predominantly via intravascular or hepatic (liver-mediated) mechanisms rather than splenic clearance ✅
+- **D.** The causative autoantibody is an IgG biphasic hemolysin with anti-P specificity that binds RBCs in the cold and fixes complement, producing hemolysis upon rewarming
+- **E.** Complement is being deposited on the RBC membrane through antibody-independent activation of the alternative pathway, without a role for the anti-I autoantibody
+
+**Correct (C):** Cold hemagglutinin disease (CAS) is caused by an IgM autoantibody, usually with anti-I specificity, in elderly patients. Because IgM is a potent complement activator, the RBC injury is mediated through complement rather than persistent surface IgG, producing the classic DAT pattern of anti-C3d positive with anti-IgG negative, together with a high-titer (>1,000 at 4°C) cold agglutinin. Unlike warm AIHA, whose predominantly IgG-coated cells are cleared extravascularly in the spleen, CAS/PCH-type hemolysis occurs predominantly intravascularly or via liver-mediated clearance of complement-coated cells.
+> Pearl: CAS is driven by an IgM autoantibody (usually anti-I) whose potent complement-fixing activity produces the signature DAT pattern of C3d-positive/IgG-negative and drives predominantly intravascular or hepatic clearance, distinguishing it from IgG-mediated, splenic (extravascular) warm AIHA and from the IgG anti-P Donath-Landsteiner mechanism of PCH.
+
+- *B wrong:* Incorrect: an IgG-mediated, splenic extravascular mechanism describes warm AIHA, which would show a positive (not negative) anti-IgG DAT and typically lacks a high-titer cold agglutinin with anti-I specificity.
+- *D wrong:* Incorrect: an IgG biphasic hemolysin with anti-P specificity describes paroxysmal cold hemoglobinuria (PCH, Donath-Landsteiner mechanism), which is typically seen in children, not an elderly patient with an IgM anti-I cold agglutinin.
+- *A wrong:* Incorrect: a strongly pan-reactive IgG eluate reactive at 37°C is the hallmark of warm AIHA; it is inconsistent with this patient's IgG-negative DAT, which instead reflects an IgM antibody detected only through bound complement.
+- *E wrong:* Incorrect: CAS is by definition an autoantibody (IgM anti-I)-driven process that activates complement via the antibody-dependent classical pathway; it is not an antibody-independent alternative-pathway phenomenon.
+
+**Sources:** `SRC-019`, `SRC-007`
+**Review:** auto-audited-pass · source-support: pass · flags: weak-distractor
+
+---
+
+## Q-0446 — Paroxysmal Cold Hemoglobinuria  `AR` · moderate
+*1. Clinical Practice* · node `S1.a.iv` · support: high
+
+A 4-year-old boy is brought to the emergency department with dark urine and fatigue that began this morning, several days after he recovered from a nonspecific viral upper respiratory illness. He had been playing outside in cold weather the previous afternoon. Laboratory testing shows a low hemoglobin, elevated LDH, low haptoglobin, and hemoglobinuria. The direct antiglobulin test is positive with anti-C3 but negative with anti-IgG. A Donath-Landsteiner test is positive. Which of the following best explains the pathophysiologic mechanism producing this child's hemolysis?
+
+- **A.** An IgM autoantibody with anti-I specificity agglutinates RBCs in the cold peripheral circulation, and the sensitized cells are subsequently cleared extravascularly, mainly by the liver
+- **B.** A biphasic IgG autoantibody with anti-P specificity binds RBCs and fixes complement while blood is cooled in the peripheral circulation; on rewarming to 37°C the antibody dissociates from the cell surface while the already-triggered complement cascade proceeds to completion, causing intravascular hemolysis ✅
+- **C.** A somatic mutation impairs GPI-anchor synthesis so that CD55 and CD59 fail to attach to the RBC membrane, permitting unregulated complement-mediated intravascular lysis independent of any antibody
+- **D.** An IgG autoantibody that reacts optimally at 37°C coats the RBC membrane, and the sensitized cells are removed extravascularly by splenic macrophages via Fc-receptor–mediated phagocytosis
+- **E.** A drug metabolite forms a neoantigen complex with the RBC membrane, inducing a drug-dependent antibody that fixes complement only when the offending drug is present
+
+**Correct (B):** This presentation (a child, post-viral illness, acute intravascular hemolysis and hemoglobinuria after cold exposure) is classic for paroxysmal cold hemoglobinuria (PCH). PCH is diagnosed by the Donath-Landsteiner test, which identifies a biphasic IgG hemolysin with anti-P specificity: the antibody attaches to RBCs and fixes complement in cooler peripheral blood, and hemolysis is completed as complement activation proceeds after the blood rewarms to core temperature. This biphasic cold-binding/warm-lysis behavior explains why the DAT in PCH characteristically shows anti-C3 positivity with anti-IgG negativity, since the IgG antibody itself does not persist on the cell by the time testing occurs while complement remains fixed.
+> Pearl: PCH is caused by a biphasic IgG (Donath-Landsteiner) autoantibody with anti-P specificity that binds and fixes complement on RBCs in the cold periphery, with hemolysis completing via the complement cascade upon rewarming to 37°C; this produces the characteristic anti-C3(+)/anti-IgG(-) DAT pattern and must be distinguished mechanistically from CAS (IgM anti-I, extravascular clearance), WAIHA (IgG at 37°C, extravascular/splenic), PNH (antibody-independent complement dysregulation from CD55/CD59 loss), and DIIHA (drug-dependent antibody).
+
+- *A wrong:* This describes cold agglutinin syndrome (CAS), not PCH. CAS is driven by an IgM antibody, typically with anti-I specificity and is more classically an elderly-patient disease, distinct from the IgG anti-P antibody and pediatric, post-viral presentation of PCH; this is a recognized board trap for confusing the two cold-reactive AIHAs.
+- *D wrong:* This describes warm autoimmune hemolytic anemia (WAIHA), which involves an IgG autoantibody reacting best at 37°C with predominantly extravascular (splenic) clearance, in contrast to PCH, which is intravascular and cold-triggered.
+- *C wrong:* This describes the mechanism of paroxysmal nocturnal hemoglobinuria (PNH), in which loss of the GPI-linked complement regulators CD55 and CD59 causes chronic antibody-independent intravascular hemolysis; PCH is antibody-mediated via the Donath-Landsteiner hemolysin, not a membrane regulatory protein defect.
+- *E wrong:* This describes drug-induced immune hemolytic anemia (DIIHA), in which a drug-RBC neoantigen elicits a drug-dependent antibody; the vignette has no drug exposure, and DIIHA is a separate diagnostic category from PCH.
+
+**Sources:** `SRC-019`, `SRC-010`, `SRC-044`, `SRC-004`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0447 — Drug-Induced Immune Hemolytic Anemia  `AR` · hard
+*1. Clinical Practice* · node `S1.a.v` · support: high
+
+A 52-year-old woman receives a single intravenous dose of ceftriaxone for a urinary tract infection. Approximately 30 minutes into the infusion she develops fever, rigors, flank/back pain, and dark tea-colored urine. Laboratory testing shows a markedly elevated LDH, low haptoglobin, hemoglobinemia, hemoglobinuria, and an acute rise in serum creatinine. The direct antiglobulin test (DAT) is positive for C3d and negative for IgG. The patient's serum does not react with untreated reagent RBCs but reacts strongly with RBCs to which ceftriaxone has been added. Which of the following best describes the underlying pathophysiologic mechanism responsible for this patient's hemolysis?
+
+- **A.** The drug binds firmly (covalently) to the RBC membrane, and an IgG antibody directed against the drug-coated membrane mediates complement-independent extravascular clearance by splenic macrophages
+- **B.** The drug alters host immune regulation to induce a true anti-RBC autoantibody that reacts with normal RBCs regardless of whether the drug is present
+- **C.** The drug associates loosely with the RBC membrane, and a drug-antibody immune complex attaches to the membrane and activates complement, producing acute intravascular hemolysis ✅
+- **D.** A naturally occurring, low-titer antibody against the drug (arising from prior environmental antibiotic exposure) coats the RBCs but is of insufficient titer to cause clinically significant hemolysis
+- **E.** The drug nonspecifically alters the RBC membrane so that plasma proteins passively adsorb onto it without formation of a true antibody
+
+**Correct (C):** This patient's clinical picture (acute intravascular hemolysis with hemoglobinuria and renal impairment shortly after a single ceftriaxone dose) and serologic pattern (DAT positive for complement/C3 only, negative for IgG; serum non-reactive with untreated cells but reactive once drug is added to the test system) match the immune complex mechanism. In this mechanism the drug is loosely associated with (rather than firmly bound to) the RBC membrane or forms a soluble drug-antibody complex; the complex attaches to the RBC surface and fixes complement, causing acute intravascular hemolysis with a real risk of renal failure. The prototype drugs cited for this pattern are ceftriaxone and quinine.
+> Pearl: DIIHA has four distinct mechanisms with characteristic serology: hapten (firm binding, IgG-only DAT, extravascular, e.g., penicillin/cefotetan), immune complex (loose association, complement-only DAT, acute intravascular hemolysis with renal risk, e.g., ceftriaxone/quinine), drug-independent autoantibody induction (WAIHA-identical panreactive serology, e.g., methyldopa/fludarabine), and NIPA (nonspecific protein adsorption with no true antibody, negative serum/eluate).
+
+- *A wrong:* This describes the hapten mechanism (classic for penicillin/cefotetan): firm drug-membrane binding provokes an IgG antibody against the drug-coated membrane, and hemolysis is extravascular via splenic clearance. It does not fit this patient, whose DAT is complement-only (not IgG) and whose hemolysis is acute and intravascular rather than gradual and extravascular.
+- *B wrong:* This describes drug-independent autoantibody induction (classically methyldopa, with fludarabine as a more modern equivalent), which is serologically identical to warm autoimmune hemolytic anemia: serum and eluate are panreactive with normal RBCs even without the drug present. Here the serum reacted only when the drug was added, arguing against this mechanism.
+- *E wrong:* This describes nonimmunologic protein adsorption (NIPA), in which the DAT is positive for multiple proteins but the serum and eluate are non-reactive because no true antibody is involved. This patient's serum shows clear drug-dependent antibody reactivity, which is inconsistent with NIPA.
+- *D wrong:* Low-titer, naturally occurring anti-drug antibodies (e.g., from antibiotics in food sources) are common in healthy people and are not associated with hemolysis; true DIIHA requires high-titer antibody. This patient has fulminant clinically significant hemolysis, which is inconsistent with a benign low-titer incidental antibody.
+
+**Sources:** `SRC-040`, `SRC-019`, `SRC-044`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0448 — Paroxysmal Nocturnal Hemoglobinuria  `AR` · moderate
+*1. Clinical Practice* · node `S1.b` · support: high
+
+A 34-year-old man presents with fatigue and intermittent dark-colored urine. Laboratory evaluation confirms a chronic hemolytic process with elevated LDH and low haptoglobin. Flow cytometry performed on his red cells identifies a discrete population that is deficient in CD55 and CD59. Serologic antigen typing on this same red cell population shows weak/absent expression of Cromer-system and Cartwright (Yta) antigens, while Diego antigen expression is normal. Which of the following best explains the underlying mechanism responsible for this patient's red cell destruction?
+
+- **A.** An IgG autoantibody reactive at body temperature coats red cells, which then undergo predominantly extravascular removal in the spleen
+- **B.** An acquired somatic mutation in the PIGA gene causes deficient synthesis of glycosylphosphatidylinositol (GPI) anchors, preventing CD55 and CD59 from attaching to the red cell membrane and permitting unregulated complement-mediated lysis ✅
+- **C.** Firm binding of a drug to the red cell membrane induces antibody formation against the drug-membrane complex, producing gradual extravascular hemolysis
+- **D.** A high-titer IgM autoantibody with anti-I specificity binds red cells at cold temperatures and fixes complement, causing hemolysis upon rewarming
+- **E.** A biphasic IgG antibody with anti-P specificity binds red cells in the cold and fixes complement upon rewarming, producing acute intravascular hemolysis
+
+**Correct (B):** The flow cytometry finding of a red cell population deficient in CD55 and CD59, together with weak/absent GPI-linked Cromer and Cartwright (Yta) antigens but normal (non-GPI-linked) Diego antigen, is the classic immunohematologic signature of PNH. Per the source, PNH arises from an acquired clonal mutation in the PIGA gene that produces a deficiency of GPI anchors on the RBC membrane; because CD55 and CD59 are normally GPI-linked, they cannot attach, so the cells lose complement regulation and undergo chronic intravascular hemolysis. This is a primary membrane-synthesis defect, not an antibody-mediated process.
+> Pearl: PNH results from an acquired clonal PIGA mutation causing GPI-anchor deficiency, which prevents membrane attachment of the complement regulators CD55 and CD59, producing chronic complement-mediated intravascular hemolysis -- a fundamentally different (non-antibody) mechanism from WAIHA, CAS, PCH, and drug-induced immune hemolysis, despite overlapping clinical/laboratory features and name similarity to PCH.
+
+- *C wrong:* This describes the hapten mechanism of drug-induced immune hemolytic anemia (e.g., firm drug-membrane binding as with penicillin/cefotetan), which causes extravascular hemolysis via a true drug-dependent antibody -- an entirely different, antibody- and drug-dependent process from the primary membrane defect of PNH.
+- *D wrong:* This is the mechanism of cold agglutinin syndrome (CAS), which is driven by a high-titer IgM autoantibody with anti-I specificity that fixes complement in the cold; PNH involves no autoantibody at all, only a GPI-anchor synthesis defect.
+- *E wrong:* This describes paroxysmal cold hemoglobinuria (PCH), caused by a biphasic Donath-Landsteiner IgG antibody with anti-P specificity. Despite the similar 'paroxysmal' name and overlapping intravascular hemolysis/hemoglobinuria picture, PCH is antibody-mediated and unrelated to the PIGA/GPI-anchor defect of PNH -- a classic name-alike board trap.
+- *A wrong:* This describes warm autoimmune hemolytic anemia (WAIHA), which is predominantly extravascular (splenic) and driven by an IgG autoantibody reactive at 37°C; PNH hemolysis is intravascular and is not antibody-mediated.
+
+**Sources:** `SRC-004`, `SRC-010`, `SRC-019`, `SRC-040`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0451 — Secondary Immune Thrombocytopenic Purpura  `AR` · hard
+*1. Clinical Practice* · node `S1.d.v.8` · support: low
+
+A 58-year-old woman with a 10-year history of systemic lupus erythematosus is found to have an isolated platelet count of 18,000/µL with new petechiae. Hemoglobin, white blood cell count, and coagulation studies are normal, and no schistocytes are seen on the peripheral smear. Her physician diagnoses secondary immune thrombocytopenic purpura and orders a laboratory workup directed at the antibody-mediated process responsible for her low platelet count. Which of the following best characterizes the mechanism being investigated in this patient?
+
+- **A.** A secondary (anamnestic) immune response is generating a rapid, IgM-predominant antibody response against her own platelets
+- **B.** IgG- and complement-coated red blood cells are being cleared by the reticuloendothelial system, consistent with warm autoimmune hemolytic anemia
+- **C.** Antibody directed against platelet antigens mediates platelet destruction; HLA and HPA antibody assays are a critical part of the diagnostic investigation ✅
+- **D.** This is heparin-induced thrombocytopenia (HIT), which produces platelet destruction only after antibody forms in response to heparin exposure
+- **E.** An alloantibody such as anti-HPA-1a has formed against a platelet antigen foreign to the patient, as occurs in neonatal alloimmune thrombocytopenia or post-transfusion purpura
+
+**Correct (C):** The source material describes ITP as a disorder of antibody-mediated platelet destruction for which HLA and HPA antibody assays are a critical part of the laboratory investigation. In this patient, thrombocytopenia arising in the setting of an established autoimmune disease (lupus) fits the platelet-destruction process the curriculum groups under Immune Thrombocytopenia, and the workup logically centers on platelet-reactive antibody assays rather than on mechanisms specific to other antibody-mediated cytopenias.
+
+- *A wrong:* Incorrect and a classic terminology trap: the curriculum's primary-versus-secondary immune response framework distinguishes response kinetics (with IgG carrying the greater clinical significance in the secondary/anamnestic response), which is a different concept from the disease-classification term 'secondary ITP.' Labeling the antibody as IgM-predominant misapplies that immune-response kinetics concept to this platelet-destruction process.
+- *D wrong:* Incorrect: the curriculum lists ITP and HIT together as immune thrombocytopenias with distinct classification and pathogenesis; HIT (by definition in the source) is tied to heparin exposure, which is not part of this patient's presentation.
+- *E wrong:* Incorrect: anti-HPA-1a alloantibody against a foreign platelet antigen is the mechanism identified in the source for neonatal alloimmune thrombocytopenia and post-transfusion purpura, not for an autoimmune process occurring in a patient with lupus who has not been transfused or is not pregnant.
+- *B wrong:* Incorrect: this describes the source's warm AIHA mechanism (IgG/C3-coated red cells cleared by the reticuloendothelial system), which affects red cells, not platelets, and is therefore the wrong target lineage for this patient's isolated thrombocytopenia.
+
+**Sources:** `SRC-010`, `SRC-044`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, blueprint-mismatch, too-esoteric-thin-source
+
+---
+
+## Q-0452 — Neonatal Treatment  `AR` · moderate
+*1. Clinical Practice* · node `S1.d.vii.2.b` · support: moderate
+
+A term neonate born after an uncomplicated first pregnancy develops diffuse petechiae and bruising within the first few hours after birth. The platelet count is 18,000/µL, and cranial imaging is unremarkable. The mother's prenatal RBC antibody screen was negative, and she has a normal platelet count. Further testing reveals a maternal serum antibody that reacts specifically with a human platelet antigen (HPA) present on both the neonate's platelets and the father's platelets, but that is absent from the mother's own platelets. Which of the following best explains the pathophysiologic mechanism responsible for this neonate's thrombocytopenia?
+
+- **A.** A maternal IgG alloantibody directed against a paternally inherited human neutrophil antigen (HNA) crosses the placenta, producing the neutrophil destruction characteristic of neonatal alloimmune neutropenia
+- **B.** A maternal IgM alloantibody directed against a fetal HLA Class I antigen crosses the placenta and opsonizes the neonate's platelets for splenic clearance
+- **C.** An inherited defect in platelet glycoprotein IIb/IIIa, as occurs in Glanzmann's thrombasthenia, impairs the neonate's platelet aggregation
+- **D.** An anamnestic secondary antibody response, analogous to post-transfusion purpura, develops after in utero exposure and destroys the neonate's own platelets
+- **E.** A maternal IgG alloantibody directed against the paternally inherited HPA on fetal platelets crosses the placenta and mediates immune-mediated destruction of the neonate's platelets ✅
+
+**Correct (E):** Neonatal/fetal alloimmune thrombocytopenia arises when a mother who lacks a particular human platelet antigen (HPA) is exposed to that antigen on fetal platelets (inherited from the father) and mounts an IgG alloantibody response. Because IgG, unlike IgM, crosses the placenta, the maternal antibody enters the fetal circulation and binds the paternally-derived HPA on fetal/neonatal platelets, triggering immune-mediated platelet destruction and thrombocytopenia — the same IgG-mediated, antigen-specific, transplacental mechanism described in the sources for the analogous neutrophil-targeted syndrome, neonatal alloimmune neutropenia (NAN).
+> Pearl: NAIT/FNAIT pathophysiology follows the same template as HDFN and NAN: maternal IgG alloantibody against a paternally-inherited antigen (here, HPA) absent from the mother's own cells crosses the placenta and destroys the corresponding fetal/neonatal cell line (platelets). This must be distinguished from congenital platelet function disorders, HLA/IgM-mediated processes, and post-transfusion purpura, which share superficial features but differ in antigen system, immunoglobulin class, or clinical context.
+
+- *A wrong:* Incorrect. This describes neonatal alloimmune neutropenia (NAN), in which maternal IgG targets a neutrophil-specific antigen (HNA) rather than a platelet-specific antigen (HPA); it explains neutropenia, not the thrombocytopenia described in this neonate.
+- *C wrong:* Incorrect. Glanzmann's thrombasthenia is a congenital platelet function (aggregation) defect, not an immune-mediated destructive process, and it does not explain the presence of a maternal antibody reactive with a paternally-derived platelet antigen.
+- *B wrong:* Incorrect. Platelets do carry HLA Class I antigens, but this is not the primary FNAIT mechanism described in the sources, and IgM — unlike IgG — does not cross the placenta, so it cannot mediate fetal/neonatal platelet destruction.
+- *D wrong:* Incorrect. Post-transfusion purpura is a distinct anamnestic phenomenon associated with HPA investigation, but it occurs after transfusion in previously sensitized individuals; it does not explain thrombocytopenia present at birth in a first pregnancy with no prior neonatal platelet transfusion.
+
+**Sources:** `SRC-006`, `SRC-004`, `SRC-001`, `SRC-006`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, blueprint-mismatch
+
+---
+
+## Q-0453 — Factor VIII Inhibitors  `AR` · hard
+*1. Clinical Practice* · node `S1.e.iv.2` · support: low
+
+A 24-year-old man with severe hemophilia A (baseline factor VIII activity <1%) is admitted with a spontaneous hemarthrosis. He is treated with factor VIII concentrate, but the joint continues to swell despite dose escalation, and a post-infusion factor VIII activity level remains undetectable. Laboratory evaluation confirms a high-titer factor VIII inhibitor. The hematology consultant switches therapy to a bypassing agent (recombinant activated factor VII or prothrombin complex concentrate) to control the bleeding.
+
+- **A.** Factor VIII is not synthesized by hepatocytes, so infused factor VIII concentrate cannot be processed by this patient's liver
+- **B.** A circulating antibody neutralizes infused factor VIII activity, so hemostasis must instead be achieved with agents that generate thrombin through pathways that do not require functional factor VIII ✅
+- **C.** The inhibitor triggers a disseminated intravascular coagulation–like consumptive process that depletes platelets and fibrinogen, so cryoprecipitate rather than isolated factor correction is required
+- **D.** Bypassing agents work by supplying a concentrated, inhibitor-resistant form of factor VIII that evades neutralization
+- **E.** Factor VIII is a vitamin K–dependent factor, and the inhibitor blocks its hepatic carboxylation, rendering infused factor VIII biologically inactive
+
+**Correct (B):** The source material states that high-titer factor VIII inhibitors are managed with bypassing agents such as prothrombin complex concentrate or recombinant factor VIIa rather than with additional factor VIII concentrate. This management strategy reflects the underlying mechanism: the inhibitor is a circulating antibody that neutralizes infused factor VIII, so raising the factor VIII dose is ineffective once the inhibitor titer is high. 'Bypassing' therapy restores hemostasis by generating thrombin through routes that do not depend on functional factor VIII, sidestepping the step blocked by the antibody.
+> Pearl: Factor VIII inhibitors are neutralizing antibodies that block the activity of infused factor VIII; because escalating factor VIII dose is ineffective once titers are high, bypassing agents (PCC or recombinant factor VIIa) are used because they generate thrombin through factor VIII–independent pathways, 'bypassing' the step the antibody blocks.
+
+- *A wrong:* Incorrect as the rationale here. It is true per the source that factor VIII (unlike most other clotting factors) is preserved in liver disease because it is not primarily hepatocyte-derived, but this fact explains sparing of factor VIII synthesis in hepatic dysfunction, not why an inhibitor antibody defeats factor VIII replacement — a distractor that misapplies a true but unrelated fact.
+- *E wrong:* Incorrect. The source identifies factors II, VII, IX, and X as the vitamin K–dependent factors whose nonfunctional (PIVKA) forms accumulate in vitamin K deficiency; factor VIII is not among them, so this mechanism does not apply and is a fabricated explanation for the inhibitor's effect.
+- *C wrong:* Incorrect. The source describes DIC as a distinct consumption coagulopathy with pathologic activation of both procoagulant and fibrinolytic systems, managed with platelets, plasma, and cryoprecipitate — a separate entity from an isolated factor VIII inhibitor, which does not consume platelets or fibrinogen.
+- *D wrong:* Incorrect. This inverts the meaning of 'bypassing': these agents do not supply factor VIII at all (resistant or otherwise); they generate thrombin via factor VIII–independent routes, which is precisely why they remain effective when an inhibitor has neutralized any infused factor VIII.
+
+**Sources:** `SRC-002`, `SRC-002`, `SRC-002`, `SRC-002`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0456 — Prenatal Management  `AR` · moderate
+*1. Clinical Practice* · node `S1.d.vii.2.c` · support: high
+
+A woman pregnant for the first time undergoes a prenatal ultrasound at 32 weeks that incidentally identifies a fetal intracranial hemorrhage. Her platelet count and coagulation studies are normal, and she has no history of autoimmune disease. Platelet antigen typing shows the mother is HPA-1a negative, the father is homozygous HPA-1a positive, and the fetus has inherited the paternal HPA-1a-positive allele. Which of the following best explains the mechanism responsible for this fetal complication?
+
+- **A.** Because this is a first pregnancy, maternal sensitization could only have occurred from a prior fetomaternal hemorrhage event, as in Rh alloimmunization
+- **B.** Maternal IgM antibodies against fetal ABO antigens on platelets fix complement and lyse fetal platelets
+- **C.** Maternal IgG1/IgG3 antibodies directed against the paternally inherited HPA-1a antigen cross the placenta and destroy fetal platelets ✅
+- **D.** Maternal antibodies against fetal RBC Rh antigens cause extravascular hemolysis, with fetal thrombocytopenia occurring as a secondary compensatory response
+- **E.** Direct transplacental passage of paternal platelets into the fetal circulation triggers a fetal-versus-maternal alloimmune reaction
+
+**Correct (C):** FNAIT is caused by maternal alloantibodies directed against a paternally inherited fetal platelet antigen, most commonly HPA-1a, in a mother who lacks that antigen. As with HDFN, only IgG antibodies (specifically the IgG1 and IgG3 subclasses) are actively transported across the placenta; once transferred, these antibodies bind the incompatible paternal antigen on fetal platelets and cause their destruction, producing thrombocytopenia and, in severe cases, intracranial hemorrhage. Unlike Rh HDFN, FNAIT is distinctive in that it can affect the first pregnancy, which fits this vignette.
+> Pearl: FNAIT arises from transplacental transfer of maternal IgG1/IgG3 alloantibody (most often anti-HPA-1a) against a paternally inherited fetal platelet antigen; because this sensitization does not require a prior delivery-related fetomaternal hemorrhage as in Rh disease, FNAIT can affect a first pregnancy and can present with intracranial hemorrhage before any maternal risk factors are apparent.
+
+- *B wrong:* Incorrect: IgM antibodies are not actively transported across the placenta, and ABO antigens are not the described target of platelet-destructive antibodies in FNAIT; only IgG crosses the placenta.
+- *D wrong:* Incorrect: this describes the RBC-destruction pathophysiology of HDFN, a distinct entity; the source material does not describe fetal thrombocytopenia as a compensatory consequence of RBC hemolysis.
+- *E wrong:* Incorrect: FNAIT results from antibody-mediated destruction of fetal platelets, not from physical transfer of paternal platelets across the placenta.
+- *A wrong:* Incorrect: this option misapplies Rh HDFN logic. Unlike HDFN, FNAIT can affect the first pregnancy, so a prior sensitizing fetomaternal hemorrhage is not required.
+
+**Sources:** `SRC-017`, `SRC-025`
+**Review:** auto-audited-pass · source-support: pass · flags: weak-distractor
+
+---
+
+## Q-0457 — Platelet Genotyping  `F` · hard
+*1. Clinical Practice* · node `S1.d.v.9` · support: moderate
+
+A 52-year-old woman with chronic immune thrombocytopenia has become refractory to platelet transfusions. To investigate for a platelet-reactive alloantibody and identify compatible platelet donors, the transfusion service attempts serologic human platelet antigen (HPA) phenotyping, but the patient's antibody is only weakly reactive and commercial HPA antisera for confirmatory typing are unavailable. The medical director orders molecular HPA genotyping instead. Which of the following best explains the underlying rationale for using genotyping rather than serologic phenotyping in this situation?
+
+- **A.** Genotyping directly visualizes the platelet glycoprotein epitope, giving higher specificity than any antibody-based assay for determining platelet antigen phenotype
+- **B.** Genotyping detects the antigen-encoding DNA sequence directly, allowing antigen assignment even when a corresponding antibody reacts weakly or specific HPA antisera are unavailable ✅
+- **C.** Genotyping is preferred because it distinguishes autoimmune ITP from FNAIT and post-transfusion purpura using a serologic crossmatch panel
+- **D.** Genotyping is necessary because HPA antigens, unlike ABO and HLA class I antigens, are not expressed on the platelet membrane and can only be inferred from genomic sequence data
+- **E.** Genotyping is performed to confirm a diagnosis of Glanzmann thrombasthenia before initiating platelet transfusion support
+
+**Correct (B):** Molecular genotyping predicts antigen phenotype from the presence of specific DNA sequences rather than from antigen-antibody reactions, so it circumvents the core limitations of serology, such as scarce or unavailable typing reagents and weak/discrepant antibody reactivity. The sources specifically identify HPA genotyping as essential for finding compatible platelet donors 'when an antibody is weak or when HPA reagents are unavailable,' which is exactly the mechanism tested here in the context of investigating immune-mediated platelet destruction.
+> Pearl: In the workup of immune-mediated platelet destruction (ITP-spectrum entities including FNAIT and PTP), molecular HPA genotyping determines antigen status by detecting the antigen-encoding DNA sequence directly, which is why it remains valid when serologic antibody reactivity is weak or HPA typing antisera are unavailable — unlike protein-based serologic phenotyping, which requires a functioning antigen-antibody reaction.
+
+- *A wrong:* Incorrect: this reverses the two testing modalities described in the sources. Protein analysis studies the biochemistry/structure of antigens (the actual epitope) expressed on red cells, platelets, and white cells; DNA analysis (genotyping) instead examines genomic sequence variation and only predicts the resulting phenotype rather than directly visualizing the protein epitope.
+- *D wrong:* Incorrect and factually contradicted by the sources, which state that platelets carry ABO, HLA class I (A and B), and HPA antigens on their membrane — HPA antigens ARE expressed on platelets, they are simply also typeable at the DNA level.
+- *C wrong:* Incorrect: the sources note that HLA and HPA antibody assays (not a genotyping-based serologic crossmatch panel) are critical for investigating ITP-spectrum platelet destruction, and genotyping is not described as a tool for distinguishing among these clinical entities by crossmatch.
+- *E wrong:* Incorrect: Glanzmann thrombasthenia is a congenital qualitative platelet function disorder mentioned in the same source subdomain, but it is diagnosed by functional/structural glycoprotein assessment, not by HPA genotyping performed for alloantibody/donor-compatibility workup in immune-mediated thrombocytopenia.
+
+**Sources:** `SRC-006`, `SRC-028`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0458 — Post transfusion Purpura  `F` · hard
+*1. Clinical Practice* · node `S1.d.vii.4` · support: moderate
+
+A 58-year-old woman, gravida 3 para 3, with no prior history of platelet transfusion, receives two units of leukoreduced packed RBCs for symptomatic anemia. She tolerates the transfusion without any immediate reaction. Nine days later she develops widespread petechiae, ecchymoses, and gum bleeding. Platelet count is 3,000/µL (pretransfusion count 240,000/µL). Platelet antibody testing identifies anti-HPA-1a in the patient's serum, and molecular phenotyping confirms she is HPA-1a-negative. Which of the following best explains the mechanism responsible for the severity of this patient's thrombocytopenia?
+
+- **A.** An anamnestic anti-HPA-1a response to residual donor platelet antigen (soluble HPA-1a antigen or trace platelets) in the transfused unit leads to destruction of both the donor's HPA-1a-positive platelets and the patient's own HPA-1a-negative platelets. ✅
+- **B.** A primary autoantibody unrelated to alloantigen exposure destroys the patient's platelets, as occurs in immune thrombocytopenia (ITP), independent of the recent transfusion.
+- **C.** Deficiency of ADAMTS13 permits accumulation of ultra-large von Willebrand factor multimers, driving platelet aggregation and microvascular thrombosis as in thrombotic thrombocytopenic purpura (TTP).
+- **D.** Washing or deglycerolizing the transfused RBC unit prior to infusion would have removed all donor platelet antigen and prevented this antigen-antibody reaction.
+- **E.** The anti-HPA-1a antibody binds and clears only the HPA-1a-positive donor platelets present in the transfused unit, leaving the patient's own HPA-1a-negative platelet population intact.
+
+**Correct (A):** Post-transfusion purpura (PTP) is a delayed immune reaction in which a previously sensitized, HPA-1a-negative (typically parous) recipient mounts an anamnestic anti-HPA-1a response upon reexposure to HPA-1a antigen carried by residual donor platelets or soluble antigen in a transfused component. Because the reaction is triggered even by soluble antigen or trace platelets rather than requiring a large intact donor platelet mass, the patient's own HPA-1a-negative platelets are also swept up in the destruction, producing profound thrombocytopenia (<10,000/µL) roughly 1-2 weeks after transfusion. This same mechanism explains why washing or deglycerolizing the component does not reliably prevent PTP.
+> Pearl: PTP results from an anamnestic anti-HPA-1a response in a sensitized, HPA-1a-negative recipient; because the reaction can be triggered by soluble antigen or trace platelets, the patient's own antigen-negative platelets are destroyed along with donor platelets, producing profound thrombocytopenia that washing/deglycerolizing the component does not prevent.
+
+- *E wrong:* Incorrect: if only the small population of donor platelets in the unit were cleared, the drop in count would be limited, not the profound (<10,000/µL) thrombocytopenia seen in PTP; the patient's own antigen-negative platelets must also be destroyed.
+- *B wrong:* Incorrect: this patient's thrombocytopenia is temporally linked to transfusion and driven by an identified anti-HPA-1a alloantibody, not a primary autoimmune process as in ITP, which is not triggered by alloantigen exposure.
+- *D wrong:* Incorrect: the source material specifically notes that washing or deglycerolizing RBCs does not prevent PTP because the reaction can be triggered by soluble HPA antigen as well as trace platelets, not solely by intact donor platelets that washing would remove.
+- *C wrong:* Incorrect: this describes TTP, a distinct ADAMTS13-deficiency-driven microangiopathic process (an ASFA Category I apheresis indication), whereas PTP is an antibody-mediated alloimmune process for which apheresis is only ASFA Category III (not well established).
+
+**Sources:** `SRC-058`, `SRC-044`, `SRC-059`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0459 — Passive Alloimmune Thrombocytopenia  `F` · hard
+*1. Clinical Practice* · node `S1.d.vii.5` · support: high
+
+A term neonate born after an uncomplicated first pregnancy develops widespread petechiae and ecchymoses within the first 24 hours of life. Platelet count is 18,000/µL; coagulation studies are normal. The mother's platelet count is normal and she has no history of bleeding or thrombocytopenia. Human platelet antigen (HPA) genotyping shows the neonate is HPA-1a positive and the mother is HPA-1a negative, and maternal serum contains an antibody reactive with HPA-1a-positive platelets. Which of the following best describes the underlying pathophysiologic mechanism responsible for this neonate's thrombocytopenia?
+
+- **A.** The neonate's own immune system mounts an anamnestic secondary antibody response against HPA-1a after an earlier, undetected in-utero sensitizing exposure
+- **B.** Maternal antibody suppresses fetal megakaryocyte precursors in the bone marrow, analogous to the erythroid precursor suppression produced by anti-K in Rh alloimmunization
+- **C.** Maternal IgM anti-HPA-1a crosses the placenta directly and agglutinates fetal platelets
+- **D.** A maternally administered drug binds platelet membrane glycoproteins to create a hapten-dependent neoantigen that is then recognized by a newly formed maternal antibody
+- **E.** Maternal IgG (subclasses IgG1/IgG3) directed against the paternally inherited HPA-1a antigen, which is absent from the mother's own platelets, is actively transported across the placenta and binds the corresponding antigen on fetal platelets, marking them for destruction; because the neonate never generated this antibody itself, the disease is passively acquired and can occur even in a first pregnancy ✅
+
+**Correct (E):** This scenario is fetal/neonatal alloimmune thrombocytopenia (FNAIT), the prototypical passive alloimmune thrombocytopenia: the mother is HPA-1a negative and forms an antibody against the HPA-1a antigen her fetus inherited from the father. Only IgG antibodies (specifically IgG1 and IgG3) are actively transported across the placenta, and anti-HPA-1a is the antibody most commonly implicated in FNAIT, which destroys fetal/neonatal platelets bearing the antigen. Because the antibody-producing individual (the mother) is distinct from the affected individual (the neonate), the process is 'passive' rather than active alloimmunization, and — unlike RhD HDFN, which typically requires prior sensitization — FNAIT can affect a first pregnancy.
+> Pearl: Passive alloimmune thrombocytopenia (FNAIT) arises because maternal IgG1/IgG3 anti-HPA-1a (formed against a paternal platelet antigen the mother lacks) crosses the placenta and destroys antigen-positive fetal platelets — a mechanism distinct from active/anamnestic recipient-generated antibody responses, IgM-mediated processes (which cannot cross the placenta), hapten-drug mechanisms, or marrow precursor suppression (the anti-K pattern).
+
+- *A wrong:* Incorrect: this describes an active, anamnestic antibody response generated by the affected individual, which is the opposite of the passive mechanism defining FNAIT; the antibody in FNAIT is maternal in origin, not neonatal.
+- *C wrong:* Incorrect: IgM does not cross the placenta — only IgG (specifically IgG1/IgG3) is actively transported, which is precisely why IgM alloantibodies (e.g., naturally occurring ABO isoagglutinins of IgM class) do not cause this type of fetal disease.
+- *D wrong:* Incorrect: this describes a hapten-mediated drug-induced immune cytopenia mechanism (analogous to penicillin-type drug-induced immune hemolytic anemia), not an alloimmune antigen-antibody mismatch; there is no drug exposure in this vignette, and the antigen target here is a true inherited platelet alloantigen (HPA-1a), not a drug-modified neoantigen.
+- *B wrong:* Incorrect: bone marrow precursor suppression is the mechanism described for anti-K antibodies acting on RBC precursors (which is why anti-K titers correlate poorly with severity of anemia); HPA-1a-mediated FNAIT instead reflects antibody binding to antigen already expressed on mature/circulating fetal platelets, not suppression of megakaryocyte precursors.
+
+**Sources:** `SRC-017`, `SRC-044`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0460 — Transplantation-Associated Alloimmune Thrombocytopenia  `F` · hard
+*1. Clinical Practice* · node `S1.d.vii.6` · support: moderate
+
+A 34-year-old woman with acute myeloid leukemia is scheduled to undergo myeloablative allogeneic hematopoietic progenitor cell (HPC) transplantation. Her history includes three prior pregnancies and multiple red cell and platelet transfusions during induction chemotherapy. Early after transplant, she develops severe thrombocytopenia and receives an ABO-compatible, freshly collected random-donor apheresis platelet unit, but her corrected count increment (CCI) remains persistently low despite appropriate dosing. Antibody testing reveals broadly reactive antibodies directed against Class I antigens, and her platelet counts subsequently rise appropriately only after she is switched to HLA-matched/HLA-selected platelet products. Which of the following best describes the underlying immunologic mechanism responsible for this patient's poor platelet increments?
+
+- **A.** Antibodies against donor HPA-1a on the transfused platelets mediate their rapid immune clearance
+- **B.** ABO incompatibility between the donor platelet unit and the recipient's plasma causes immune-mediated destruction of the transfused platelets
+- **C.** Failure of leukoreduction allows contaminating donor leukocytes to release cytokines that cause febrile, non-immune destruction of the transfused platelets
+- **D.** Preformed antibodies against mismatched donor HLA Class I antigens, constitutively expressed on platelets, bind and mediate rapid immune clearance of the transfused platelets ✅
+- **E.** Non-immune platelet consumption from transplant-associated thrombotic microangiopathy accounts for the poor increments
+
+**Correct (D):** Platelets constitutively express HLA Class I (in addition to ABO and HPA antigens), and the HLA system is described as the primary barrier to successful transplantation and specialized platelet support. This patient's prior pregnancies and transfusions are classic sensitizing exposures for anti-HLA antibody formation. Once present, these preformed antibodies bind mismatched HLA Class I antigens on subsequently transfused random-donor platelets and mediate their rapid immune clearance, producing a persistently low corrected count increment (CCI) — the laboratory definition of alloimmune platelet refractoriness. This is precisely the scenario in which the source material describes consulting on provision of HLA-matched or HLA-selected platelets for patients failing to achieve expected increments, and it explains why switching to HLA-selected products restored an adequate response.
+> Pearl: In transplant recipients, prior sensitization (pregnancy, transfusion) can generate anti-HLA Class I antibodies; because platelets constitutively express HLA Class I, these antibodies mediate rapid clearance of subsequently transfused platelets (a low CCI), distinct from HPA-mediated mechanisms (FNAIT/PTP) or non-immune consumptive processes (TA-TMA), and is managed with HLA-matched/selected platelet support.
+
+- *B wrong:* Incorrect. Platelets do carry ABO antigens, but the stem specifies an ABO-compatible unit, and ABO is not identified in the source material as the primary immunologic barrier driving alloimmune platelet refractoriness — that role is attributed to the highly polymorphic HLA system.
+- *A wrong:* Incorrect. HPA antibodies (e.g., anti-HPA-1a) are highlighted in the source material specifically as the critical targets in the investigation of neonatal alloimmune thrombocytopenia (FNAIT) and post-transfusion purpura (PTP), not as the typical mechanism of broad platelet transfusion refractoriness after transplant; the antibody testing here also identified Class I (HLA) reactivity, not HPA reactivity.
+- *E wrong:* Incorrect. Transplant-associated thrombotic microangiopathy is a non-immune consumptive process and would not be corrected by switching to HLA-matched platelets, nor does it explain the identified broadly reactive Class I antibodies; the question stem specifically points to an alloimmune, antibody-mediated process.
+- *C wrong:* Incorrect. Leukoreduction is described in the source material as a measure that prevents febrile non-hemolytic transfusion reactions, HLA sensitization, and CMV transmission — it does not itself cause platelet destruction, and cytokine-mediated febrile reactions do not explain persistently low corrected count increments corrected by HLA-selected platelets.
+
+**Sources:** `SRC-028`, `SRC-006`, `SRC-006`, `SRC-044`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0462 — Autoimmune Hemolytic Anemia  `None` · moderate
+*1. Clinical Practice* · node `S1.a` · support: high
+
+A 52-year-old woman presents with several weeks of progressive fatigue and dark urine. Examination reveals scleral icterus and mild splenomegaly. Laboratory studies show hemoglobin 7.8 g/dL, elevated LDH, low haptoglobin, and indirect hyperbilirubinemia. The peripheral smear shows spherocytes without schistocytes. The direct antiglobulin test (DAT) is positive with anti-IgG and negative with anti-C3. The eluate prepared from her red cells reacts with all normal reagent red cells tested at 37°C. Which of the following best describes the primary mechanism responsible for red cell destruction in this patient?
+
+- **A.** Mechanical fragmentation of red cells as they pass through platelet-rich microthrombi in small vessels
+- **B.** Complement membrane-attack-complex formation on IgM-coated red cells, producing intravascular lysis
+- **C.** IgM autoantibody agglutination with complement fixation at reduced peripheral temperature, producing intravascular hemolysis
+- **D.** A biphasic IgG antibody that binds red cells in the cold and fixes complement upon rewarming to 37°C, producing intravascular hemolysis
+- **E.** Fc-receptor-mediated phagocytosis of IgG-coated red cells by splenic macrophages, producing extravascular hemolysis ✅
+
+**Correct (E):** The clinical picture (splenomegaly, spherocytes, IgG-positive/C3-negative DAT, panreactive IgG eluate) is that of warm autoimmune hemolytic anemia (WAIHA). The source material characterizes WAIHA as driven by IgG autoantibodies and states that its hemolysis is predominantly extravascular and splenic, in contrast to the intravascular/liver-mediated hemolysis of cold hemagglutinin disease (CAS) and paroxysmal cold hemoglobinuria (PCH). IgG-sensitized red cells are cleared by splenic macrophages recognizing the Fc portion of bound IgG, producing the spherocytosis and extravascular destruction seen here.
+> Pearl: Warm AIHA is mediated by IgG autoantibodies that are cleared extravascularly by splenic macrophages (Fc-receptor-mediated phagocytosis), producing spherocytes and an IgG-positive DAT with a panreactive eluate — mechanistically distinct from the IgM/complement-driven intravascular hemolysis of cold agglutinin disease, the biphasic IgG/complement mechanism of PCH, and the mechanical fragmentation of TTP/MAHA.
+
+- *B wrong:* Incorrect. Terminal complement (membrane-attack-complex)-driven intravascular lysis on IgM-coated cells is not the mechanism described for WAIHA in the source material; WAIHA is IgG-mediated and predominantly extravascular, not intravascular complement-mediated lysis.
+- *A wrong:* Incorrect. Mechanical fragmentation in small-vessel microthrombi describes the microangiopathic hemolytic anemia (MAHA) of TTP, a distinct clinical pentad (MAHA, thrombocytopenia, neurologic signs, renal abnormalities, fever) that is not an antibody-mediated red cell process and does not fit this patient's IgG-positive DAT and panreactive eluate.
+- *C wrong:* Incorrect. This describes cold hemagglutinin disease (CAS), which the source characterizes as IgM (typically anti-I) mediated, complement-fixing, and associated with a DAT that is anti-C3 positive but anti-IgG negative — the opposite serologic pattern from this patient.
+- *D wrong:* Incorrect. This describes paroxysmal cold hemoglobinuria (PCH), caused by a biphasic IgG (Donath-Landsteiner) hemolysin with anti-P specificity that binds in the cold and lyses cells via complement upon rewarming, typically in children after a viral illness with intravascular hemolysis — not this patient's extravascular, IgG-DAT-positive, C3-negative picture.
+
+**Sources:** `SRC-019`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0463 — Drug-Induced Immune Thrombocytopenia  `None` · hard
+*1. Clinical Practice* · node `S1.d.vi` · support: low
+
+A 68-year-old man begins taking quinine for nocturnal leg cramps. Ten days later he develops petechiae and gum bleeding; his platelet count is 6,000/µL, while hemoglobin, white blood cell count, and coagulation studies are normal. Platelet antibody testing shows that his serum reacts with normal donor platelets only when quinine is added to the test system; testing performed without the drug present is nonreactive. His platelet count normalizes within one week of quinine discontinuation. Which of the following best explains the immunologic mechanism responsible for this patient's thrombocytopenia?
+
+- **A.** The drug induces formation of a true anti-platelet autoantibody that is serologically indistinguishable from an idiopathic autoantibody and continues to react even after the drug is cleared from the circulation
+- **B.** A maternal alloantibody directed against a paternally inherited platelet antigen crosses the placenta and destroys fetal platelets
+- **C.** The drug nonspecifically alters the platelet membrane so that plasma proteins adsorb onto it, producing a positive antibody test without a true antibody of defined specificity
+- **D.** The drug binds firmly to the platelet membrane, and antibody directed against the drug-coated membrane produces gradual, predominantly extravascular platelet destruction
+- **E.** A drug-dependent antibody forms against a neoantigen created by loose association of the drug with a platelet membrane component; the antibody reacts with platelets only when the drug is present, producing rapid platelet clearance ✅
+
+**Correct (E):** The serum reacted with donor platelets only when quinine was added and was nonreactive without the drug — the defining feature of a drug-dependent antibody. The sources describe drug-dependent antibodies as requiring the drug to be present in the test system to react, and a 'unifying hypothesis' in which a drug binds loosely or firmly to a cell membrane, generating antibodies against the drug itself, membrane components, or a neoantigen composed of both. Loose drug-membrane association (the immune-complex-type pattern) causes acute, rapid-onset destruction, consistent with this patient's abrupt severe thrombocytopenia and prompt recovery after drug withdrawal.
+> Pearl: Classic drug-induced immune thrombocytopenia (e.g., quinine/quinidine-type) is mediated by a drug-dependent antibody that requires the offending drug's presence to bind a neoantigen on the platelet membrane (loose/immune-complex-type association, acute onset), distinguishing it from drug-independent autoantibody induction, nonimmunologic protein adsorption, firm hapten-type binding, and alloimmune platelet destruction.
+
+- *A wrong:* Describes the drug-independent (autoantibody-induction) mechanism, e.g., methyldopa- or fludarabine-type induction of a true autoantibody that is serologically indistinguishable from an idiopathic autoantibody and reacts without the drug present — the opposite of this patient's drug-dependent reactivity pattern.
+- *C wrong:* Describes nonimmunologic protein adsorption (NIPA), in which the drug alters the membrane so proteins adsorb nonspecifically, yielding a positive antibody/DAT-type test without a true antibody of defined specificity — inconsistent with this patient's specific, drug-dependent serum reactivity.
+- *D wrong:* Describes the hapten-type mechanism (firm drug-membrane binding, as with penicillin/cefotetan), which the sources associate with gradual, predominantly extravascular destruction rather than the abrupt, severe thrombocytopenia seen here.
+- *B wrong:* Describes the alloimmune mechanism of neonatal alloimmune thrombocytopenia/post-transfusion purpura mediated by anti-HPA-1a; this involves an alloantigen, not a drug, and does not fit an adult patient whose antibody required quinine for reactivity.
+
+**Sources:** `SRC-040`, `SRC-019`, `SRC-010`, `SRC-044`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0464 — Alloimmune Thrombocytopenia  `None` · moderate
+*1. Clinical Practice* · node `S1.d.vii` · support: high
+
+A healthy primigravida with no prior pregnancies, transfusions, or platelet disorders delivers a term infant who develops diffuse petechiae and ecchymoses within hours of birth, followed by an intracranial hemorrhage detected on cranial ultrasound. The neonate's platelet count is markedly decreased, but the mother's platelet count obtained at the same time is normal. Which of the following best describes the pathophysiologic mechanism responsible for this neonate's thrombocytopenia?
+
+- **A.** A maternal IgG alloantibody, most commonly anti-HPA-1a, directed against a paternally inherited human platelet antigen that is absent from the mother's own platelets crosses the placenta and destroys fetal platelets ✅
+- **B.** Maternal IgM antibody directed against ABO antigens on fetal platelets crosses the placenta and opsonizes the platelets for splenic clearance
+- **C.** An anamnestic maternal IgG response to a Kidd (Jk) red cell antigen cross-reacts with fetal platelet glycoproteins, causing complement-mediated lysis
+- **D.** Donor T-lymphocytes from a prior nonirradiated cellular transfusion engraft in the fetus and mount a cytotoxic attack on fetal megakaryocytes
+- **E.** A maternal autoantibody directed against her own platelet glycoproteins, as occurs in immune thrombocytopenic purpura, crosses the placenta and binds structurally identical antigens on fetal platelets
+
+**Correct (A):** Fetal and neonatal alloimmune thrombocytopenia (FNAIT) results when a fetus inherits a paternal human platelet antigen (HPA) that the mother lacks (most commonly HPA-1a); the maternal immune system generates an IgG alloantibody against that foreign antigen. Because only IgG (specifically IgG1 and IgG3) is actively transported across the placenta, the anti-HPA-1a antibody reaches the fetal circulation and destroys fetal platelets while sparing the mother's own platelets (hence her normal count). Since this alloimmunization can occur early, FNAIT—unlike Rh-mediated HDFN, which typically requires a prior sensitizing pregnancy—can affect a first pregnancy, and it can present with petechiae, ecchymoses, or life-threatening intracranial hemorrhage.
+> Pearl: FNAIT is an alloimmune (not autoimmune) process: maternal IgG against a paternally inherited HPA (most commonly HPA-1a) that the mother lacks crosses the placenta via active IgG (IgG1/IgG3) transport to destroy fetal platelets, sparing the maternal platelet count and permitting first-pregnancy disease—contrasted against ITP (autoimmune, maternal thrombocytopenia present), TA-GVHD (donor T-cell mediated), and Kidd/DHTR (red cell alloimmunization).
+
+- *B wrong:* Incorrect. IgM antibodies are not actively transported across the placenta—only IgG subclasses (IgG1, IgG3) cross. While platelets do carry ABO antigens, ABO incompatibility is not the mechanism implicated in FNAIT, which is driven by anti-HPA alloantibody.
+- *E wrong:* Incorrect. This describes maternal ITP causing neonatal thrombocytopenia, an autoimmune (not alloimmune) process in which the maternal antibody targets her own platelet antigens; because the antigen is present on maternal platelets as well, the mother's platelet count would also be expected to be low, which is not the case in this vignette.
+- *D wrong:* Incorrect. This describes transfusion-associated graft-versus-host disease (TA-GVHD), mediated by engrafted donor T-lymphocytes attacking host tissue after transfusion of a nonirradiated cellular product—an unrelated mechanism, and there is no transfusion history here.
+- *C wrong:* Incorrect. Kidd (Jk) antibodies are a red cell alloantibody system classically associated with anamnestic delayed hemolytic transfusion reactions; they target red cell, not platelet, antigens and are unrelated to FNAIT.
+
+**Sources:** `SRC-004`, `SRC-044`, `SRC-006`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0465 — Crossmatching  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.a.iv.4` · support: high
+
+A 45-year-old man with acute myeloid leukemia becomes refractory to platelet transfusions, with a poor 1-hour corrected count increment after ABO-identical apheresis platelets. Antibody screening identifies a broad panel-reactive HLA antibody profile. Because his HLA typing and antibody specificities are already characterized, the transfusion service selects the next platelet donor by performing a virtual crossmatch rather than a physical (lymphocytotoxicity or flow cytometry) crossmatch.
+
+- **A.** The recipient's HLA antibody specificities, defined by solid-phase assay, are compared against the donor's documented HLA type to predict compatibility, without physically mixing donor cells and recipient serum ✅
+- **B.** A registry of HLA-matched platelet donors is recruited and physically crossmatched for every request, regardless of the recipient's specific antibody profile
+- **C.** Donor lymphocytes are physically incubated with the recipient's serum, as in lymphocytotoxicity or flow cytometry crossmatching, so the antigen-antibody reaction can be directly observed
+- **D.** Compatibility is determined solely by matching donor and recipient ABO/Rh blood groups rather than by HLA specificities
+- **E.** The recipient is tested for antibodies to human platelet antigens (HPA) instead of HLA antigens, because platelets do not express HLA molecules
+
+**Correct (A):** By definition, a virtual crossmatch predicts donor-recipient HLA compatibility by comparing the recipient's known HLA antibody profile, established by solid-phase assay, against the donor's documented HLA type. This substitutes data comparison for an actual physical reaction between donor cells and recipient serum, which is why it can be performed rapidly once both the recipient's antibody specificities and the donor's HLA type are already on record.
+> Pearl: The virtual crossmatch is a data-comparison technique: it predicts HLA compatibility by comparing the recipient's previously characterized HLA antibody specificities (solid-phase assay) against the donor's known HLA type, without physically reacting donor cells with recipient serum as physical crossmatch methods (lymphocytotoxicity, flow cytometry) do. This is mechanistically possible because HLA Class I antigens (the antibody targets most relevant to platelet refractoriness) are constitutively expressed on platelets and most nucleated cells, and is distinct both from ABO/Rh compatibility logic and from platelet-specific (HPA) antibody-antigen systems.
+
+- *C wrong:* Incorrect: this describes the physical crossmatch methods (lymphocytotoxicity or flow cytometry crossmatch), which the transfusion service specifically avoided in favor of the virtual approach in this scenario.
+- *D wrong:* Incorrect: HLA compatibility assessment is a distinct process from ABO/Rh typing; the virtual crossmatch evaluates HLA antibody-to-antigen specificity, not red cell ABO/Rh groups.
+- *E wrong:* Incorrect and factually wrong on two counts: HLA Class I molecules (A, B, C) are expressed on platelets as well as most nucleated cells, and HPA is a separate platelet-specific antigen system distinct from HLA — refractoriness driven by HLA alloantibodies is not evaluated by HPA antibody testing.
+- *B wrong:* Incorrect: this describes the clinical strategy of sourcing HLA-matched or HLA-selected platelet donors for refractory patients, a donor-selection practice — not the data-comparison mechanism that defines a virtual crossmatch.
+
+**Sources:** `SRC-028`, `SRC-028`, `SRC-044`, `SRC-028`, `SRC-044`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0466 — Transplantation  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.a.vi.1` · support: high
+
+A transplant program is evaluating a patient with acute leukemia for allogeneic hematopoietic progenitor cell (HPC) transplantation. Before a donor is selected, molecular typing is performed at both the HLA Class I (HLA-A, -B, -C) and Class II (HLA-DR, -DQ, -DP) loci for the donor and recipient. Which of the following best explains the underlying biological reason the HLA system constitutes the principal immunologic barrier that must be overcome for the transplant to succeed?
+
+- **A.** HLA Class II molecules, rather than Class I, are expressed on nearly all nucleated cells, so a Class II mismatch is the dominant cause of graft destruction while Class I mismatches are clinically unimportant
+- **B.** Non-HLA determinants such as MICA and HNA are the principal drivers of graft rejection in HPC transplantation, with HLA polymorphism serving only a minor, secondary role
+- **C.** Extreme polymorphism of the HLA loci makes it unlikely that unrelated individuals share identical Class I molecules (expressed on nearly all nucleated cells and platelets) and Class II molecules (expressed on antigen-presenting cells), so donor or recipient T lymphocytes recognize the mismatched molecules as foreign and mount an alloimmune response ✅
+- **D.** Bg antigens expressed on donor red cells are recognized by recipient anti-HLA antibodies, and this red cell interaction directly initiates the alloimmune reaction against the graft
+- **E.** ABO blood group incompatibility between donor and recipient determines the degree of HLA Class I expression on the graft, making ABO matching the true basis of the HLA barrier
+
+**Correct (C):** The HLA system is described as highly polymorphic and as the primary barrier to successful transplantation. Class I antigens (HLA-A, -B, -C) are expressed on nearly all nucleated cells and platelets, while Class II antigens (HLA-DR, -DQ, -DP) are restricted to antigen-presenting cells. Because of this extreme allelic diversity, unrelated donor-recipient pairs are unlikely to be fully matched at these widely and selectively expressed loci; T lymphocytes from either the donor or recipient can then recognize the mismatched HLA molecules as foreign, triggering rejection or graft-versus-host disease. This is the biological rationale for performing comprehensive Class I and Class II HLA typing before HPC transplantation.
+> Pearl: HLA's role as the primary transplantation barrier stems from its extreme polymorphism combined with the differing tissue distribution of Class I (broad — nearly all nucleated cells and platelets) versus Class II (restricted to antigen-presenting cells) molecules, which together make donor/recipient mismatch — and consequent T-cell recognition of foreign HLA — highly likely between unrelated individuals.
+
+- *B wrong:* Incorrect: the sources list MICA and HNA as separate 'non-HLA determinants' evaluated in addition to HLA typing, not as the principal drivers of rejection; HLA polymorphism itself is described as the primary transplantation barrier.
+- *E wrong:* Incorrect: major/minor ABO incompatibility in HSCT is described as a distinct concept from HLA matching; ABO antigens do not determine HLA Class I expression on the graft.
+- *D wrong:* Incorrect: this is the classic 'Bg' board trap — Bg antigens are weakly expressed HLA Class I antigens on red cells relevant to resolving nuisance serologic reactions (removable with chloroquine or EDTA-glycine), not the mechanism driving T-cell-mediated graft rejection or GVHD.
+- *A wrong:* Incorrect: this reverses the actual distribution stated in the sources — Class I, not Class II, is expressed on nearly all nucleated cells and platelets, while Class II is restricted to antigen-presenting cells.
+
+**Sources:** `SRC-028`, `SRC-010`, `SRC-003`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0467 — Hematopoietic Progenitor  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.a.vi.1.a` · support: high
+
+A 34-year-old man with acute myeloid leukemia undergoes allogeneic hematopoietic progenitor cell (HPC) transplantation using peripheral blood stem cells from his HLA-matched sibling donor. On post-transplant day 18, chimerism studies confirm donor engraftment, but he develops a diffuse maculopapular rash, profuse watery diarrhea, and rising serum bilirubin with transaminitis. Which of the following best explains the underlying pathophysiologic mechanism producing this clinical picture?
+
+- **A.** Recipient isoagglutinins bind donor-derived red cells infused with the graft, producing acute hemolysis
+- **B.** Donor-origin passenger lymphocytes in the graft produce antibodies directed against the recipient's residual red cell antigens, causing delayed hemolysis
+- **C.** Donor-derived T lymphocytes within the graft recognize recipient HLA and other tissue antigens as foreign and mount an immune-mediated attack on host skin, gut, and liver ✅
+- **D.** Persistent recipient antibodies lyse developing donor erythroid precursors in the marrow, producing isolated failure of erythroid recovery
+- **E.** Host cytotoxic T lymphocytes recognize HLA disparity on the transplanted stem cells and reject the donor graft
+
+**Correct (C):** The described multi-system syndrome (rash, diarrhea, liver dysfunction) occurring after confirmed donor engraftment is classic graft-versus-host disease (GVHD). The source material defines GVHD as a multi-system syndrome caused by donor T-cells attacking recipient tissues, and identifies HLA compatibility as the paramount factor governing both successful engraftment and prevention of GVHD in allogeneic HSCT — i.e., donor T lymphocytes carried within the graft recognize recipient HLA and other host antigens as foreign and mount an immune attack against skin, gut, and liver, the classic GVHD target organs.
+> Pearl: GVHD in allogeneic HPC transplantation is a donor-versus-host process: immunocompetent donor T lymphocytes carried within the graft recognize recipient HLA/tissue antigens as foreign and attack host skin, gut, and liver, which is why HLA compatibility is the paramount determinant of both engraftment success and GVHD risk.
+
+- *E wrong:* Incorrect. Host-versus-graft rejection reflects the recipient's immune system attacking the incoming donor stem cells (impairing engraftment), which is the opposite direction of immune attack from what is described; here chimerism studies confirm the donor cells have engrafted, and the clinical picture is a systemic donor-versus-host process, not graft failure.
+- *A wrong:* Incorrect. Recipient isoagglutinins against donor RBC antigens describe major ABO incompatibility, which produces acute hemolysis at the time of graft infusion from residual donor red cells — a distinct mechanism unrelated to the multi-organ rash/diarrhea/liver syndrome and not caused by an HLA-based T-cell attack.
+- *B wrong:* Incorrect. Passenger lymphocyte syndrome involves donor-origin lymphocytes producing antibodies against the recipient's own RBC antigens, causing delayed hemolysis (typically day 5-16) — a red-cell-restricted process, not the multi-system tissue attack (skin, gut, liver) described in this vignette.
+- *D wrong:* Incorrect. This describes pure red cell aplasia (PRCA), where recipient antibodies persist and lyse developing donor erythroid precursors, producing myeloid engraftment without erythroid recovery (reticulocytes <1% beyond 60 days) — an isolated red-cell-lineage problem, not a systemic rash/diarrhea/liver syndrome.
+
+**Sources:** `SRC-035`, `SRC-035`, `SRC-035`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0468 — Solid Organ  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.a.vi.1.b` · support: moderate
+
+A 45-year-old woman with end-stage renal disease undergoes deceased-donor kidney transplantation. Pretransplant antibody screening using multiantigen-coated bead assays showed a calculated panel-reactive antibody (cPRA) of 98%, reflecting broad HLA sensitization from three prior pregnancies and a remote failed renal allograft. Within minutes of completing the vascular anastomoses and reperfusing the graft, the kidney becomes mottled and cyanotic and urine output ceases. Which of the following mechanisms best explains this graft outcome?
+
+- **A.** Preformed recipient antibodies directed against donor HLA (Class I) antigens expressed on the graft's nucleated cells bind immediately upon reperfusion, producing rapid antibody-mediated vascular injury and thrombosis of the graft ✅
+- **B.** Donor T lymphocytes carried within the graft recognize the recipient's tissues as foreign and mount a cytotoxic attack, producing a multisystem syndrome of rash, fever, diarrhea, and liver dysfunction
+- **C.** Donor-origin lymphocytes transferred with the graft produce antibodies against the recipient's own red cell antigens, causing hemolysis that typically presents 5 to 16 days after transplantation
+- **D.** Recipient antibodies target and lyse donor-derived erythroid progenitor cells within the graft, producing myeloid engraftment without erythroid recovery
+- **E.** HLA and ABO compatibility are not required for solid organ transplantation the way they are for hematopoietic progenitor cell transplantation, so donor-recipient antigen mismatch cannot explain the immediate graft compromise
+
+**Correct (A):** This is hyperacute rejection. The patient's high cPRA indicates broad preexisting sensitization to HLA antigens (detected by multiantigen-coated bead/PRA-type screening). HLA Class I antigens (HLA-A, -B, -C) are expressed on most nucleated cells, so the transplanted kidney's cells display the very antigens the recipient's preformed antibodies target. Because solid organs (unlike hematopoietic progenitor cells, which lack ABO antigen expression and therefore do not trigger hyperacute rejection) express these antigens throughout the graft, immediate binding of preformed antibody upon reperfusion produces rapid antibody-mediated vascular injury and graft thrombosis within minutes-to-hours — exactly the intraoperative mottling, cyanosis, and anuria described.
+> Pearl: Hyperacute rejection of a solid organ occurs when preformed recipient antibody (anti-HLA or anti-ABO) binds antigens expressed on the graft's own nucleated cells immediately upon reperfusion; this is possible for solid organs because they express ABO/HLA antigens on their tissue, whereas HPC grafts lack ABO antigen expression and are therefore not susceptible to this mechanism.
+
+- *B wrong:* Incorrect: this describes graft-versus-host disease, in which donor T-cells attack recipient tissue (rash, fever, diarrhea, liver dysfunction). It runs in the opposite direction from graft rejection and is a hazard of allogeneic HSCT, not the mechanism of a hyperacute solid-organ rejection occurring at reperfusion.
+- *C wrong:* Incorrect: this describes passenger lymphocyte syndrome, in which donor lymphocytes carried in a minor ABO-mismatched hematopoietic graft make antibody against recipient red cells, causing delayed hemolysis (days later), not immediate ischemic graft failure in the operating room.
+- *D wrong:* Incorrect: this describes pure red cell aplasia from major ABO-mismatched HSCT, where recipient isoagglutinins lyse donor erythroid precursors in the marrow niche. A kidney graft has no erythroid precursor compartment, and PRCA is a chronic transfusion-dependence problem, not an acute intraoperative event.
+- *E wrong:* Incorrect and inverts the actual relationship: the sources note that ABO matching is not essential in HSCT specifically because HPCs lack ABO antigen expression, implying the opposite is true for solid organ transplantation — the transplanted organ's cells do express ABO/HLA antigens, which is exactly why preformed antibody can cause hyperacute rejection.
+
+**Sources:** `SRC-035`, `SRC-028`, `SRC-026`, `SRC-038`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0469 — Tissue Banking  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b` · support: high
+
+A reproductive tissue bank is processing donor oocytes for long-term storage. Per protocol, the oocytes are exposed to dimethyl sulfoxide (DMSO) as a cryoprotectant and then subjected to a controlled-rate cooling program before being plunged into liquid nitrogen vapor phase for ultra-low temperature storage. What is the primary purpose of combining a cryoprotectant with controlled-rate cooling in this process?
+
+- **A.** To permit future redistribution of the cryopreserved tissue if it is not used by the intended recipient
+- **B.** To prevent cellular damage as the tissue transitions to ultra-low storage temperatures ✅
+- **C.** To extend the tissue's allowable storage duration under refrigerated, non-frozen conditions
+- **D.** To eliminate the need for infectious disease screening of the tissue donor before release
+- **E.** To satisfy the traceability requirement that the medical record link donor and recipient tissue identifiers
+
+**Correct (B):** The approved study guide states that cryoprotectants such as DMSO are used together with controlled-rate cooling specifically 'to prevent cellular damage during the transition to ultra-low temperatures.' This is the mechanistic purpose of the freezing protocol itself, distinct from the separate regulatory requirements (traceability, donor screening) and storage-condition rules that also apply to banked tissue.
+> Pearl: Cryoprotectant (e.g., DMSO) plus controlled-rate cooling serves the mechanistic purpose of preventing cellular damage during transition to ultra-low storage temperatures — a concept distinct from, and not a substitute for, the regulatory requirements of donor infectious-disease screening, traceability documentation, and the ban on redistribution of cryopreserved reproductive tissue.
+
+- *E wrong:* Incorrect — traceability (recording tissue type, identifier, quantity, expiration date, and date of use in the recipient's record) is a separate documentation requirement, not the reason for cryoprotectant/controlled-rate cooling use.
+- *A wrong:* Incorrect and a classic trap — the sources state cryopreserved reproductive tissue may NOT be redistributed for use except as required by local or state regulations, the opposite of what this option claims.
+- *D wrong:* Incorrect — infectious disease transmission prevention is addressed through FDA-mandated donor screening/testing under tissue banking regulation, not through the freezing process; cryopreservation does not substitute for donor testing.
+- *C wrong:* Incorrect — cryopreservation involves transition to ultra-low temperature (frozen) storage, not refrigerated storage; these are distinct storage modalities in the source material.
+
+**Sources:** `SRC-028`, `SRC-006`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, blueprint-mismatch
+
+---
+
+## Q-0470 — Tissue Donation  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b.iii` · support: low
+
+A tissue bank processes and releases a fresh-frozen musculoskeletal (bone-tendon-bone) allograft for an orthopedic reconstruction. Before distribution, the tissue bank completes a donor history questionnaire, a physical assessment, and required infectious disease marker testing to establish donor eligibility, and it assigns a unique donor identification code that links the processed tissue to the ultimate recipient's chart. Several weeks after transplantation, the recipient develops a graft-associated infection, and the tissue bank is able to trace the implicated allograft back to the donor and forward to any other recipients of tissue from that same donor.
+
+- **A.** Graft-versus-host disease from transfer of donor antigen-presenting cells
+- **B.** ABO hemolytic incompatibility between donor tissue and recipient
+- **C.** Immune-mediated rejection of the allograft due to HLA Class I mismatch
+- **D.** Transmission of communicable disease from the tissue donor to the recipient ✅
+
+**Correct (D):** FDA 21 CFR Part 1271 governs human cells, tissues, and cellular/tissue-based products (HCT/Ps), including the donor eligibility determination (history, physical assessment, infectious disease testing) and the bidirectional donor-recipient traceability system described in the vignette. The source material states explicitly that this regulatory framework exists to prevent disease transmission, which is the underlying mechanism of patient harm the eligibility screen and traceability system are built to interrupt.
+> Pearl: FDA 21 CFR Part 1271 oversight of HCT/Ps (donor eligibility screening plus bidirectional traceability) is fundamentally an infectious-disease-transmission safeguard, distinct from the immunologic (HLA matching/rejection, GVHD) and blood-group compatibility frameworks that govern other areas of transfusion and transplantation.
+
+- *C wrong:* Incorrect: MHC Class I antigens (HLA-A, -B, -C) are on nearly all nucleated cells per the source, but HLA typing/matching for rejection is a distinct immunologic concern from the FDA donor-eligibility and traceability framework, which the source ties specifically to disease transmission, not to rejection prevention.
+- *A wrong:* Incorrect: the source lists Adoptive Immunotherapy as a separate subdomain from Tissue Banking within Cell and Tissue Therapy, and does not attribute the 21 CFR 1271 donor-eligibility/traceability requirements to graft-versus-host disease prevention.
+- *B wrong:* Incorrect: ABO compatibility is addressed in the source under RBC/blood group biochemistry (a separate domain), not as a stated purpose of the FDA tissue-banking regulation described here; musculoskeletal allografts are not managed under an ABO-compatibility framework in the source material.
+
+**Sources:** `SRC-010`, `SRC-010`, `SRC-010`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, overclaims-as-policy
+
+---
+
+## Q-0471 — Living Donors  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b.iii.1` · support: low
+
+A healthy 34-year-old woman volunteers as an allogeneic hematopoietic progenitor cell (HPC-A) donor for her HLA-matched sibling and undergoes peripheral blood stem cell collection by apheresis. Approximately 90 minutes into the procedure she develops circumoral tingling, tingling in her fingertips, and mild shivering. Her blood pressure and heart rate remain stable throughout, and there is no venipuncture-site pain. Which of the following best explains the mechanism of her symptoms?
+
+- **A.** Chelation of ionized calcium by the citrate anticoagulant circulating in the apheresis extracorporeal circuit ✅
+- **B.** A neurally mediated reflex producing hypotension and bradycardia
+- **C.** Direct mechanical injury to a peripheral nerve from the phlebotomy needle
+- **D.** An immediate IgE-mediated anaphylactic reaction to the apheresis tubing
+
+**Correct (A):** The donor's perioral and digital paresthesias with shivering, occurring with stable hemodynamics, are the classic presentation of citrate toxicity — a reaction specific to apheresis donors (including living HPC-A/stem cell donors undergoing apheresis collection) in which the citrate anticoagulant used in the extracorporeal circuit chelates ionized calcium, producing transient hypocalcemia. It is managed/resolved with oral calcium supplementation.
+> Pearl: Citrate toxicity is the mechanism-specific adverse event unique to apheresis-based living donation (including cellular therapy collections such as HPC-A/stem cell apheresis): citrate anticoagulant chelates ionized calcium, producing perioral/digital paresthesias and shivering that must be distinguished from the hypotension/bradycardia of a vasovagal reaction.
+
+- *B wrong:* Incorrect distractor: vasovagal reactions are the most common donor adverse event but are characterized by hypotension, bradycardia, and sometimes syncope — not preserved by this donor's stable vitals or her paresthesia pattern.
+- *C wrong:* Incorrect distractor: nerve irritation results from direct needle contact with a nerve at the venipuncture site, producing localized pain/sensory change near the puncture, not diffuse perioral and digital paresthesias.
+- *D wrong:* Incorrect distractor: severe reactions such as anaphylaxis requiring intubation are graded as immediately life-threatening (Grade 4) events, inconsistent with this donor's mild, stable presentation.
+
+**Sources:** `SRC-059`, `SRC-059`, `SRC-059`, `SRC-059`
+**Review:** auto-audited-pass · source-support: partial · flags: blueprint-mismatch, unsupported-claim
+
+---
+
+## Q-0472 — Public Attitudes Regarding Organ and Tissue Donation  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.b.v` · support: low
+
+A newly appointed tissue bank medical director is asked by hospital administration to justify why the program continues to invest heavily in donor screening, infectious disease testing, and bidirectional donor-to-recipient traceability for allograft tissue, even though these measures add substantial cost and processing time. The administrator notes that no testing method can guarantee absolute elimination of transmission risk. Which of the following best explains the underlying driver of this stringent, 'zero risk' regulatory and quality framework governing donor tissue and blood products?
+
+- **A.** Bidirectional traceability between donor and recipient exists primarily to support billing reconciliation and reimbursement between the collecting facility and the transplanting hospital
+- **B.** Public willingness to donate tissue and organs is governed exclusively by religious and cultural beliefs and is unrelated to confidence in the safety of the screening and testing system
+- **C.** Donor screening and testing protocols for tissue banking were developed solely by AABB and CAP peer-review processes, since tissue banking activities fall outside FDA regulatory authority
+- **D.** Historical high-profile disease-transmission events (e.g., the discovery of HIV/AIDS in the blood and tissue supply) generated public demand for the highest achievable safety levels, driving regulators and accrediting bodies to mandate a 'zero risk' framework that sustains public trust and willingness to donate ✅
+- **E.** FDA regulations under 21 CFR Part 1271 require that donor screening and testing completely eliminate all residual risk of disease transmission before a tissue product may be released
+
+**Correct (D):** The source material explains that the 'zero risk' mandate governing blood and tissue-based products was necessitated by the discovery of HIV/AIDS and the resulting public demand for the highest possible safety levels. This historical driver produced the multi-layered mandatory (FDA) and voluntary (AABB, CAP) framework -- including donor screening, infectious disease testing, and traceability -- that in turn sustains public confidence and willingness to donate. Pathogen inactivation and screening reduce, but do not eliminate, the small residual chance of transmission from an undetected agent, so the framework's purpose is to maximize safety and preserve public trust rather than to certify zero actual risk.
+
+- *E wrong:* Incorrect: the sources describe pathogen inactivation and screening as reducing the 'small chance' of transmission from an undetected infectious agent, not eliminating all residual risk -- 'zero risk' is an aspirational mandate driven by public demand, not a literal guarantee.
+- *A wrong:* Incorrect: the sources describe tissue service traceability as a donor-to-recipient tracking function tied to safety and product accountability, not a billing or reimbursement mechanism.
+- *B wrong:* Incorrect: this overstates and misattributes the driver; the sources tie the stringent regulatory framework to public demand for safety following disease-transmission events, not to religious/cultural belief alone, and do not support excluding safety concerns as a factor.
+- *C wrong:* Incorrect: the sources state that FDA 21 CFR Part 1271 regulates tissue banking specifically to prevent disease transmission, so tissue banking is not exempt from federal oversight; AABB/CAP accreditation supplements but does not replace FDA authority.
+
+**Sources:** `SRC-053`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0473 — Infectious Disease Testing  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.b.vii.4` · support: moderate
+
+A 24-year-old man dies from injuries sustained in a motorcycle collision and is evaluated as a tissue donor under the FDA's 21 CFR Part 1271 donor-eligibility framework. At the time of donation, individual-donor NAT (ID-NAT) for HIV-1 RNA and HIV-1/2 antibody screening are both nonreactive, and cardiovascular tissue is subsequently released for transplantation. Three weeks later, a public health investigation determines that the donor had actually acquired HIV shortly before death, and the tissue recipient later tests HIV-positive. Which of the following best explains why infectious disease testing failed to detect the donor's HIV infection at the time of donation?
+
+- **A.** The donor had recently received a hepatitis B vaccine, producing a transient false-negative HIV result
+- **B.** The donor was in the window period, the interval between acquisition of infection and the point at which the pathogen becomes detectable by NAT or serology ✅
+- **C.** Pathogen inactivation technology was applied to the tissue graft but failed to inactivate the virus
+- **D.** The HIV antibody screen was repeatedly reactive, but a falsely negative supplemental Western blot released the tissue
+- **E.** The donor's specimen was tested by minipool rather than individual-donor NAT, diluting viral RNA below the assay's limit of detection
+
+**Correct (B):** The scenario describes a donor who was truly infected but tested nonreactive on both NAT and antibody screening — the defining feature of the window period, the time between acquisition of infection and the point at which a test (NAT or serology) can detect the agent. Window-period donations are the principal source of residual risk, the small risk of transmission that persists despite a full battery of negative screening tests, and this concept underlies why even ultrasensitive NAT (which narrows the preseroconversion window) cannot reduce risk to zero.
+> Pearl: The window period — not assay failure, vaccination interference, or a pathogen-inactivation gap — is the fundamental mechanism by which a truly infected donor can pass both NAT and serologic screening, and it is the principal driver of residual transfusion/transplant-transmitted infection risk.
+
+- *E wrong:* Incorrect and contradicted by the stem: minipool NAT (pooling 6-16 samples) can dilute viral RNA below detection, but the vignette specifies individual-donor NAT (ID-NAT) was used, which is the more sensitive, non-diluted testing strategy.
+- *A wrong:* Incorrect: recent hepatitis B vaccination is described as causing a transient false-positive HBsAg result for up to 28 days, not a false-negative HIV result — it is the wrong pathogen and the wrong direction of error.
+- *C wrong:* Incorrect: pathogen inactivation technology reduces infectivity by damaging nucleic acids but is described only as being approved for platelets and plasma, not for cardiovascular or other tissue allografts, so it is not part of this donor's screening pathway.
+- *D wrong:* Incorrect and contradicted by the stem: supplemental testing (e.g., Western blot) is triggered only by a repeatedly reactive screening result, but this donor's antibody screen was nonreactive, so no supplemental testing would have been performed.
+
+**Sources:** `SRC-013`, `SRC-013`, `SRC-013`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, blueprint-mismatch
+
+---
+
+## Q-0474 — Bone  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.e.iv` · support: low
+
+A patient receives a structural bone allograft from an accredited tissue bank during an orthopedic procedure. Bone, along with skin, heart valves, amniotic membrane, and ocular tissue, is regulated by the FDA as a human cell, tissue, and cellular and tissue-based product (HCT/P) under 21 CFR 1271. The hospital's tissue services department must document specific data elements in the patient's permanent medical record and must be able to trace the graft from donor to recipient.
+
+- **A.** Because the bone matrix is acellular once processed, 21 CFR 1271 exempts it from donor-to-recipient tracking, and only the surgeon's operative note is required
+- **B.** Because bone allografts undergo CD34+ selection and volume reduction like peripheral blood HPC products, they are tracked using the colony-forming-unit potency assay rather than a donor-to-recipient identifier system
+- **C.** Vein-to-vein traceability applies only to cellular therapy products such as hematopoietic progenitor cells; structural tissues like bone are tracked solely by the manufacturer's lot number, without a link to the individual recipient
+- **D.** Storage and traceability of bone allografts are governed exclusively by each institution's internal quality policy rather than by federal tissue regulation, since bone is not a blood-derived product
+- **E.** The medical record must capture the tissue type, a unique numeric/alphanumeric identifier, quantity, expiration date, and date of use, allowing the graft to be traced vein-to-vein from donor to recipient so that adverse events (e.g., suspected disease transmission) can be investigated and biovigilance data collected ✅
+
+**Correct (E):** Bone is explicitly listed among human tissue allografts (with skin, heart valves, amniotic membrane, and ocular tissue) that hospital services must track vein-to-vein, and tissue storage/handling must conform to 21 CFR 1271. The medical record for tissue recipients must include the tissue type, a numeric or alphanumeric identifier, quantity, expiration date, and date of use. This traceability mechanism exists so that, if a problem with a specific donor tissue later emerges, the recipient can be identified and adverse-event/biovigilance data (the collection and analysis of adverse-event data to improve outcomes) can be gathered and acted upon.
+> Pearl: Bone allografts are regulated as HCT/Ps under 21 CFR 1271 and require vein-to-vein traceability (tissue type, unique identifier, quantity, expiration date, date of use) to support biovigilance and adverse-event investigation; this general tissue-tracking framework should not be confused with HPC-specific processing/potency steps (CD34+ selection, CFU assay).
+
+- *A wrong:* Incorrect. The source material states hospital services must track human tissue, explicitly including bone, vein-to-vein; bone allografts are not exempt from donor-to-recipient traceability under 21 CFR 1271.
+- *C wrong:* Incorrect. The vein-to-vein tracking requirement is described for human tissue allografts generally, including bone and skin, not restricted to cellular therapy products; a lot number alone does not satisfy the recipient-linked traceability requirement.
+- *B wrong:* Incorrect. CD34+ selection, volume reduction, and colony-forming-unit potency testing are specific to hematopoietic progenitor cell processing and potency assessment, not to structural bone allograft handling; this option conflates two distinct product categories.
+- *D wrong:* Incorrect. Tissue storage equipment and handling must conform to the manufacturer's written instructions and follow 21 CFR 1271, a federal regulation, not merely institution-specific policy.
+
+**Sources:** `SRC-043`, `SRC-006`, `SRC-040`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0475 — Skin  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.e.ii` · support: low
+
+A 34-year-old man sustains 40% total body surface area partial-thickness burns and receives a cadaveric skin allograft as a temporary biologic dressing while he awaits definitive autografting. The hospital's tissue bank compliance officer reviews the regulatory framework governing this skin allograft product and compares it to the framework applied to other human tissue types processed by the same tissue bank, including cryopreserved reproductive tissue and ocular tissue. Which of the following statements correctly reflects how current tissue-banking standards classify and govern the skin allograft used in this patient?
+
+- **A.** Because skin allografts and ocular tissue are grouped together under the same diverse-applications category, skin allografts are additionally indicated for keratoconus correction and Fuchs dystrophy repair
+- **B.** Skin is classified as a human tissue allograft (with bone, heart valves, amniotic membrane, and ocular tissue); its storage equipment must conform to manufacturer instructions under 21 CFR 1271, and the recipient's medical record must document tissue type, a unique identifier, quantity, expiration date, and date of use, but it is not subject to the redistribution ban that applies specifically to cryopreserved reproductive tissue ✅
+- **C.** Like cryopreserved reproductive tissue, the skin allograft may not be redistributed for use except as required by local or state regulation
+- **D.** Because it functions only as a temporary biologic dressing rather than a permanent structural graft, the skin allograft is exempt from the 21 CFR 1271 storage-equipment requirements that apply to bone and cardiovascular tissue allografts
+- **E.** The recipient's medical record for a skin allograft need only capture the expiration date and date of use, since numeric or alphanumeric identifiers are a documentation requirement unique to reproductive tissue recipients
+
+**Correct (B):** The sources explicitly list skin among human tissue allografts, alongside bone, heart valves, amniotic membranes, and ocular tissues. General tissue standards require that tissue storage equipment conform to manufacturer instructions and 21 CFR 1271 regulations, and that the recipient's medical record capture tissue type, a numeric/alphanumeric identifier, quantity, expiration date, and date of use. The redistribution ban described in the sources applies specifically to cryopreserved reproductive tissue and is not extended to skin allografts, so option A correctly integrates the applicable rules while correctly excluding the inapplicable one.
+> Pearl: The approved sources contain no biological/pathophysiological content on skin tissue engineering or regenerative medicine; the only skin-related material is a brief regulatory listing of skin as a human tissue allograft governed by general tissue-banking storage and traceability standards, distinct from rules specific to reproductive tissue. This question tests that regulatory-classification framework rather than a cellular or molecular mechanism, because no such mechanism content exists in the approved sources.
+
+- *C wrong:* Incorrect: the sources state the redistribution ban applies to cryopreserved reproductive tissue specifically, not to skin or other tissue allograft categories; applying it to skin conflates two distinct tissue categories, a classic board trap.
+- *D wrong:* Incorrect: the sources describe no exemption for biologic-dressing use; the storage logic requiring conformity with manufacturer instructions and 21 CFR 1271 is described as a general tissue-storage standard, not one limited to permanent structural grafts.
+- *E wrong:* Incorrect: the traceability requirement in the sources applies broadly to tissue recipients and requires tissue type, a numeric/alphanumeric identifier, quantity, expiration date, and date of use together, not identifiers exclusively for reproductive tissue recipients.
+- *A wrong:* Incorrect: keratoconus correction and Fuchs dystrophy repair are described in the sources as indications specific to corneal/ocular tissue, not skin; grouping skin and ocular tissue under one 'diverse applications' list does not make their clinical indications interchangeable.
+
+**Sources:** `SRC-006`, `SRC-006`, `SRC-006`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass · flags: blueprint-mismatch, too-esoteric-thin-source
+
+---
+
+## Q-0476 — Ocular Tissue  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b.viii.4` · support: moderate
+
+A 68-year-old man with Fuchs endothelial corneal dystrophy is scheduled to receive a donor corneal allograft. Before releasing the tissue for keratoplasty, the hospital-affiliated eye bank completes donor eligibility determination, including infectious disease marker testing, and establishes a documented, bidirectional link between the donor and the intended recipient in the medical record, as required for ocular tissue allografts under FDA 21 CFR Part 1271. What is the primary purpose of this regulatory framework as it governs ocular tissue banking?
+
+- **A.** To enforce the redistribution ban that applies to cryopreserved reproductive tissue
+- **B.** To confirm ABO blood group compatibility between the corneal donor and the recipient
+- **C.** To prevent transmission of infectious disease from the donor tissue to the recipient ✅
+- **D.** To verify HLA matching adequate to prevent immunologic graft rejection
+- **E.** To ensure the donor cornea meets the 42-day maximum shelf-life standard used for red cell components
+
+**Correct (C):** The source curriculum states directly that FDA 21 CFR Part 1271 regulates tissue banking to prevent disease transmission, and that tissue service activities (which include ocular tissue allografts such as corneas used for indications like Fuchs dystrophy repair) must maintain bidirectional donor-recipient traceability. Donor eligibility determination and infectious disease marker testing before release of a corneal allograft exist mechanistically to interrupt transmission of infectious agents from donor tissue to the recipient, which is the stated rationale for this regulatory framework.
+> Pearl: FDA 21 CFR Part 1271 tissue-banking regulations (which cover ocular tissue allografts such as corneas) exist primarily to prevent donor-to-recipient disease transmission via donor eligibility screening and traceability; this is mechanistically distinct from HLA/ABO matching concerns (an HSCT-domain concept) and from tissue-specific rules like the reproductive-tissue redistribution ban or RBC shelf-life standards.
+
+- *B wrong:* Incorrect: the source discusses ABO incompatibility only in the context of HSCT/HPC transplantation (major/minor ABO incompatibility in HSCT), a separate domain from the tissue-banking regulatory framework governing ocular allografts.
+- *D wrong:* Incorrect: the source lists HLA matching requirements under the HPC Transplantation domain (HSCT), not as part of the rationale for FDA tissue-banking regulation of ocular tissue.
+- *A wrong:* Incorrect: the source specifies that the redistribution ban applies to cryopreserved reproductive tissue (semen, oocytes, embryos) specifically, not to ocular/corneal tissue.
+- *E wrong:* Incorrect: the 42-day figure in the source refers to RBC shelf life in additive solutions (AS-1, AS-3), a red cell preservation concept unrelated to ocular tissue banking regulation.
+
+**Sources:** `SRC-010`, `SRC-006`, `SRC-010`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0477 — Cardiovascular Tissue  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b.viii.5` · support: low
+
+A tissue bank medical director receives a request from a pediatric cardiothoracic surgery team for a cryopreserved aortic homograft (valve and conduit) for a neonate undergoing surgical correction of a congenital aortic outflow tract defect complicated by significant valvular regurgitation. In distinguishing this request from other categories of tissue allografts processed by the same tissue bank, which of the following best describes the clinical/pathophysiologic basis for using this specific class of cardiovascular allograft?
+
+- **A.** It is used for reversal of valvular insufficiency and repair of congenital cardiac defects ✅
+- **B.** It is used for correction of keratoconus and repair of traumatic corneal scarring
+- **C.** Its clinical role is defined by the requirement to record a numeric/alphanumeric identifier, quantity, expiration date, and date of use in the recipient's medical record
+- **D.** Like cryopreserved reproductive tissue, it may not be redistributed once banked, and this redistribution restriction is the basis for its selection
+
+**Correct (A):** Per the source material, cardiac valves and conduits are the cardiovascular tissue allografts specifically utilized for reversal of valvular insufficiency and repair of congenital cardiac defects, which directly matches the neonate's regurgitant congenital aortic outflow lesion. The other options describe facts that are true of other tissue categories or of general tissue-bank recordkeeping, not the pathophysiologic indication for cardiovascular allografts.
+
+- *B wrong:* Incorrect: correction of keratoconus and traumatic corneal scarring is the indication given for ocular tissue allografts (corneas), not cardiovascular tissue.
+- *D wrong:* Incorrect: the redistribution ban applies specifically to cryopreserved reproductive tissue, not cardiovascular allografts; it is a regulatory restriction, not a clinical indication.
+- *C wrong:* Incorrect: this describes the traceability/recordkeeping requirement for all tissue recipients (identifier, quantity, expiration date, date of use), which is an administrative documentation standard, not the pathophysiologic rationale for choosing a cardiovascular allograft.
+
+**Sources:** `SRC-006`, `SRC-006`, `SRC-006`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass · flags: weak-distractor
+
+---
+
+## Q-0478 — Reproductive Tissue F/AP  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b.viii.8` · support: low
+
+A pathology fellow rotating through a reproductive tissue bank is asked to help draft a policy on disposition of unused cryopreserved inventory. A directed sperm donor has several vials of cryopreserved semen remaining after the intended recipient couple completed their family-building process and no longer wish to use the tissue. A junior staff member proposes redistributing the unused vials to a different patient in the program, reasoning that unused cryopreserved musculoskeletal allografts (e.g., bone, skin) are sometimes redistributed within a facility's inventory once donor eligibility has been reconfirmed. The fellow is asked to explain how reproductive tissue is treated differently from these other allograft categories with respect to this practice.
+
+- **A.** The semen may be redistributed as long as complete traceability data (tissue type, identifier, quantity, expiration date, date of use) is entered into the new recipient's medical record
+- **B.** Like musculoskeletal allografts, the semen may be redistributed to another patient once donor eligibility is reconfirmed
+- **C.** The semen may be redistributed as long as the storage equipment used conforms to the manufacturer's written instructions and 21 CFR 1271
+- **D.** Cryopreserved reproductive tissue generally may not be redistributed for use, except as required by local or state regulations ✅
+
+**Correct (D):** Reproductive tissues (semen, oocytes, and embryos) form a distinct tissue category under tissue banking standards, and cryopreserved reproductive tissue is subject to a specific rule that it generally may not be redistributed for use, with redistribution permitted only where local or state regulations require it. This is a categorical restriction distinct from the redistribution practices that may apply to other allograft types such as bone or skin.
+> Pearl: Cryopreserved reproductive tissue (semen, oocytes, embryos) is a distinct tissue-banking category subject to a specific redistribution restriction — it generally may not be redistributed for use except as required by local or state regulations — which is separate from the general traceability and storage-equipment standards that apply to tissue banking broadly. Note: the approved sources contain only this regulatory principle for reproductive tissue, with no cryobiology/pathophysiology mechanism content (e.g., cryoprotectant action, ice-crystal formation) available to ground a true mechanism-of-injury question for this specific angle.
+
+- *B wrong:* Incorrect — this option applies the general allograft eligibility-reconfirmation logic to reproductive tissue, but the source material sets reproductive tissue apart as its own category with a specific redistribution ban not tied to eligibility reconfirmation alone.
+- *A wrong:* Incorrect — traceability documentation (tissue type, identifier, quantity, expiration date, date of use) is a recordkeeping requirement for tissue recipients generally; it does not itself authorize redistribution of reproductive tissue, which is separately restricted.
+- *C wrong:* Incorrect — conformance of storage equipment to manufacturer instructions and 21 CFR 1271 is a storage-standard requirement; it governs how the tissue is kept, not whether it may be redistributed to a different recipient.
+
+**Sources:** `SRC-006`, `SRC-006`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0479 — Tissue Banking and Transplantation Oversight  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.b.ix` · support: high
+
+A hospital tissue bank distributes a bone allograft (an HCT/P regulated under 21 CFR 1271) to a surgeon for a spinal fusion procedure. Fourteen months later, the transplant surgeon contacts the tissue bank's medical director to report that the recipient has developed a rapidly progressive dementia strongly suspicious for Creutzfeldt-Jakob disease (CJD), raising concern that the allograft may have transmitted the disease. Records show the same donor recovery yielded several additional bone allografts that were distributed to other hospitals, some of which remain unimplanted in inventory. Which of the following best explains the underlying mechanism by which the tissue bank's traceability system enables an appropriate response to this suspected transmission event?
+
+- **A.** Bidirectional traceability links each distributed product back to its donor and forward to every recipient (or disposal), allowing the tissue bank to identify and quarantine the remaining unimplanted allografts from the same donor recovery ✅
+- **B.** Traceability requires the recipient's surgeon to report the suspected transmission directly to the FDA while bypassing the tissue bank and original supplier
+- **C.** Traceability functions as a substitute for donor infectious disease screening, so that products can be tracked after distribution instead of being screened before distribution
+- **D.** Traceability allows the tissue bank to retroactively perform nucleic acid testing (NAT) on an archived segment of the allograft to confirm CJD transmission before any other action is taken
+- **E.** Traceability obligates the tissue bank to immediately destroy all bone allografts currently in inventory, including those recovered from unrelated, unaffected donors
+
+**Correct (A):** The sources define traceability as the mandatory, bidirectional ability to track a tissue from its donor source to the final recipient (or disposal) and vice versa. This is the mechanism that lets a tissue bank respond to a suspected transmission (the sources name HCV and CJD as examples requiring prompt reporting to the supplier/manufacturer) by locating and quarantining all other affected products traced to the same donor recovery, consistent with the recall requirement that a facility be able to locate and quarantine affected products.
+> Pearl: Bidirectional traceability (donor-to-recipient and recipient-to-donor) is the operational mechanism that allows a tissue bank to contain a suspected disease-transmission event by identifying and quarantining all other unimplanted allografts from the same donor recovery, distinct from donor screening (pre-distribution) and from blood-banking infectious-disease testing methods like NAT.
+
+- *D wrong:* Incorrect: the sources describe NAT as a blood-donor infectious-disease testing method used to shorten the window period for viruses (e.g., HIV, HCV, HBV); tissue banking traceability is not described as enabling retroactive NAT, and prion diseases are not detected by nucleic acid testing, so this misapplies a blood-banking tool to a traceability function.
+- *B wrong:* Incorrect: the sources state suspected disease transmission (e.g., HCV, CJD) must be promptly reported to the supplier and manufacturer, meaning the tissue bank/supplier are the reporting pathway, not bypassed by the surgeon reporting solely to the FDA.
+- *E wrong:* Incorrect: the sources describe recalls as requiring the facility to locate and quarantine the affected products, implying a targeted response guided by the traceability record, not blanket destruction of inventory from unrelated, unaffected donors.
+- *C wrong:* Incorrect: the sources treat regulatory oversight of HCT/Ps (21 CFR 1271, aimed at preventing introduction/spread of communicable disease) and traceability as distinct compliance functions; traceability is a post-distribution tracking and recall mechanism, not a substitute for donor screening that occurs before release.
+
+**Sources:** `SRC-051`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0480 — Adoptive Immunotherapy Regulatory Issues  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.c.v` · support: high
+
+A 6-year-old with relapsed CD19-positive B-cell acute lymphoblastic leukemia undergoes leukapheresis to collect his own T lymphocytes. The cells are shipped to a manufacturing facility where they are transduced with a viral vector carrying a CD19-specific chimeric antigen receptor (CAR) construct, expanded in culture, and returned to the transfusion service as an immune effector cell (IEC) product for infusion. While counseling the family, the transfusion medicine physician is asked why this genetic modification of the patient's cells will not be passed on to any children he may have later in life. Which explanation best reflects the underlying mechanism that defines this therapy's regulatory category?
+
+- **A.** The CAR transgene is introduced into somatic (non-reproductive) T lymphocytes rather than germ cells, so the genetic change is confined to the treated patient and not transmitted to future generations — the defining feature of somatic gene therapy ✅
+- **B.** The infused product also contains marrow stromal cells, which dilute the proportion of gene-modified T cells below a level capable of heritable transmission
+- **C.** Foundation for the Accreditation of Cellular Therapy (FACT) accreditation of the manufacturing facility restricts IEC products to only non-heritable genetic modifications
+- **D.** Because the product is autologous, it qualifies for the FDA "urgent medical need" exception, which waives regulatory concern about heritability of the genetic change
+
+**Correct (A):** CAR-T cell manufacture is a form of somatic gene therapy: new genetic material (the CAR construct) is introduced into somatic, non-reproductive T cells rather than germ cells. Because germ cells are not modified, the genetic change is confined to the treated individual and is not transmitted to future generations — in contrast to germline gene therapy. This mechanistic distinction is the basis for classifying CAR-T/IEC products as somatic gene therapy for regulatory purposes.
+
+- *B wrong:* Incorrect. Marrow stromal cells are mentioned in the source only as part of the broader processing of specialized cellular therapy products alongside antigen-directed T cells; the source ties non-heritability to the somatic (non-germline) nature of the modified cell type, not to dilution by other cell populations in the product.
+- *C wrong:* Incorrect. FACT accreditation is described as a facility-level accreditation that programs handling advanced cellular products often seek; the source does not describe FACT as restricting or governing the heritability of genetic modifications in IEC products.
+- *D wrong:* Incorrect. The source's "urgent medical need" provision applies specifically to FDA-mandated infectious disease screening and testing requirements for allogeneic donors, not to autologous products, and it is unrelated to the heritability of a genetic modification.
+
+**Sources:** `SRC-011`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0482 — Cardiac  `F` · moderate
+*2. Cell and Tissue Therapy* · node `S2.e.vii` · support: low
+
+A newborn is diagnosed with a congenital cardiac defect causing severe truncal valve insufficiency. The pediatric cardiothoracic team elects to repair the defect using a cryopreserved human cardiac valve/conduit product procured and released by the hospital's tissue bank in accordance with 21 CFR 1271. Which of the following best describes the mechanism by which this product corrects the infant's underlying cardiac pathology?
+
+- **A.** It requires HLA matching and donor hematopoietic engraftment to reconstitute functional donor-derived cardiac tissue within the recipient
+- **B.** It engrafts as living, antigen-directed effector cells that proliferate in vivo to remodel the damaged myocardium, analogous to a CAR-T cell product
+- **C.** It introduces new genetic material into the recipient's somatic cardiac cells to permanently correct the defect, analogous to somatic gene therapy
+- **D.** It functions as a structural tissue allograft that anatomically replaces the incompetent valve/conduit, thereby reversing the valvular insufficiency and repairing the congenital defect ✅
+- **E.** Its efficacy is assessed using the same post-transfusion recovery and survival kinetics (e.g., 24-hour recovery, corrected count increment) used to monitor transfused cellular blood components
+
+**Correct (D):** The approved source classifies cardiac valves and conduits among human tissue allografts (alongside bone, skin, amniotic membrane, and ocular tissue) that are used specifically for the reversal of valvular insufficiency and repair of congenital cardiac defects. The mechanism is direct anatomic/structural replacement of the defective valve or conduit, not a cellular-engraftment, gene-transfer, or hematopoietic-recovery mechanism. Those alternative mechanisms are described elsewhere in the same source for different product categories (immune effector cells/CAR-T, somatic gene therapy, and transfused cellular blood components, respectively), which is what makes them tempting but incorrect distractors here.
+> Pearl: Cardiac valve/conduit tissue allografts correct congenital defects and valvular insufficiency through direct anatomic/structural replacement, a fundamentally different mechanism from cellular therapies (CAR-T/IEC engraftment, somatic gene therapy) or the recovery/survival kinetics used to monitor transfused cellular blood components.
+
+- *B wrong:* Incorrect. Living, antigen-directed effector cell engraftment and in vivo proliferation describes the mechanism of Immune Effector Cell (IEC)/CAR-T products, a distinct cellular therapy category in the source, not a structural tissue allograft like a cardiac valve/conduit.
+- *C wrong:* Incorrect. Introducing new genetic material into somatic cells describes somatic gene therapy, a separate modality in the source distinguished from tissue allografts, which contain no added genetic material.
+- *E wrong:* Incorrect. Post-transfusion recovery and survival kinetics (24-hour recovery, corrected count increment) are used in the source to evaluate circulating cellular blood components such as RBCs and platelets, not solid tissue grafts like cardiac valves/conduits.
+- *A wrong:* Incorrect. The source does not describe cardiac valve/conduit allografts as requiring HLA matching or donor hematopoietic engraftment; those concepts apply to hematopoietic/cellular therapy products, not structural tissue grafts.
+
+**Sources:** `SRC-006`, `SRC-006`, `SRC-006`, `SRC-006`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0483 — Tissue Transplant-Transmissible Diseases  `F` · hard
+*2. Cell and Tissue Therapy* · node `S2.b.vi` · support: high
+
+A 58-year-old man undergoes penetrating keratoplasty for Fuchs endothelial dystrophy using a corneal allograft released by a tissue bank after the donor cleared a standard health history questionnaire; no infectious disease testing flagged any abnormality at the time of recovery. Three years later, the recipient develops rapidly progressive dementia, myoclonus, and ataxia and is diagnosed with Creutzfeldt-Jakob disease (CJD) that is subsequently traced to the corneal donor. The tissue bank promptly reports the suspected transplant-transmitted disease to the tissue processor for investigation. Which of the following best explains why routine donor evaluation failed to identify this transmission risk before the cornea was released for transplantation?
+
+- **A.** Gamma irradiation of the donor cornea, which is used to prevent transfusion-associated graft-versus-host disease, failed to inactivate the pathogen
+- **B.** Bacterial culture of the corneal preservation medium was not obtained prior to release of the tissue for transplantation
+- **C.** The tissue bank failed to perform hepatitis C virus antibody testing on the donor at the time of tissue recovery
+- **D.** Nucleic acid testing (NAT) was omitted from the donor evaluation, allowing an early window-period infection to go undetected
+- **E.** No FDA-approved laboratory screening test exists for CJD, so donor eligibility for this disease depends solely on the health history questionnaire rather than on serologic or molecular testing ✅
+
+**Correct (E):** CJD is a prion disease for which, like vCJD and malaria, no FDA-approved laboratory screening test exists; eligibility determination therefore relies solely on donor questioning (medical/social history screening) rather than on a serologic or molecular assay. Because prion infection cannot be excluded by any laboratory test, an asymptomatic infected donor with an unremarkable history questionnaire can pass eligibility screening and still transmit the disease through the graft, as occurred here with a corneal allograft (a tissue explicitly used for Fuchs dystrophy repair). This mechanism is the fundamental gap distinguishing CJD (and vCJD) risk mitigation from viral pathogens, for which laboratory testing supplements donor history.
+> Pearl: For prion diseases such as CJD/vCJD, no FDA-approved laboratory screening test exists, so tissue/blood donor risk mitigation depends entirely on history-based questioning rather than serologic or molecular testing — a fundamentally different mechanism from viral pathogens (HIV, HCV, HBV) where NAT narrows the testing window period.
+
+- *D wrong:* Incorrect: NAT is used to shorten the infectious window period for viral pathogens such as HIV, HCV, and HBV; it is not a modality applied to prion diseases like CJD, which have no analogous molecular screening test.
+- *C wrong:* Incorrect: this recipient's presentation (dementia, myoclonus, ataxia) is characteristic of a prion disease, not hepatitis C; although both HCV and CJD are recognized reportable transplant-transmitted diseases, HCV has available serologic/molecular testing, so a missed HCV test would not explain a CJD transmission.
+- *A wrong:* Incorrect: gamma irradiation of cellular components is used to inactivate donor T-lymphocytes and prevent transfusion-associated graft-versus-host disease; it is not described as a method for inactivating prion agents in processed tissue, so this option misapplies irradiation's stated purpose.
+- *B wrong:* Incorrect: bacterial contamination is a recognized infectious risk in blood and tissue products, but a missed bacterial culture would explain a bacterial infection, not a prion-mediated neurodegenerative disease with this clinical course.
+
+**Sources:** `SRC-010`, `SRC-010`, `SRC-010`, `SRC-051`, `SRC-006`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0484 — Gene Therapy in Transfusion Medicine  `None` · moderate
+*2. Cell and Tissue Therapy* · node `S2.d` · support: moderate
+
+A 58-year-old man with relapsed diffuse large B-cell lymphoma undergoes leukapheresis to collect his own T lymphocytes. In the manufacturing facility, these T cells are genetically engineered ex vivo to express a chimeric antigen receptor (CAR) and are then reinfused as an immune effector cell (IEC) product after lymphodepleting chemotherapy. His partner, who is planning to have children with him, asks the transfusion medicine physician whether the genetic engineering used to make this CAR-T product could be passed on to their future children.
+
+- **A.** FDA-mandated infectious disease screening and testing performed on the donor prevents transmission of the genetic modification to offspring
+- **B.** FACT accreditation standards require that cellular therapy facilities exclude reproductive tissue from all manufacturing processes
+- **C.** The genetic modification specifically targets marrow stromal cells, which do not contribute to gamete formation
+- **D.** The new genetic material was introduced into somatic (non-reproductive) T lymphocytes rather than germline cells, so the modification is confined to non-reproductive tissue and is not heritable ✅
+- **E.** Unique donor-product-recipient labeling and identification requirements prevent genetic material from reaching germ cells
+
+**Correct (D):** The sources define somatic gene therapy as the introduction of new genetic material into somatic (non-reproductive) cells to treat or cure disease, and specifically contrast this with germline gene therapy by noting that somatic changes are not transmitted to future generations. Ex vivo CAR-T/IEC manufacturing genetically modifies the patient's own T lymphocytes—a somatic, non-reproductive cell population—so the introduced CAR transgene resides only in that somatic cell lineage and cannot be inherited by offspring. This somatic-versus-germline distinction is the mechanistic basis for the answer, not donor infectious disease screening, the identity of marrow stromal cells, accreditation standards, or product labeling/traceability requirements.
+> Pearl: The defining mechanistic feature of somatic gene therapy (including ex vivo-engineered IEC/CAR-T products) is that the introduced genetic material is confined to non-reproductive (somatic) cells, so unlike germline gene therapy, the modification is not heritable and cannot be transmitted to a patient's offspring.
+
+- *A wrong:* Incorrect: FDA-mandated donor infectious disease screening/testing for IEC products addresses transmission of communicable disease to the recipient, not heritability of the genetic modification to offspring — a plausible but misapplied fact from the same source material.
+- *C wrong:* Incorrect: CAR-T genetic engineering targets antigen-directed T lymphocytes; marrow stromal cell processing is mentioned in the same source node for advanced cellular therapies, but citing stromal cells as the reason modifications are non-heritable misapplies the actual somatic-vs-germline mechanism.
+- *B wrong:* Incorrect: FACT accreditation is a quality/regulatory accreditation standard for facilities handling advanced cellular products; it is not the mechanism that prevents heritable transmission of a genetic modification.
+- *E wrong:* Incorrect: unique donor/product/recipient identification and labeling exists for traceability and chain-of-custody safety, not to prevent genetic material from reaching germ cells.
+
+**Sources:** `SRC-011`, `SRC-006`, `SRC-006`, `SRC-011`, `SRC-011`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0485 — Molecular Basis for Rh Antigen Expression  `AR` · hard
+*3. RBCs and RBC Components* · node `S3.f.iii` · support: moderate
+
+A 6-year-old child is worked up for chronic, mild-to-moderate hemolytic anemia. The peripheral blood smear shows numerous stomatocytes. Serologic Rh phenotyping shows the patient's RBCs fail to react with anti-D, anti-C, anti-c, anti-E, and anti-e reagents, consistent with the Rh-null phenotype. Which of the following is the most likely underlying molecular mechanism responsible for this patient's Rh-null phenotype and associated hemolytic anemia?
+
+- **A.** A loss-of-function mutation in RHAG, a regulator gene whose glycoprotein product is required for membrane expression of the RHD/RHCE-encoded Rh polypeptide complex ✅
+- **B.** Reduced transcriptional output of RHD, producing a quantitatively diminished weak D phenotype
+- **C.** Homozygous deletion of the RHD gene, which abolishes D antigen expression while the separate RHCE gene continues to direct expression of the remaining Rh antigens
+- **D.** A mutation in KLF1, an erythroid transcription factor that regulates expression of the Lutheran blood group system
+- **E.** A missense change within RHD that alters the D epitope structure, producing a partial D phenotype
+
+**Correct (A):** RHAG is classified as a regulator gene: it does not itself encode an Rh antigen but its glycoprotein product is required for the RHD- and RHCE-encoded Rh polypeptides to be trafficked to and expressed on the RBC membrane. A loss-of-function defect in RHAG therefore abolishes expression of the entire Rh protein complex (D, C, c, E, e all absent), producing the Rh-null (Rh-deficiency) phenotype, which is clinically associated with stomatocytosis and chronic hemolytic anemia.
+> Pearl: RHAG is a regulator gene (not a structural Rh gene) whose product is obligatory for surface expression of the RHD/RHCE-encoded Rh polypeptides; its loss produces the Rh-null phenotype with stomatocytosis and chronic hemolytic anemia, distinct from RHD deletion (D-negative only) or RHD missense variants (weak D/partial D).
+
+- *C wrong:* Incorrect/distractor: RHD and RHCE are distinct genes at the Rh locus, and RHD deletion removes only D antigen expression while RHCE-directed antigen expression continues — this is the basis of most D-negative phenotypes, not the Rh-null phenotype with loss of all Rh antigens.
+- *E wrong:* Incorrect/distractor: a partial D phenotype reflects a qualitative alteration of the D antigen itself (altered/missing D epitopes) rather than complete loss of the whole Rh protein complex, so C, c, E, and e expression is unaffected.
+- *B wrong:* Incorrect/distractor: weak D reflects a quantitative reduction in D antigen sites, not the qualitative or complete loss of the entire Rh antigen complex seen in Rh-null.
+- *D wrong:* Incorrect/distractor: KLF1 is a separate regulator gene that controls expression of the Lutheran system, not the Rh system, so a KLF1 defect would not produce an Rh-null phenotype.
+
+**Sources:** `SRC-003`, `SRC-043`, `SRC-043`, `SRC-043`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0486 — D Antigen  `AR` · moderate
+*3. RBCs and RBC Components* · node `S3.f.iii.1` · support: high
+
+A sample submitted for routine pretransfusion testing types as D-negative with standard anti-D reagents. As part of a research protocol, RHD genotyping is performed and shows that the entire RHD gene is absent from the genome, while the closely linked RHCE gene on chromosome 1 is present and structurally normal; no RHD gene fragments, hybrid exons, or partial RHD sequences are detected. Which of the following mechanisms best accounts for this individual's D-negative phenotype?
+
+- **A.** An extremely low level of RHD gene product that is undetectable by routine serology, including the indirect antiglobulin test
+- **B.** Missense mutations altering the transmembrane or intracellular regions of the RHD protein
+- **C.** A structurally altered RHD gene that has lost one or more extracellular D epitopes while retaining others
+- **D.** Reduced RHD transcription caused by inheritance of the C antigen in trans to the D gene (e.g., Dce/dCe)
+- **E.** Complete deletion of the RHD gene ✅
+
+**Correct (E):** The approved source states that most D-negative phenotypes result from complete deletion of the RHD gene. With no RHD sequence present to transcribe or translate, no D antigen protein—reduced, altered, or otherwise—can be produced, which matches the genotyping findings of a fully absent RHD gene alongside an intact RHCE gene.
+> Pearl: Complete RHD gene deletion is the most common molecular basis of the D-negative phenotype and must be distinguished from other D-variant mechanisms: weak D (transmembrane/intracellular missense mutations reducing site number), partial D (qualitative loss of specific epitopes from an altered but present gene), Del (present but minimally expressed gene), and position effect (trans suppression of D expression by C).
+
+- *B wrong:* This describes the mechanism of weak D, in which mutations in the intracellular or transmembrane regions reduce the number of D antigen sites but the RHD gene itself remains present and detectable by IAT; it does not explain a genotype with the RHD gene entirely absent.
+- *C wrong:* This describes the mechanism of partial D, a qualitative variation in which one or more D epitopes are missing from an altered but still-present RHD gene, and which can lead to alloanti-D formation against the missing epitopes; it requires a present, not absent, RHD gene.
+- *D wrong:* This describes the position effect, in which D expression is reduced (not eliminated) when C is inherited in trans to D (e.g., Dce/dCe); this mechanism presumes a present but suppressed RHD gene, inconsistent with complete gene absence.
+- *A wrong:* This describes the Del phenotype, an extremely low but present level of D antigen requiring adsorption/elution for detection (and more commonly described in Asian populations); it reflects a present, minimally expressed RHD gene rather than total gene deletion.
+
+**Sources:** `SRC-020`, `SRC-020`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0487 — Rh and LW Blood Group Systems  `F` · hard
+*3. RBCs and RBC Components* · node `S3.f` · support: high
+
+During pretransfusion testing, an adult patient's RBCs fail to react with anti-D, anti-C, anti-c, anti-E, and anti-e reagents on repeat testing with multiple reagent lots. Molecular genotyping shows that the patient's RHD and RHCE genes are both present with normal coding sequences and no evidence of gene deletion. Which of the following mechanisms best explains this patient's lack of Rh antigen expression on the RBC membrane?
+
+- **A.** Deletion of the RHD gene, producing a classic Rh D-negative phenotype
+- **B.** A loss-of-function mutation in RHAG, a regulator gene that does not encode the Rh antigen itself but is required for its surface expression ✅
+- **C.** A mutation in KLF1, the erythroid transcription factor that regulates Lutheran antigen expression
+- **D.** Enzymatic destruction of Rh antigens by circulating ficin-like proteases
+- **E.** An acquired somatic PIGA mutation causing loss of GPI-anchored membrane proteins
+
+**Correct (B):** The sources define regulator genes as genes that do not code for the antigen itself but control its expression, explicitly naming RHAG as the regulator gene for Rh antigens. Because RHD and RHCE (the structural genes that encode the D, C, c, E, and e polypeptides) are structurally intact in this patient, a defect in RHAG best explains why none of the Rh antigens reach the membrane — the structural genes can be transcribed normally, but the Rh protein complex requires the RHAG-encoded product for surface expression.
+> Pearl: RHAG is a regulator gene required for Rh protein complex expression on the RBC membrane; it is conceptually distinct from the structural genes RHD/RHCE (which encode the antigens) and from other systems' regulator genes such as KLF1 (Lutheran). Absence of all Rh antigens despite intact RHD/RHCE sequence points to a regulator-gene defect rather than a structural gene deletion.
+
+- *A wrong:* Incorrect. An isolated RHD deletion produces the common Rh D-negative phenotype (loss of D only), because RHCE remains intact and continues to encode C, c, E, and e; it does not explain the simultaneous absence of all five Rh antigens when both RHD and RHCE test as structurally normal.
+- *C wrong:* Incorrect. The sources specifically pair KLF1 with regulation of Lutheran antigen expression, not Rh; this option exploits the shared 'regulator gene' concept but assigns it to the wrong blood group system.
+- *E wrong:* Incorrect. Acquired PIGA mutations cause loss of GPI-anchored proteins (as in PNH), affecting antigens such as Cromer (CD55), Cartwright (Yta/Ytb), Dombrock (Hy/Joa/Gya), and CD59 — a distinct mechanism from Rh membrane expression, which is not described in the sources as GPI-anchor dependent.
+- *D wrong:* Incorrect. The sources state that ficin/papain enzyme treatment enhances Rh antigen reactivity in testing, the opposite of destruction; there is no source support for a proteolytic mechanism causing loss of Rh antigen expression in vivo.
+
+**Sources:** `SRC-003`, `SRC-001`, `SRC-004`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0488 — Lutheran  `F` · hard
+*3. RBCs and RBC Components* · node `S3.g.viii` · support: high
+
+A 58-year-old woman with warm autoimmune hemolytic anemia has a panreactive antibody screen and a positive autocontrol. She has not been transfused in the past 3 months, so the technologist prepares ZZAP-treated autologous red cells (a mixture of ficin and DTT) to adsorb the warm autoantibody and unmask any underlying alloantibody. After adsorption with the ZZAP-treated autologous cells, the adsorbed serum is retested against a reagent panel and reacts only with Lu(a+) cells, revealing a previously masked anti-Lu^a. Which of the following best explains the mechanism by which anti-Lu^a survived adsorption onto the ZZAP-treated autologous cells?
+
+- **A.** DTT in the ZZAP reagent cleaved the pentameric J-chain of the patient's IgM warm autoantibody, converting it to a form that could no longer bind the Lu(a+) adsorbing cells
+- **B.** The ficin component of ZZAP proteolytically destroyed the Lu^a antigen, the same mechanism by which ficin destroys M, N, S, Fy^a, and Fy^b
+- **C.** ZZAP treatment enhanced Lutheran antigen expression rather than destroying it, similar to how enzyme treatment enhances Rh, Kidd, P1, and Lewis reactivity, so the antibody was never truly adsorbed
+- **D.** A trans-acting KLF1 regulator gene mutation (the In(Lu) phenotype) suppressed Lu^a expression on the autologous adsorbing cells, independent of the ZZAP treatment itself
+- **E.** The DTT component of ZZAP reduced disulfide bonds essential to the structure of the Lutheran glycoprotein, destroying the Lu^a antigen on the treated cells so that anti-Lu^a had no intact antigen to bind and could not be removed by adsorption ✅
+
+**Correct (E):** ZZAP is a mixture of ficin (or papain) and DTT used to strip bound IgG from red cells and enhance their adsorption capacity. The DTT component reduces disulfide bonds required for the structural integrity of disulfide-bonded blood group antigens, and ZZAP specifically destroys antigens of the Kell, MNS, Duffy, and Lutheran systems. Because the Lu^a antigen is destroyed on the ZZAP-treated autologous cells, the patient's anti-Lu^a has no intact antigen to bind during adsorption, so it remains in the adsorbed serum and becomes detectable once the panreactive autoantibody has been removed — unmasking the underlying alloantibody.
+> Pearl: Lutheran system antigens are disulfide-bond dependent; the DTT component of ZZAP reduces these bonds and destroys Lutheran (along with Kell, MNS, and Duffy) antigens, so ZZAP-treated cells cannot adsorb antibodies to these systems — a key pitfall to recognize when a masked alloantibody is unmasked after ZZAP autoadsorption in WAIHA workups.
+
+- *B wrong:* Incorrect: the sources attribute ficin/papain proteolytic destruction specifically to M, N, S, Fy^a, and Fy^b, not to Lutheran; Lutheran antigen loss with ZZAP is attributed to the DTT (disulfide-reducing) component, not ficin's proteolytic activity.
+- *C wrong:* Incorrect: the sources state ZZAP destroys (not enhances) Kell, MNS, Duffy, and Lutheran antigens; enzyme-mediated enhancement applies to Rh, Kidd, P1, Lewis, and I antigens, not Lutheran, and it contradicts the observed loss of adsorption capacity.
+- *D wrong:* Incorrect: KLF1 and the In(Lu) modifier describe a heritable, trans-acting genetic mechanism that reduces native Lutheran antigen expression in certain individuals; this is unrelated to the in vitro chemical effect of ZZAP treatment on antigen structure during this adsorption procedure.
+- *A wrong:* Incorrect: DTT does cleave the J-chain linking IgM subunits (used to differentiate IgG from IgM antibodies), but WAIHA autoantibodies are described as IgG, not IgM, and this mechanism affects immunoglobulin structure rather than red cell antigen availability, so it does not explain loss of adsorption capacity.
+
+**Sources:** `SRC-061`, `SRC-001`, `SRC-003`, `SRC-044`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0489 — ABO-Incompatible Hematopoietic Progenitor Cell Transplantation  `F` · hard
+*3. RBCs and RBC Components* · node `S3.e.i.6.b` · support: high
+
+A 45-year-old woman with AML in first remission, blood group O Rh-positive, undergoes myeloablative allogeneic HPC transplantation using peripheral blood stem cells from her HLA-identical sibling, blood group A Rh-positive (a major ABO-incompatible transplant). Per protocol, the graft underwent red cell depletion prior to infusion, and no acute hemolytic event occurred with the infusion. She achieves neutrophil engraftment by day +18. At day +65 she remains RBC transfusion-dependent; her reticulocyte count is <1%, and a bone marrow biopsy shows normal myeloid maturation with virtual absence of erythroid precursors. Chimerism studies confirm >95% donor myeloid chimerism.
+
+- **A.** Donor T-cell-mediated graft-versus-host disease directly destroying recipient marrow stroma
+- **B.** Acute hemolysis of incompatible donor RBCs infused along with the stem cell product at the time of transplant
+- **C.** Donor-origin lymphocytes within the graft producing antibody directed against the recipient's own RBC antigens
+- **D.** Immunologic rejection of the HPC graft by the recipient because of ABO incompatibility between donor and recipient
+- **E.** Persistence of the recipient's anti-A isoagglutinins, which target and lyse donor-derived erythroid precursors as they differentiate in the marrow ✅
+
+**Correct (E):** This is pure red cell aplasia (PRCA) of major ABO-mismatched HSCT: myeloid engraftment proceeds normally, but the recipient's residual anti-donor isoagglutinins (here, anti-A, since the recipient is group O receiving a group-A graft) persist and lyse donor-derived erythroid precursors as they attempt to differentiate in the marrow. This produces the classic picture of reticulocytes <1% with absent erythroid precursors despite normal myeloid maturation, sustained beyond 60 days post-transplant, and explains ongoing RBC transfusion dependence despite full donor myeloid chimerism.
+> Pearl: In major ABO-mismatched HSCT, pure red cell aplasia arises because persisting recipient anti-donor isoagglutinins selectively destroy donor erythroid precursors in the marrow — a mechanistically distinct entity from passenger lymphocyte syndrome (donor-anti-recipient, minor mismatch, delayed hemolysis), acute infusion-related hemolysis, GVHD, and graft rejection (which does not occur from ABO incompatibility since HPCs lack ABO antigens).
+
+- *C wrong:* This describes passenger lymphocyte syndrome, which occurs in minor (not major) ABO mismatches, is mediated by donor lymphocytes attacking recipient RBC antigens, and typically presents as delayed hemolysis 5–16 days post-transplant — inconsistent with this major-mismatch patient's day +65 aplastic (not hemolytic) picture.
+- *A wrong:* GVHD is a distinct donor T-cell-mediated multisystem syndrome (rash, fever, diarrhea, liver dysfunction) attacking recipient tissues broadly; it is not the mechanism responsible for selective erythroid aplasia in major ABO-mismatched HSCT.
+- *B wrong:* Acute hemolysis from incompatible donor RBCs occurs at the time of graft infusion when excessive donor RBCs are present; it was specifically prevented here by red cell depletion of the graft and does not explain a delayed (day +65) reticulocytopenic, erythroid-aplastic marrow.
+- *D wrong:* ABO incompatibility does not cause rejection of the HPC graft itself, since hematopoietic progenitor cells do not express ABO antigens; myeloid engraftment in this patient is intact, confirming the graft was not rejected.
+
+**Sources:** `SRC-038`, `SRC-035`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0490 — Molecular Basis for Antigen Expression  `F` · moderate
+*3. RBCs and RBC Components* · node `S3.f.vii.3` · support: low
+
+A transfusion medicine fellow is building a high-yield study table that classifies RBC blood group antigens "beyond the major systems" according to the general type of membrane structure that carries each antigen, so that predictions can be made about enzyme sensitivity and antibody behavior. In the table, CH/RG antigens are listed as complement protein fragments adsorbed onto the RBC from plasma, JR and LAN antigens are listed as ATP-binding cassette (ABC) transporter proteins, JMH is listed as a GPI-linked semaphorin, and Sda is listed as a glycosyltransferase-generated carbohydrate epitope. The fellow now needs to place the LW system antigens into this same structural classification scheme.
+
+- **A.** A GPI-linked semaphorin protein, as with the JMH antigen
+- **B.** A carbohydrate structure generated by a glycosyltransferase, as with the Sda antigen
+- **C.** A cell-adhesion molecule, grouped together with the IN and LU system antigens ✅
+- **D.** An ATP-binding cassette (ABC) transporter protein, as with the JR and LAN antigens
+- **E.** A complement protein fragment (C4d-type) adsorbed onto the RBC membrane from plasma, as with CH/RG antigens
+
+**Correct (C):** The source's classification of RBC antigen chemistry beyond the major blood group systems groups antigens by the membrane structure class that carries them. It explicitly places LW together with IN and LU in the "adhesion molecules" category, distinct from complement proteins, ABC transport proteins, GPI-linked proteins, and enzymatically generated carbohydrate epitopes — reflecting that the underlying molecular basis of LW antigen expression is a cell-adhesion-class membrane glycoprotein rather than a transporter, complement fragment, or carbohydrate.
+> Pearl: The approved sources classify LW blood group antigens structurally as adhesion molecules (alongside IN and LU), distinct from complement-fragment, ABC-transporter, GPI-linked, and carbohydrate/glycosyltransferase antigen classes — the only molecular-basis detail on the LW system present in these sources; deeper mechanistic detail (e.g., specific protein identity or Rh-complex dependency) is not covered and would require outside reference material.
+
+- *E wrong:* Incorrect. CH/RG antigens are located on C4d fragments of the fourth complement component that attach to RBCs from plasma; this complement-protein category is explicitly distinguished from the adhesion-molecule category that includes LW.
+- *D wrong:* Incorrect. JR and LAN antigens are carried on ABC transporter proteins (ABCG2 and ABCB6, respectively); this transport-protein category is a separate structural class from the adhesion molecules that include LW.
+- *A wrong:* Incorrect. The JMH antigen is carried on CD108, a GPI-linked semaphorin — a distinct structural class from the adhesion molecules grouping that includes LW.
+- *B wrong:* Incorrect. The Sda antigen is a carbohydrate epitope synthesized by an N-acetylgalactosaminyltransferase (a glycosyltransferase product), not a cell-adhesion membrane protein like LW.
+
+**Sources:** `SRC-003`, `SRC-003`, `SRC-003`, `SRC-003`, `SRC-003`
+**Review:** auto-audited-pass · source-support: pass · flags: too-esoteric-thin-source
+
+---
+
+## Q-0491 — Oxygen Delivery and Use of Red Cells  `None` · hard
+*3. RBCs and RBC Components* · node `S3.b` · support: high
+
+A 58-year-old man with massive lower gastrointestinal hemorrhage and hemorrhagic shock receives 6 units of RBCs that were stored for 33 days in CPDA-1 anticoagulant-preservative solution. His hemoglobin rises appropriately from 6.2 g/dL to 9.1 g/dL after transfusion, but the treating intensivist notes that tissue oxygen extraction remains impaired in the hours immediately following transfusion despite the improved hemoglobin concentration. Which of the following best explains the underlying mechanism for this finding?
+
+- **A.** Depletion of 2,3-DPG during storage shifts the oxyhemoglobin dissociation curve to the left, increasing hemoglobin's oxygen affinity and impairing oxygen unloading at the tissue level ✅
+- **B.** Elevated supernatant potassium in the stored unit directly binds hemoglobin, preventing oxygen loading in the pulmonary capillaries
+- **C.** Accumulation of 2,3-DPG during storage shifts the oxyhemoglobin dissociation curve to the right, decreasing hemoglobin's affinity for oxygen
+- **D.** Reduced ATP in the stored unit causes immediate lysis of the majority of transfused red cells, and the resulting profound anemia accounts for the reduced tissue oxygen delivery
+- **E.** The decreased pH of the stored unit shifts the curve to the right via the Bohr effect, which is the dominant mechanism accounting for the reduced tissue oxygen extraction observed
+
+**Correct (A):** During refrigerated liquid storage, RBC 2,3-DPG levels progressively fall as part of the red cell storage lesion. Because 2,3-DPG normally stabilizes deoxyhemoglobin and lowers its oxygen affinity, its depletion produces a left-shifted oxyhemoglobin dissociation curve, meaning hemoglobin binds oxygen more tightly and unloads proportionally less of it at a given tissue oxygen tension. This is the source-identified explanation for why oxygen affinity increases and less oxygen is released to tissues from stored blood, even though the measured hemoglobin concentration rises appropriately after transfusion.
+> Pearl: Red cell storage depletes 2,3-DPG, left-shifting the oxyhemoglobin dissociation curve and transiently increasing hemoglobin oxygen affinity; this impairs tissue oxygen unloading from freshly transfused stored cells independent of the achieved hemoglobin concentration.
+
+- *C wrong:* Incorrect. The sources describe 2,3-DPG as decreased, not accumulated, during storage; this option reverses both the direction of the biochemical change and its physiologic consequence.
+- *B wrong:* Incorrect. Elevated supernatant potassium is a recognized storage lesion finding that poses a cardiac arrhythmia risk with rapid infusion, but no mechanism is described by which potassium binds hemoglobin or blocks pulmonary oxygen loading.
+- *E wrong:* Incorrect. Decreased pH (acidosis) is described as a cause of a right shift that facilitates oxygen release, the opposite effect of what is observed clinically; it is not the mechanism explaining impaired extraction, and the sources identify 2,3-DPG depletion, not the Bohr effect, as the characteristic driver of reduced oxygen delivery from stored blood.
+- *D wrong:* Incorrect. Decreased ATP is a recognized storage lesion change, but the sources do not describe it as causing immediate lysis of the majority of transfused cells, and the vignette's appropriate hemoglobin increment argues against major immediate hemolysis.
+
+**Sources:** `SRC-024`, `SRC-002`, `SRC-032`
+**Review:** auto-audited-pass · source-support: pass · flags: numeric-value-unverified
+
+---
+
+## Q-0492 — Metabolism  `None` · moderate
+*3. RBCs and RBC Components* · node `S3.c.i` · support: high
+
+A 68-year-old man with acute blood loss anemia receives a unit of RBCs that has been stored for 34 days in CPDA-1 anticoagulant-preservative solution. As part of the expected storage lesion, the transfused cells have markedly depleted intracellular 2,3-diphosphoglycerate (2,3-DPG) compared with a freshly collected unit. Which of the following best describes the immediate physiologic effect of this biochemical change on hemoglobin function in the transfused cells?
+
+- **A.** Increased ATP generation via mitochondrial oxidative phosphorylation, compensating for the glycolytic deficit
+- **B.** Increased hemoglobin-oxygen affinity, left-shifting the oxygen dissociation curve and reducing oxygen unloading to tissues ✅
+- **C.** Immediate restoration of normal 2,3-DPG levels through increased plasma glucose uptake at the moment of transfusion
+- **D.** No change in P50, because 2,3-DPG is not an effector molecule of the hemoglobin-oxygen dissociation curve
+- **E.** Decreased hemoglobin-oxygen affinity, right-shifting the oxygen dissociation curve and enhancing oxygen unloading to tissues
+
+**Correct (B):** 2,3-DPG is the effector molecule that modulates the hemoglobin-oxygen dissociation curve. During storage, the RBC storage lesion depletes 2,3-DPG along with ATP and pH. This depletion produces a left shift of the dissociation curve, meaning hemoglobin binds oxygen more tightly (increased affinity, lower P50) and releases less oxygen to peripheral tissues immediately after transfusion.
+> Pearl: 2,3-DPG depletion during RBC storage is a core mechanism of the storage lesion: it left-shifts the hemoglobin-oxygen dissociation curve (increased oxygen affinity, decreased P50), transiently reducing oxygen delivery to tissues after transfusion of older units, reflecting the obligate anaerobic (Embden-Meyerhof) glycolytic metabolism of anucleate, mitochondria-free mature RBCs.
+
+- *E wrong:* Incorrect direction: 2,3-DPG depletion increases (not decreases) hemoglobin's oxygen affinity, producing a left shift, not a right shift, so oxygen unloading is reduced rather than enhanced.
+- *D wrong:* Incorrect: 2,3-DPG is explicitly the effector molecule governing the hemoglobin-oxygen dissociation curve; loss of 2,3-DPG directly shifts P50.
+- *A wrong:* Incorrect: mature RBCs lack mitochondria and a nucleus, relying on anaerobic glycolysis (Embden-Meyerhof pathway) for about 90% of ATP production; there is no mitochondrial oxidative phosphorylation to compensate.
+- *C wrong:* Incorrect: the storage lesion (decreased pH, ATP, and 2,3-DPG; increased plasma potassium) is a fixed biochemical state of the unit at the time of transfusion, not something reversed instantaneously upon infusion.
+
+**Sources:** `SRC-024`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0493 — Carbohydrate Blood Groups and Blood Group Systems  `None` · hard
+*3. RBCs and RBC Components* · node `S3.e` · support: high
+
+A 32-year-old first-time blood donor's RBCs fail to agglutinate with anti-A, anti-B, and anti-H (Ulex europaeus) lectin during routine ABO/Rh testing, an unexpected pattern for a presumed group O donor. Reflex testing of the donor's saliva by hemagglutination inhibition demonstrates free H substance in the secretions, and a high-avidity anti-H reagent produces weak agglutination of the donor's RBCs on repeat testing. Which of the following best explains the molecular mechanism underlying this discrepant pattern?
+
+- **A.** The donor's Lewis (Le) gene product fucosylates type 1 precursor chains in plasma to form Lewis substance, which is passively adsorbed onto the donor's RBC membrane and cross-reacts with the anti-H typing reagent
+- **B.** A mutation in the erythroid transcription factor KLF1 has selectively suppressed FUT1 gene expression on the RBC membrane while sparing FUT2-driven H substance production in secretory epithelium
+- **C.** The donor is homozygous for a nonfunctional FUT1 (H) allele but carries a functional FUT2 (Secretor) allele; H substance synthesized on type 1 precursor chains in secretory tissue is passively adsorbed onto the RBC membrane, producing the Para-Bombay phenotype ✅
+- **D.** The donor is homozygous for nonfunctional alleles at both the FUT1 (H) and FUT2 (Secretor) loci, so no H substance is synthesized in RBC membrane or secretory tissue, consistent with the true Bombay phenotype
+
+**Correct (C):** This serologic signature — RBCs nonreactive with anti-A, anti-B, and anti-H, yet H substance detectable in saliva and weak anti-H reactivity on repeat RBC testing — is the classic pattern of Para-Bombay. Para-Bombay individuals inherit a nonfunctional FUT1 (H) allele, so no H antigen is synthesized directly on the RBC membrane (built on type 2 precursor chains). However, they retain a functional FUT2 (Secretor) allele, which drives synthesis of H substance on type 1 precursor chains within plasma/secretory tissue. This soluble H substance is then passively (weakly) adsorbed onto the RBC surface, explaining both the positive saliva hemagglutination-inhibition result and the faint reactivity seen with a high-avidity anti-H reagent. True Bombay individuals are null at both FUT1 and FUT2 and therefore lack H substance in both RBCs and secretions.
+> Pearl: Para-Bombay phenotype arises from independent inheritance at the FUT1 (H) and FUT2 (Secretor) loci: a null FUT1 allele abolishes RBC-membrane H synthesis, but a functional FUT2 allele still generates H substance on type 1 chains in secretions, which is passively adsorbed onto RBCs — producing weak anti-H reactivity and saliva H positivity that distinguish it from true (Oh) Bombay.
+
+- *D wrong:* Incorrect. True Bombay individuals are nonfunctional at both FUT1 and FUT2, so no H substance would be detectable in secretions — but this donor's saliva was HAI-positive for H substance, excluding true Bombay.
+- *A wrong:* Incorrect distractor. Lewis substance is a genuinely plasma-synthesized, passively adsorbed carbohydrate antigen carried on type 1 chains, but it is chemically distinct from H substance; Lewis adsorption would not produce a positive saliva H-substance result or explain reactivity with an anti-H-specific reagent.
+- *B wrong:* Incorrect distractor. While KLF1 mutations are a recognized mechanism for altering expression of multiple blood group systems simultaneously, the established explanation for the Bombay/Para-Bombay distinction is independent FUT1/FUT2 gene status, not KLF1-mediated selective tissue suppression.
+
+**Sources:** `SRC-003`, `SRC-003`, `SRC-010`, `SRC-003`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0494 — Duffy  `None` · moderate
+*3. RBCs and RBC Components* · node `S3.g.ii` · support: moderate
+
+A 28-year-old blood donor of West African ancestry is found to type Fy(a-b-) on the antibody identification panel. Population genetics data show that this null phenotype is present in the large majority of individuals from sub-Saharan Africa (in contrast to European populations, where it is rare) and has become highly prevalent in malaria-endemic regions through natural selection. Which of the following best explains the underlying biologic mechanism responsible for this selective advantage?
+
+- **A.** Absence of Duffy antigen (Fya/Fyb) expression on the red cell surface confers resistance to invasion by Plasmodium vivax, explaining the selective advantage in malaria-endemic regions ✅
+- **B.** Ficin/papain enzyme treatment used during serologic antibody testing destroys the Duffy antigens on the donor's red cells, and this in vitro effect is the mechanism producing in vivo resistance to P. vivax
+- **C.** Fy(a-b-) reagent red cells are routinely pretreated with ZZAP prior to typing, and this reagent-preparation step is itself the biologic basis for the population's resistance to P. vivax
+- **D.** Because Fy(a-b-) individuals are homozygous for the silenced Duffy allele, they show a stronger dosage effect that amplifies natural anti-Fya production, which then lyses P. vivax-parasitized red cells
+
+**Correct (A):** The approved board-review sources identify the Fy(a-b-) phenotype as a protective mechanism against Plasmodium vivax and note the Fya-/Fyb- association with malaria resistance. The biologic basis is that Duffy-negative red cells lack the Duffy antigen(s) on the erythrocyte surface, and it is this absence of antigen expression itself (not a laboratory technique) that underlies resistance to P. vivax invasion, explaining why the Fy(a-b-) phenotype reached high prevalence through natural selection in malaria-endemic sub-Saharan African populations.
+> Pearl: The Fy(a-b-) null phenotype, common in sub-Saharan African populations, is protective against Plasmodium vivax because Duffy-negative red cells lack the antigen the parasite depends on for invasion; this is a genuine in vivo biologic/selective mechanism and must be distinguished from Duffy's separate serologic behaviors (enzyme sensitivity, dosage effect, ZZAP susceptibility), which are laboratory phenomena relevant to antibody identification, not to malaria resistance.
+
+- *C wrong:* Incorrect: ZZAP is an in vitro reagent (ficin/papain plus DTT) used in the lab to strip antibody from sensitized cells and to destroy Kell, MNS, Duffy, and Lutheran antigens for adsorption studies. It is a laboratory technique applied to reagent cells, not a mechanism that occurs in vivo or explains population-level malaria resistance.
+- *D wrong:* Incorrect: Dosage is a serologic phenomenon in which an existing antibody reacts more strongly against red cells that are homozygous for the corresponding antigen (described for Rh, Duffy, Kidd, and MNS). It describes reactivity strength of an antibody already present against antigen-positive cells; it does not describe Fy(a-b-) individuals mounting a protective anti-Fya response against parasitized cells, and Fy(a-b-) cells lack the antigen needed to elicit or be targeted by anti-Fya in the first place.
+- *B wrong:* Incorrect: ficin/papain enzyme treatment destroying Duffy antigens is a serologic technique used in antibody panel testing (e.g., to help distinguish antibody specificities), not a physiologic process that occurs in circulating red cells in vivo, so it cannot be the basis for a heritable, population-level resistance trait.
+
+**Sources:** `SRC-044`, `SRC-043`, `SRC-043`, `SRC-024`, `SRC-061`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0495 — Kidd  `None` · hard
+*3. RBCs and RBC Components* · node `S3.g.iii` · support: high
+
+A 42-year-old woman with a history of three prior pregnancies undergoes an elective hysterectomy and is transfused 2 units of RBCs for symptomatic anemia. The pretransfusion antibody screen is negative and the crossmatch is serologically compatible. Nine days after transfusion, she develops a low-grade fever, mild scleral icterus, and an unexplained 2 g/dL drop in hemoglobin. A sample drawn at this time shows a newly positive antibody screen and a positive direct antiglobulin test (DAT) with a mixed-field pattern; an eluate prepared from her red cells identifies anti-Jka. Which of the following best explains why anti-Jka was not detected on the original pretransfusion antibody screen despite being responsible for this reaction?
+
+- **A.** The antibody was present at the time of crossmatch but reacted too weakly to detect because the reagent screening cells were heterozygous (Jk[a+b+]) rather than homozygous for Jka (dosage effect)
+- **B.** The patient had been previously sensitized to Jka (through pregnancy or an earlier transfusion), but the antibody titer had fallen below the detection threshold of routine testing; re-exposure to Jka-positive donor cells triggered a rapid anamnestic (secondary) antibody response ✅
+- **C.** Ficin/papain pretreatment of the reagent screening cells destroyed the Jka antigen, producing a false-negative screen at the time of crossmatch
+- **D.** The patient had no prior exposure to the Jka antigen, and this transfusion triggered a primary immune response with de novo anti-Jka formation
+
+**Correct (B):** This is a delayed hemolytic transfusion reaction (DHTR): an unexplained hemoglobin drop, mild jaundice, and fever 2-14 days post-transfusion, with a new positive antibody screen, mixed-field-positive DAT, and an eluate identifying the causative alloantibody. The sources identify Kidd (Jk) and Rh antibodies as the classic cause of DHTR precisely because they are antibodies 'that were below detection limits at the time of crossmatch,' and note that Kidd antibodies are the 'classic board answer' because they 'notoriously disappear from the serum over time.' The underlying mechanism is anamnestic: a prior sensitizing exposure (pregnancy or earlier transfusion) produced anti-Jka that waned to an undetectable level, and re-exposure to Jka-positive donor red cells provoked a rapid secondary (anamnestic) antibody response, causing hemolysis of the transfused cells days later.
+> Pearl: Kidd (Jk) alloantibodies are classically evanescent, falling below the detection threshold of routine pretransfusion testing between antigen exposures. A negative antibody screen and compatible crossmatch therefore do not exclude prior sensitization; re-exposure to antigen-positive donor cells can provoke a rapid anamnestic (secondary) response, making Kidd antibodies the prototypical cause of delayed hemolytic transfusion reaction (DHTR).
+
+- *C wrong:* Incorrect and factually reversed: the sources state that ficin/papain enzyme treatment enhances Rh, Kidd, and P1 antigen reactivity, and destroys MNS and Duffy antigens instead. Enzyme pretreatment would make Kidd antibody detection easier, not cause a false negative, so it cannot explain the missed screen.
+- *D wrong:* Incorrect: the sources explicitly characterize this pattern of reaction as an anamnestic (i.e., secondary, memory-driven) immune response, which by definition requires prior sensitization rather than a first-time (primary) immunization from this transfusion alone.
+- *A wrong:* Incorrect but plausible: dosage (stronger reactivity against homozygous than heterozygous cells) is a real, source-documented phenomenon in the Kidd system, but it describes reduced reactivity against a specific reagent cell's zygosity, not the evanescence of a previously formed antibody that disappears from serum entirely and returns upon re-challenge — the mechanism specifically implicated in Kidd-associated DHTR.
+
+**Sources:** `SRC-058`, `SRC-024`, `SRC-043`, `SRC-044`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0496 — The Patient with Chronic Anemia  `C` · moderate
+*4. Anemia and Red Blood Cell Transfusion* · node `S4.d.iii` · support: moderate
+
+A 74-year-old man with a several-year history of myelodysplastic syndrome is seen in clinic for a routine follow-up visit. He denies chest pain, dyspnea at rest, or dizziness and walks without difficulty. Vital signs are normal, and there is no clinical or laboratory evidence of active bleeding or hemolysis. His hemoglobin has been stable at 7.3 g/dL over his last three visits. He asks why he is not being transfused today to bring his hemoglobin 'back to normal.' Which of the following best explains the evidence-based rationale for withholding RBC transfusion in this patient at this time?
+
+- **A.** Because this presentation reflects ongoing active hemolysis or bleeding, transfusion should be given regardless of hemoglobin level to replace continued losses
+- **B.** In hemodynamically stable patients, high-quality randomized trial evidence shows that transfusing to a higher (liberal, ~10 g/dL) hemoglobin target provides no additional clinical benefit over a restrictive (7 g/dL) threshold and may increase harm ✅
+- **C.** Patients with chronic anemia cannot physiologically tolerate hemoglobin values below 10 g/dL and require prompt correction to avoid cardiac decompensation
+- **D.** Because each transfused RBC unit is expected to raise the hemoglobin by only about 1 g/dL, correcting this patient's hemoglobin to a normal range would require an impractically large number of units
+
+**Correct (B):** The approved sources state that clinical transfusion triggers for RBC hemotherapy use a restrictive threshold (Hb <7 g/dL) specifically in stable patients, and that high-quality trial evidence (e.g., the TRICC trial) supports this 7 g/dL threshold because liberal transfusion to a higher target (~10 g/dL) provides no additional benefit and may increase harm. This patient is hemodynamically stable, asymptomatic, and has no evidence of active bleeding or hemolysis, so the guideline-supported, evidence-based decision is to withhold transfusion at Hb 7.3 g/dL rather than transfuse to 'normalize' the number.
+> Pearl: In hemodynamically stable, chronically anemic patients without active bleeding or hemolysis, transfusion decisions should be guided by the restrictive Hb <7 g/dL trigger supported by high-quality trial evidence (e.g., TRICC), not by an impulse to 'normalize' the hemoglobin number — liberal transfusion targets confer no proven benefit and may cause harm.
+
+- *A wrong:* Incorrect: the vignette explicitly states there is no clinical or laboratory evidence of active bleeding or hemolysis, and the sourced restrictive-trigger guidance applies to stable patients such as this one, not to patients with ongoing losses.
+- *C wrong:* Incorrect: this is the opposite of the sourced evidence, which found that liberal transfusion (targeting ~10 g/dL) provides no benefit and may increase harm compared with the restrictive 7 g/dL threshold; it is a classic overtransfusion misconception.
+- *D wrong:* Incorrect: while the source does state that one RBC unit raises Hgb by about 1 g/dL, this dosing fact is not the reason transfusion is withheld here — the actual rationale is the lack of demonstrated benefit (and possible harm) from transfusing a stable patient above the restrictive threshold, not the number of units required.
+
+**Sources:** `SRC-043`, `SRC-019`, `SRC-019`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0497 — Regulation of IgG Metabolism  `AR` · moderate
+*5. Apheresis* · node `S5.b.i.2` · support: high
+
+A 34-year-old man with Guillain-Barré syndrome (an ASFA Category I indication for apheresis) is started on therapeutic plasma exchange with 5% albumin as the replacement fluid. The treatment plan calls for a series of five exchanges of 1.0–1.5 plasma volumes each, performed on alternating days, rather than one very large single exchange. Which of the following best explains the physiologic rationale for spacing IgG-directed TPE into a series of procedures rather than performing a single large-volume exchange?
+
+- **A.** IgG, like IgM, is approximately 80% confined to the intravascular space, so a single 1.0-plasma-volume exchange should remove nearly all circulating antibody
+- **B.** Each 1.0-plasma-volume exchange removes only about 20% of an intravascular substance, so several procedures are needed just to match the removal achieved by one large-volume treatment
+- **C.** A single large-volume exchange would excessively deplete fibrinogen and other coagulation factors, so procedures must be divided into smaller volumes regardless of the antibody class being targeted
+- **D.** Splenic sequestration releases a reserve pool of IgG into the circulation after each exchange, mirroring the platelet rebound seen after cellular apheresis collections
+- **E.** IgG is distributed approximately 60% extravascularly; between treatments, extravascular IgG re-equilibrates into the plasma compartment, replenishing the antibody pool removed by each exchange ✅
+
+**Correct (E):** IgG is distributed approximately 60% extravascularly and only about 40% intravascularly, so any single TPE procedure can only directly access the plasma-compartment fraction of total-body IgG. Between treatments, extravascular IgG re-equilibrates back into the intravascular space, replenishing what was removed and preventing a single exchange from achieving durable depletion. This is why IgG-mediated disorders require a series of procedures spaced over time to allow equilibration, in contrast to IgM, which is approximately 80% intravascular and therefore responds effectively to a single TPE session.
+
+- *A wrong:* Incorrect - this reverses the biology and instead describes IgM. The sources state IgM is approximately 80% intravascular, which is precisely why TPE is highly effective for IgM-mediated disease (e.g., Waldenström hyperviscosity) in a single session; IgG has the opposite, extravascular-predominant distribution.
+- *B wrong:* Incorrect - misstates removal efficiency. The sources state a single 1.0-plasma-volume exchange removes approximately 63%-70% of an intravascular substance in one session, not 20%; increasing from 1.0 to 2.0 PV only adds roughly another 20 percentage points (to about 90%) for double the cost and risk.
+- *D wrong:* Incorrect - the splenic mobilization/rebound phenomenon described in the sources applies specifically to platelets after cellular (donor) apheresis collection. No comparable splenic IgG reserve mechanism is described in the sources.
+- *C wrong:* Incorrect - while a 1.0-PV exchange with albumin does reduce fibrinogen by roughly 66%, this reflects nonspecific coagulation factor removal and is not the rationale given in the sources for why IgG-mediated conditions specifically require serial procedures over time; that rationale is compartmental redistribution of IgG, not coagulation factor conservation.
+
+**Sources:** `SRC-023`, `SRC-047`, `SRC-023`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0498 — Replacement Fluids (Clinical Aspects)  `AR` · moderate
+*5. Apheresis* · node `S5.b.i.3` · support: high
+
+A 34-year-old woman is admitted with fever, altered mental status, and a platelet count of 9,000/uL. Peripheral smear shows numerous schistocytes, and ADAMTS13 activity returns at less than 10% with a positive inhibitor, confirming thrombotic thrombocytopenic purpura (TTP). The apheresis service initiates daily 1.0- to 1.5-plasma-volume therapeutic plasma exchange (TPE), using plasma (FFP) as the replacement fluid rather than 5% albumin. Which of the following best explains the physiologic rationale for choosing FFP over albumin as the replacement fluid in this patient?
+
+- **A.** FFP reduces the citrate anticoagulant load delivered to the patient compared with albumin, lowering the risk of hypocalcemia
+- **B.** FFP supplies functional ADAMTS13 protease to replace the enzyme that is deficient and inhibited, complementing the exchange's removal of the autoantibody inhibitor and ultra-large von Willebrand factor multimers ✅
+- **C.** FFP carries a lower risk of allergic and anaphylactoid reactions than albumin, making it the safer choice for daily exchanges
+- **D.** FFP is required mainly to replenish the fibrinogen that is depleted by the plasma exchange procedure itself
+
+**Correct (B):** In TTP, the pathogenic process is a severe ADAMTS13 deficiency (usually autoantibody-mediated) that allows accumulation of ultra-large von Willebrand factor multimers, driving microvascular platelet aggregation. TPE addresses both sides of this mechanism simultaneously: the exchange itself removes the anti-ADAMTS13 inhibitor and the ultra-large vWF multimers, while using plasma (FFP) as the replacement fluid actively replenishes functional ADAMTS13 that albumin cannot provide. This dual removal-and-replacement mechanism is why TPE with plasma is first-line, category I therapy for TTP.
+> Pearl: Replacement fluid selection in TPE is disease-driven: albumin is default (lower reaction/infectious risk, adequate for most autoantibody/toxin removal indications), but plasma is required whenever a coagulation factor or specific plasma protein (e.g., ADAMTS13 in TTP) must be actively replaced, not merely as a generic volume/oncotic substitute.
+
+- *C wrong:* Incorrect and inverted: the source material states albumin has the lower reaction risk of the two fluids, while plasma carries an increased risk of allergic reactions, not a decreased one.
+- *A wrong:* Incorrect and inverted: plasma replacement increases citrate load (and hypocalcemia risk) relative to albumin because plasma itself contains citrate anticoagulant, the opposite of what this option claims.
+- *D wrong:* Incorrect: a 1.0-PV exchange does deplete fibrinogen by roughly 66% when albumin is used, but this is a general coagulation-factor-depletion phenomenon of the exchange procedure, not the disease-specific rationale for selecting plasma in TTP, which is ADAMTS13 repletion.
+
+**Sources:** `SRC-023`, `SRC-023`, `SRC-023`, `SRC-023`
+**Review:** auto-audited-pass · source-support: pass · flags: numeric-value-unverified
+
+---
+
+## Q-0499 — Guillain-Barré Syndrome  `AR` · moderate
+*5. Apheresis* · node `S5.b.ii.1` · support: high
+
+A 45-year-old man develops rapidly progressive ascending limb weakness and is diagnosed with Guillain-Barré syndrome (acute inflammatory demyelinating polyradiculoneuropathy). Because GBS is an ASFA Category I indication, he is started on therapeutic plasma exchange (TPE) every other day as an alternative to IVIG for rapid recovery. Which of the following best describes the underlying mechanism by which TPE produces clinical improvement in this disorder?
+
+- **A.** TPE selectively removes activated leukocytes that infiltrate and directly damage the nerve roots
+- **B.** TPE reduces intravascular volume overload, thereby decreasing edema around the inflamed nerve roots
+- **C.** TPE delivers exogenous immunoglobulin through the replacement fluid, working by the same Fc-receptor-saturation mechanism as IVIG
+- **D.** TPE mechanically removes circulating pathogenic autoantibodies, immune complexes, and inflammatory mediators that drive the acute inflammatory demyelinating process affecting peripheral nerves ✅
+- **E.** TPE replaces a deficient plasma enzyme (ADAMTS13) required for normal microvascular hemostasis
+
+**Correct (D):** The sources state that in neurologic disorders TPE works by targeted removal of pathogenic autoantibodies, immune complexes, or inflammatory mediators from the circulation, and that GBS (acute inflammatory demyelinating polyradiculoneuropathy) is an ASFA Category I disorder for which TPE is a primary treatment. This fits the general rationale for therapeutic apheresis given in the sources: a pathogenic humoral substance in the blood is removed more effectively by apheresis than by the body's own homeostatic mechanisms, and TPE is specifically defined as removal of plasma and its pathogenic humoral factors. Because GBS is mediated by circulating pathogenic autoantibodies/immune complexes/inflammatory mediators attacking peripheral nerve myelin, physically removing these substances from the plasma compartment is the operative mechanism.
+> Pearl: TPE in GBS works by physically removing pathogenic humoral factors (autoantibodies, immune complexes, inflammatory mediators) from the circulation, distinct from TTP's ADAMTS13-replacement rationale and distinct from IVIG's immunomodulatory mechanism, even though all are options in ASFA Category I neurologic/hematologic disease.
+
+- *A wrong:* Incorrect: selective removal of cellular elements such as leukocytes describes cytapheresis (leukocytapheresis), not TPE, which removes plasma rather than cellular blood components.
+- *E wrong:* Incorrect: ADAMTS13 deficiency and its replacement via plasma-containing replacement fluid is the rationale for TPE in TTP, a different ASFA Category I disorder listed alongside GBS in the sources; this is a classic trap for conflating mechanisms across Category I indications.
+- *C wrong:* Incorrect: the sources present TPE as an alternative modality to IVIG for GBS, not as a delivery method for immunoglobulin; TPE's action is removal of pathogenic factors, not administration of exogenous immunoglobulin.
+- *B wrong:* Incorrect: no source describes TPE's benefit in GBS as arising from volume reduction or decreased nerve root edema; this is an unsupported distractor.
+
+**Sources:** `SRC-011`, `SRC-023`, `SRC-059`, `SRC-044`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0500 — Red Cell Exchange  `AR` · moderate
+*5. Apheresis* · node `S5.c.ii` · support: low
+
+A 22-year-old woman with homozygous sickle cell disease (HbSS) is admitted with acute chest syndrome and progressive hypoxia. The transfusion medicine service performs an automated red cell exchange (RCE) rather than a simple transfusion. Which of the following best explains the core mechanistic principle by which RCE, as opposed to simple transfusion, addresses the patient's disease process?
+
+- **A.** RCE increases the patient's total red cell mass and oxygen-carrying capacity through donor cell addition alone, without removing any of the patient's own circulating red cells
+- **B.** RCE uses a centrifugation-based apheresis instrument to simultaneously withdraw the patient's own red cells while returning donor red cells, so the sickle-hemoglobin-containing red cell mass is removed and replaced rather than only added to ✅
+- **C.** RCE works by removing a plasma-based inhibitor of ADAMTS13, the mechanism that underlies plasma exchange efficacy in thrombotic thrombocytopenic purpura
+- **D.** RCE's therapeutic benefit derives from the citrate anticoagulant used during the procedure, which corrects an ionized hypocalcemia that is driving the vaso-occlusive process
+- **E.** RCE relies on membrane-filtration technology to remove red cells coated with autoantibody, the same separation principle used in immune-mediated hemolytic disorders
+
+**Correct (B):** The Apheresis domain's major concepts identify centrifugation (alongside membrane filtration) as the separation principle underlying automated apheresis procedures, and red cell exchange is specifically noted as frequently used for acute complications of sickle cell disease. What defines an 'exchange' procedure mechanistically is that the centrifuge simultaneously removes the patient's own red cells while donor red cells are returned, rather than simply adding donor cells on top of the patient's existing red cell mass as in simple transfusion. This concurrent removal-plus-replacement is the mechanistic feature that distinguishes RCE from simple top-up transfusion for sickle cell disease complications.
+> Pearl: Red cell exchange is mechanistically defined by simultaneous centrifugation-based removal of the patient's own red cells with replacement by donor red cells, distinguishing it from simple transfusion; do not conflate its mechanism with TPE's antibody/inhibitor-removal role in TTP or with citrate-related adverse effects, which are complications rather than the therapeutic mechanism.
+
+- *E wrong:* Incorrect. Membrane filtration is listed among the general separation principles used in apheresis technology, but the sources do not describe antibody-coated cell removal as the mechanism of RCE, and acute sickle cell complications are not driven by an autoantibody process.
+- *C wrong:* Incorrect. Removal of an ADAMTS13 inhibitor is the source-stated mechanism by which therapeutic plasma exchange treats TTP, not the mechanism of red cell exchange for sickle cell disease; this option conflates two distinct apheresis modalities and their distinct indications, a classic board trap.
+- *D wrong:* Incorrect. The sources identify citrate toxicity presenting as hypocalcemia as a common adverse effect of apheresis procedures, not as a therapeutic mechanism; this option inverts a recognized complication into a benefit.
+- *A wrong:* Incorrect. This describes simple transfusion (addition of donor cells only), which is precisely what red cell exchange is used instead of; it omits the defining removal component of an exchange procedure.
+
+**Sources:** `SRC-010`, `SRC-043`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0501 — Sickle Cell Disease  `AR` · moderate
+*5. Apheresis* · node `S5.c.ii.2` · support: moderate
+
+A 12-year-old boy with homozygous sickle cell disease (HbSS) and a history of ischemic stroke is enrolled in a chronic red cell exchange (erythrocytapheresis) program for secondary stroke prevention. The procedure is performed on a continuous-flow automated apheresis instrument, the same category of device the transfusion service uses to perform therapeutic plasma exchange (TPE) for patients with TTP. Which of the following best describes the mechanism by which this red cell exchange procedure achieves its therapeutic effect in this patient?
+
+- **A.** The instrument removes circulating pathogenic autoantibodies and inflammatory mediators from the patient's plasma
+- **B.** The instrument selectively depletes the patient's circulating white blood cells to prevent leukostasis
+- **C.** The instrument selectively removes excess circulating platelets to reduce thrombotic complications
+- **D.** Centrifugation-based cell separation removes the patient's red cells, which are replaced by donor red cells, rather than removing plasma-borne proteins ✅
+- **E.** The instrument removes ADAMTS13 inhibitor autoantibodies circulating in the patient's plasma
+
+**Correct (D):** Red cell exchange (erythrocytapheresis) is a therapeutic cytapheresis modality, listed as a distinct subdomain of the Apheresis domain alongside TPE, platelet apheresis, white cell apheresis, and photopheresis, and is a Category I ASFA indication in sickle cell disease to prevent stroke or manage acute chest syndrome. The apheresis instrument works on the shared principle of centrifugation-based (or membrane filtration-based) separation of blood components; in an 'exchange' procedure the target cellular element (here, the patient's red cells) is removed and replaced, rather than plasma proteins being removed as in TPE. This distinguishes the cellular removal-and-replacement mechanism of red cell exchange from the plasma-protein-removal mechanism used in TPE.
+> Pearl: Red cell exchange (erythrocytapheresis) in sickle cell disease works through centrifugation-based cellular separation that removes and replaces the patient's own red cells, mechanistically distinct from the plasma-protein-removal mechanism of TPE (e.g., ADAMTS13 inhibitor removal in TTP, autoantibody/immune complex removal in neurologic disease) and from the WBC- or platelet-depletion mechanisms of leukapheresis and thrombocytapheresis, even though all run on the same category of centrifuge-based apheresis instrument.
+
+- *B wrong:* Incorrect — selective white cell depletion to prevent leukostasis describes therapeutic white cell apheresis, which is used for extreme leukocytosis (e.g., hyperleukocytic leukemia), not red cell exchange in sickle cell disease.
+- *E wrong:* Incorrect — removal of ADAMTS13 inhibitor autoantibodies describes the mechanism of TPE in TTP, not red cell exchange; this is a classic apheresis board trap because both procedures run on the same type of centrifuge-based instrument.
+- *C wrong:* Incorrect — selective platelet removal describes therapeutic platelet apheresis, indicated for primary or secondary thrombocytosis with symptomatic complications, not sickle cell red cell exchange.
+- *A wrong:* Incorrect — removal of pathogenic autoantibodies and inflammatory mediators from plasma describes TPE as used in neurologic disorders (e.g., Guillain-Barré syndrome), not the cellular exchange mechanism of erythrocytapheresis.
+
+**Sources:** `SRC-011`, `SRC-010`, `SRC-011`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0502 — Acute and Emergent Complications  `AR` · moderate
+*5. Apheresis* · node `S5.c.ii.3` · support: high
+
+A 24-year-old woman with homozygous sickle cell disease (HbSS) is undergoing emergent automated red cell exchange for acute chest syndrome. Approximately 45 minutes into the procedure, while whole blood is continuously drawn, separated, and returned through the apheresis circuit, she reports circumoral tingling and develops carpopedal muscle spasm; the bedside monitor shows new QT-interval prolongation. She is afebrile, normotensive, and has no dyspnea or dark urine. Which of the following mechanisms best explains this patient's presentation?
+
+- **A.** Volume- and rate-related circulatory overload from the infused red cell component
+- **B.** Efflux of potassium from stored donor red cells into the supernatant, released with rapid infusion
+- **C.** Antibody-mediated intravascular destruction of transfused donor red cells
+- **D.** Anti-leukocyte antibodies in donor plasma triggering acute noncardiogenic pulmonary injury
+- **E.** Chelation of ionized calcium by the citrate anticoagulant circulating through the apheresis extracorporeal circuit ✅
+
+**Correct (E):** Automated red cell exchange requires continuous citrate anticoagulation of blood within the apheresis circuit. Because citrate binds (chelates) ionized calcium, patients undergoing apheresis procedures are at risk for citrate toxicity presenting as hypocalcemia, classically manifesting as perioral/circumoral paresthesias, tetany (carpopedal spasm), and cardiac arrhythmias such as QT prolongation — exactly the findings in this vignette. The source material identifies citrate toxicity/hypocalcemia as a recognized adverse effect within the Apheresis domain (which encompasses red cell exchange) and separately details the same symptom triad (perioral paresthesias, tetany, arrhythmias) as the clinical signature of citrate-induced hypocalcemia.
+> Pearl: During red cell exchange, continuous citrate anticoagulation within the apheresis circuit — not the exchanged red cells themselves — is the classic mechanism for acute intraprocedural hypocalcemia; recognize the perioral paresthesia/tetany/arrhythmia triad as citrate toxicity and distinguish it from hyperkalemia, hemolytic transfusion reaction, TRALI, and TACO.
+
+- *B wrong:* Incorrect: hyperkalemia from potassium leaking out of stored donor red cells during rapid infusion typically manifests as arrhythmia/cardiac arrest without the perioral paresthesias and tetany seen here, and reflects a different (potassium, not calcium) derangement.
+- *C wrong:* Incorrect: immune-mediated destruction of transfused red cells would be expected to produce fever, hemoglobinuria, and hemodynamic instability rather than isolated paresthesias and tetany.
+- *D wrong:* Incorrect: this describes TRALI, which is defined by new acute lung injury within hours of transfusion, not by neuromuscular symptoms or arrhythmia from calcium chelation.
+- *A wrong:* Incorrect: this describes TACO, a volume/infusion-rate-related reaction causing signs of circulatory overload, not the calcium-mediated neuromuscular findings in this vignette.
+
+**Sources:** `SRC-032`, `SRC-010`, `SRC-032`, `SRC-010`, `SRC-019`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0503 — Graft-Versus-Host Disease  `AR` · moderate
+*5. Apheresis* · node `S5.c.iii.2` · support: moderate
+
+A 45-year-old man develops biopsy-confirmed chronic graft-versus-host disease of the skin and liver 8 months after allogeneic hematopoietic stem cell transplantation, refractory to corticosteroids. He is started on extracorporeal photopheresis (ECP). During each session, his buffy coat is collected by apheresis, treated ex vivo with 8-methoxypsoralen (8-MOP), exposed to ultraviolet A (UVA) light, and then reinfused into the patient. Which of the following best describes the mechanism by which this procedure exerts its therapeutic effect on GVHD?
+
+- **A.** Plasma containing pathogenic alloantibodies is removed and replaced with 5% albumin, eliminating the humoral trigger for GVHD
+- **B.** Gamma irradiation of the collected leukocytes inactivates donor T lymphocytes so they cannot engraft or proliferate
+- **C.** UVA light alone directly lyses alloreactive donor T cells through thermal injury, without requiring a photosensitizing agent
+- **D.** The pathogenic leukocytes are selectively removed from the circulation during the apheresis run and discarded rather than reinfused
+- **E.** 8-MOP intercalates into leukocyte DNA and is photoactivated by UVA light, inducing apoptosis in the treated leukocytes, which are then reinfused ✅
+
+**Correct (E):** Per the approved source, ECP works by collecting the buffy coat, treating it with 8-methoxypsoralen and UVA light, and reinfusing it to induce apoptosis in leukocytes; this ex vivo apoptosis-inducing photochemical reaction is the basis for its use in GVHD (and CTCL).
+> Pearl: ECP's therapeutic mechanism in GVHD is ex vivo psoralen/UVA-induced apoptosis of collected leukocytes followed by reinfusion — distinct from irradiation-based prevention of TA-GVHD and from plasma- or cell-removal-based apheresis mechanisms (TPE, cytapheresis).
+
+- *B wrong:* Distractor: gamma irradiation of cellular blood components is the mechanism used to inactivate donor T lymphocytes and PREVENT transfusion-associated GVHD from a blood product — a different process entirely from ECP, which treats established GVHD using psoralen/UVA, not irradiation.
+- *D wrong:* Distractor: describes cytapheresis (e.g., leukocytapheresis), which selectively removes and discards cellular elements. ECP specifically reinfuses the treated buffy coat rather than discarding it.
+- *A wrong:* Distractor: describes the mechanism of therapeutic plasma exchange (removing plasma-borne pathogenic substances and replacing with albumin), not ECP, which is a cellular (leukocyte) treatment, not a plasma removal procedure.
+- *C wrong:* Distractor: incorrectly omits the requirement for the photosensitizing agent (8-MOP); the source specifies that both 8-MOP and UVA light are used together to induce apoptosis, not UVA light alone.
+
+**Sources:** `SRC-023`, `SRC-023`, `SRC-023`, `SRC-026`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0504 — Chronic Conditions or Preventive Strategies  `AR` · hard
+*5. Apheresis* · node `S5.c.ii.4` · support: moderate
+
+A 9-year-old girl with homozygous sickle cell disease (HbSS) has never had an overt stroke or an episode of acute chest syndrome. Her hematologist enrolls her in a long-term, scheduled erythrocytapheresis (RBC exchange) program as a preventive strategy to lower her future stroke risk. Which of the following best describes the underlying mechanism by which chronic RBC exchange provides this preventive benefit?
+
+- **A.** The procedure selectively removes excess circulating platelets to reduce the risk of symptomatic thrombotic complications
+- **B.** The procedure removes red blood cells parasitized by an infectious organism to reduce the circulating pathogen burden
+- **C.** The procedure removes plasma containing pathogenic autoantibodies, immune complexes, and inflammatory mediators that drive the underlying disease process
+- **D.** The procedure removes the patient's own circulating red blood cells, including sickle hemoglobin-containing cells, and simultaneously replaces them with donor red blood cells, lowering the proportion of vaso-occlusion-prone sickle cells in the circulation ✅
+- **E.** The procedure selectively removes circulating white blood cells to prevent leukostasis-related vascular obstruction
+
+**Correct (D):** RBC exchange (erythrocytapheresis) is listed as an ASFA Category I indication in sickle cell disease specifically 'to prevent stroke' when used as a chronic, preventive strategy. As an exchange (erythrocytapheresis) procedure, its therapeutic action is cell-directed: the patient's own circulating red cells are removed and replaced with donor red cells, directly reducing the fraction of sickle hemoglobin-containing cells responsible for vaso-occlusion, which is the pathophysiologic basis for its use in preventing stroke in chronic SCD management.
+> Pearl: RBC exchange (erythrocytapheresis) is a cell-directed apheresis procedure: it removes and replaces the patient's red cell mass. In chronic/preventive sickle cell disease management, this lowers the circulating sickle-hemoglobin-containing red cell fraction to reduce stroke risk, a mechanism distinct from plasma-directed TPE (removes pathogenic plasma factors) or other cytapheresis modalities directed at white cells or platelets.
+
+- *C wrong:* Incorrect: removal of pathogenic autoantibodies, immune complexes, and inflammatory mediators from plasma describes the mechanism of therapeutic plasma exchange (TPE) in neurologic disorders such as GBS, myasthenia gravis, and CIDP, not the cell-directed mechanism of RBC exchange.
+- *E wrong:* Incorrect: selective removal of white blood cells to prevent leukostasis describes therapeutic white cell apheresis, used for extreme leukocytosis (e.g., hyperleukocytic leukemia), a different cytapheresis modality targeting a different cell line.
+- *A wrong:* Incorrect: selective removal of platelets to reduce thrombotic risk describes therapeutic platelet apheresis, indicated for symptomatic primary or secondary thrombocytosis, not RBC exchange.
+- *B wrong:* Incorrect: removal of parasitized red cells describes the rationale for RBC exchange in severe malaria or babesiosis, a distinct pathology (infectious parasitization) from the genetically abnormal sickle hemoglobin targeted in chronic preventive SCD exchange.
+
+**Sources:** `SRC-011`, `SRC-011`, `SRC-011`, `SRC-011`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0505 — Indication and Treatment Intensity Categories  `AR` · moderate
+*5. Apheresis* · node `S5.b.i.5` · support: high
+
+A patient begins therapeutic plasma exchange (TPE) for a disorder caused by a pathogenic IgG autoantibody. Rather than performing one very-large-volume procedure, the apheresis team plans a series of standard 1.0- to 1.5-plasma-volume (PV) exchanges on an alternate-day schedule over one to two weeks. Which of the following best explains the physiologic rationale for spreading the treatment across a series of standard-volume exchanges rather than combining it into a single procedure?
+
+- **A.** IgG antibodies are cleared almost entirely by hepatic and renal catabolism rather than by TPE, so repeated procedures are needed only to replace coagulation factors consumed during each exchange
+- **B.** The extracorporeal blood volume limit of 10.5 mL/kg restricts how much plasma can be processed in one sitting, so the total antibody burden can only be removed by repeating the entire procedure on separate days
+- **C.** Roughly 60% of total-body IgG resides in the extravascular space, so between procedures the antibody redistributes into the plasma compartment and must be removed in subsequent exchanges ✅
+- **D.** A single 1.0-PV exchange removes only about 10% of an intravascular substance, so several lower-volume procedures are required to compensate for poor per-session efficiency
+- **E.** Because TPE removal kinetics are linear rather than exponential, splitting the total volume to be exchanged into several smaller procedures removes the same total amount of antibody as one large exchange while limiting citrate exposure
+
+**Correct (C):** TPE removes a pathogenic substance only from the intravascular (plasma) compartment during any given procedure. Because roughly 60% of total-body IgG is extravascular, pathogenic IgG autoantibody re-equilibrates from the extravascular reservoir back into plasma during the interval between exchanges. A single, even very large, exchange cannot access this extravascular pool, so a series of standard 1.0-1.5 PV exchanges spaced over days is required to achieve cumulative antibody clearance. This contrasts with IgM, which is about 80% intravascular and can therefore be substantially cleared in a single TPE session.
+> Pearl: TPE clears a pathogenic substance only from the plasma compartment during each procedure. IgG's large extravascular distribution (~60%) requires a series of exchanges for cumulative removal via interval re-equilibration, whereas predominantly intravascular IgM (~80%) can be cleared effectively in a single session -- this distinction underlies why treatment intensity (number of procedures) differs by the pathogenic factor's distribution kinetics, distinct from the separate diminishing-returns principle governing per-session exchange volume.
+
+- *D wrong:* Incorrect. A single 1.0-PV exchange removes approximately 63-70% of an intravascular substance (not ~10%), reflecting the exponential and asymptotic kinetics of TPE removal; this option misstates per-session efficiency.
+- *B wrong:* Incorrect. The extracorporeal blood volume limit (10.5 mL/kg, kept below 15% of total blood volume) is a hypovolemia-prevention safety threshold for the blood volume outside the body at any instant during a single procedure. It governs procedural safety, not why an IgG-mediated disorder requires exchanges repeated over separate days.
+- *E wrong:* Incorrect. TPE removal kinetics are exponential and asymptotic, not linear: increasing a single exchange from 1.0 to 2.0 PV raises removal only from about 70% to about 90%. Splitting volume across sessions therefore does not simply preserve identical total removal with less citrate exposure, and this option misidentifies the kinetic model.
+- *A wrong:* Incorrect. This contradicts the basic rationale for TPE, which is that a pathogenic humoral factor such as an autoantibody can be removed directly from plasma by apheresis; hepatic/renal catabolism as the primary clearance route is not supported by the sources.
+
+**Sources:** `SRC-023`, `SRC-047`, `SRC-023`, `SRC-023`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0506 — Chronic Inflammatory Demyelinating Polyneuropathy  `AR` · moderate
+*5. Apheresis* · node `S5.b.ii.2` · support: moderate
+
+A 54-year-old man presents with an 8-week history of progressive, symmetric weakness involving both proximal and distal muscle groups of the arms and legs, along with diminished deep tendon reflexes. He is diagnosed with chronic inflammatory demyelinating polyradiculoneuropathy (CIDP), an inflammatory disorder of peripheral nerve myelin, and his neurologist orders therapeutic plasma exchange (TPE) as first-line initial therapy. Which of the following best explains the mechanism by which TPE is thought to produce clinical improvement in this patient?
+
+- **A.** TPE replenishes a deficient plasma protein supplied by the replacement fluid, correcting an underlying enzymatic deficiency
+- **B.** TPE physically removes pathogenic autoantibodies, immune complexes, and inflammatory mediators from the circulating plasma, interrupting the immune-mediated attack on peripheral nerve myelin ✅
+- **C.** TPE induces citrate-related hypocalcemia, which stabilizes neuromuscular transmission and secondarily dampens the inflammatory response
+- **D.** TPE selectively depletes circulating leukocytes through cytapheresis, directly reducing cell-mediated demyelination
+- **E.** TPE directly lyses autoreactive T and B lymphocytes as blood passes through the extracorporeal circuit, eliminating the source of autoantibody production
+
+**Correct (B):** TPE is used in immune-mediated neurologic disorders, including CIDP, to remove pathogenic autoantibodies, immune complexes, and inflammatory mediators directly from the circulation. This targeted removal interrupts the ongoing autoimmune process that is damaging peripheral nerve myelin, which is the basis for TPE's classification as ASFA Category I, standard first-line therapy that is effective for both initial and maintenance treatment of CIDP.
+> Pearl: TPE in CIDP works by mechanically removing pathogenic autoantibodies, immune complexes, and inflammatory mediators from plasma, interrupting the autoimmune demyelinating process; this removal-based mechanism should be distinguished from plasma-replacement-based mechanisms (as in TTP), from cytapheresis (cellular removal), and from unrelated procedural adverse effects such as citrate-induced hypocalcemia.
+
+- *A wrong:* Incorrect. Replenishing a deficient plasma factor via replacement fluid describes the rationale for plasma exchange with plasma replacement in conditions such as TTP, not the antibody-removal mechanism relevant to CIDP, which is a primary autoimmune demyelinating disorder rather than a plasma factor deficiency.
+- *D wrong:* Incorrect. This conflates TPE (plasmapheresis, which separates and removes plasma) with cytapheresis, a distinct therapeutic apheresis modality that targets cellular blood components rather than plasma; TPE does not work by selectively depleting leukocytes.
+- *C wrong:* Incorrect. Citrate toxicity causing hypocalcemia and paresthesias is a recognized adverse effect of the anticoagulant used during apheresis procedures, not the mechanism by which TPE produces therapeutic benefit in CIDP.
+- *E wrong:* Incorrect. TPE works through physical separation and removal of plasma constituents, not through direct lysis of lymphocytes within the extracorporeal circuit; this describes a cell-killing mechanism that is not how plasma exchange functions.
+
+**Sources:** `SRC-011`, `SRC-044`, `SRC-043`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, numeric-value-unverified
+
+---
+
+## Q-0508 — Malaria  `F` · moderate
+*5. Apheresis* · node `S5.c.ii.5` · support: moderate
+
+A 34-year-old man returns from travel to a malaria-endemic region and is admitted with fever, altered mental status, and a parasitemia of 12% confirmed to be Plasmodium falciparum. In addition to antimalarial drug therapy, the transfusion medicine service is consulted to perform emergent red cell exchange (erythrocytapheresis). Which of the following best explains the mechanism by which this apheresis procedure is expected to benefit this patient?
+
+- **A.** It corrects the hypocalcemia produced by the citrate anticoagulant used during the procedure
+- **B.** It mechanically removes the patient's parasitized red cells from the circulation and replaces them with pathogen-free donor red cells ✅
+- **C.** It reduces the platelet count to prevent microvascular occlusion from extreme thrombocytosis
+- **D.** It selectively removes pathogenic autoantibodies and inflammatory mediators from the plasma compartment
+- **E.** It extends the future blood-donation deferral interval for patients with a malaria history
+
+**Correct (B):** RBC exchange (erythrocytapheresis) is a form of therapeutic cytapheresis, defined as removal of specific cellular elements from the circulation to manage life-threatening complications of extreme blood counts. Applied to severe malaria, this means the patient's own red cells (including the parasitized fraction) are removed by the apheresis instrument and replaced with pathogen-free donor red cells, directly reducing the circulating burden of infected/abnormal cells. This cellular removal-and-replacement mechanism is the basis for its Category I/II indication in severe malaria, distinguishing it from plasma-directed procedures such as TPE.
+> Pearl: RBC exchange (erythrocytapheresis) treats severe malaria by physically removing the patient's (parasitized) red cells and replacing them with donor red cells, a cellular-compartment mechanism distinct from TPE's removal of pathogenic plasma factors and from platelet/white cell apheresis, which target other cell lines.
+
+- *D wrong:* Incorrect - removal of pathogenic autoantibodies, immune complexes, and inflammatory mediators from plasma describes the mechanism of Therapeutic Plasma Exchange (used in GBS, myasthenia gravis, CIDP), not RBC exchange, which acts on the cellular red cell compartment rather than plasma.
+- *C wrong:* Incorrect - lowering platelet count to prevent occlusive complications describes therapeutic platelet apheresis for symptomatic thrombocytosis, a different cytapheresis modality targeting a different cell line, not the rationale for RBC exchange in malaria.
+- *E wrong:* Incorrect - extending the donor deferral interval after a malaria history (used to protect the blood supply from transfusion-transmitted malaria) is a donor-eligibility policy, not a mechanism by which the exchange procedure treats this patient.
+- *A wrong:* Incorrect - citrate-induced hypocalcemia is a recognized adverse effect of apheresis procedures that use citrate anticoagulation; it is a complication to monitor for, not the therapeutic mechanism of red cell exchange.
+
+**Sources:** `SRC-011`, `SRC-011`, `SRC-011`, `SRC-011`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, numeric-value-unverified
+
+---
+
+## Q-0509 — Neurologic Disorders  `None` · hard
+*5. Apheresis* · node `S5.b.ii` · support: moderate
+
+A 28-year-old woman develops rapidly progressive ascending weakness and is diagnosed with Guillain-Barré syndrome (acute inflammatory demyelinating polyradiculoneuropathy). She is started on therapeutic plasma exchange (TPE) as primary, first-line therapy. The apheresis service plans a course of five to six exchanges performed every other day, rather than attempting to remove the pathogenic antibody in one very large single exchange. Which of the following best explains the physiologic basis for spreading TPE treatments across multiple sessions in this antibody-mediated disorder?
+
+- **A.** Citrate anticoagulant accumulates in peripheral tissue with each exchange, so every-other-day spacing is required to allow complete hepatic metabolism of citrate before the next procedure
+- **B.** The pathogenic antibody is IgM, which is confined almost entirely to the intravascular space, so several small-volume exchanges are needed to progressively deplete one large intravascular pool
+- **C.** The pathogenic antibody is IgG, which is approximately 60% extravascular; time between sessions allows extravascular antibody to re-equilibrate into the plasma compartment, where it becomes accessible for removal in the next exchange ✅
+- **D.** Because increasing a single exchange from 1.0 to 2.0 plasma volumes raises removal by only about 20% while doubling procedure time and risk, smaller exchanges are instead performed on separate days to reach the same total removal
+
+**Correct (C):** TPE removes pathogenic autoantibodies from the circulation by plasma removal and replacement. The source material draws a specific distinction between IgM (about 80% intravascular, so TPE is highly effective in a single session) and IgG (about 60% extravascular, which necessitates multiple sessions to allow equilibration). Antibody-mediated neurologic disorders treated with TPE follow a typical course of 5-6 treatments performed every other day for acute conditions. Because a large fraction of the pathogenic IgG pool sits outside the plasma space at any given moment, a single exchange can only access the intravascular fraction; the interval between sessions allows extravascular antibody to shift back into the vascular compartment so it can be removed on the next treatment, which is why the course is spread over multiple spaced sessions rather than done as one maximal exchange.
+
+- *B wrong:* Incorrect - this reverses the stated kinetics. IgM is the immunoglobulin class that is primarily intravascular (about 80%), which is exactly why TPE is highly effective for IgM-mediated disease in a single session, not why repeated sessions would be needed; this option is the classic IgM/IgG board trap in reverse.
+- *D wrong:* Incorrect - this describes the diminishing-returns relationship for volume exchanged within a single session (1.0 PV vs 2.0 PV), which is the reason individual exchanges are not made larger, not the reason treatments are repeated on separate days for an antibody-mediated disorder.
+- *A wrong:* Incorrect - citrate toxicity (perioral paresthesias, tingling, tetany) is managed by slowing the infusion rate and giving calcium supplementation; the source material does not tie the every-other-day treatment interval to citrate metabolism.
+
+**Sources:** `SRC-047`, `SRC-011`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0511 — Transfusion-Induced Iron Overload  `AR` · moderate
+*6. Hazards of Transfusion: Specific Adverse Events* · node `S6.d` · support: high
+
+A patient with a chronic RBC transfusion requirement has now received a cumulative total of more than 20 units of red cells over several years. Over the past year the patient has developed new-onset diabetes mellitus, hepatic fibrosis, and cardiomyopathy. Serum ferritin is markedly elevated, and MRI shows increased hepatic and cardiac iron concentration. Which of the following best describes the underlying pathophysiologic mechanism of this patient's multi-organ dysfunction?
+
+- **A.** Non-immunologic, cumulative deposition of the iron delivered by each transfused RBC unit into the liver, heart, and endocrine organs ✅
+- **B.** Engraftment of donor T-lymphocytes that mount an immune attack against recipient tissues
+- **C.** Complement-fixing IgM or IgG antibodies against ABO antigens causing acute intravascular hemolysis
+- **D.** Formation of anti-HPA-1a alloantibody against platelet antigens causing profound peripheral thrombocytopenia
+- **E.** An anamnestic secondary alloimmune response against Kidd (Jk) or Rh antigens causing delayed extravascular hemolysis
+
+**Correct (A):** Transfusion-induced iron overload (hemosiderosis) is a non-immunologic, delayed complication of chronic RBC transfusion. Each transfused RBC unit delivers roughly 200-250 mg of iron, and there is no mechanism to excrete this excess, so it accumulates cumulatively. After approximately 20 or more RBC units, deposited iron produces organ damage classically affecting the liver (cirrhosis/fibrosis), heart (cardiomyopathy), and endocrine pancreas (diabetes) — exactly the triad in this vignette. Monitoring is with serial serum ferritin and MRI of the liver/heart, and management is with iron chelators such as deferoxamine.
+> Pearl: Transfusion-induced iron overload (hemosiderosis) is a non-immunologic, cumulative complication of chronic RBC transfusion, distinguishable from the immune-mediated delayed reactions (DHTR, PTP, TA-GVHD): each unit delivers ~200-250 mg of iron that deposits in the liver, heart, and endocrine organs after roughly 20 or more units, monitored with ferritin/MRI and treated with iron chelation.
+
+- *E wrong:* Incorrect — this describes the mechanism of delayed hemolytic transfusion reaction (DHTR), an anamnestic immune response to Kidd or Rh antigens causing hemolysis 2-14 days post-transfusion, not the non-immunologic iron accumulation responsible for hemosiderosis.
+- *C wrong:* Incorrect — this describes acute hemolytic transfusion reaction (AHTR) from ABO incompatibility, an acute (<24 hour) complement-mediated intravascular process, not the delayed, non-immunologic iron deposition seen with chronic transfusion.
+- *B wrong:* Incorrect — this describes transfusion-associated graft-versus-host disease (TA-GVHD), which is mediated by engrafted donor T-cells attacking recipient tissue, a distinct immune-mediated delayed reaction.
+- *D wrong:* Incorrect — this describes post-transfusion purpura (PTP), an anti-HPA-1a alloantibody-mediated thrombocytopenia occurring 1-2 weeks post-transfusion, unrelated to iron accumulation.
+
+**Sources:** `SRC-058`, `SRC-044`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0513 — Posttransfusion Purpura  `AR` · moderate
+*6. Hazards of Transfusion: Specific Adverse Events* · node `S6.f` · support: high
+
+A 48-year-old woman (gravida 4, para 4) with no history of prior transfusion receives 2 units of packed RBCs for symptomatic postoperative anemia. Twelve days later she is admitted with new, widespread petechiae, ecchymoses, and gum bleeding. A CBC shows a platelet count of 4,000/µL (baseline 220,000/µL prior to transfusion). Which of the following best describes the immune mechanism responsible for this patient's thrombocytopenia?
+
+- **A.** Recipient antibody directed against donor leukocyte antigens, or preformed cytokines present within the stored component
+- **B.** Bradykinin accumulation from contact activation during processing through a negatively charged filter, potentiated by ACE inhibitor use
+- **C.** IgM or IgG antibody fixation of complement against ABO-incompatible donor red cells, causing intravascular hemolysis
+- **D.** Antibody directed against donor plasma proteins present in the transfused component
+- **E.** Alloantibody directed against a platelet-specific antigen, most often anti-HPA-1a, in a recipient previously sensitized by a prior pregnancy ✅
+
+**Correct (E):** This is posttransfusion purpura (PTP): profound thrombocytopenia (<10,000/µL, here 4,000/µL) with purpura and mucosal bleeding developing 1-2 weeks after transfusion in a parous woman. The source-defined mechanism is an alloantibody against a platelet-specific antigen, most often anti-HPA-1a, occurring in a recipient sensitized (classically through a prior pregnancy exposing her to paternally-derived platelet antigen). This timing, severity, and demographic pattern is distinct from the complement-mediated, leukoantibody/cytokine-mediated, plasma-protein-antibody-mediated, and bradykinin-mediated mechanisms of the other listed reactions.
+> Pearl: Posttransfusion purpura arises from a platelet-specific alloantibody (classically anti-HPA-1a) in a previously sensitized recipient, most often a multiparous woman, producing profound delayed thrombocytopenia — a mechanism distinct from the complement-mediated, leukoantibody/cytokine-mediated, plasma-protein-antibody-mediated, and bradykinin-mediated mechanisms of other transfusion reactions.
+
+- *C wrong:* This describes the mechanism of acute hemolytic transfusion reaction (AHTR): IgM or IgG antibodies fix complement against incompatible red cells, producing intravascular hemolysis within 24 hours of transfusion. It does not explain a delayed, severe, isolated thrombocytopenia occurring 12 days later.
+- *A wrong:* This describes febrile non-hemolytic transfusion reaction (FNHTR): recipient antibodies to donor leukocytes or preformed cytokines in the component, presenting with fever and chills, not purpura or profound thrombocytopenia.
+- *D wrong:* This describes the mechanism of an allergic/urticarial reaction: antibodies against donor plasma proteins, presenting with hives, occurring during or shortly after transfusion rather than as delayed profound thrombocytopenia.
+- *B wrong:* This describes the mechanism of a hypotensive transfusion reaction, linked to ACE inhibitor use and negatively charged filters, causing isolated hypotension that resolves quickly once transfusion is stopped; it does not cause thrombocytopenia or purpura.
+
+**Sources:** `SRC-058`, `SRC-058`, `SRC-058`, `SRC-058`, `SRC-058`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0514 — Hypotension  `F` · moderate
+*6. Hazards of Transfusion: Specific Adverse Events* · node `S6.b.vii.1` · support: high
+
+A 68-year-old man taking lisinopril for hypertension is admitted for chemotherapy-induced thrombocytopenia and receives a unit of apheresis platelets through a bedside leukoreduction filter. Two minutes after the transfusion begins, his blood pressure falls from 130/80 mmHg to 88/52 mmHg. He has no fever, urticaria, dyspnea, wheezing, or back pain. The transfusion is stopped immediately, and his blood pressure returns to baseline within a few minutes without further intervention. Which of the following best explains the pathophysiologic mechanism of this reaction?
+
+- **A.** Donor antibodies bind recipient neutrophil antigens, causing neutrophil activation and pulmonary capillary leak
+- **B.** Recipient antibodies react with donor leukocytes, or preformed cytokines in the component trigger a pyrogenic response
+- **C.** Preformed recipient IgE reacts with donor plasma proteins, triggering mast cell degranulation
+- **D.** Contact of blood with a negatively charged filter surface generates bradykinin, which accumulates because ACE inhibition impairs its degradation ✅
+- **E.** Rapid infusion of volume exceeds the patient's cardiac reserve, producing hydrostatic pulmonary edema
+
+**Correct (D):** The vignette describes an isolated, sudden drop in systolic blood pressure that resolves within minutes of stopping the transfusion, without fever, hives, or respiratory findings — the classic pattern of a hypotensive transfusion reaction. This reaction is frequently linked to patients on ACE inhibitors whose blood is passed through negatively charged filters (such as bedside leukoreduction filters). Contact activation at the negatively charged surface generates bradykinin during transfusion. Because ACE (kininase II) is the enzyme that normally degrades bradykinin, ACE inhibition prevents its breakdown, allowing bradykinin to accumulate and produce profound, isolated vasodilatory hypotension. This same bradykinin-accumulation mechanism is the reason ACE inhibitors are held 24–48 hours before apheresis procedures.
+> Pearl: Isolated, rapidly reversible hypotension during transfusion in a patient on an ACE inhibitor should trigger suspicion of bradykinin accumulation from contact activation with a negatively charged filter, since ACE inhibition blocks the enzyme (kininase II) that normally degrades bradykinin.
+
+- *A wrong:* Incorrect — antibody-mediated neutrophil activation with pulmonary capillary leak describes TRALI, which presents with hypoxemia and bilateral infiltrates, not this patient's isolated, rapidly reversible hypotension without respiratory findings.
+- *B wrong:* Incorrect — anti-leukocyte antibodies or preformed cytokines causing a pyrogenic response describe the mechanism of FNHTR, which requires a temperature rise; this patient is afebrile.
+- *C wrong:* Incorrect — IgE-mediated mast cell degranulation against donor plasma proteins describes allergic/anaphylactic reactions, which typically include urticaria or, in severe cases, respiratory distress and shock, not an isolated, rapidly self-resolving hypotension.
+- *E wrong:* Incorrect — volume overload exceeding cardiac reserve describes TACO, which presents with dyspnea, hypertension, JVD, and pulmonary edema rather than isolated hypotension resolving within minutes of stopping the transfusion.
+
+**Sources:** `SRC-058`, `SRC-023`, `SRC-045`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0515 — Dimethyl Sulfoxide Toxicity &Cryopreserved Progenitor Cells  `F` · moderate
+*6. Hazards of Transfusion: Specific Adverse Events* · node `S6.b.vii.4` · support: high
+
+A 52-year-old man with multiple myeloma is undergoing autologous transplantation. His previously collected HPC(A) product was cryopreserved with 10% DMSO as the cryoprotectant and stored in a liquid nitrogen freezer. On the day of infusion, the bag is thawed rapidly in a 37°C water bath at the patient's bedside and infused immediately by gravity drip through a central venous catheter, with the total DMSO dose kept at or below 1 g/kg/day. Shortly after infusion begins, the patient develops flushing, cough, and transient mild hypotension, findings attributed to DMSO toxicity. Which of the following best explains the underlying pathophysiologic principle that these specific handling and administration practices are designed to address?
+
+- **A.** DMSO toxicity results from bacterial contamination introduced during controlled-rate freezing, and the rapid bedside water-bath thaw is intended to sterilize the product immediately before infusion
+- **B.** The reaction reflects isoagglutinin-mediated lysis of residual donor red cell precursors in the product, the same mechanism that produces pure red cell aplasia after a major ABO-mismatched transplant
+- **C.** Toxicity is prevented by irradiating the thawed HPC product immediately before infusion, which inactivates the vasoactive properties of DMSO
+- **D.** DMSO-related reactions are dose- and exposure time-dependent, so minimizing the time the product spends thawed in the liquid state and capping the total DMSO dose administered reduces the frequency and severity of toxicity ✅
+- **E.** DMSO toxicity is caused by progenitor cells rupturing as they pass through an in-line leukocyte-reduction filter during infusion, releasing toxic intracellular contents into the circulation
+
+**Correct (D):** The approved sources describe DMSO toxicity as the most common complication of infusing cryopreserved HPC products, presenting with coughing, flushing, rash, nausea/vomiting, and cardiovascular instability. The specific mitigation practices described in the sources — thawing rapidly at the bedside specifically 'to minimize DMSO exposure time in the liquid state,' infusing immediately by gravity drip, and capping the DMSO dose at approximately 1 g/kg/day — only make pathophysiologic sense if the toxicity itself scales with how much DMSO is given and how long the product (and therefore the patient) is exposed to DMSO in its liquid, bioavailable form. In other words, the countermeasures reveal that the toxicity is dose- and exposure-time-dependent, which is why shortening liquid-phase dwell time and limiting total dose are the operative safeguards.
+> Pearl: DMSO toxicity during cryopreserved HPC infusion is mitigated through practices (rapid bedside thaw, immediate gravity infusion, and dose capping at ~1 g/kg/day) that only make sense if the toxicity is dose- and liquid-phase exposure time-dependent; this should be distinguished from other HPC-specific hazards such as PRCA from ABO mismatch, the prohibition on leukoreduction filters, and the prohibition on irradiating the graft.
+
+- *A wrong:* Incorrect: the sources describe cryopreservation and rapid thawing as directed at cryoprotectant handling and viability/toxicity, not sterilization; nothing in the sources attributes DMSO toxicity to bacterial contamination from the freezing process.
+- *B wrong:* Incorrect: this describes the mechanism of pure red cell aplasia (PRCA) after major ABO-mismatched transplant, where recipient isoagglutinins lyse developing donor RBC precursors in the marrow — a distinct entity from DMSO toxicity, which the sources list separately with its own symptom set.
+- *E wrong:* Incorrect: the sources explicitly warn that leukocyte-reduction filters must never be used on HPC products (unlike standard 170-micron blood filters, which are acceptable), so an in-line leukoreduction filter is not part of standard HPC infusion and is not the source of DMSO toxicity.
+- *C wrong:* Incorrect: the sources state as a key board trap that the HPC graft itself must never be irradiated, since this would destroy the stem cells' ability to engraft; irradiation is not used to inactivate DMSO.
+
+**Sources:** `SRC-040`, `SRC-038`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0516 — Febrile, Allergic, and Non-Immune Transfusion Reactions  `None` · moderate
+*6. Hazards of Transfusion: Specific Adverse Events* · node `S6.b` · support: high
+
+A 54-year-old man with myelodysplastic syndrome is receiving his third unit of packed RBCs this admission. Twenty minutes into the transfusion, his temperature rises from 36.8°C to 38.1°C (a 1.3°C increase) and he develops mild chills and rigors. He has no dyspnea, no drop in systolic blood pressure, and no rash. The transfusion is stopped; a clerical check confirms correct ABO/Rh matching, the unit shows no visual hemolysis, the repeat DAT is negative, and there is no bacterial growth on Gram stain/culture of the bag. Which of the following mechanisms best explains this reaction?
+
+- **A.** Recipient antibodies reacting with donor plasma proteins
+- **B.** Bradykinin accumulation from contact activation of a negatively charged filter in a patient taking an ACE inhibitor
+- **C.** Anti-HLA/HNA antibodies in the transfused component reacting with recipient leukocyte antigens to cause pulmonary capillary leak
+- **D.** Recipient anti-A/anti-B antibodies producing complement-mediated intravascular lysis of ABO-incompatible donor red cells
+- **E.** Recipient antibodies directed against donor leukocyte antigens and/or leukocyte-derived cytokines that accumulated in the stored component ✅
+
+**Correct (E):** The clinical picture (isolated temperature rise ≥1°C with chills, no hypotension, no rash, negative hemolysis and infection workup) is classic febrile non-hemolytic transfusion reaction (FNHTR). The approved sources define FNHTR as being caused by recipient antibodies directed against donor leukocyte antigens or by cytokines that accumulate in the component during storage, distinguishing it mechanistically from the antibody-to-donor-plasma-protein basis of allergic reactions.
+
+- *A wrong:* Incorrect: antibodies against donor plasma proteins underlie allergic (urticarial/anaphylactic) reactions, which present with hives or anaphylaxis rather than isolated fever, and are not described in this vignette.
+- *B wrong:* Incorrect: this bradykinin/ACE-inhibitor/filter mechanism explains hypotensive reactions, which present as an isolated, rapidly resolving drop in systolic blood pressure, not fever with a negative hypotension finding here.
+- *D wrong:* Incorrect: this ABO-incompatibility mechanism underlies acute hemolytic transfusion reaction, which the workup excludes (correct clerical match, no visual hemolysis, negative DAT).
+- *C wrong:* Incorrect: this donor anti-leukocyte antibody mechanism underlies TRALI, an inflammatory noncardiogenic pulmonary process presenting with respiratory distress, which is absent in this patient.
+
+**Sources:** `SRC-058`, `SRC-044`, `SRC-043`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0517 — Rh Immune Globulin  `AR` · hard
+*7. Plasma Components and Derivatives* · node `S7.c.iv` · support: moderate
+
+A 24-year-old G1P0 woman who is blood group O, D-negative presents at 28 weeks gestation for routine prenatal antibody screening. The antibody screen is positive, and the antibody reacts with reagent red cells expressing either the D or C antigen. Because this reactivity pattern could represent anti-G, true anti-D, or anti-D plus anti-C, the blood bank performs additional studies to resolve the antibody specificity so that Rh immune globulin (RhIg) candidacy can be determined. The results confirm that the antibody present is anti-D. Based on the mechanism by which RhIg works, which of the following best explains why antepartum RhIg should NOT be administered to this patient at this visit?
+
+- **A.** RhIg must be withheld until cell-free fetal DNA testing confirms the fetal D status, since fetal genotype rather than maternal antibody specificity is what determines whether RhIg is administered
+- **B.** She has already been alloimmunized to the D antigen; RhIg acts to prevent primary alloimmunization and cannot suppress or reverse an antibody response that has already been established ✅
+- **C.** Any D-negative pregnant patient with a positive antibody screen remains an appropriate candidate for antepartum RhIg regardless of antibody specificity, so RhIg should still be given
+- **D.** The antibody identified is anti-G, which cross-reacts with D-positive cells but does not represent true D sensitization, so RhIg is unnecessary
+
+**Correct (B):** RhIg is indicated in D-negative mothers specifically to prevent alloimmunization to the D antigen. Its mechanism depends on the patient not yet having mounted her own immune response to D. Once antibody studies confirm that the circulating antibody is true anti-D rather than anti-G, the patient has already produced an endogenous antibody response, i.e., she is already alloimmunized. Because RhIg functions to prevent a primary immune response rather than to treat or reverse one that has already occurred, administering it at this point serves no purpose for this pregnancy.
+
+- *C wrong:* Incorrect: a positive antibody screen alone does not establish RhIg candidacy—the specificity must be resolved, since only patients who have not made true anti-D benefit from prophylaxis.
+- *A wrong:* Incorrect: cell-free fetal DNA testing is used to determine fetal RhD status non-invasively to guide RhIg administration in D-negative mothers who have not yet formed anti-D; it does not override the fact that a mother with confirmed anti-D is already immunized and no longer a prophylaxis candidate.
+- *D wrong:* Incorrect on two counts: the case specifies the antibody was resolved as anti-D, not anti-G, and even when a patient's antibody is anti-G (which does not indicate true D sensitization), she remains a candidate for RhIg rather than being excluded from it.
+
+**Sources:** `SRC-010`, `SRC-001`, `SRC-004`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0518 — IVIG  `AR` · hard
+*7. Plasma Components and Derivatives* · node `S7.c.v` · support: high
+
+A 52-year-old woman with warm autoimmune hemolytic anemia (WAIHA) refractory to corticosteroids completes a course of intravenous immune globulin (IVIG). Her hemoglobin remains stable and her LDH, bilirubin, haptoglobin, and reticulocyte count are unchanged from baseline, with no clinical evidence of ongoing hemolysis. Three days after finishing IVIG, the blood bank technologist notes that her previously nonreactive antibody screen is now weakly positive against several reagent red cells. She has not received any RBC transfusion in several months.
+
+- **A.** Passive transfer of antibodies contained within the pooled donor IVIG product, which can coat or react with red cells in vitro ✅
+- **B.** New formation of an anti-HPA-1a alloantibody directed against platelet antigens
+- **C.** An anamnestic alloantibody response against Kidd blood group antigens from a remote transfusion
+- **D.** Drug-induced formation of a new drug-independent red cell autoantibody
+- **E.** Nonimmunologic protein adsorption (NIPA) of plasma proteins onto the red cell membrane
+
+**Correct (A):** IVIG is manufactured from pooled plasma of thousands of donors and therefore retains trace amounts of blood group and other antibodies. These passively acquired antibodies can coat the patient's red cells or react directly with reagent red cells in the antibody screen, producing a new positive DAT or antibody screen shortly after IVIG (or RhIg) administration that does not reflect true alloimmunization, autoantibody relapse, or ongoing hemolysis. This is a recognized board trap because the absent hemolysis markers argue against a true re-emergent WAIHA process, pointing instead to a passive, in vitro serologic phenomenon caused by the IVIG product itself.
+> Pearl: IVIG is a pooled plasma-derived product from thousands of donors and therefore contains trace, passively transferred blood group antibodies. These can produce a new positive DAT or antibody screen after infusion that must be distinguished from true alloimmunization (e.g., DHTR from Kidd/Rh), platelet-specific alloantibody syndromes (e.g., PTP from anti-HPA-1a), drug-mediated nonspecific protein adsorption (NIPA), or drug-induced autoantibody formation.
+
+- *C wrong:* Incorrect: an anamnestic alloantibody response (as in delayed hemolytic transfusion reaction) requires a prior sensitizing RBC transfusion and classically re-emerges 2-14 days after that transfusion; this patient had no RBC transfusion to trigger such a response.
+- *B wrong:* Incorrect: anti-HPA-1a is the classic antibody of post-transfusion purpura, causing profound thrombocytopenia through platelet destruction, not red cell antibody-screen or DAT reactivity, and it too requires an antecedent transfusion trigger.
+- *E wrong:* Incorrect: nonimmunologic protein adsorption is a drug-membrane interaction in which plasma proteins nonspecifically adsorb onto an altered red cell membrane, producing a positive DAT unrelated to any true antibody-antigen reaction or to IVIG administration.
+- *D wrong:* Incorrect: drug-independent autoantibody formation describes a drug (e.g., methyldopa, fludarabine) inducing the patient's own immune system to produce a new autoantibody serologically identical to WAIHA; IVIG does not induce autoantibody production, it passively supplies preformed antibody.
+
+**Sources:** `SRC-040`, `SRC-019`, `SRC-058`, `SRC-040`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0519 — Plasma Transfusion and the Use of Albumin and Rh Immune Globulin  `None` · moderate
+*7. Plasma Components and Derivatives* · node `S7.c` · support: high
+
+An Rh(D)-negative primigravida with no history of transfusion receives a routine antepartum dose of Rh immune globulin (RhIg) during the third trimester. Several weeks later, a repeat prenatal antibody screen is weakly positive, and the antibody identified on panel testing is anti-D. Which of the following best explains this laboratory finding and reflects the underlying mechanism of RhIg?
+
+- **A.** The anti-D detected is passively acquired from the administered RhIg dose, not evidence of true maternal immunization ✅
+- **B.** The antibody represents a drug-independent autoantibody induced by the immunoglobulin product, analogous to methyldopa-induced hemolytic anemia
+- **C.** The finding represents nonimmunologic protein adsorption (NIPA), producing false-positive antibody reactivity unrelated to true antibody specificity
+- **D.** The finding represents true (active) maternal alloimmunization to the D antigen, indicating failure of RhIg prophylaxis
+
+**Correct (A):** RhIg is itself an IgG anti-D antibody preparation. Once administered, it circulates in the mother's plasma and is serologically indistinguishable from an actively produced (immune) anti-D on routine antibody screening. The approved source material explicitly notes that RhIg (like IVIG) can cause a positive DAT or interfere with antibody screens because of passively acquired antibody, not true immunization — this is the expected, mechanistically predictable consequence of RhIg administration rather than a sign of prophylaxis failure.
+> Pearl: RhIg's mechanism is passive transfer of IgG anti-D, which can produce a positive antibody screen or DAT indistinguishable from true alloimmunization; this must be distinguished from other causes of unexpected antibody-screen/DAT reactivity such as NIPA and drug-induced (autoantibody-type) DIIHA.
+
+- *B wrong:* Incorrect. Drug-independent DIIHA antibodies (the methyldopa/fludarabine-type mechanism) are serologically indistinguishable from warm autoantibodies and are panreactive with all normal RBCs regardless of Rh type; a specific anti-D that reacts only with D-positive reagent cells does not fit this panreactive autoantibody pattern, and RhIg's documented mechanism is passive antibody transfer, not induction of autoantibody formation.
+- *C wrong:* Incorrect. NIPA occurs when a drug modifies the RBC membrane so that plasma proteins adsorb nonspecifically, producing a DAT positive for multiple proteins while the serum and eluate remain nonreactive. This scenario describes serum reactivity with a specific antibody identified as anti-D, which is inconsistent with the NIPA pattern of a non-specific, multi-protein DAT with negative serum/eluate testing.
+- *D wrong:* Incorrect (classic board trap). RhIg is administered specifically to prevent maternal alloimmunization to the D antigen. Given the recent, routine antepartum RhIg dose, weak-titer anti-D detected on screening shortly afterward is far more consistent with passively acquired antibody from the product itself than with a failure of prophylaxis and de novo active immunization.
+
+**Sources:** `SRC-040`, `SRC-040`, `SRC-040`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0520 — Platelets  `AR` · moderate
+*8. Infectious Hazards of Transfusion* · node `S8.i.iii` · support: high
+
+A 58-year-old man with acute myeloid leukemia receives a pooled platelet concentrate for a platelet count of 8,000/uL. Fifteen minutes into the transfusion he develops a temperature of 39.8C, rigors, and hypotension. The transfusion is stopped, and Gram stain of the residual product shows gram-negative rods; cultures of the patient's blood and the residual product subsequently grow the same organism. Among the routinely transfused cellular blood components, platelet concentrates carry the greatest risk for this type of transfusion-transmitted infection. Which of the following best explains the underlying reason for this increased risk relative to other components?
+
+- **A.** Nucleic acid testing, the method responsible for reducing the transfusion-transmitted risk of HIV, HCV, and HBV, is equally effective at detecting and eliminating bacterial contamination in platelet units
+- **B.** Gamma irradiation, which is routinely performed on platelet units specifically to prevent bacterial contamination, is frequently omitted at the time of collection
+- **C.** Bacterially contaminated platelet units are visually identical to sterile units in every case, so contamination can never be suspected before culture results return
+- **D.** Platelet concentrates must be maintained at room temperature for the duration of storage rather than refrigerated, an environment that favors bacterial proliferation instead of suppressing it ✅
+- **E.** Pathogen inactivation technology, unlike its use with plasma, cannot be applied to platelet concentrates to reduce microbial burden
+
+**Correct (D):** Of the infectious hazards of transfusion, bacterial contamination is considered the most significant risk specifically for platelet components because, unlike red cells, platelets cannot be refrigerated and must instead be stored at room temperature for the duration of their shelf life. This storage condition creates an environment that permits bacterial proliferation rather than suppressing it, which is why septic transfusion reactions from bacterial contamination occur disproportionately with platelet transfusion.
+> Pearl: Platelet concentrates require room-temperature storage rather than refrigeration to preserve function, and this storage requirement (not a lack of irradiation or nucleic acid testing) is the underlying reason bacterial contamination is the leading infectious hazard specifically associated with platelet transfusion.
+
+- *E wrong:* Incorrect and factually reversed: pathogen inactivation technology (e.g., amotosalen/UVA or riboflavin/UV systems) is FDA-cleared for use with platelets as well as plasma, so its unavailability is not the explanation for platelets' elevated bacterial risk.
+- *B wrong:* A board trap that conflates two distinct interventions: gamma irradiation of cellular components is performed to inactivate donor T lymphocytes and prevent transfusion-associated graft-versus-host disease, not to control bacterial contamination, so its omission is not the mechanism underlying bacterial risk.
+- *C wrong:* Overstated and incorrect: grossly contaminated platelet units can appear murky, brown, or purple on visual inspection, prompting quarantine, though visual inspection alone is not a reliable or complete screening method.
+- *A wrong:* Incorrect application of a real fact: nucleic acid testing reduces the infectious window period for viral markers such as HIV, HCV, and HBV; it is not described as the mechanism that controls or explains bacterial contamination risk in platelet components.
+
+**Sources:** `SRC-010`, `SRC-002`, `SRC-005`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0521 — Storage Time and Temperature  `AR` · hard
+*8. Infectious Hazards of Transfusion* · node `S8.f.vi.5` · support: high
+
+A 68-year-old man with myelodysplastic syndrome receives a unit of packed RBCs that was collected 32 days earlier and has been continuously stored at 1-6°C per protocol, with no documented break in the cold chain. Ten minutes into the transfusion he develops a temperature rise of 2.3°C, rigors, and hypotension. The transfusion is stopped, and cultures of the residual unit and the patient grow a Gram-negative rod later identified as Yersinia enterocolitica. Which of the following best explains how this organism reached a pathogenic inoculum despite fully compliant refrigerated storage of the unit?
+
+- **A.** Storage at 1-6°C is bactericidal to essentially all bacterial species, so proliferation could not have occurred during refrigeration; the organism must instead have been introduced through a contaminated administration set at the bedside
+- **B.** Continuous agitation during red cell storage mechanically dispersed bacterial clumps throughout the unit, increasing the effective inoculum delivered to the patient
+- **C.** Yersinia enterocolitica is a cold-growing (psychrophilic) Gram-negative organism capable of slow proliferation at refrigerator temperatures, unlike the Gram-positive skin flora that predominate as platelet contaminants and require warmer storage temperatures to grow ✅
+- **D.** Gram-positive skin flora such as Staphylococcus epidermidis, introduced during phlebotomy, proliferated because the initial 30-40 mL diversion pouch was not used during collection
+- **E.** Exceeding the 35-day CPDA-1 storage limit caused breakdown of the anticoagulant-preservative solution, permitting bacterial overgrowth independent of storage temperature
+
+**Correct (C):** Refrigeration at 1-6°C, the standard RBC storage temperature, suppresses growth of the mesophilic Gram-positive skin flora that typically contaminate blood products, but it does not stop cold-growing (psychrophilic) Gram-negative organisms such as Yersinia enterocolitica, which can slowly proliferate over prolonged cold storage and reach a pathogenic bacterial load, producing transfusion-associated sepsis (fever rise >2°C, rigors, hypotension) even when storage was fully compliant.
+> Pearl: Storage temperature selectively controls which organisms can proliferate in a blood component: room-temperature (20-24°C), agitated platelet storage favors mesophilic Gram-positive skin flora and drives the overall highest TTBI risk, whereas refrigerated (1-6°C) RBC storage suppresses most contaminants but permits slow growth of cold-adapted Gram-negative organisms such as Yersinia enterocolitica over prolonged storage.
+
+- *A wrong:* Incorrect: refrigeration inhibits most mesophilic skin flora but is not bactericidal to all organisms; cold-growing Gram-negative species can still proliferate at 1-6°C, so a bedside contamination event need not be invoked.
+- *B wrong:* Incorrect: continuous agitation is a feature of room-temperature platelet storage (20-24°C) that promotes bacterial proliferation, not of refrigerated RBC storage; this option conflates the storage conditions of the two components.
+- *D wrong:* Incorrect: Yersinia enterocolitica is a Gram-negative organism, not the Gram-positive skin flora (e.g., S. epidermidis) that initial volume diversion is designed to reduce; this option describes the platelet/skin-flora contamination pathway, not the mechanism relevant to this RBC unit.
+- *E wrong:* Incorrect: the unit was within the 35-day CPDA-1 (and well within the 42-day additive-solution) shelf life, and no source basis supports anticoagulant breakdown as a temperature-independent driver of bacterial overgrowth.
+
+**Sources:** `SRC-061`, `SRC-061`, `SRC-043`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0522 — Syphilis  `AR` · moderate
+*8. Infectious Hazards of Transfusion* · node `S8.f.vi.8` · support: high
+
+A 62-year-old man receives a unit of packed red blood cells that had been stored refrigerated (1-6°C) for two weeks prior to transfusion. Weeks later, the collecting blood center notifies the transfusion service that the donor was subsequently diagnosed with primary syphilis and, based on the estimated incubation period, was almost certainly spirochetemic (in the seronegative window period, with both nontreponemal and treponemal serology nonreactive at the time of donation) when the unit was collected. The recipient is monitored and shows no clinical or serologic evidence of transfusion-transmitted syphilis. Which of the following best explains the underlying mechanism responsible for the extremely low risk of syphilis transmission in this scenario?
+
+- **A.** Individual-donor nucleic acid testing (ID-NAT) for T. pallidum DNA identified and removed the unit despite the serologic window period
+- **B.** The red cell unit underwent pathogen inactivation treatment that cross-linked and destroyed the organism's nucleic acid before release
+- **C.** Leukoreduction filtration of the unit physically removed the circulating spirochetes before transfusion
+- **D.** Treponema pallidum is highly susceptible to cold and does not survive routine refrigerated storage of red cell components ✅
+- **E.** Diversion of the initial 30-40 mL of collected blood into a side pouch removed the majority of the circulating spirochetes
+
+**Correct (D):** The approved sources state directly that transfusion transmission of syphilis is extremely rare because of 4°C storage - i.e., Treponema pallidum is a fragile, cold-labile spirochete that does not survive the standard refrigerated storage conditions used for red cell components. This storage-dependent die-off, rather than the serologic screening test itself, is the principal barrier that protects recipients even when a unit is collected during a donor's window period.
+> Pearl: Post-transfusion syphilis is now exceedingly rare primarily because Treponema pallidum is a fragile, temperature-sensitive spirochete that cannot survive standard refrigerated (1-6°C) storage of red cell components, independent of serologic screening performance. This storage-based mechanism should not be confused with other, distinct prevention strategies (leukoreduction, pathogen inactivation, volume diversion) that target different organisms or contamination routes.
+
+- *C wrong:* Incorrect. Universal leukoreduction is credited in the sources with reducing transmission risk for CMV, HTLV, and EBV (agents that are cell-associated/intracellular), not with physically clearing extracellular spirochetes such as T. pallidum; this is a classic mismatched-mechanism distractor.
+- *B wrong:* Incorrect. Pathogen inactivation technology is FDA-cleared only for platelets and plasma in the source material, with RBC pathogen-inactivation systems still in clinical trials - it is not an approved, in-use step for red cell units and cannot be invoked as the operative mechanism here.
+- *A wrong:* Incorrect. Mandatory allogeneic donor testing includes syphilis serology alongside NAT/RNA assays for HIV, HCV, and WNV, but the source lists syphilis testing without an RNA/NAT qualifier, consistent with it being a nontreponemal/treponemal serologic test rather than a nucleic acid test; no ID-NAT for T. pallidum DNA is described.
+- *E wrong:* Incorrect. Volume diversion of the initial 30-40 mL is a strategy described in the sources for reducing skin-origin bacterial contamination (e.g., from skin flora at the venipuncture site) during collection, not for addressing a bloodborne spirochetemia originating from the donor's systemic circulation.
+
+**Sources:** `SRC-013`, `SRC-013`, `SRC-013`, `SRC-013`, `SRC-002`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0523 — Infectious Hazards of Transfusion  `AR` · hard
+*8. Infectious Hazards of Transfusion* · node `S8.i` · support: high
+
+A regional blood center performs combined nucleic acid amplification testing (NAT) and serologic screening for HIV, HCV, and HBV on every donation. A repeat donor is later confirmed to have acquired HIV infection approximately 5 days before donating a whole blood unit that was processed into RBCs (no pathogen-reduction step, as pathogen inactivation is applied only to platelet and plasma components). At the time of donation, the donor's HIV NAT and HIV antibody/antigen screen were both non-reactive. The RBC unit was transfused, and the recipient subsequently seroconverted to HIV. Which of the following best explains the underlying pathophysiologic basis for this transmission despite a fully negative donor screening panel?
+
+- **A.** Leukoreduction removed the antibody-coated leukocytes required for antibody-based detection, masking a true-positive screening result
+- **B.** Pathogen inactivation technology failed to disrupt the viral nucleic acid within the RBC unit before release
+- **C.** The recipient's own pre-existing antibodies neutralized the screening assay's antigen probe, producing a false-negative result
+- **D.** The donor was untruthful during health-history questioning, and HIV has no FDA-approved laboratory screening test
+- **E.** The donation occurred during the infectious window period, when circulating virus was present but had not yet risen to the detection threshold of NAT and serologic assays ✅
+
+**Correct (E):** The window period is the interval between pathogen acquisition and the point at which the pathogen (nucleic acid, antigen, or antibody) becomes detectable by current screening assays. During this interval an infected donor's blood can already contain transmissible virus even though every screening test returns non-reactive. NAT narrows this interval for HIV, HCV, and HBV by detecting viral nucleic acid earlier than antibody seroconversion would, but it does not eliminate the window entirely: a donation occurring only 5 days after acquisition can still fall inside the residual NAT window for HIV, so a genuinely infectious unit can be released with a fully negative panel.
+> Pearl: The infectious window period is the time after pathogen acquisition before nucleic acid, antigen, or antibody markers reach the detection threshold of current screening assays; NAT narrows this interval relative to serology alone but does not eliminate residual transmission risk.
+
+- *B wrong:* Incorrect: the source material describes pathogen inactivation (riboflavin/psoralen plus UV light) as a technology applied to platelet and plasma components to disrupt pathogen nucleic acid; it is not described as part of RBC processing in these materials, so its 'failure' cannot explain transmission in an RBC unit.
+- *D wrong:* Incorrect: the sources state that donor questioning is the sole screening method (with no FDA-approved laboratory test) for agents such as malaria and vCJD, not for HIV. HIV has approved NAT and serologic testing, so this option misapplies a fact about a different pathogen category.
+- *A wrong:* Incorrect: leukoreduction is described as preventing febrile non-hemolytic transfusion reactions, HLA sensitization, and CMV transmission by removing residual white cells; it is not described as interfering with antibody-based infectious disease screening assays performed on the donor sample.
+- *C wrong:* Incorrect: this describes a fabricated immunologic mechanism (recipient antibody neutralizing a donor screening assay) that is not supported by any donor-screening or window-period concept in the source material; donor screening assays test the donor sample, not the eventual recipient.
+
+**Sources:** `SRC-010`, `SRC-044`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0524 — Riboflavin Light Treatment  `AR` · hard
+*8. Infectious Hazards of Transfusion* · node `S8.i.iv.3` · support: high
+
+A blood center's medical director is briefing residents on an investigational pathogen-reduction platform being studied for red blood cell units. The system uses riboflavin (vitamin B2) combined with ultraviolet (UV) light — the same photochemical basis as the Mirasol system already FDA-cleared for platelet and plasma components, though a red-cell version remains in clinical trials and is not yet approved for routine use. A resident asks how riboflavin achieves pathogen inactivation once the unit is illuminated with UV light.
+
+- **A.** The compound binds residual leukocyte surface antigens and triggers apoptosis independent of light exposure, as in extracorporeal photopheresis
+- **B.** Short-wavelength UV light alone denatures pathogen nucleic acids; no chemical photosensitizer is required
+- **C.** The vitamin acts as a photosensitizer that, once activated by UV light, causes irreversible damage to guanine bases within pathogen nucleic acids, blocking replication ✅
+- **D.** The compound intercalates into double-stranded DNA/RNA and forms interstrand cross-links upon exposure to UVA light
+- **E.** The system delivers a fixed dose of gamma radiation that damages lymphocyte DNA to prevent transfusion-associated graft-versus-host disease
+
+**Correct (C):** Riboflavin (vitamin B2) functions as a photosensitizer. When a component is illuminated with UV light in the riboflavin/UV (Mirasol) platform, riboflavin mediates irreversible guanine-base damage within pathogen nucleic acids, blocking replication and transcription; this mechanism is reported as effective against a broad range of pathogens. This riboflavin/UV chemistry is FDA-cleared for platelets and plasma, while red-cell pathogen-reduction systems (as in this vignette) remain investigational/in clinical trials.
+> Pearl: Riboflavin/UV pathogen-reduction technology (Mirasol) uses vitamin B2 as an endogenous photosensitizer that causes guanine-base damage to pathogen nucleic acids upon UV illumination, distinct from amotosalen's intercalation/cross-linking mechanism (INTERCEPT) and from UVC-alone (Theraflex) systems; it is currently approved for platelets and plasma, with red-cell applications still investigational.
+
+- *B wrong:* Incorrect — this describes the UVC-only (Theraflex) system, which uses short-wave UV light alone, without any added photosensitizing chemical, to inactivate pathogens in plasma.
+- *D wrong:* Incorrect — this describes the amotosalen + UVA (INTERCEPT) system, in which amotosalen intercalates into nucleic acid strands and forms interstrand cross-links after UVA exposure — a distinct chemical mechanism from riboflavin's guanine-damage effect.
+- *A wrong:* Incorrect — this describes extracorporeal photopheresis, which uses 8-methoxypsoralen and UVA light on collected leukocytes to induce apoptosis for conditions like GVHD and cutaneous T-cell lymphoma, not the nucleic-acid-targeted mechanism of riboflavin/UV pathogen reduction.
+- *E wrong:* Incorrect — this describes gamma/X-ray irradiation of cellular components (dose to the center of the unit), which prevents transfusion-associated GVHD by damaging donor lymphocyte DNA; it is unrelated to riboflavin-based photochemistry and does not use UV light.
+
+**Sources:** `SRC-002`, `SRC-002`, `SRC-002`, `SRC-023`, `SRC-044`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0525 — Malaria  `F` · hard
+*8. Infectious Hazards of Transfusion* · node `S8.e.ii` · support: high
+
+A 52-year-old man develops fever, rigors, and hemolytic anemia 12 days after receiving a red blood cell transfusion. A peripheral blood smear from the recipient shows intraerythrocytic ring forms diagnostic of Plasmodium infection. Look-back investigation confirms the implicated donor unit passed all routine mandatory infectious disease testing (HBsAg, anti-HBc, HBV NAT, anti-HCV, HCV NAT, anti-HIV-1/2, HIV NAT, anti-HTLV-I/II, WNV NAT, and syphilis serology) and had a nonreactive regional Babesia NAT. The donor had traveled to a malaria-endemic region within the prior year but reported no history of diagnosed malaria and was asymptomatic at donation.
+
+- **A.** The donor's malaria nucleic acid test (NAT) was falsely negative due to a preseroconversion window period
+- **B.** The negative Babesia NAT result should have excluded this infection, since Babesia and Plasmodium are the same causative organism
+- **C.** Malaria screening in blood donors relies solely on travel/residence history and symptom questioning, because no FDA-approved serologic or nucleic acid test for donor malaria screening exists ✅
+- **D.** Universal leukoreduction was not performed on the donor unit, allowing the intraerythrocytic parasite to pass through
+- **E.** Pathogen-inactivation technology approved for red blood cell components failed to inactivate the intraerythrocytic parasite
+
+**Correct (C):** Unlike the other RTTIs (HIV, HBV, HCV, HTLV, WNV, syphilis, T. cruzi, and regionally Babesia), which are covered by mandatory serologic and/or NAT testing, malaria has no FDA-approved laboratory screening test for donors. The FDA safety net for malaria therefore depends entirely on donor history (questioning about travel to or residence in endemic areas and prior malaria diagnosis) and the associated temporary deferrals. An asymptomatic, parasitemic donor who does not disclose qualifying travel/residence history (or whose exposure falls outside the deferral window) can pass every mandatory laboratory test and still transmit malaria, because the mechanism of protection here is behavioral/historical rather than analytic.
+> Pearl: Malaria transfusion-transmission risk is controlled exclusively through donor history/questioning-based deferral (travel- and residence-based), not through any laboratory screening test, because no FDA-approved donor test for malaria exists — a key distinction from other RTTIs that have mandatory serologic/NAT testing.
+
+- *E wrong:* Incorrect: pathogen-inactivation technology is currently approved for platelets and plasma, not for red blood cell components, so no RBC-directed PI process exists to have 'failed' in this scenario.
+- *A wrong:* Incorrect: there is no malaria NAT applied to donor screening, so a 'false negative NAT' cannot be the explanation — the gap is the absence of any laboratory test, not a window-period miss on an existing one.
+- *D wrong:* Incorrect: universal leukoreduction is used to reduce transmission risk of CMV, HTLV, and EBV, not malaria; even if performed, leukoreduction removes white cells and would not clear an intraerythrocytic parasite residing in red cells.
+- *B wrong:* Incorrect: Babesia and Plasmodium are distinct organisms; Babesiosis merely produces malaria-like symptoms (fever, hemolytic anemia). A nonreactive Babesia NAT provides no information about malaria status.
+
+**Sources:** `SRC-011`, `SRC-013`, `SRC-010`, `SRC-003`
+**Review:** auto-audited-pass · source-support: pass · flags: ambiguous-stem
+
+---
+
+## Q-0526 — Cellular, Tissue, and Organ Transplantation  `F` · moderate
+*8. Infectious Hazards of Transfusion* · node `S8.g.vii` · support: moderate
+
+A hospital tissue bank is evaluating a deceased donor for recovery of musculoskeletal allograft tissue (an HCT/P). The donor interview and medical record review show no history of neurologic disease and no recognized risk factors for transmissible spongiform encephalopathy. Before the tissue can be released, laboratory screening is performed for HIV, hepatitis B, and hepatitis C, but the quality manager notes that no laboratory assay is ordered to exclude variant Creutzfeldt-Jakob disease (vCJD). Which of the following best explains this difference in the donor evaluation process?
+
+- **A.** An FDA-approved serologic antibody assay for vCJD is used, but results are only reported when the donor history is positive for neurologic symptoms
+- **B.** Because HCT/Ps are regulated under 21 CFR 1271, all donor screening, including questioning, is waived for vCJD and release proceeds automatically
+- **C.** A nucleic acid amplification test (NAT) for vCJD is FDA-approved and is performed on every tissue donor prior to release
+- **D.** No FDA-approved laboratory screening test for vCJD exists, so donor risk assessment relies entirely on history and questioning ✅
+- **E.** A rapid immunoassay for abnormal prion protein is routinely performed on donor cerebrospinal fluid before tissue release
+
+**Correct (D):** For vCJD, no FDA-approved donor screening test is available, in contrast to HIV, HBV, and HCV, which have laboratory testing (e.g., NAT) in addition to questioning. Because a laboratory-based test does not exist, the entire risk-mitigation strategy for vCJD depends on donor history and questioning (medical/social history, exclusionary criteria) rather than testing. This questioning-only approach is why HCT/Ps are regulated under 21 CFR 1271, which exists specifically to prevent the introduction and spread of communicable disease through tissue products, and why any suspected case of donor-to-recipient CJD transmission must be promptly reported to the tissue supplier/manufacturer for investigation.
+> Pearl: Unlike viral pathogens (HIV, HCV, HBV), which have FDA-approved laboratory tests (including NAT) to supplement donor screening, vCJD has no FDA-approved screening assay; risk mitigation depends entirely on donor history/questioning, and HCT/P regulation under 21 CFR 1271 mandates reporting of any suspected prion disease transmission.
+
+- *C wrong:* Incorrect: NAT is described as a testing modality that has reduced the window period for viral agents (HIV, HCV, HBV), not for prion disease; no FDA-approved NAT for vCJD is described in the sources.
+- *A wrong:* Incorrect: no FDA-approved serologic antibody assay for vCJD is described; the sources indicate no laboratory screening test exists for vCJD at all, regardless of donor history.
+- *B wrong:* Incorrect: 21 CFR 1271 regulation of HCT/Ps exists to prevent introduction and spread of communicable disease, which is the basis for requiring donor screening (history/questioning), not for waiving it.
+- *E wrong:* Incorrect: no cerebrospinal fluid prion immunoassay is described in the sources as part of routine tissue donor screening; questioning remains the sole documented method for vCJD risk exclusion.
+
+**Sources:** `SRC-010`, `SRC-051`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0527 — Red Cells  `F` · moderate
+*8. Infectious Hazards of Transfusion* · node `S8.i.iv` · support: moderate
+
+A hospital transfusion safety committee reviews several years of septic transfusion-reaction reports and notes that fatal and near-fatal bacterial contamination events are reported overwhelmingly with platelet transfusions rather than red blood cell (RBC) transfusions, even though both component types can be inoculated with donor skin flora at the time of phlebotomy and neither undergoes a step that specifically excludes contaminated units. Which of the following best explains the physiologic basis for this difference in observed risk between the two components?
+
+- **A.** Platelet concentrates are stored at room temperature, a condition that supports bacterial proliferation, whereas RBC units are kept refrigerated, a condition that suppresses growth of most bacterial contaminants ✅
+- **B.** Routine nucleic acid testing (NAT) performed on every RBC donation directly detects and removes bacterially contaminated units before release
+- **C.** Universal leukoreduction of RBC units removes essentially all bacteria introduced at collection, while platelet units are not leukoreduced
+- **D.** RBC units are issued and transfused within a much shorter interval after collection than platelet units, leaving insufficient time for bacterial multiplication
+
+**Correct (A):** The approved curriculum source identifies bacterial contamination as the most significant infectious risk of transfusion overall but specifically flags platelets stored at room temperature as the highest-risk component. This distinction points to storage temperature as the key variable: room-temperature storage (used for platelets, which must remain metabolically viable) permits bacterial proliferation, while the cold storage used for RBC units suppresses growth of most bacterial species that can be introduced during phlebotomy. This is why, even though both components share the same collection-related contamination risk, clinical bacterial contamination events cluster overwhelmingly in platelet products rather than RBC products.
+> Pearl: Bacterial contamination risk in blood components tracks storage temperature: platelets must be stored at room temperature to remain functional, which supports bacterial growth, while RBC units are stored cold, which suppresses most bacterial proliferation — making platelets the dominant source of septic transfusion reactions despite similar collection-related contamination risk.
+
+- *C wrong:* Incorrect. The source describes leukoreduction as a strategy to remove CMV-carrying leukocytes (monocytes and granulocytes) to reduce transfusion-transmitted CMV risk, not as a mechanism for eliminating bacterial contamination; nothing in the sources states platelets are collected without leukoreduction or that leukoreduction clears bacteria.
+- *D wrong:* Incorrect. The source states that RBC units in additive solutions can be stored for up to 42 days (35 days with CPDA-1 alone), a comparatively long permitted storage period, not a short one, so shortened dwell time does not explain the lower bacterial risk of RBC units.
+- *B wrong:* Incorrect. The source states that nucleic acid testing (NAT) has reduced the window period specifically for HIV, HCV, and HBV — viral pathogens detected through donor screening — and does not describe NAT as a tool for detecting bacterial contamination in RBC units.
+
+**Sources:** `SRC-010`, `SRC-010`, `SRC-012`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0528 — Pathogen Inactivation  `None` · moderate
+*8. Infectious Hazards of Transfusion* · node `S8.h` · support: high
+
+A blood center implements a pathogen inactivation (PI) step for apheresis platelet units: the psoralen derivative amotosalen is added to the platelet product, which is then illuminated with ultraviolet A (UVA) light before the unit is released for transfusion. Which of the following best describes the mechanism by which this treatment inactivates contaminating viruses, bacteria, and residual donor leukocytes?
+
+- **A.** Leukoreduction filters mechanically remove white blood cells and intracellular pathogens from the unit
+- **B.** Gamma irradiation cross-links donor leukocyte DNA, preventing mitotic proliferation of contaminating T lymphocytes
+- **C.** Vitamin B2 acts as a photosensitizer that generates guanine base damage in nucleic acids upon UV exposure
+- **D.** Amotosalen intercalates into DNA and RNA strands, and UVA exposure induces covalent cross-links between nucleic acid strands, blocking replication ✅
+- **E.** Short-wavelength UVC light alone damages nucleic acids without the addition of any chemical photosensitizer
+
+**Correct (D):** The amotosalen + UVA system (INTERCEPT) works by amotosalen intercalating into pathogen and leukocyte DNA/RNA; subsequent UVA illumination forms covalent cross-links between nucleic acid strands, which prevents replication of viruses, bacteria, and residual leukocytes. This nucleic-acid cross-linking mechanism is effective enough that it is described as replacing the need for both gamma irradiation and CMV testing of the component.
+> Pearl: Pathogen inactivation systems act by using UV light, with or without an added chemical photosensitizer, to cross-link or otherwise damage pathogen (and leukocyte) nucleic acids, thereby blocking replication; the specific chemistry (amotosalen intercalation/cross-linking vs. riboflavin-mediated guanine oxidation vs. UVC alone) distinguishes the major PI platforms and must not be confused with unrelated processes like gamma irradiation or leukoreduction.
+
+- *C wrong:* Incorrect: this describes the riboflavin + UV (Mirasol) system, which uses Vitamin B2 as the photosensitizer to cause guanine damage — a different PI technology than the amotosalen system described in the stem.
+- *E wrong:* Incorrect: this describes the UVC-alone (Theraflex) system, which achieves inactivation in plasma without any added chemical sensitizer — the opposite of the amotosalen-based (chemical photosensitizer-dependent) process in the stem.
+- *A wrong:* Incorrect: leukoreduction is a physical filtration process used to reduce risk of CMV, HTLV, and EBV transmission; it is a distinct intervention from nucleic-acid-damaging pathogen inactivation and does not describe how amotosalen/UVA works.
+- *B wrong:* Incorrect: this describes gamma irradiation's role in preventing TA-GVHD by inactivating donor T lymphocytes. Gamma irradiation is a separate process, and PI technologies such as amotosalen/UVA are noted to replace the need for it rather than share its mechanism.
+
+**Sources:** `SRC-002`, `SRC-031`, `SRC-013`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0529 — Automated Collection  `AR` · moderate
+*9. Blood Donors and Blood Collection* · node `S9.a.iii.2.d` · support: moderate
+
+A healthy repeat volunteer donor is undergoing automated plateletpheresis on an apheresis cell-separator instrument. Approximately 40 minutes into the collection, whole blood is continuously withdrawn, anticoagulated, centrifuged to separate the platelet-rich layer, and the remaining components are returned to the donor. The donor reports circumoral tingling and a 'pins-and-needles' sensation in the fingertips. She remains alert and oriented, and her blood pressure and pulse are stable. Which of the following best explains the underlying mechanism producing this donor's symptoms?
+
+- **A.** The membrane filtration system separating the platelet component is allowing bacterial contamination of the blood being returned to the donor
+- **B.** The apheresis procedure is removing autoantibody inhibitors of ADAMTS13 from the donor's plasma
+- **C.** Centrifugal shear forces within the cell separator are mechanically hemolyzing the donor's red cells as the platelet-rich layer is isolated
+- **D.** Albumin replacement fluid being infused to maintain the donor's intravascular volume is provoking an allergic reaction
+- **E.** The citrate anticoagulant added to blood in the extracorporeal apheresis circuit chelates ionized calcium, and partial return of this citrated blood to the donor transiently lowers serum ionized calcium ✅
+
+**Correct (E):** Automated (apheresis) collection instruments anticoagulate blood in the extracorporeal circuit with citrate before centrifugal separation of the desired component. Because a portion of this citrated blood is unavoidably returned to the donor, circulating ionized calcium is transiently chelated and falls, producing the perioral/digital paresthesias classic for citrate toxicity. The sources explicitly list citrate toxicity presenting as hypocalcemia as a common adverse effect of donor and therapeutic apheresis procedures, which is the mechanism tested here.
+> Pearl: During automated (apheresis) blood collection, citrate anticoagulant in the extracorporeal circuit chelates ionized calcium; partial return of citrated blood to the donor is the mechanism behind citrate toxicity, which presents clinically as hypocalcemia (e.g., perioral/digital paresthesias).
+
+- *C wrong:* Incorrect. Centrifugation is the source-cited mechanical principle by which automated collection instruments separate blood components (e.g., isolating platelet-rich plasma), not a described cause of hemolysis; mechanical hemolysis is not the adverse effect linked to apheresis in the sources and would not produce isolated circumoral/digital paresthesia.
+- *B wrong:* Incorrect. Removal of ADAMTS13 inhibitors is the mechanism by which therapeutic plasma exchange (TPE) treats a patient with TTP, not a physiologic event that occurs during routine automated platelet collection from a healthy donor; it has no relationship to the donor's own calcium status or paresthesia.
+- *A wrong:* Incorrect. Membrane filtration is cited alongside centrifugation as one of the two mechanical principles underlying automated collection, but the sources do not describe it as a route of bacterial contamination, and bacteremia would present with fever/systemic signs rather than acute isolated paresthesia.
+- *D wrong:* Incorrect. Replacement fluid choice (albumin vs. plasma) is a source-cited concept relevant to therapeutic apheresis procedures where large volumes are exchanged, not to routine donor plateletpheresis; an allergic reaction to albumin would typically present with urticaria or respiratory symptoms rather than isolated circumoral and digital tingling with stable vital signs.
+
+**Sources:** `SRC-010`, `SRC-010`, `SRC-010`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0530 — Antibody Screening  `AR` · moderate
+*9. Blood Donors and Blood Collection* · node `S9.a.iii.3.b` · support: high
+
+A first-time whole blood donor is later determined to have acquired HIV approximately 10 days before donation. On testing of the donated unit, HIV-1 RNA nucleic acid testing (NAT) is reactive, but the anti-HIV-1/2 antibody screening assay performed on the same sample is nonreactive. Which of the following best explains the underlying biological reason that NAT detected this early infection while antibody-based screening did not?
+
+- **A.** Antibody screening depends on the donor's adaptive immune system mounting a detectable humoral (seroconversion) response, which takes longer to develop than the appearance of viral RNA in plasma, which NAT detects directly ✅
+- **B.** Modern anti-HIV screening assays specifically target IgM and cross-react poorly with the recombinant antigens used in current kits, producing false negatives regardless of how much time has passed since exposure
+- **C.** NAT is detecting proviral DNA that has already integrated into the donor's leukocyte genome, a step that by definition always precedes any circulating antigen or antibody response
+- **D.** This discordant result reflects a laboratory processing error rather than a true biological window period, since window-period transmission has been eliminated by current testing algorithms
+- **E.** Antibody screening is performed on diluted minipool specimens, so low-titer antibody present at day 10 falls below the assay's detection threshold, unlike individual-donation NAT
+
+**Correct (A):** The window period is the interval between acquiring an infection and the point at which a test can detect it. Antibody (serologic) screening cannot turn positive until the donor's immune system has mounted a measurable humoral response (seroconversion), a process that inherently takes time. NAT instead detects the pathogen's own nucleic acid (viral RNA/DNA) circulating in plasma, which appears earlier in infection, before seroconversion. This is why NAT significantly narrows the 'preseroconversion window' compared with antibody testing, and why NAT reduced the HIV window period from roughly 22 days (antibody-based detection) to roughly 9 days. At day 10 post-exposure in this vignette, the donor is past the NAT window but still within the longer antibody window, exactly reproducing the mechanism described in the source material.
+> Pearl: The infectious-disease window period reflects a lag in host antibody (seroconversion) kinetics relative to the earlier appearance of pathogen nucleic acid in plasma; NAT narrows this window by detecting the agent directly rather than waiting for a host immune response, which is why donor testing algorithms layer both antibody screening and NAT.
+
+- *C wrong:* Incorrect. The sources describe NAT as detecting circulating viral RNA or DNA to narrow the preseroconversion window; they do not describe donor screening NAT as targeting integrated proviral DNA, and this option misattributes the mechanism to genomic integration rather than immune-response kinetics.
+- *B wrong:* Incorrect. No source material describes IgM-specific targeting or cross-reactivity problems with recombinant antigens as the basis for the window period; the window period is a timing phenomenon related to seroconversion, not an assay cross-reactivity defect.
+- *D wrong:* Incorrect and contradicted by the sources: residual transmission risk (estimated at about 1 in 1-2 million units for HIV/HCV) is explicitly attributed to the window period as a real biological phenomenon, not to laboratory error, and window-period transmission has not been eliminated.
+- *E wrong:* Incorrect. Minipool versus individual-donation testing (MP-NAT vs ID-NAT) is a concept that applies to NAT specimen pooling strategies, not to antibody screening format, so this option conflates two distinct testing concepts described separately in the sources.
+
+**Sources:** `SRC-013`, `SRC-015`, `SRC-010`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0531 — Infectious Disease  `AR` · moderate
+*9. Blood Donors and Blood Collection* · node `S9.a.iii.3.c` · support: high
+
+A regional blood center replaces its antibody-only HIV immunoassay with individual-donation nucleic acid testing (ID-NAT) for donor screening. After the change, the estimated infectious window period for HIV falls from approximately 22 days to approximately 9 days after infection. Which of the following best explains the underlying mechanism responsible for this reduction in the window period?
+
+- **A.** NAT detects viral RNA directly in donor plasma, allowing detection before the host has mounted a measurable antibody response, whereas the antibody assay cannot detect infection until seroconversion occurs ✅
+- **B.** NAT amplifies antigen-antibody immune complexes formed during early infection, giving it greater analytic sensitivity for detecting these complexes than a standard immunoassay
+- **C.** NAT relies on ultraviolet-light-mediated cross-linking of viral nucleic acids, which increases the amount of genetic material available for detection in early infection
+- **D.** NAT detects a rise in host inflammatory cytokines that occurs before HIV RNA becomes detectable in plasma
+- **E.** Testing individual donations rather than minipools is solely responsible for the shortened window period, independent of the type of analyte (nucleic acid versus antibody) being detected
+
+**Correct (A):** The window period is the time between infection and the point at which a given test can detect the agent. Serologic (antibody) assays cannot detect infection until the host immune system has produced a measurable antibody titer (seroconversion), a process that takes days to weeks. NAT instead detects the pathogen's own genetic material (RNA or DNA), which is present in plasma during the preseroconversion (eclipse-to-viremia) phase of infection. Because NAT bypasses the need for a host immune response and detects the pathogen directly, it identifies infection earlier than antibody testing, narrowing the window period-consistent with the source-cited reduction of the HIV window period from about 22 days (antibody testing) to about 9 days (NAT).
+
+- *B wrong:* Incorrect. NAT is a nucleic acid amplification technique that detects viral RNA/DNA sequences; it does not detect or amplify antigen-antibody immune complexes, which is not how the test's chemistry works.
+- *E wrong:* A board trap: individual-donation versus minipool NAT format (ID-NAT is more sensitive for low viral loads) is a real distinction in the sources, but it is a secondary factor affecting analytic sensitivity, not the fundamental reason NAT narrows the window period relative to antibody testing-that reason is direct nucleic acid detection preceding seroconversion.
+- *C wrong:* Incorrect. UV-light-mediated cross-linking of nucleic acids describes pathogen inactivation (PI) technology (e.g., amotosalen/riboflavin plus UV) used to prevent pathogen replication in components, not the mechanism of NAT donor screening.
+- *D wrong:* Incorrect. No cytokine-based screening assay is used in donor infectious disease testing; this option is not supported by the sources and is not how NAT works.
+
+**Sources:** `SRC-013`, `SRC-010`, `SRC-002`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0532 — Distribution  `AR` · hard
+*9. Blood Donors and Blood Collection* · node `S9.a.iii.4` · support: moderate
+
+A hematopoietic progenitor cell product collected by apheresis (HPC-A) is cryopreserved using a DMSO-containing cryoprotectant solution with controlled-rate freezing and is stored in the vapor phase of liquid nitrogen (-196°C). The processing laboratory's validated shipping procedure requires the product to be transported to a distant transplant center in a liquid nitrogen vapor-phase dry shipper; use of dry ice (-78.5°C) is explicitly prohibited for this shipment because the courier's estimated transit time exceeds the facility's dry-ice validation limit. What is the underlying rationale for this strict cold-chain requirement during distribution of the product?
+
+- **A.** Dry ice at -78.5°C is cryobiologically equivalent to liquid nitrogen vapor phase and may be substituted for any transit duration once the product is frozen
+- **B.** Maintaining the product below 0°C during shipment is required to prevent hemolysis of residual red blood cells co-collected during the apheresis procedure
+- **C.** Sustained storage at or below the validated ultra-low temperature throughout transit prevents cellular damage (cryoinjury) that would otherwise reduce nucleated cell and CD34+ viability if the product warmed before infusion ✅
+- **D.** Cold-chain transport is required chiefly to slow enzymatic degradation of coagulation factors contained in the product
+- **E.** Sub-zero transport temperature is required primarily to inhibit proliferation of bacteria that may have been introduced into the product during apheresis collection
+
+**Correct (C):** The source states that cryoprotectants (e.g., DMSO) and controlled-rate cooling are used specifically 'to prevent cellular damage during the transition to ultra-low temperatures.' The same underlying mechanism governs distribution: an uncontrolled rise in temperature during shipping risks that same cellular/cryoinjury, which is why the cold chain (liquid nitrogen vapor phase, or dry ice only within its validated shorter-duration limit) must be maintained, and why QC mandates CD34+ enumeration and viability assays to confirm the product retains engraftment potential.
+
+- *E wrong:* Distractor — the source ties ultra-low temperature specifically to preventing cellular damage during cryopreservation, not to bacterial control; microbial sterility is addressed separately through mandatory sterility testing, not by the shipping temperature itself.
+- *A wrong:* Distractor — the source specifies dry ice is appropriate only 'if specifically validated for shorter durations,' meaning it is not an unrestricted substitute for liquid nitrogen vapor phase across all transit times, which is exactly why it was prohibited in this scenario.
+- *D wrong:* Distractor — coagulation factor preservation is a rationale relevant to plasma/cryoprecipitate products, not to a cryopreserved cellular (HPC) product, and is not the stated rationale for HPC cold-chain shipping in the source.
+- *B wrong:* Distractor — apheresis-collected HPC products are processed and cryopreserved for their nucleated/progenitor cell content; the source's cold-chain rationale concerns cellular viability of the graft, not hemolysis of incidental red cells.
+
+**Sources:** `SRC-028`, `SRC-034`
+**Review:** auto-audited-pass · source-support: partial · flags: blueprint-mismatch, unsupported-claim
+
+---
+
+## Q-0533 — Categories  `AR` · moderate
+*9. Blood Donors and Blood Collection* · node `S9.a.iv.2.a` · support: high
+
+A healthy repeat donor undergoes a two-arm plateletpheresis (continuous-flow) collection anticoagulated with ACD-A. Near the end of the procedure, the donor reports perioral tingling, paresthesias in the fingertips, and mild shivering. Vital signs remain stable, and the donor is fully alert with no syncope. What is the most likely underlying mechanism for these symptoms?
+
+- **A.** Chelation of ionized calcium by the citrate anticoagulant returned to the donor ✅
+- **B.** Direct mechanical irritation of a cutaneous nerve by the phlebotomy needle
+- **C.** Acute hypovolemia from the extracorporeal blood volume in the apheresis circuit
+- **D.** Vagally mediated hypotension and bradycardia triggered by the venipuncture
+- **E.** Mild metabolic alkalosis from hepatic conversion of infused citrate to bicarbonate
+
+**Correct (A):** The symptom pattern of perioral paresthesias, fingertip tingling, and shivering during an apheresis procedure is the classic presentation of citrate toxicity. ACD-A anticoagulant returned to the donor during continuous-flow apheresis chelates ionized calcium, producing transient hypocalcemia, which is the mechanism underlying these neuromuscular symptoms; it is managed with oral or IV calcium supplementation.
+> Pearl: Citrate toxicity in apheresis donors is mechanistically distinct from vasovagal reactions and needle-related nerve injury: it arises from citrate-mediated chelation of ionized calcium, producing hypocalcemic neuromuscular symptoms (perioral/extremity paresthesias, shivering, and in severe cases tetany or arrhythmias), and is managed with calcium supplementation rather than positional or supportive measures alone.
+
+- *D wrong:* Incorrect. Vasovagal reactions are described as being characterized by hypotension, bradycardia, and sometimes syncope, a hemodynamic picture distinct from the isolated paresthesias and shivering described here, and the donor has stable vitals with no syncope.
+- *E wrong:* Incorrect but plausible: citrate metabolism to bicarbonate does produce mild metabolic alkalosis, a real apheresis-related metabolic change, but the sources attribute the paresthesia/tingling/shivering symptom complex specifically to calcium chelation (citrate toxicity), not to alkalosis.
+- *B wrong:* Incorrect. Nerve irritation results from direct contact with a nerve during phlebotomy and would be expected to cause localized pain along a nerve distribution near the venipuncture site, not bilateral perioral and fingertip paresthesias with shivering.
+- *C wrong:* Incorrect. Donor safety in apheresis is protected by limiting extracorporeal blood volume, but this describes a volume-based safety threshold, not the mechanism producing perioral/fingertip paresthesias and shivering.
+
+**Sources:** `SRC-059`, `SRC-023`, `SRC-047`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0534 — Platelets  `F` · moderate
+*9. Blood Donors and Blood Collection* · node `S9.a.iv.3.b` · support: low
+
+A 28-year-old man presents for his fourth automated apheresis platelet donation this year, donating every 14 days per protocol. Toward the end of the collection, he develops circumoral tingling and numbness in his fingertips. His symptoms resolve promptly after the apheresis nurse slows the reinfusion rate and gives him oral calcium. Which of the following best explains the underlying pathophysiologic mechanism of this recurrent donation-associated symptom in frequent platelet apheresis donors?
+
+- **A.** Anti-platelet factor 4/heparin antibodies generated by repeated anticoagulant exposure are activating the donor's platelets, as in heparin-induced thrombocytopenia
+- **B.** Repeated small-volume red cell loss with each apheresis collection has produced cumulative iron deficiency
+- **C.** Autoantibodies directed against the donor's own platelet antigens are causing immune-mediated platelet destruction, as in immune thrombocytopenia
+- **D.** The citrate anticoagulant in the apheresis circuit binds ionized calcium in the donor's blood, producing transient hypocalcemia ✅
+- **E.** Rapid reinfusion of returned plasma and saline is producing acute circulatory volume overload, analogous to transfusion-associated circulatory overload
+
+**Correct (D):** Citrate is the anticoagulant in the apheresis collection set, preventing clotting as blood passes through the extracorporeal circuit; the approved curriculum identifies citrate toxicity, presenting as hypocalcemia, as a common adverse effect of apheresis procedures. Citrate chelates ionized (free) calcium, and the classic early manifestation is circumoral and digital paresthesias, which characteristically improve when the citrate/reinfusion rate is slowed and/or calcium is given, exactly as in the vignette. Because plateletpheresis returns most of the donor's plasma with each cycle, frequent/serial platelet donors are repeatedly exposed to this citrate load, making citrate-mediated hypocalcemia the recurrent, mechanism-based adverse effect tied to platelet donation by apheresis.
+> Pearl: Frequent apheresis platelet donors are repeatedly exposed to citrate anticoagulant; citrate chelates ionized calcium, producing transient hypocalcemia (citrate toxicity) that manifests as circumoral/digital paresthesias and resolves with a slower reinfusion rate or calcium supplementation.
+
+- *B wrong:* Incorrect: frequent donation is linked in the sources to iron deficiency, but that arises from cumulative loss across multiple donations and presents with fatigue/anemia, not acute intraprocedure circumoral and digital paresthesias, which are the hallmark of citrate-induced hypocalcemia.
+- *A wrong:* Incorrect: heparin-induced thrombocytopenia is driven by antibodies to heparin-platelet factor 4 complexes, a distinct pathophysiology from citrate-based anticoagulation used in donor apheresis; it produces thrombocytopenia/thrombosis risk, not acute paresthesias reversible by slowing reinfusion.
+- *E wrong:* Incorrect: circulatory overload (TACO) is a recognized hazard tied to the volume/infusion rate of transfused components, not the mechanism behind a donor's intraprocedure paresthesias, which are calcium-mediated rather than volume-mediated.
+- *C wrong:* Incorrect: immune thrombocytopenia involves antibody-mediated destruction of platelets, not an anticoagulant effect on serum calcium, and would not present as reversible perioral/digital tingling during the procedure.
+
+**Sources:** `SRC-010`, `SRC-002`, `SRC-010`, `SRC-010`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, numeric-value-unverified, blueprint-mismatch, too-esoteric-thin-source
+
+---
+
+## Q-0536 — Blood Donor Adverse Events  `None` · moderate
+*9. Blood Donors and Blood Collection* · node `S9.a.iv` · support: moderate
+
+A healthy 62-kg volunteer donor is undergoing a two-unit plateletpheresis (apheresis) collection. Approximately 40 minutes into the procedure she reports a tingling sensation around her mouth and in her fingertips. She remains awake and alert, her blood pressure and heart rate are unchanged from baseline, and there is no diaphoresis, pallor, or bradycardia. Which of the following best explains the underlying pathophysiologic mechanism of this donor's symptoms?
+
+- **A.** Hypovolemia from inadequate replacement of the volume removed during collection
+- **B.** Acute hemolysis of red cells returned to the donor through the apheresis line
+- **C.** Vagally mediated reflex bradycardia and hypotension triggered by venipuncture
+- **D.** Chelation of ionized calcium by the citrate anticoagulant circulating in the apheresis extracorporeal circuit ✅
+- **E.** An IgE-mediated hypersensitivity reaction to a component of the apheresis circuit
+
+**Correct (D):** The approved source identifies citrate toxicity, presenting as hypocalcemia, as a common adverse effect of apheresis. During apheresis, citrate-based anticoagulant is used to keep blood from clotting as it passes through the extracorporeal circuit; because citrate works by binding (chelating) calcium, some of it enters the donor's circulation and binds ionized (physiologically active) calcium, lowering the ionized calcium fraction. This produces the classic symptomatic hypocalcemia picture of perioral and digital paresthesias while the donor otherwise remains hemodynamically stable, distinguishing it mechanistically from a vagally mediated donor reaction.
+> Pearl: Citrate anticoagulant used during apheresis chelates ionized calcium, producing symptomatic hypocalcemia (e.g., perioral/digital paresthesias) in the donor; this is mechanistically and clinically distinct from a vasovagal donor reaction, which instead causes vagally mediated bradycardia and hypotension.
+
+- *C wrong:* A vasovagal reaction is a distinct category of donor adverse event driven by a neurally mediated reflex causing bradycardia and hypotension; this donor's stable heart rate and blood pressure argue against a vagal mechanism, and the source attributes apheresis-specific symptoms to citrate, not vagal tone.
+- *E wrong:* An IgE-mediated hypersensitivity reaction would be expected to produce urticaria, pruritus, or angioedema rather than isolated circumoral and digital paresthesias, and is not the adverse effect the source links to apheresis.
+- *B wrong:* The source does not attribute apheresis adverse effects to hemolysis of returned red cells; the documented common adverse effect is citrate toxicity/hypocalcemia, not a hemolytic process.
+- *A wrong:* Volume-related hypotension from inadequate fluid replacement would be expected to cause hemodynamic symptoms such as lightheadedness or hypotension rather than the localized paresthesia pattern described, and is not the mechanism the source associates with this presentation.
+
+**Sources:** `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0537 — Postoperative Autologous Blood Recovery and Reinfusion  `AR` · moderate
+*10. Surgery Patients* · node `S10.a.ii.3` · support: high
+
+A 71-year-old woman underwent an uncomplicated primary total knee arthroplasty. On the evening of surgery, 350 mL of blood has accumulated in a postoperative blood recovery/reinfusion canister connected to the surgical wound drain. The bedside device filters the collected blood through a mesh filter but does not process it through a cell-washing (centrifugation) step before it is reinfused to the patient via a blood administration set. Compared with blood processed through an intraoperative cell-washing ("Cell Saver") system, this filtered-but-unwashed postoperative shed blood is expected to retain higher concentrations of which of the following, representing the principal safety concern for direct reinfusion?
+
+- **A.** Viable malignant tumor cells shed from the surgical field
+- **B.** Citrate anticoagulant, requiring calcium supplementation before reinfusion
+- **C.** Bacterial spores introduced during collection
+- **D.** Donor leukocytes capable of causing transfusion-associated graft-versus-host disease
+- **E.** Free hemoglobin, tissue debris, and activated coagulation/fibrinolytic factors ✅
+
+**Correct (E):** Recovered/salvaged blood, whether collected intraoperatively from the surgical field or postoperatively from wound drainage, is reinfused into the same patient. Cell-washing (Cell Saver) systems process this recovered blood with saline specifically to remove debris, free hemoglobin, and activated coagulation/fibrinolytic factors before reinfusion. A device that only filters (rather than washes) shed blood therefore returns these constituents to the patient largely intact, which is the core safety concern distinguishing unwashed from washed autologous recovery systems.
+> Pearl: Postoperative shed blood collected from surgical drains is often reinfused after simple filtration rather than full cell-washing/centrifugation as used in intraoperative Cell Saver systems. Washing is what removes debris, free hemoglobin, and activated coagulation/fibrinolytic factors — unwashed (filtered-only) recovered blood therefore carries these substances back into the patient, which is the underlying pathophysiologic rationale for washing recovered autologous blood before reinfusion.
+
+- *B wrong:* Incorrect. Citrate toxicity from calcium chelation is described in these sources as a complication specific to apheresis donors undergoing extracorporeal anticoagulated collection, not a feature of shed postoperative drainage blood or the rationale for washing recovered blood.
+- *A wrong:* Incorrect. Malignant cell contamination of the surgical field is listed as a reason to exclude the recovered blood from salvage altogether (it should not be collected or reinfused at all), not a constituent whose concentration is reduced specifically by the washing step in blood that is otherwise eligible for recovery.
+- *D wrong:* Incorrect. Because autologous recovery returns the patient's own blood to that same patient, there is no HLA disparity between donor and recipient, so transfusion-associated graft-versus-host disease is not a mechanism at issue here; the sources do not link washing status to leukocyte-mediated GVHD risk in this context.
+- *C wrong:* Incorrect. The source's exclusion criterion is bacterial contamination of the surgical field in general (making the blood ineligible for salvage), not a specific concern about spore-forming organisms introduced during collection that washing addresses.
+
+**Sources:** `SRC-059`, `SRC-059`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0538 — Central Venous Catheter  `AR` · moderate
+*10. Surgery Patients* · node `S10.b.i.2.a` · support: high
+
+A 52-year-old man with Guillain-Barré syndrome is undergoing a course of daily therapeutic plasma exchange (TPE) delivered through a temporary double-lumen central venous catheter. Each session exchanges 1.0 plasma volume using 5% albumin as the replacement fluid, with ACD-A (citrate) as the extracorporeal anticoagulant. Before his fifth scheduled exchange, nursing staff notes persistent oozing from the catheter exit site, and laboratory testing reveals a markedly low fibrinogen level. Which of the following best explains the mechanism underlying this patient's bleeding tendency?
+
+- **A.** Apheresis mobilizes platelets out of the spleen into the circulation, lowering the platelet count
+- **B.** Repeated plasma removal replaced by albumin, which contains no coagulation factors, produces a cumulative dilutional coagulopathy ✅
+- **C.** Rapid infusion of refrigerated replacement fluid causes hypothermia that inhibits platelet function and clotting-enzyme activity
+- **D.** The extracorporeal circuit anticoagulant produces a systemic heparin effect
+- **E.** Citrate in the anticoagulant chelates ionized calcium, producing systemic hypocalcemia
+
+**Correct (B):** Each TPE session removes plasma—and with it, coagulation proteins—and replaces the volume with 5% albumin, a fluid that restores oncotic pressure but supplies no clotting factors. A single 1.0-plasma-volume exchange lowers fibrinogen by roughly 66%; performed daily without factor repletion, this produces a cumulative, quantifiable dilutional coagulopathy that explains both the low fibrinogen level and the oozing at the catheter site. This is precisely why plasma, rather than albumin, is selected as the replacement fluid in disorders such as TTP that require factor repletion, and why coagulation status merits attention before further manipulation of central venous access in patients on serial TPE.
+> Pearl: Serial TPE using albumin (rather than plasma) as replacement fluid produces a cumulative dilutional coagulopathy, most notably fibrinogen depletion (~66% per 1.0-PV exchange), because albumin restores oncotic pressure but not clotting factors. This is a key preprocedure blood-component consideration before further invasive manipulation of central venous access in patients undergoing serial apheresis.
+
+- *E wrong:* Citrate does chelate ionized calcium and is the basis of classic citrate toxicity (perioral paresthesias, tetany, arrhythmias), but this hypocalcemic mechanism is described separately from coagulation-factor depletion and does not account for the markedly low fibrinogen level seen here.
+- *A wrong:* Splenic mobilization during apheresis is a compensatory process that releases platelets into the circulation, causing platelet counts to fall less than predicted—the opposite of a mechanism that would worsen bleeding—and it has no described effect on fibrinogen.
+- *D wrong:* Standard TPE uses ACD-A (citrate), not heparin, as the anticoagulant; heparin is reserved for specific procedures such as lipoprotein apheresis, so a systemic heparin effect does not apply to this patient's regimen and would not selectively deplete fibrinogen.
+- *C wrong:* Cold-induced impairment of platelet function and clotting-enzyme kinetics is a recognized coagulopathy mechanism, but it is described in the context of rapid infusion of refrigerated blood components during high-volume/massive transfusion, not standard TPE with albumin replacement, and does not specifically explain a low fibrinogen level.
+
+**Sources:** `SRC-023`, `SRC-023`, `SRC-023`, `SRC-060`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0540 — Temperature  `AR` · moderate
+*10. Surgery Patients* · node `S10.c.i.3.b.c` · support: high
+
+A 28-year-old man undergoes emergent exploratory laparotomy for blunt abdominal trauma with ongoing hemorrhagic shock. Over 45 minutes he receives 10 units of stored RBCs through a rapid infuser; a fluid warmer is not yet in place, and his core temperature falls to 33.8°C (92.8°F). Post-transfusion labs show hemoglobin 9.2 g/dL and arterial oxygen saturation 98%, yet the anesthesiologist notes worsening lactic acidosis and a falling mixed venous oxygen saturation. Which of the following best explains the impaired tissue oxygen delivery despite an adequate hemoglobin concentration and arterial saturation?
+
+- **A.** The decreased 2,3-DPG in stored RBCs shifts the curve rightward, which combined with hypothermia's leftward shift produces a net neutral effect on tissue oxygen delivery
+- **B.** Hypothermia shifts the oxyhemoglobin dissociation curve rightward, which should enhance oxygen unloading, so the persistent acidosis must be from an unrelated cause
+- **C.** Hypothermia impairs tissue oxygenation solely by decreasing cardiac output, with no direct effect on hemoglobin's oxygen affinity
+- **D.** Hypothermia increases 2,3-DPG production within the transfused stored units, restoring normal hemoglobin-oxygen affinity and correcting any curve shift
+- **E.** Hypothermia and the decreased 2,3-DPG levels in the transfused stored RBCs both shift the oxyhemoglobin dissociation curve leftward, increasing hemoglobin's oxygen affinity and impairing oxygen unloading at the tissue level ✅
+
+**Correct (E):** The oxyhemoglobin dissociation curve is shifted leftward (increased hemoglobin-oxygen affinity, impaired peripheral O2 release) by decreased temperature, decreased 2,3-DPG, decreased CO2, or alkalosis. In this massively transfused, hypothermic trauma patient, two of these factors converge: the patient's own hypothermia and the low 2,3-DPG content of stored RBC units (a recognized storage lesion) both push the curve leftward. The result is hemoglobin that binds oxygen more tightly and releases it less readily to hypoperfused tissue, so a normal SpO2 and hemoglobin level can coexist with ongoing tissue hypoxia and lactic acidosis. This is the physiologic rationale for aggressive warming during trauma resuscitation and massive transfusion.
+> Pearl: In hypothermic, massively transfused trauma patients, the oxyhemoglobin dissociation curve is left-shifted by both the patient's low core temperature and the 2,3-DPG depletion of stored RBC units, so oxygen unloading to tissue is impaired even when SpO2 and hemoglobin appear adequate; maintaining normothermia intraoperatively helps counteract this mechanism.
+
+- *B wrong:* Incorrect direction: decreased temperature shifts the curve leftward (toward increased affinity/retention), not rightward; a rightward shift is instead produced by increased temperature, increased CO2, increased 2,3-DPG, or acidosis.
+- *D wrong:* Incorrect: hypothermia does not restore 2,3-DPG in stored units; stored RBCs are characteristically 2,3-DPG-depleted, and this depletion itself causes a leftward (not corrective) shift that compounds the hypothermic effect.
+- *A wrong:* Incorrect: decreased 2,3-DPG shifts the curve leftward, not rightward, so it reinforces rather than counteracts the hypothermia-induced leftward shift; the two effects are additive, not offsetting.
+- *C wrong:* Incomplete/misleading: while hypothermia can affect cardiac performance, the specific and source-supported mechanism for impaired oxygen unloading here is the leftward shift of the oxyhemoglobin dissociation curve (increased hemoglobin-oxygen affinity), not a cardiac-output-only explanation with no effect on hemoglobin affinity.
+
+**Sources:** `SRC-002`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0542 — Liver  `AR` · moderate
+*10. Surgery Patients* · node `S10.d.iv.a` · support: moderate
+
+A 55-year-old man with decompensated cirrhosis due to chronic hepatitis C is being evaluated for orthotopic liver transplantation. Preoperative coagulation studies show a prolonged PT/INR and a low fibrinogen level, but Factor VIII activity and von Willebrand factor antigen are both elevated above the reference range. The transfusion service plans to have fresh frozen plasma (FFP) available to correct this patient's coagulation factor deficiencies during the transplant procedure. Which of the following best explains the pathophysiologic mechanism underlying this patient's pattern of coagulation factor abnormalities?
+
+- **A.** Dilutional coagulopathy from large-volume crystalloid and RBC transfusion without proportional plasma replacement
+- **B.** Consumptive coagulopathy from simultaneous pathologic activation of the procoagulant and fibrinolytic systems, as occurs in DIC
+- **C.** Decreased hepatic synthesis of nearly all clotting factors combined with impaired hepatic clearance of activated clotting factors, with relative sparing of Factor VIII and von Willebrand factor ✅
+- **D.** Antibody-mediated inhibition of Factor VIII activity, producing a high-titer Factor VIII inhibitor
+- **E.** Selective malabsorption of vitamin K leading to production of nonfunctional Factors II, VII, IX, and X only
+
+**Correct (C):** Liver disease is characterized by decreased synthesis of nearly all clotting factors (fibrinogen included) except Factor VIII and von Willebrand factor, plus impaired hepatic clearance of activated clotting factors. This explains the discordant pattern of a prolonged PT/INR and low fibrinogen with preserved-to-elevated Factor VIII/vWF, and is the rationale for using FFP to correct the multi-factor deficiency in a liver transplant candidate.
+> Pearl: Liver disease coagulopathy reflects decreased hepatic synthesis of nearly all clotting factors plus impaired clearance of activated factors, with relative sparing of Factor VIII and von Willebrand factor (both largely of extrahepatic/endothelial origin). This produces a discordant coagulation panel (prolonged PT/INR, low fibrinogen, but preserved/elevated Factor VIII and vWF) and is distinct from vitamin K deficiency, DIC, Factor VIII inhibitors, and dilutional coagulopathy — recognizing the distinction guides appropriate use of FFP for multi-factor deficiency correction in liver transplant candidates.
+
+- *E wrong:* Incorrect: isolated vitamin K deficiency produces nonfunctional (PIVKA) Factors II, VII, IX, and X only; it does not lower fibrinogen or account for the broader multi-factor synthetic defect and preserved/elevated Factor VIII and vWF seen in liver disease.
+- *D wrong:* Incorrect: a Factor VIII inhibitor is an antibody that neutralizes Factor VIII activity, which would lower (not elevate) the Factor VIII level; this is inconsistent with the elevated Factor VIII activity described in this patient.
+- *A wrong:* Incorrect: dilutional coagulopathy results from large-volume resuscitation or transfusion without proportional plasma replacement; this patient's abnormalities are present preoperatively, before any massive transfusion has occurred, so this mechanism does not apply here.
+- *B wrong:* Incorrect: DIC is a distinct consumptive process with simultaneous pathologic activation of procoagulant and fibrinolytic systems, managed with platelets, plasma, and cryoprecipitate; it is a separate entity from the synthetic/clearance defect of liver disease described here.
+
+**Sources:** `SRC-002`, `SRC-002`, `SRC-002`, `SRC-002`, `SRC-019`, `SRC-019`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, blueprint-mismatch
+
+---
+
+## Q-0543 — Heart  `AR` · moderate
+*10. Surgery Patients* · node `S10.d.iv.b` · support: moderate
+
+A 52-year-old woman with end-stage nonischemic cardiomyopathy is listed for heart transplantation. She develops symptomatic anemia and requires two units of RBCs prior to transplant. The transfusion medicine physician specifically orders leukocyte-reduced RBC components and counsels the cardiology team that using non-leukoreduced components in this setting carries a risk that could compromise her future transplant candidacy. Which of the following mechanisms best explains this concern?
+
+- **A.** Residual donor leukocytes in non-leukoreduced components expose the recipient to foreign HLA antigens, provoking recipient anti-HLA antibody formation that can yield a positive crossmatch against potential donor organs ✅
+- **B.** Passenger donor leukocytes in the unit prime recipient neutrophils, and a subsequent second hit (e.g., donor antibodies) precipitates acute lung injury
+- **C.** Complement-mediated intravascular lysis of donor RBCs by preformed recipient IgM antibodies directed against ABO antigens
+- **D.** Mechanical trauma to RBCs from small-bore needles or infusion pumps causes nonimmune hemolysis independent of antibody formation
+- **E.** Viable donor T-lymphocytes engraft and proliferate in the recipient, mounting an immune attack against host tissue
+
+**Correct (A):** The source material states that HLA sensitization—antibody formation against HLA antigens—can develop following transfusion (as well as pregnancy or prior transplant) and leads to rejection or platelet refractoriness; HLA matching is explicitly noted as critical for solid organ (and hematopoietic) transplantation. Leukocyte reduction is separately identified as decreasing HLA alloimmunization, which is the pathophysiologic rationale for ordering leukoreduced components in a transplant candidate: reducing exposure to donor leukocyte HLA antigens lowers the chance of forming anti-HLA antibodies that could later produce a positive crossmatch against a potential heart donor and increase antibody-mediated rejection risk.
+> Pearl: Non-leukoreduced blood components expose recipients to donor leukocyte HLA antigens, risking HLA alloimmunization; this is clinically important in solid organ (including heart) transplant candidates because resulting anti-HLA antibodies can cause a positive donor crossmatch, narrow the compatible donor pool, and increase risk of antibody-mediated rejection. Leukoreduction is used specifically to decrease this alloimmunization risk, distinct from other transfusion hazard mechanisms such as TRALI's two-hit model, AHTR's IgM/complement hemolysis, nonimmune mechanical hemolysis, or TA-GVHD from engrafted donor lymphocytes.
+
+- *C wrong:* Incorrect. IgM/complement-mediated intravascular hemolysis describes the acute hemolytic transfusion reaction mechanism (typically from ABO incompatibility), which the source associates with immediate intravascular destruction, not with jeopardizing future transplant candidacy.
+- *B wrong:* Incorrect. This describes the source's 'two-hit' theory of TRALI, where a patient factor (the source lists sepsis or heart surgery as examples) primes neutrophils and a donor-derived second hit triggers lung injury. It is a real transfusion hazard but does not explain sensitization that threatens transplant candidacy.
+- *D wrong:* Incorrect. The source describes nonimmune hemolysis (negative DAT) as resulting from mechanical damage, improper temperature exposure, or unapproved IV solutions—unrelated to antibody formation or transplant sensitization.
+- *E wrong:* Incorrect. This describes transfusion-associated graft-versus-host disease, which the source notes is prevented by gamma irradiation in high-risk (e.g., immunocompromised) patients; it is a distinct complication from HLA alloimmunization and does not explain the crossmatch/rejection risk described in the vignette.
+
+**Sources:** `SRC-034`, `SRC-045`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0544 — Lung  `AR` · moderate
+*10. Surgery Patients* · node `S10.d.iv.c` · support: low
+
+A 58-year-old man with idiopathic pulmonary fibrosis undergoes bilateral sequential lung transplantation. During the operation he receives several units of packed RBCs and plasma for surgical bleeding. Approximately 4 hours after the transfusions are completed, he develops new bilateral pulmonary infiltrates on chest imaging and acute hypoxemia, with no clinical evidence of volume overload. Which of the following best explains the underlying mechanism of this reaction?
+
+- **A.** Donor plasma contains antibodies directed against a recipient leukocyte antigen (e.g., anti-HNA-3a), which bind and activate recipient neutrophils and produce acute lung injury ✅
+- **B.** Rapid infusion of citrate-anticoagulated plasma chelated ionized calcium, producing acute hypocalcemia
+- **C.** Non-irradiated donor lymphocytes in the cellular components engrafted and attacked host tissue
+- **D.** The volume and rate of the transfused components exceeded the patient's cardiac reserve, producing hydrostatic pulmonary edema
+- **E.** Potassium that leaked into the storage supernatant of the transfused RBC units was rapidly infused, producing hyperkalemia
+
+**Correct (A):** The timing (new acute lung injury within 6 hours of transfusion) and clinical picture (hypoxemia with new bilateral infiltrates, no evidence of volume overload) match transfusion-related acute lung injury (TRALI). The sources identify the mechanism as donor antibodies directed against a recipient leukocyte antigen; antibodies to HNA-3a, located on the neutrophil choline transporter CTL2, are specifically associated with the most severe and fatal TRALI reactions. This antibody-antigen interaction activates recipient neutrophils and produces the acute lung injury described in the vignette.
+
+- *D wrong:* This describes TACO, which the sources define as an adverse reaction to volume/infusion rate; TACO is distinguished from TRALI by evidence of circulatory/volume overload, which is absent in this patient.
+- *B wrong:* Citrate toxicity from rapid infusion of plasma-rich components produces hypocalcemia with perioral paresthesias, tetany, or arrhythmias per the sources, not new pulmonary infiltrates and hypoxemia.
+- *E wrong:* Hyperkalemia from potassium leaking into the RBC storage supernatant can cause cardiac arrhythmias or arrest per the sources, but it does not explain new bilateral pulmonary infiltrates and hypoxemia.
+- *C wrong:* This describes TA-GVHD, which the sources note is prevented by gamma irradiation of cellular components to inactivate donor T lymphocytes; TA-GVHD does not present as acute hypoxemic lung injury within hours of transfusion.
+
+**Sources:** `SRC-010`, `SRC-004`, `SRC-010`, `SRC-032`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: blueprint-mismatch
+
+---
+
+## Q-0545 — Irradiation  `AR` · moderate
+*10. Surgery Patients* · node `S10.d.v.c` · support: moderate
+
+A 52-year-old man with cirrhosis is undergoing living-donor liver transplantation. His sister has arranged to donate a unit of red blood cells directly for his intraoperative use. Before the unit is issued, the transfusion service irradiates it because the recipient is receiving a designated donation from a blood relative. What is the mechanism by which this processing step prevents the complication it is intended to avoid?
+
+- **A.** It cross-links donor leukocyte nucleic acids to prevent transmission of cytomegalovirus
+- **B.** It physically removes donor leukocytes from the unit, preventing recipient sensitization to donor HLA antigens
+- **C.** It inactivates donor plasma antibodies that would otherwise react with recipient neutrophil/HLA antigens in the lung
+- **D.** It inactivates donor T lymphocytes, preventing them from proliferating and mounting an immune attack against the recipient's tissues ✅
+- **E.** It sterilizes the unit, eliminating bacteria that may have contaminated the collection
+
+**Correct (D):** Gamma irradiation of cellular components inactivates donor T lymphocytes, which is the mechanism by which it prevents transfusion-associated graft-versus-host disease (TA-GVHD). Directed/designated donations from blood relatives are specifically listed as an at-risk scenario requiring irradiation, because shared HLA haplotypes between a related donor and recipient can allow donor T lymphocytes to survive, proliferate, and attack recipient tissue rather than being recognized and rejected as foreign — the underlying event that irradiation is designed to prevent by disabling those lymphocytes before transfusion.
+> Pearl: Gamma irradiation prevents TA-GVHD specifically by inactivating donor T lymphocytes so they cannot proliferate and engraft against recipient tissue; this is distinct from the mechanisms behind TRALI mitigation (donor selection), CMV risk reduction/pathogen inactivation (nucleic acid cross-linking), bacterial contamination control, and leukoreduction (physical leukocyte removal). Directed/designated donation from a blood relative — as can occur around solid organ transplantation — is a recognized indication for irradiation because of shared HLA haplotypes.
+
+- *C wrong:* Incorrect: this describes the antibody-mediated mechanism implicated in TRALI, which is mitigated by donor selection (e.g., using male donors or female donors without a pregnancy history), not by irradiation.
+- *A wrong:* Incorrect: nucleic acid cross-linking to prevent pathogen transmission (including reducing CMV risk) describes pathogen-inactivation technology (e.g., amotosalen + UVA), which is a distinct process from gamma irradiation — the source material treats gamma irradiation and CMV risk reduction as separate, not equivalent, interventions.
+- *E wrong:* Incorrect: gamma irradiation is not described as an antibacterial/sterilization step; bacterial contamination is addressed through collection technique and, where used, pathogen-inactivation systems, not irradiation.
+- *B wrong:* Incorrect: this describes leukoreduction (physical removal of leukocytes), a separate process. Irradiation inactivates T lymphocytes in place; it does not remove them from the unit.
+
+**Sources:** `SRC-010`, `SRC-019`, `SRC-002`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, blueprint-mismatch
+
+---
+
+## Q-0546 — Intraoperative Autologous Blood Recovery and Reinfusion (Cell Salvage)  `AR` · moderate
+*10. Surgery Patients* · node `S10.a.ii.2` · support: high
+
+A 58-year-old man undergoes elective multilevel posterior spinal fusion with an estimated blood loss of 1500 mL. An intraoperative cell salvage ("Cell Saver") device is used throughout the case: shed blood is continuously suctioned from the operative field into an anticoagulated reservoir, filtered, and then centrifuged and washed with saline before the resulting red cell product is returned to the patient. What is the primary physiologic purpose of the saline washing/centrifugation step before this salvaged blood is reinfused?
+
+- **A.** It removes cellular debris, free hemoglobin, and activated clotting factors generated by suction trauma and surgical field exposure ✅
+- **B.** It extends the allowable time interval before reinfusion from 4 hours up to 24 hours
+- **C.** It removes malignant cells shed into the operative field, permitting safe salvage use during oncologic surgery
+- **D.** It sterilizes blood from a bacterially contaminated field, making it safe for reinfusion
+- **E.** It removes topical hemostatic agents such as microfibrillar collagen, allowing their use in the surgical field without restriction
+
+**Correct (A):** Per the source material, most cell salvage systems wash recovered (shed) blood with saline before reinfusion specifically to remove debris, free hemoglobin, and activated clotting/coagulation factors that accumulate in blood exposed to suction trauma, air, and the surgical field. This washing step is the core mechanistic distinction between washed and unwashed salvage systems and is what makes reinfusion of the salvaged red cell product physiologically safer.
+> Pearl: Washing/centrifugation is the key processing step in cell salvage that removes free hemoglobin, tissue debris, and activated coagulation factors generated by surgical trauma and suction; however, it does not overcome absolute exclusions to salvage such as bacterial or malignant cell contamination or the presence of topical hemostatic agents in the field.
+
+- *E wrong:* Incorrect. Contamination of the surgical field with topical hemostatic agents (e.g., microfibrillar collagen) is listed as an exclusion for using recovered blood; washing does not overcome this contraindication and such agents are not the target of the washing step.
+- *D wrong:* Incorrect. A field contaminated with bacteria is a stated exclusion for cell salvage use; washing with saline is not described as a means of sterilizing bacterially contaminated blood, and salvage is avoided in this setting regardless of processing.
+- *C wrong:* Incorrect. Malignant cell contamination of the field is also listed as an exclusion for recovered blood use; the source does not describe washing as rendering malignant-cell-contaminated blood safe for reinfusion.
+- *B wrong:* Incorrect. The 4-hour (room temperature) versus 24-hour (refrigerated) reinfusion window relates to how the salvaged blood is stored after collection, not to whether or how it was washed.
+
+**Sources:** `SRC-059`, `SRC-032`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0547 — Local  `F` · moderate
+*10. Surgery Patients* · node `S10.b.ii.1` · support: moderate
+
+A 45-year-old Jehovah's Witness woman with symptomatic uterine fibroids is scheduled for an elective myomectomy. She provides a clear, competent informed refusal of any allogeneic blood transfusion. The perioperative team builds a bloodless-medicine plan that combines preoperative erythropoietin and high-dose iron, intraoperative cell salvage (Cell Saver), and meticulous local surgical hemostatic technique (ligation, cautery, and site-directed control of bleeding vessels) throughout the operation. Which of the following best explains the mechanism by which the local surgical hemostasis component of this plan reduces her need for red cell replacement?
+
+- **A.** It shifts her physiologic set point so she can better tolerate a lower circulating hemoglobin
+- **B.** It directly arrests bleeding at the site of vascular injury, minimizing the volume of blood lost during the procedure ✅
+- **C.** It stimulates bone marrow erythropoiesis to raise her preoperative red cell mass
+- **D.** It supplies a synthetic, cell-free molecule that carries oxygen independent of her native red cells
+- **E.** It collects and reinfuses blood that has already been shed during the operation
+
+**Correct (B):** Meticulous surgical hemostasis works by local, site-directed control of the bleeding vessel itself (e.g., ligation, cautery), which mechanistically minimizes intraoperative blood loss. This is one of the distinct bloodless-medicine components listed alongside erythropoietin, high-dose iron, and intraoperative cell salvage, and it aligns with the 'minimizing blood loss' pillar of the Patient Blood Management framework used for patients who refuse allogeneic transfusion.
+> Pearl: Local surgical hemostasis is mechanistically distinct within a bloodless-medicine/PBM plan: it minimizes blood loss by direct, site-specific control of a bleeding vessel, separate from erythropoiesis-stimulating agents that optimize hemoglobin, cell salvage that recycles autologous blood, anemia-tolerance strategies, or synthetic oxygen-carrier substitutes.
+
+- *C wrong:* Incorrect — this describes the mechanism of erythropoietin and high-dose iron, which optimize preoperative hemoglobin by stimulating red cell production, not the mechanism of local surgical hemostasis.
+- *E wrong:* Incorrect — this describes intraoperative cell salvage (Cell Saver), which recovers and reinfuses the patient's own shed blood; it is a separate bloodless-medicine tool from local hemostatic technique.
+- *A wrong:* Incorrect — improving physiologic tolerance of anemia is a separate strategy from directly controlling bleeding at the surgical site; local hemostasis reduces blood loss rather than adjusting the patient's tolerance of a lower hemoglobin.
+- *D wrong:* Incorrect — this describes hemoglobin-based oxygen carriers (HBOCs), synthetic cell-free oxygen-carrying solutions that do not require crossmatching; they are a distinct therapeutic alternative, not a mechanism of local surgical hemostasis.
+
+**Sources:** `SRC-012`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0549 — Intraoperative  `None` · moderate
+*10. Surgery Patients* · node `S10.c.i.3.b` · support: high
+
+A 32-year-old man is taken emergently to the operating room for exploratory laparotomy after a high-speed motor vehicle collision, with a grade IV splenic laceration and ongoing intra-abdominal hemorrhage. Over the next 90 minutes he receives 8 units of RBCs and 6 liters of crystalloid; plasma and platelets have not yet been transfused. He develops diffuse, non-surgical microvascular oozing from the peritoneal surfaces and IV insertion sites. Vitals and labs: core temperature 36.8°C, ionized calcium 1.15 mmol/L, potassium 4.2 mEq/L, INR 2.4, aPTT 68 seconds, fibrinogen 90 mg/dL, platelet count 42,000/µL. Which of the following best explains the underlying mechanism of this patient's coagulopathy?
+
+- **A.** Storage lesion of the transfused RBC units impairing hemostatic function
+- **B.** Hyperkalemia from potassium efflux during RBC storage impairing hemostasis
+- **C.** Citrate-induced ionized hypocalcemia impairing the coagulation cascade
+- **D.** Hypothermia-induced reduction in the enzymatic activity of the coagulation cascade
+- **E.** Replacement of shed whole blood with RBCs and crystalloid alone, progressively depleting clotting factors and platelets ✅
+
+**Correct (E):** This is dilutional coagulopathy: replacing lost whole blood with only RBCs and crystalloid (as occurred here, with no plasma or platelets given) depletes coagulation factor and platelet levels, producing the prolonged INR/aPTT, low fibrinogen, and thrombocytopenia seen. This mechanism is the rationale for balanced, formula-based resuscitation ratios (e.g., 1:1:1 plasma:platelets:RBCs), which aim to approximate whole blood composition and prevent this dilutional state.
+> Pearl: In trauma/intraoperative hemorrhagic shock, coagulopathy that develops after large-volume RBC and crystalloid resuscitation without concurrent plasma/platelet replacement reflects dilutional coagulopathy (factor and platelet depletion), which is mechanistically distinct from the other metabolic complications of massive transfusion (citrate-mediated hypocalcemia, hyperkalemia, hypothermia) and from the RBC storage-lesion distractor — distinguishing among these requires correlating the resuscitation fluids given with the specific lab abnormalities present.
+
+- *D wrong:* Incorrect. Hypothermia from refrigerated component transfusion can exacerbate coagulopathy by reducing enzymatic activity, but this patient is normothermic (36.8°C), excluding hypothermia as the mechanism.
+- *C wrong:* Incorrect. Citrate toxicity causes hypocalcemia because plasma and platelet components carry roughly 5x more citrate anticoagulant than RBCs; this patient's ionized calcium is normal and he has not yet received plasma or platelets, excluding this mechanism.
+- *B wrong:* Incorrect. Hyperkalemia results from potassium leaking into the supernatant during RBC storage and is associated with cardiac arrhythmia risk, not primarily coagulopathy; this patient's potassium is normal.
+- *A wrong:* Incorrect. This is a noted board distractor: although a storage lesion exists conceptually, large trials have not shown a significant survival difference between fresher and older RBC units in massive transfusion, so it is not the established mechanism for this presentation.
+
+**Sources:** `SRC-032`, `SRC-032`, `SRC-032`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0550 — Transfusion Therapy in Solid Organ Transplantation  `None` · hard
+*10. Surgery Patients* · node `S10.d` · support: moderate
+
+A 38-year-old woman with end-stage renal disease and blood group O undergoes emergency deceased-donor kidney transplantation. Because of a clerical error, a blood group A kidney is transplanted without prior ABO compatibility verification. Within minutes of vascular anastomosis and reperfusion, the graft becomes mottled and cyanotic, urine output ceases, and gross inspection reveals diffuse intravascular thrombosis throughout the graft. Which of the following best explains the underlying mechanism of this graft failure?
+
+- **A.** Recipient antibodies persist and lyse developing donor erythroid precursors in the marrow, preventing red cell engraftment despite myeloid recovery
+- **B.** Preformed recipient anti-A isoagglutinins bind ABO blood group antigens on the donor kidney's vascular endothelium, activating complement and causing diffuse graft thrombosis ✅
+- **C.** Recipient T cells sensitized to mismatched donor HLA class I and II antigens mediate cytotoxic destruction of graft parenchymal cells over the following days to weeks
+- **D.** Donor T lymphocytes within the graft recognize and attack recipient tissues, producing a multisystem syndrome of rash, fever, diarrhea, and liver dysfunction
+- **E.** Donor-derived passenger lymphocytes within the graft produce antibody directed against the recipient's RBC antigens, causing hemolysis
+
+**Correct (B):** Unlike hematopoietic progenitor cells, which lack ABO antigens and therefore do not provoke hyperacute rejection, solid organ grafts carry ABO antigens on their vascular endothelium. When an ABO-incompatible solid organ is transplanted, the recipient's preexisting anti-A/anti-B isoagglutinins immediately bind these antigens on the graft vasculature, activate complement, and cause diffuse vascular thrombosis within minutes to hours of reperfusion — the defining feature of hyperacute rejection. This is precisely why, in contrast to HSCT, ABO compatibility is essential for solid organ donor selection.
+> Pearl: In contrast to HSCT, solid organ grafts express ABO antigens on their vascular endothelium, so ABO incompatibility can provoke immediate antibody-mediated hyperacute rejection with graft thrombosis, making ABO compatibility essential for solid organ donor selection — distinct from delayed passenger lymphocyte syndrome, HLA-mediated cellular rejection, GVHD, or HSCT-associated PRCA.
+
+- *E wrong:* Incorrect: this describes passenger lymphocyte syndrome, in which donor lymphocytes carried within the graft produce antibody against recipient RBC antigens, causing hemolysis that typically presents 5 to 16 days after transplant, not immediate graft vascular thrombosis at reperfusion.
+- *D wrong:* Incorrect: this describes graft-versus-host disease, a multisystem syndrome from donor T-cells attacking recipient tissue; it does not explain immediate thrombotic graft failure and is not the mechanism of ABO-incompatible hyperacute rejection.
+- *A wrong:* Incorrect: this describes the mechanism of pure red cell aplasia following major ABO-mismatched HSCT, in which antibodies lyse donor marrow erythroid precursors; a transplanted kidney contains no erythroid precursors, so this mechanism is inapplicable.
+- *C wrong:* Incorrect: HLA-mismatch-driven, T-cell-mediated cellular rejection is a genuine barrier to transplantation, but it develops over days to weeks through cellular infiltration, not within minutes of reperfusion as described in this vignette.
+
+**Sources:** `SRC-035`, `SRC-035`, `SRC-035`, `SRC-038`, `SRC-038`, `SRC-028`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0551 — Adverse Reactions  `F` · hard
+*11. Biovigilance and Transfusion-Related Immunomodulation* · node `S11.a.ii.1.a` · support: high
+
+As part of a hospital transfusion service's routine biovigilance surveillance, a case is reviewed for reporting to the hemovigilance program. A 68-year-old man receives 2 units of fresh frozen plasma for emergency reversal of anticoagulation prior to surgery. Ninety minutes after the transfusion is completed, he develops acute dyspnea and hypoxemia requiring supplemental oxygen, with new bilateral infiltrates on chest radiograph and no clinical evidence of volume overload. Because the new acute lung injury began well within the 6-hour window used to define this reaction for surveillance purposes, the event is classified and reported as transfusion-related acute lung injury (TRALI). Which of the following best describes the pathophysiologic mechanism responsible for the most severe and fatal presentations of this reaction?
+
+- **A.** Donor plasma contains an antibody against human neutrophil antigen HNA-1a, located on the neutrophil Fcγ receptor IIIb
+- **B.** Donor plasma contains an antibody against human neutrophil antigen HNA-3a, located on the neutrophil choline transporter-like protein 2 (CTL2) ✅
+- **C.** The volume and infusion rate of the transfused product exceed the recipient's cardiovascular reserve, producing hydrostatic pulmonary edema
+- **D.** IgG antibodies directed against donor Rh antigens coat the transfused red cells, producing extravascular hemolysis
+- **E.** Viable donor T lymphocytes engraft in the recipient and mount an immune attack against recipient tissues
+
+**Correct (B):** The approved sources identify donor antibodies against human neutrophil antigen HNA-3a, located on the neutrophil choline transporter-like protein 2 (CTL2), as the antibody specificity most associated with the most severe and fatal TRALI reactions. This antibody-mediated attack on recipient neutrophils explains why plasma-containing components such as FFP can precipitate new acute lung injury within the 6-hour onset window used to define and report TRALI, distinguishing it mechanistically from the hydrostatic, alloimmune-T-cell, and red-cell-hemolytic mechanisms of the other listed reactions.
+> Pearl: TRALI is defined for hemovigilance/reporting purposes by new acute lung injury within 6 hours of transfusion; its most severe and fatal cases are mechanistically tied to donor anti-HNA-3a antibodies against neutrophil CTL2, which must be distinguished from HNA-1a/FcγRIIIb antibodies causing NAN, the hydrostatic mechanism of TACO, the donor T-cell mechanism of TA-GVHD, and the extravascular hemolytic mechanism of IgG Rh antibodies.
+
+- *E wrong:* Incorrect. Donor T-lymphocyte engraftment attacking recipient tissue is the mechanism of transfusion-associated graft-versus-host disease (TA-GVHD), which the sources state is prevented by gamma irradiation of cellular components to inactivate donor T lymphocytes — a distinct entity from TRALI and not applicable to plasma products.
+- *A wrong:* Incorrect but a classic board trap: antibodies to HNA-1a, located on the neutrophil FcγRIIIb receptor, are described in the sources as the most common cause of neonatal alloimmune neutropenia (NAN), not TRALI. This option tests precise recall of which HNA specificity/antigen pair maps to which clinical syndrome.
+- *C wrong:* Incorrect. Volume/infusion rate exceeding cardiovascular reserve describes transfusion-associated circulatory overload (TACO), which the sources characterize as a reaction to volume/infusion rate rather than an antibody-mediated process; the stem explicitly notes no evidence of volume overload.
+- *D wrong:* Incorrect. IgG Rh antibody-mediated coating of red cells causing extravascular hemolysis is described in the sources as typically presenting with fever and mild bilirubin elevation, not acute hypoxemic respiratory failure, and is unrelated to plasma-only components.
+
+**Sources:** `SRC-004`, `SRC-010`, `SRC-020`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0552 — Biovigilance  `F` · hard
+*11. Biovigilance and Transfusion-Related Immunomodulation* · node `S11.a.ii.2` · support: high
+
+A hospital transfusion safety officer builds a formal hemovigilance program using the NHSN Biovigilance Module's standardized diagnostic criteria to classify reaction type, severity, and imputability. After the first year of operation, the program's reported rates of TACO and TRALI are substantially lower than incidence estimates published from studies that used active, systematic case-finding at comparable institutions. Which of the following best explains the underlying mechanism responsible for this discrepancy?
+
+- **A.** Hemovigilance surveillance is largely passive, depending on clinical staff recognizing a reaction and voluntarily submitting a report, so noninfectious complications such as TACO and TRALI are commonly underrecognized and underreported ✅
+- **B.** Clerical errors in patient and sample identification are the primary cause of TACO and TRALI, and because clerical errors are entirely preventable, most such cases are corrected before a report is ever generated
+- **C.** TRALI and TACO occur too infrequently to rank among the leading causes of transfusion-related fatality, so the low reported numbers reflect true low incidence rather than any surveillance limitation
+- **D.** Because only fatal reactions require oral/electronic notification to the FDA within a defined timeframe, nonfatal TACO and TRALI cases fall entirely outside the scope of the institution's hemovigilance data collection
+- **E.** The NHSN Biovigilance Module's imputability criteria automatically assign most TACO and TRALI cases a "Doubtful/Ruled Out" designation, which formally excludes them from the program's case counts
+
+**Correct (A):** Hemovigilance is the systematic collection and analysis of complication data to improve transfusion safety, but that collection depends on frontline recognition and voluntary reporting of events. The approved sources explicitly state that hemovigilance data indicate noninfectious complications like TACO and TRALI are often both underrecognized and underreported, even though these same reactions (along with hemolytic reactions) are the most frequent transfusion-related fatalities reported to the FDA. The mechanistic gap is between a passive, recognition-dependent reporting system and the true event rate captured by active, systematic surveillance.
+> Pearl: Biovigilance/hemovigilance programs are passive, recognition-dependent surveillance systems; this mechanism explains why standardized imputability/severity classification (NHSN Biovigilance Module) still coexists with well-documented underrecognition and underreporting of noninfectious complications like TACO and TRALI, even though these reactions rank among the leading reported transfusion fatalities.
+
+- *C wrong:* Incorrect and factually reversed: the sources identify TRALI, TACO, and hemolytic reactions as the most frequent transfusion-related fatalities reported to the FDA, so low apparent incidence cannot be attributed to true rarity.
+- *E wrong:* Incorrect: this misapplies the imputability scale. "Doubtful/Ruled Out" means evidence favors a non-transfusion cause for an already-reported case; the sources give no basis for imputability criteria systematically excluding TACO/TRALI, and underreporting is described as a recognition/reporting problem, not a causality-grading exclusion.
+- *B wrong:* Incorrect: the sources specifically attribute clerical errors to acute intravascular hemolytic reactions, not to TACO or TRALI, so this option conflates two distinct reaction categories and their causes.
+- *D wrong:* Incorrect: the 7-day/oral-electronic FDA notification requirement applies specifically to suspected transfusion-related fatalities; it is a distinct regulatory reporting pathway and does not define the scope of an institution's broader hemovigilance data collection, which is meant to capture all complications, not only deaths.
+
+**Sources:** `SRC-032`, `SRC-043`, `SRC-033`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0553 — Traceability  `F` · hard
+*11. Biovigilance and Transfusion-Related Immunomodulation* · node `S11.a.ii.2.b` · support: moderate
+
+Three weeks after a red blood cell unit is transfused, the collecting blood center notifies the hospital transfusion service that repeat testing has reclassified the donor's Rh type: a partial D variant was identified, changing a donation that had been released as D-negative to D-positive. Within hours, the blood center produces a report listing every component manufactured from that single donation, the facility that received each component, and the specific patient who was transfused, triggering an FDA-reportable event work-up and a recall notification. Which underlying quality-system feature made this rapid identification possible?
+
+- **A.** A unique donation identification number that links the donor record forward to every derived component and to the recipient's transfusion record, with documentation of who performed each critical step and when ✅
+- **B.** The corrective and preventive action (CAPA) step of process improvement, which addresses the root cause of the typing discrepancy
+- **C.** Biennial (every-2-year) review of the donor Rh-typing SOP with medical director approval of the current procedure
+- **D.** The change control process, which documents planned modifications to SOPs or infrastructure before they are implemented
+- **E.** Process validation of the donor-testing instruments through Installation, Operational, and Performance Qualification (IQ/OQ/PQ)
+
+**Correct (A):** Traceability in a blood bank quality system depends on documentation that identifies who performed a critical step and when, applied to every donor, component, and recipient record so that a single donation can be linked forward to all resulting components and recipients (and traced back from a recipient to the originating donation). This is the same donor-to-recipient linkage described for tissue services and is what allows a donor D-typing error to be tied to specific components, made reportable to the FDA, and used to drive a recall.
+
+- *D wrong:* Change control governs how procedure or infrastructure changes are planned and documented before implementation; it does not create the record linkage that lets a single donation be traced to its components and recipient.
+- *E wrong:* IQ/OQ/PQ validate that testing equipment and processes work as intended; they establish process capability, not the case-level documentation that ties a donation to the units and patient it produced.
+- *B wrong:* CAPA is the process-improvement step that corrects the root cause once a nonconformance is identified; it acts after the affected components/recipient are already found through traceability, so it is not the identification mechanism itself.
+- *C wrong:* Scheduled biennial SOP review confirms procedures remain current and approved; it is a document-control cadence, not the record system that connects a specific donation to its components and recipient.
+
+**Sources:** `SRC-003`, `SRC-027`, `SRC-010`, `SRC-020`, `SRC-003`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0554 — Neonatal Transfusions  `None` · hard
+*15. Obstetric and Pediatric Patients* · node `S15.e` · support: moderate
+
+A neonate born at 26 weeks' gestation (birth weight 900 g) requires a small-volume simple RBC transfusion (15 mL/kg) on day of life 20 for anemia of prematurity. The blood bank issues a group O, CMV-safe, irradiated RBC unit that was collected 25 days ago and irradiated shortly after collection. Which of the following best explains the mechanism underlying the metabolic complication of greatest concern with this specific unit in this patient?
+
+- **A.** Citrate anticoagulant in the unit chelates ionized calcium faster than the neonate's liver can metabolize it, producing symptomatic hypocalcemia
+- **B.** Viable donor lymphocytes in the non-irradiated unit engraft and proliferate because the neonate's immune system cannot reject them
+- **C.** The neonate's blunted erythropoietin response to anemia prevents adequate marrow reticulocytosis, worsening the underlying anemia that prompted the transfusion
+- **D.** Rapid infusion of even a small-volume aliquot produces hydrostatic pulmonary edema from circulatory overload
+- **E.** Irradiation damages the RBC membrane and accelerates leakage of intracellular potassium into the unit's extracellular fluid, an effect that becomes more pronounced the longer the irradiated unit has been stored ✅
+
+**Correct (E):** Neonatal transfusion physiology carries a specific metabolic risk of hyperkalemia, and the sources note this risk is greatest with older irradiated units. Irradiation is mandatory for premature neonates (given here at 900 g, well under the <1200 g threshold) to prevent TA-GVHD, but irradiation itself damages the RBC membrane, promoting potassium efflux from the cells into the surrounding storage medium. Because this leakage accumulates with time, a unit irradiated some time ago and now 25 days old delivers a substantially higher extracellular potassium load than a fresh unit, which is the mechanistic basis for the hyperkalemia risk the sources flag specifically for 'older irradiated units.'
+> Pearl: In premature/low-birth-weight neonates, irradiation is required to prevent TA-GVHD, but irradiation damages the RBC membrane and accelerates potassium efflux during storage — a risk that grows with the age of the irradiated unit. This must be distinguished from other neonatal transfusion-related metabolic and immunologic risks (citrate toxicity/hypocalcemia, TA-GVHD, volume overload) and from non-transfusion neonatal physiology (blunted EPO response), which share the same clinical context but different mechanisms.
+
+- *B wrong:* Incorrect — the stem specifies the unit IS irradiated. Irradiation is precisely what is mandated in premature neonates <1200 g to prevent TA-GVHD by inactivating donor lymphocytes, so this mechanism does not apply here; it describes the risk irradiation is meant to eliminate, not the risk irradiation creates.
+- *A wrong:* Incorrect — citrate toxicity is a real, source-noted metabolic risk in neonatal transfusion, but it is driven by the amount/rate of citrate delivered (e.g., large-volume or rapid infusion), not by how long an irradiated unit has been in storage; the stem's emphasis on unit age points to the potassium mechanism instead.
+- *C wrong:* Incorrect — a blunted EPO response is a genuine feature of neonatal physiology that contributes to anemia of prematurity and the need for transfusion in general, but it does not explain a metabolic complication arising from this particular older, irradiated unit.
+- *D wrong:* Incorrect — volume overload is a recognized transfusion reaction in general, but neonatal simple transfusions are deliberately given as small-volume aliquots (10–15 mL/kg) to avoid this, and it is not the mechanism tied to the unit's irradiation/storage age described in the stem.
+
+**Sources:** `SRC-043`, `SRC-017`, `SRC-025`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, too-esoteric-thin-source
+
+---
+
+## Q-0555 — Regulatory, Compliance, and Accreditation  `F` · hard
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.b.vi` · support: high
+
+A hospital-based cellular therapy laboratory is bringing a new controlled-rate freezer online for cryopreservation of HPC-A (peripheral blood apheresis) products using DMSO as the cryoprotectant. As part of process validation, the laboratory challenges the freezer at maximum product load and at temperature extremes to confirm the cooling rate stays within specified limits even under these worst-case conditions; only after this testing is complete does the Medical Director sign the validation summary approving the freezer for clinical use. What is the primary biological rationale for specifically requiring this worst-case cooling-rate challenge before the freezer is released for clinical HPC processing?
+
+- **A.** The challenge confirms that total nucleated cell count and CD34+ enumeration of the thawed product meet predetermined release criteria.
+- **B.** The challenge confirms that the final cryopreserved product retains a fibrinogen concentration adequate for hemostatic efficacy after thaw.
+- **C.** An uncontrolled or excessively rapid cooling rate damages hematopoietic progenitor cells during the transition to ultra-low temperatures, so the cryoprotectant plus cooling protocol must be shown to remain protective even under the freezer's maximal thermal stress. ✅
+- **D.** The challenge substitutes for the requirement to obtain and document the recipient's informed consent before cellular therapy infusion.
+- **E.** The challenge confirms that the sterile connection device weld remains intact under maximum tubing load, preventing contamination of the closed system.
+
+**Correct (C):** The source states that HPC cryopreservation relies on cryoprotectants such as DMSO combined with controlled-rate cooling specifically to prevent cellular damage during the transition to ultra-low temperatures, implying that an uncontrolled or excessive cooling rate is itself the mechanism of injury to progenitor cells. Operational Qualification (OQ) is defined as demonstrating that a process operates as intended, including 'worst-case' challenges (e.g., maximum load, temperature extremes) that test the process's limits. Applying OQ to a controlled-rate freezer therefore means proving the cooling protocol still protects cell integrity even under maximal thermal/load stress, which is why the Medical Director's final sign-off on the validation summary is required before the equipment is used clinically.
+> Pearl: Process/equipment validation (IQ/OQ/PQ) targets the mechanism by which an uncontrolled process parameter (e.g., cooling rate) could injure the product; it is distinct from, and complementary to, product-level release QC (TNC, CD34+, viability, sterility) and from clinical steps like informed consent.
+
+- *E wrong:* Weld-integrity checks are a separate, each-use equipment QC activity for sterile connection devices, not the mechanism-based rationale for freezer OQ; it tests a different piece of equipment entirely.
+- *B wrong:* A fibrinogen threshold governs the decision to transfuse cryoprecipitate (a plasma derivative), an unrelated product and process from HPC cryopreservation; this option trades on the surface similarity between 'cryoprecipitate' and 'cryopreservation.'
+- *A wrong:* TNC and CD34+ enumeration are product-level quality control assessments performed on the final HPC product for release, a distinct QMS element from equipment/process validation (IQ/OQ/PQ); conflating the two is a common board trap.
+- *D wrong:* Medical Director approval of the validation summary is a distinct regulatory step from obtaining informed consent for infusion; one does not substitute for or fulfill the other.
+
+**Sources:** `SRC-028`, `SRC-043`, `SRC-053`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim, weak-distractor
+
+---
+
+## Q-0556 — HPC Cord Blood  `F` · moderate
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.c.iii` · support: high
+
+An 18-kg child with severe aplastic anemia lacks a matched related or unrelated adult donor, and the transplant team identifies a single unrelated umbilical cord blood unit as the best available graft. Prior to release, the processing laboratory reports that the unit's cryopreserved total nucleated cell (TNC) count corresponds to 2.1 x 10^7 cells/kg for this recipient, below the generally accepted minimum dose for this graft source. Which of the following outcomes is the transplant physician most concerned about if this unit is used?
+
+- **A.** Delayed or failed engraftment, because total nucleated cell dose is the key determinant of successful hematopoietic reconstitution for cord blood grafts ✅
+- **B.** Increased risk of acute graft-versus-host disease, because cord blood grafts carry a higher acute GVHD risk than bone marrow or peripheral blood progenitor cell grafts
+- **C.** Graft rejection due to failure to meet a minimum CD34+ selection threshold required for cord blood unit release
+- **D.** Dimethyl sulfoxide (DMSO) toxicity during infusion due to inadequate cryoprotectant washing
+- **E.** Pure red cell aplasia from isoagglutinin-mediated lysis of donor erythroid precursors
+
+**Correct (A):** A cryopreserved TNC dose of at least 2.5 x 10^7 cells/kg is generally accepted as the minimum required for successful single-unit HPC(CB) engraftment, reflecting that nucleated cell dose is the key determinant of hematopoietic reconstitution for this graft source. A unit dosed below this threshold (here, 2.1 x 10^7 cells/kg) raises concern for delayed or failed engraftment, which is consistent with cord blood already being recognized as the slowest-engrafting HPC source among the three collection types.
+> Pearl: For cord blood (HPC-C) grafts, cryopreserved total nucleated cell dose (>=2.5x10^7 cells/kg) is the key threshold tied to successful engraftment; cord blood engrafts more slowly than marrow or apheresis-derived grafts but carries the lowest risk of acute GVHD among HPC sources -- a frequently inverted board trap.
+
+- *B wrong:* Incorrect and inverted: cord blood grafts are specifically noted to carry the lowest risk of acute GVHD among HPC sources, not the highest, even though they take the longest to engraft.
+- *E wrong:* Incorrect: pure red cell aplasia is described as a complication of major ABO-mismatched transplantation generally (recipient isoagglutinins lysing developing donor RBC precursors), not as a consequence of an inadequate TNC dose.
+- *D wrong:* Incorrect: DMSO toxicity is a recognized complication of infusing any cryopreserved HPC product related to cryoprotectant exposure during thawing/infusion, not a consequence of the graft's cell dose being below threshold.
+- *C wrong:* Incorrect: CD34+ selection is described as an optional specialized manipulation (e.g., for T-cell depletion), not a mandatory release threshold for cord blood units; the stated cord blood dosing threshold is based on TNC, not CD34+ selection.
+
+**Sources:** `SRC-040`, `SRC-040`, `SRC-040`, `SRC-040`, `SRC-028`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0557 — Cord Blood  `F` · moderate
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.d.iv` · support: high
+
+A transplant center is preparing to infuse a single cryopreserved umbilical cord blood (HPC(CB)) unit into an adult patient with acute myeloid leukemia after myeloablative conditioning. The processing laboratory's release testing shows a total nucleated cell (TNC) dose that falls below the threshold generally accepted for successful single-unit cord blood engraftment (≥2.5 × 10^7 cells/kg). Which of the following best explains the physiologic basis for the laboratory's concern about using this unit alone?
+
+- **A.** The low TNC dose reflects major ABO incompatibility between the cord blood unit and the recipient, predisposing to acute hemolysis
+- **B.** Insufficient CD34+ progenitor cells are present to adequately home to and repopulate the marrow stroma, risking delayed or failed engraftment ✅
+- **C.** The reduced cell dose increases the risk of severe acute graft-versus-host disease due to greater donor T-cell alloreactivity per cell infused
+- **D.** The low TNC dose indicates excessive DMSO exposure during cryopreservation, increasing the risk of cardiovascular toxicity on infusion
+- **E.** The reduced cell dose is expected to increase the risk of passenger lymphocyte syndrome from donor isoagglutinins after infusion
+
+**Correct (B):** A cord blood unit's TNC (and CD34+) dose is fixed at collection and cannot be augmented afterward, unlike apheresis products which can be re-mobilized and re-collected. Because intravenously infused HPCs must 'home' to the marrow space through CD34+ cell-bone marrow stromal interactions, a TNC dose below the generally accepted threshold (≥2.5 × 10^7 cells/kg) for single-unit HPC(CB) engraftment directly threatens the number of progenitors available to repopulate the marrow, producing delayed or failed engraftment. This is the mechanistic basis for cord blood's recognized disadvantage of small cell dose and longer time to engraftment, often necessitating double-unit cord blood grafts in adults.
+
+- *D wrong:* Incorrect: DMSO toxicity during infusion is driven by the DMSO dose administered (limited to about 1 g/kg/day), not by the TNC cell dose — a low TNC count does not imply excess DMSO exposure.
+- *C wrong:* Incorrect: this reverses the established relationship. Cord blood grafts carry the lowest risk of acute GVHD among HPC sources; a low cell dose does not convert this into a higher-GVHD-risk scenario.
+- *A wrong:* Incorrect: HPCs do not express ABO antigens, so ABO incompatibility between donor and recipient is not a mechanism of graft rejection or hemolysis tied to stem cell dose.
+- *E wrong:* Incorrect: passenger lymphocyte syndrome results from donor-derived isoagglutinins in minor ABO-mismatched grafts and typically presents 5-16 days post-infusion — a mechanism unrelated to total nucleated cell dose.
+
+**Sources:** `SRC-040`, `SRC-038`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0558 — Processing of Other CT Products (e.g., Antigen-Directed T-cells, Marrow Stromal Cells)  `F` · moderate
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.d.v` · support: high
+
+A 58-year-old man with relapsed/refractory diffuse large B-cell lymphoma is scheduled to receive an autologous anti-CD19 chimeric antigen receptor (CAR) T-cell product manufactured as an immune effector cell (IEC) therapy. During the consent discussion, he asks the cellular therapy laboratory director whether the genetic engineering performed on his T cells during ex vivo manufacturing could be passed on to his children. Which of the following best describes the mechanism that supports the correct response to his question?
+
+- **A.** Because the manufacturing facility is accredited by the Foundation for the Accreditation of Cellular Therapy (FACT), the modification is classified as germline rather than somatic and would not be inherited only if performed under FACT standards.
+- **B.** The FDA's requirement to screen and test the cell source for transmissible infectious agents is the mechanism that prevents the CAR construct from being passed to his children.
+- **C.** The requirement that the IEC product carry a unique identifier linking donor, product, and recipient is the mechanism that prevents the genetic modification from being inherited by his children.
+- **D.** The CAR construct is introduced into the patient's own non-reproductive (somatic) T cells; because this is somatic gene therapy, the genetic modification is confined to the manufactured cell product and is not transmitted to future generations. ✅
+- **E.** The CAR construct is introduced into the patient's gametes or embryonic cells during ex vivo culture, producing a heritable change that could be transmitted to his offspring.
+
+**Correct (D):** CAR-T/IEC manufacturing genetically engineers the patient's own non-reproductive (somatic) T cells ex vivo. The sources define somatic gene therapy as the introduction of new genetic material into somatic cells to treat or cure disease, explicitly contrasting this with germline gene therapy: because the modification is restricted to the somatic T-cell population, it is not transmitted to future generations. This is the mechanistic basis for reassuring the patient that his CAR modification will not be inherited by his children.
+> Pearl: CAR-T/IEC manufacture is somatic gene therapy: new genetic material is introduced only into the patient's own non-reproductive somatic cells, so the modification is confined to the product and not heritable — distinct from germline gene therapy and from unrelated regulatory concepts like infectious disease screening, FACT accreditation, or product labeling/traceability.
+
+- *E wrong:* Incorrect: this describes germline gene therapy (modification of gametes/embryonic cells producing heritable change), which the sources explicitly distinguish from the somatic gene therapy mechanism actually used in CAR-T/IEC manufacture.
+- *B wrong:* Incorrect: this conflates two distinct source concepts. FDA-mandated screening/testing of the cell source addresses transmission of communicable infectious disease, not the separate biologic question of whether a genetic modification is heritable; heritability depends on which cell type (somatic vs germline) is modified, not on infectious disease testing.
+- *A wrong:* Incorrect: the sources note that facilities processing IEC/CAR-T products typically seek FACT accreditation as a quality/facility standard, but nowhere link accreditation status to whether a modification is classified as somatic versus germline; this option invents a relationship not supported by the sources.
+- *C wrong:* Incorrect: this conflates the labeling/traceability requirement (unique identity for donor, product, and recipient) with the biologic mechanism of heritability; the unique-identifier requirement exists to ensure product traceability and safety, not to prevent genetic transmission to offspring.
+
+**Sources:** `SRC-011`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass · flags: weak-distractor
+
+---
+
+## Q-0561 — HPC Laboratory Quality Assurance and Accreditation  `F` · moderate
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.l` · support: high
+
+A hospital-based cellular therapy laboratory is finalizing its validated processing SOP for a peripheral blood hematopoietic progenitor cell (HPC-A) product collected by apheresis from an autologous donor prior to high-dose chemotherapy. Per the SOP, the technologist adds a cryoprotectant to the bag and runs the product through a controlled-rate freezing program before transferring it to ultra-low-temperature storage. This step is distinct from the separate mandatory release testing (total nucleated cell count, CD34+ enumeration, viability assay, and microbial sterility) performed on the product. What is the primary purpose of the cryoprotectant plus controlled-rate cooling step itself?
+
+- **A.** To prevent hemolysis caused by anti-A/anti-B isohemagglutinins in an ABO-major-incompatible graft
+- **B.** To maintain the total nucleated cell count above the minimum threshold required for engraftment
+- **C.** To prevent cellular damage to the HPCs during the transition to ultra-low storage temperatures ✅
+- **D.** To preserve CD34+ surface antigen density so post-thaw flow cytometric enumeration matches the pre-freeze potency assay
+- **E.** To eliminate microbial contaminants introduced during the apheresis collection
+
+**Correct (C):** The approved sources state that cryopreservation of HPC products uses cryoprotectants such as DMSO together with controlled-rate cooling specifically to prevent cellular damage during the transition to ultra-low storage temperatures. This is the mechanistic purpose of that specific processing step, and it is described identically in two of the approved sources, distinguishing it from the separate mandatory QC/release tests performed on the product.
+> Pearl: In the HPC laboratory's validated processing/QA program, the cryoprotectant (DMSO) plus controlled-rate cooling step exists specifically to prevent cellular damage during the transition to ultra-low temperature storage; this is mechanistically distinct from the separate mandatory release QC tests (TNC count, CD34+ enumeration, viability, sterility) and from ABO-incompatibility management, which are independent components of the overall quality system.
+
+- *E wrong:* Incorrect: microbial sterility is listed as a separate mandatory QC assessment on the product, not a function accomplished by the cryoprotectant or freezing rate.
+- *D wrong:* Incorrect: CD34+ enumeration is listed as an independent mandatory QC/potency assessment; the sources do not attribute antigen preservation to the cryoprotectant step.
+- *A wrong:* Incorrect: major/minor ABO incompatibility is addressed through HSCT support protocols (e.g., graft processing decisions for ABO-incompatible transplants), a separate concept from the cryoprotection mechanism.
+- *B wrong:* Incorrect: total nucleated cell count is listed as a distinct mandatory QC parameter measured on the product, not a function of the cryoprotectant/controlled-rate freezing step.
+
+**Sources:** `SRC-028`, `SRC-028`, `SRC-043`, `SRC-043`
+**Review:** auto-audited-pass · source-support: pass · flags: blueprint-mismatch
+
+---
+
+## Q-0562 — Facilities  `F` · moderate
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.m.ii` · support: moderate
+
+A hospital-based hematopoietic progenitor cell (HPC) processing facility is preparing to accept an allogeneic peripheral blood stem cell (PBSC) collection for a patient with acute myeloid leukemia. Before releasing the product for infusion, the laboratory director confirms three things: the facility holds current accreditation from the Foundation for the Accreditation of Cellular Therapy (FACT); the allogeneic donor underwent FDA-mandated infectious disease screening and testing; and the product carries a unique identifier linking the donor, the product, and the intended recipient from collection through infusion.
+
+- **A.** Graft failure resulting from an inadequate CD34+ progenitor cell dose in the collected product
+- **B.** Transfusion-associated graft-versus-host disease (TA-GVHD) from viable donor T lymphocytes in the product
+- **C.** Acute hemolysis from major ABO incompatibility between the donor and recipient
+- **D.** Donor-to-recipient transmission of communicable disease due to an unscreened donor or a misidentified/mistraced product ✅
+- **E.** Cryoprotectant (DMSO) toxicity occurring at the time the product is infused
+
+**Correct (D):** FDA regulation of HPC and immune effector cell (IEC) products exists specifically to prevent the transmission of communicable diseases, and this is operationalized through mandated infectious-disease screening/testing of allogeneic donors plus a unique donor-product-recipient identifier that ensures traceability and safety. FACT accreditation of the processing facility is the mechanism by which these same disease-transmission and identity safeguards are verified and maintained at the facility level. The scenario's three facility-administration elements (FACT accreditation, donor infectious-disease testing, unique identity linkage) all map directly onto this underlying purpose.
+> Pearl: FDA oversight and FACT accreditation of HPC/IEC processing facilities are fundamentally aimed at interrupting donor-to-recipient disease transmission, enforced through donor infectious-disease screening/testing and unique donor-product-recipient traceability at the facility level — a distinct rationale from engraftment dose adequacy (CD34), ABO incompatibility, TA-GVHD, or cryoprotectant toxicity, each of which is mitigated by a different, specific safeguard.
+
+- *A wrong:* CD34 enumeration is used to quantify the HPC dose in a graft, but this is a potency/processing measure aimed at engraftment adequacy, not the rationale behind the FDA/FACT screening-and-identity requirements described in the vignette.
+- *C wrong:* Major/minor ABO incompatibility is a recognized consideration in HSCT, but it is addressed through processing and transfusion-medicine protocols, not through the FDA infectious-disease screening and FACT facility-accreditation requirements the vignette describes.
+- *B wrong:* TA-GVHD is prevented by gamma irradiation of cellular components to inactivate donor T lymphocytes, a distinct hazard-prevention mechanism unrelated to donor infectious-disease screening or facility accreditation.
+- *E wrong:* DMSO is the standard cryoprotectant used for freezing HPC products, and infusion-related cryoprotectant effects are a recognized cellular-therapy concern, but this is not the risk that FDA regulation and FACT facility accreditation described here are fundamentally addressing.
+
+**Sources:** `SRC-006`, `SRC-006`, `SRC-010`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0563 — Engraftment  `None` · hard
+*16. Hematopoietic Progenitor Cell (HPC) Transplantation* · node `S16.k` · support: high
+
+A 34-year-old woman with AML undergoes myeloablative allogeneic HSCT. The donor is blood group A; the recipient is blood group O (major ABO mismatch), and the graft was red-cell-reduced per protocol before infusion. On day +18, her absolute neutrophil count exceeds 500/µL for three consecutive days. However, she remains transfusion-dependent for red cells, with a reticulocyte count persistently <1%. A bone marrow biopsy shows normal myeloid maturation but a virtual absence of erythroid precursors. Which of the following best explains this patient's ongoing red cell transfusion dependence?
+
+- **A.** HLA-disparity-driven recipient-versus-graft rejection is causing global graft failure
+- **B.** Persistent recipient anti-A isoagglutinins are lysing donor-derived erythroid precursors as they differentiate, producing pure red cell aplasia ✅
+- **C.** Donor-derived passenger lymphocytes are producing antibody against the recipient's original red cell antigens
+- **D.** The graft's CD34+ cell dose was below the threshold needed for adequate hematopoietic reconstitution
+- **E.** Acute intravascular hemolysis from residual donor red cells in an inadequately volume-reduced graft
+
+**Correct (B):** In major ABO-mismatched HSCT (here, donor group A into a group O recipient), the recipient's own anti-A isoagglutinins can persist after conditioning and continue to target donor-derived erythroid precursors as they begin expressing donor (A) red cell antigens during differentiation. This produces pure red cell aplasia (PRCA), a recognized complication of 3%–29% of major ABO-mismatched transplants, characterized by reticulocytes <1% and absence of erythroid precursors on marrow biopsy despite otherwise successful myeloid engraftment — exactly the pattern in this patient, whose ANC recovered normally by day +18 while erythropoiesis remained selectively suppressed.
+> Pearl: Pure red cell aplasia after major ABO-mismatched HSCT results from persistent recipient isoagglutinins destroying donor erythroid precursors, and it classically spares myeloid engraftment (ANC recovery proceeds on schedule). This lineage-specific mechanism must be distinguished from passenger lymphocyte syndrome (a minor-mismatch phenomenon), inadequate CD34+ dosing, and true graft rejection, all of which produce different clinical patterns.
+
+- *C wrong:* Incorrect: passenger lymphocyte syndrome involves donor-origin lymphocytes making antibody against the recipient's own red cells, occurs in minor (not major) ABO mismatches, and presents as hemolysis of recipient cells 5–16 days post-infusion — not as marrow erythroid aplasia in a donor-A/recipient-O major-mismatch setting.
+- *D wrong:* Incorrect: successful ANC engraftment by day +18 demonstrates the CD34+ dose was adequate for hematopoietic reconstitution; an insufficient CD34+ dose would be expected to impair or delay engraftment broadly rather than selectively abolish only the erythroid lineage.
+- *A wrong:* Incorrect: HLA disparity is the primary barrier to graft rejection, but true rejection would compromise all hematopoietic lineages, not spare myeloid engraftment (normal ANC recovery) while selectively eliminating erythroid precursors.
+- *E wrong:* Incorrect: red-cell reduction of the graft (performed here per protocol) is specifically done to prevent acute hemolysis at the time of infusion; acute intravascular hemolysis would present immediately post-infusion, not as persistent reticulocytopenia and marrow erythroid absence at day +18.
+
+**Sources:** `SRC-040`, `SRC-038`, `SRC-038`, `SRC-038`
+**Review:** auto-audited-pass · source-support: pass · flags: numeric-value-unverified
+
+---
+
+## Q-0564 — Error Management  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.ii.2` · support: high
+
+A hospital transfusion service investigates a fatal transfusion reaction. A patient with known blood group O develops fever, hypotension, flank pain, and hemoglobinuria within minutes of the start of an RBC transfusion. Serologic workup confirms the transfused unit was group A. Chart and specimen review reveal that the pretransfusion (type-and-screen) specimen had actually been drawn from a different patient in the adjacent bed but was labeled with the affected patient's name and medical record number; the correct ABO type was never obtained on this patient. The event is classified as a nonconforming event, and the transfusion service initiates a root cause analysis using the Five Whys technique to identify the systemic cause.
+
+- **A.** Misidentification of the patient at the time of specimen collection, resulting in issuance of an ABO-incompatible unit ✅
+- **B.** Rapid infusion of citrate anticoagulant that exceeded the patient's capacity to metabolize it
+- **C.** Neutralization of the antihuman globulin reagent from inadequate cell washing during pretransfusion antibody screening
+- **D.** Reduced post-transfusion RBC viability attributable to the "storage lesion" of an older unit
+- **E.** Potassium efflux from the RBC membrane that accumulated in the unit's supernatant during prolonged cold storage
+
+**Correct (A):** The specimen used to determine this patient's ABO type was drawn from a different (mislabeled) patient, so the transfusion service never actually typed the affected patient before issuing a unit; the group A unit crossmatched/issued against the wrong patient's specimen was incompatible with the true group O recipient. This wrong-patient specimen collection ("wrong blood in tube") is a classic clerical/identification error, and the source material states directly that clerical errors remain the primary, and largely preventable, cause of acute intravascular hemolytic transfusion reactions -- exactly the fever, hypotension, back/flank pain, and hemoglobinuria seen here. A root cause analysis (e.g., Five Whys) of this nonconforming event would trace the proximate finding (wrong ABO unit transfused) back through the testing and issuing steps to the true systemic root cause: failure of the positive patient identification process at specimen collection.
+> Pearl: Acute intravascular hemolytic transfusion reactions are most often caused by ABO incompatibility arising from clerical/patient-identification errors (e.g., wrong-blood-in-tube), not by product-intrinsic factors such as storage lesion, hyperkalemia, or citrate toxicity; root cause analysis (Five Whys, Fishbone, FMEA) is used to trace the event back to this systemic identification failure so that corrective action targets the true root cause.
+
+- *C wrong:* Incorrect. Inadequate washing during AHG testing produces a false-negative antibody screen (through AHG neutralization), which could allow an undetected alloantibody to persist -- a technical testing error, not the wrong-patient specimen-collection error described, and it does not by itself explain how an ABO-discrepant unit was issued for a patient whose own blood was never actually tested.
+- *E wrong:* Incorrect. Potassium leaking into the supernatant during RBC storage is the mechanism behind transfusion-associated hyperkalemia, which manifests as cardiac arrhythmia/arrest, not fever, hemoglobinuria, and back pain from hemolysis; it is unrelated to the ABO mismatch in this vignette.
+- *D wrong:* Incorrect. The "storage lesion" (age-related decline in RBC quality) is explicitly flagged in the sources as a board-exam distractor; large trials have not demonstrated a significant survival difference from unit age, and it does not explain an ABO-incompatible transfusion or its acute hemolytic presentation.
+- *B wrong:* Incorrect. Rapid infusion of citrate-anticoagulated components causes citrate toxicity with hypocalcemia (perioral paresthesias, tetany, arrhythmias), a distinct metabolic complication of large-volume transfusion that does not explain ABO-incompatible hemolysis.
+
+**Sources:** `SRC-032`, `SRC-032`, `SRC-032`, `SRC-032`, `SRC-033`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0565 — Quality Control Unit and Internal Audits  `AR` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.b.vi.8` · support: high
+
+An AABB-accredited hospital transfusion service reviews its organizational chart after a recent nonconformance. Currently, the quality manager reports to the director of laboratory operations, who also directly supervises the technologists who perform testing and approve component release. Top management restructures the line so that the quality manager instead reports directly to the facility administrator, entirely outside the testing/release chain of command, and shifts the facility from relying mainly on the routine biennial FDA inspection toward a program of continuous internal self-assessments. Which of the following best explains the underlying mechanism by which this restructuring strengthens the Quality Management System?
+
+- **A.** Independent reporting allows the quality manager to personally perform equipment calibration and process validation, consolidating those functions under a single role
+- **B.** The restructuring transfers ultimate accountability for the QMS from top management to the quality manager, since only the quality department is authorized to certify compliance
+- **C.** Continuous internal self-assessments satisfy the requirement for external proficiency testing, so proficiency testing samples no longer need to be analyzed three times per year
+- **D.** Organizational independence keeps the quality unit from reviewing its own work, converting error detection from periodic reactive external inspection into continuous proactive internal monitoring that corrects nonconformances before they reach patients ✅
+- **E.** Having the quality manager report to the administrator increases how often the FDA physically inspects the facility, giving more opportunities to catch nonconformances
+
+**Correct (D):** The source material specifies that the quality head must report directly to Top Management and must never review their own work, which is the organizational mechanism that prevents self-review conflicts of interest. It also draws an explicit contrast between compliance (reactive, periodic external inspection that finds errors after the fact) and quality management (proactive, continuous validation and monitoring intended to prevent errors). An independently reporting quality unit running continuous internal audits/self-assessments operationalizes this proactive, built-in-quality mechanism rather than depending solely on infrequent external inspection to catch problems retrospectively.
+> Pearl: The Quality Control/Quality Unit's organizational independence (reporting directly to Top Management, never reviewing its own work) is the structural mechanism that enables continuous, proactive internal auditing to prevent nonconformances, in contrast to the reactive, periodic nature of external regulatory inspection.
+
+- *B wrong:* Incorrect: the sources state Top Management bears ultimate responsibility for the QMS, including establishing quality policy and reviewing QMS effectiveness; this responsibility is not transferred to the quality manager by a reporting-line change.
+- *C wrong:* Incorrect: this conflates two distinct QSE activities. Proficiency testing is an external verification of testing accuracy performed at least three times per year; internal audits/self-assessments are a separate monitoring and evaluation activity and do not substitute for PT.
+- *E wrong:* Incorrect: internal reporting structure is an internal organizational control and has no bearing on the frequency of external FDA inspections, which are conducted on their own regulatory schedule.
+- *A wrong:* Incorrect: this describes consolidating Equipment/Process Control QSE duties into the quality role, which would actually undermine independence by having the quality unit perform and then oversee the same operational work, rather than explaining the audit/independence mechanism.
+
+**Sources:** `SRC-053`, `SRC-003`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0566 — Facilities and Equipment  `AR` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.b.vi.9` · support: high
+
+A hospital transfusion service stores RBC units in a walk-in refrigerator equipped with a continuous chart recorder, and staff perform a documented manual temperature check each shift. Over a holiday weekend, the compressor intermittently fails and the internal temperature rises above the acceptable range for several hours. The chart recorder correctly captures the excursion, but when staff return, they discover that the audible/visual high-temperature alarm never activated. Investigation reveals the alarm's activation function had never been functionally tested since the unit's daily temperature-check and recorder-review program began. Which of the following best explains the underlying cGMP rationale for why equipment QC programs require a separate, periodic (e.g., quarterly) test of alarm activation in addition to daily manual temperature checks and recorder review?
+
+- **A.** Alarm testing fulfills the supplier qualification requirement, ensuring that reagents and blood bags stored in the unit meet FDA and institutional criteria before use.
+- **B.** Quarterly alarm testing is one of the six CLIA-mandated competency assessment methods used to confirm that testing personnel can correctly interpret critical values.
+- **C.** Quarterly alarm testing constitutes process validation, providing ongoing evidence that the refrigeration process will consistently deliver a high-quality product.
+- **D.** Daily manual checks and the recorder confirm temperature only when actively reviewed, whereas the alarm is an independent fail-safe meant to detect and signal an excursion at any time, including when unattended; periodically verifying that the alarm itself triggers as intended confirms this backup mechanism will function when needed, since a working recorder does not guarantee a working alarm. ✅
+- **E.** Once a refrigerator has passed Installation Qualification (IQ), quarterly alarm testing replaces the need for continued daily manual temperature checks.
+
+**Correct (D):** Equipment management under cGMP/QSE requires oversight of qualification, calibration, and maintenance of critical instruments such as blood bank refrigerators. The suggested QC performance intervals distinguish daily recorder/manual-temperature/chart checks from a separate quarterly test of alarm activation for refrigerators and freezers. The mechanistic rationale is that the recorder and manual check only confirm temperature at the moments they are reviewed, while the alarm is a distinct fail-safe device intended to alert staff to an excursion at any time, including when the unit is unattended (nights, weekends). Because the alarm is a separate physical/electronic trigger mechanism from the recorder, its own proper function cannot be assumed from a passing recorder chart — it must be independently verified periodically. This is consistent with the source's definition of verification as confirming that equipment meets specifications at a specific point in time, and with the 'built-in' quality principle that safety must be engineered into the process (redundant, tested fail-safes) rather than discovered only after a product is compromised.
+
+- *B wrong:* Incorrect. The six CLIA competency assessment methods (direct observation, record monitoring, review of records, maintenance observation, test performance assessment, problem-solving) apply to evaluating testing personnel, not to equipment alarm function testing.
+- *C wrong:* Incorrect and a classic board trap: validation demonstrates that a new or changed process consistently works, whereas a periodic alarm functional check is verification — confirming existing equipment still meets specification at a given time, not establishing new process capability.
+- *A wrong:* Incorrect. Supplier qualification concerns inspecting and qualifying incoming critical materials (e.g., blood bags, reagents) from vendors before use; it is unrelated to testing an installed refrigerator's alarm circuit.
+- *E wrong:* Incorrect. IQ verifies correct installation of equipment at setup; it does not substitute for ongoing routine QC (daily temperature checks and recorder review), which must continue throughout the equipment's operational life regardless of alarm testing.
+
+**Sources:** `SRC-027`, `SRC-027`, `SRC-027`, `SRC-003`, `SRC-027`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0567 — Role of the Medical Director  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.i` · support: moderate
+
+A hospital transfusion service is validating a new automated analyzer for ABO/Rh typing and antibody detection before it will be used to test patient specimens. The operations manager documents successful installation qualification (IQ), confirming the equipment was installed according to manufacturer specifications, and operational qualification (OQ), including worst-case challenge testing of the process limits. The quality manager then documents performance qualification (PQ), demonstrating that the analyzer consistently performs as expected under normal working conditions, and both managers sign the validation summary. Before the analyzer may be placed into service for pretransfusion compatibility testing of patient samples, which additional signature is required, and what is the underlying purpose of this requirement?
+
+- **A.** The laboratory information system administrator must sign, because interfacing analyzer results to the LIS requires a separate technical certification before patient testing can begin
+- **B.** The transfusion committee chairperson must sign, because committee approval of new laboratory technology is required before any departmental validation can be finalized
+- **C.** The biomedical engineering supervisor must sign, because preventive maintenance scheduling must be finalized before an instrument can test patient specimens
+- **D.** The medical director must sign the validation summary, because process validation is a risk-mitigation strategy that generates scientific evidence of consistent process performance, and the director's final approval is the accountable act that authorizes clinical acceptance of that evidence ✅
+- **E.** The accrediting agency's on-site inspector must sign, because external assessment must occur before every new instrument is placed into service
+
+**Correct (D):** Process validation is defined as a risk-mitigation strategy that establishes scientific evidence that a process (here, the new analyzer) can consistently deliver a high-quality result before it is trusted with patient care. Validation protocol approval signatures come from operations, quality, and the medical director, and the medical director specifically must provide final approval of the validation summary before the process or equipment is implemented for clinical use. This reflects the medical director's broader authority: all medical and technical policies and procedures require the medical director's (or a qualified designee's) approval. The mechanism is that IQ/OQ/PQ generate the objective evidence, but it is the medical director's sign-off that converts that technical evidence into authorization to accept clinical risk.
+> Pearl: The medical director's sign-off on a validation summary is not a redundant formality alongside operations/quality approval; it is the accountable step that converts objective IQ/OQ/PQ evidence into authorization for clinical use, reflecting the director's overall responsibility for approving medical and technical policies/procedures.
+
+- *A wrong:* Incorrect distractor: the sources describe IQ/OQ/PQ and operations/quality/medical director sign-off as the validation approval pathway; a separate LIS-administrator certification step is not part of this framework.
+- *E wrong:* Incorrect distractor: external accrediting body assessments occur periodically (a reactive, scheduled review), not as a mandatory sign-off gate for each individual instrument validation before clinical use.
+- *B wrong:* Incorrect distractor: the sources do not describe the transfusion committee as a validation-approval signatory; approval signatures for validation summaries come from operations, quality, and the medical director.
+- *C wrong:* Incorrect distractor: equipment maintenance and calibration are ongoing quality-control activities, not described as the final gate required before an instrument is released for clinical patient testing; that final gate is the medical director's validation approval.
+
+**Sources:** `SRC-028`, `SRC-027`, `SRC-003`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0568 — Administrative  `AR` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.i.1` · support: moderate
+
+As medical director of a hospital transfusion service, you are conducting the administrative root-cause investigation (CAPA) for a reported adverse event: during activation of the massive transfusion protocol for a hypotensive trauma patient, a nurse warmed a unit of RBCs in a microwave oven to speed administration. After the transfusion, the patient's post-transfusion plasma was visibly pink, and urine testing confirmed hemoglobinuria. The direct antiglobulin test (DAT) on the post-transfusion sample was negative, and a repeat ABO/Rh type matched the pretransfusion sample with no clerical discrepancy identified. Which mechanism best explains this reaction and should be cited in the corrective SOP restricting blood administration sets to validated, FDA-cleared warming devices only?
+
+- **A.** IgM/complement-mediated intravascular hemolysis from an ABO-incompatible unit (acute hemolytic transfusion reaction)
+- **B.** Chelation of ionized calcium by citrate from rapid infusion of citrate-anticoagulated blood components
+- **C.** Extracellular potassium leakage from stored RBCs causing hyperkalemia-mediated cardiac toxicity
+- **D.** Neutrophil priming by patient factors followed by donor antibody/lipid activation causing acute lung injury (TRALI "two-hit" mechanism)
+- **E.** Thermal/mechanical injury to the RBC membrane from an unapproved warming device, producing nonimmune intravascular hemolysis ✅
+
+**Correct (E):** The source material explicitly states that using a microwave or other unapproved device to warm blood causes hemolysis and that only validated, FDA-cleared blood warmers are acceptable. It further defines nonimmune hemolysis as hemolysis with a negative DAT arising from mechanical damage or improper temperature exposure. This patient's negative DAT and concordant repeat ABO/Rh typing rule out an immune (antibody-mediated) cause, leaving thermal/mechanical injury from the microwave as the mechanism. As part of the medical director's administrative CAPA duty, the corrective action addresses this root cause by restricting warming equipment to validated devices, consistent with the quality-system principle that quality must be built into the process (validated SOPs and equipment) rather than merely inspected afterward.
+> Pearl: The medical director's administrative/QA responsibilities include root-cause analysis (CAPA) of transfusion adverse events; distinguishing DAT-negative nonimmune hemolysis (e.g., from unapproved warming devices) from immune-mediated and other transfusion reaction mechanisms is essential to writing an accurate corrective SOP.
+
+- *A wrong:* Distractor: AHTR is an immune (IgM/complement), typically antibody-associated hemolytic process; here the DAT is negative and repeat typing is concordant with no clerical/WBIT discrepancy, arguing against an ABO-incompatible transfusion.
+- *D wrong:* Distractor: TRALI's two-hit mechanism produces acute lung injury with hypoxemia and respiratory distress, not hemoglobinuria/hemolysis, and is unrelated to a warming device malfunction.
+- *B wrong:* Distractor: citrate toxicity chelates ionized calcium and produces paresthesias, tetany, or arrhythmia from hypocalcemia; it does not cause hemolysis or hemoglobinuria.
+- *C wrong:* Distractor: hyperkalemia from RBC storage lesion produces peaked T waves and cardiac arrest risk from potassium leakage, not hemoglobinuria; it is not a hemolytic mechanism tied to warming devices.
+
+**Sources:** `SRC-060`, `SRC-045`, `SRC-051`
+**Review:** auto-audited-pass · source-support: partial · flags: blueprint-mismatch, unsupported-claim
+
+---
+
+## Q-0569 — Quality Assurance  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.ii` · support: high
+
+A hospital transfusion service's nonconforming event log shows that over the past two quarters, three ABO specimen-labeling discrepancies were caught by the routine confirmatory ABO/Rh retype performed before crossmatch; no unit was ever issued on a mislabeled specimen. Each time, the technologist simply recollected a correctly labeled specimen, reported the corrected result, and closed the event with no further action. According to the quality management principles governing quality assurance (QA) as distinct from quality control (QC), which action reflects the mechanism actually required to prevent this problem from recurring?
+
+- **A.** Perform a root cause analysis of the specimen-labeling/phlebotomy process and implement a corrective action, such as revising the collection SOP or retraining staff, that addresses the underlying systemic cause ✅
+- **B.** Increase the frequency of confirmatory ABO/Rh retype testing performed at the time of crossmatch
+- **C.** Enroll the laboratory in additional proficiency testing samples beyond the required minimum of three times per year
+- **D.** Have the technologist who identified each discrepancy review and approve their own corrected result before it is released
+- **E.** Continue documenting each event as a correction in the nonconforming event log without further investigation
+
+**Correct (A):** QA is defined as the system-level activity that ensures manufacturing/testing is consistently performed to yield consistent quality, and it works mechanistically by emphasizing system design, error detection, AND prevention - quality must be built into the process from the start rather than inspected in afterward. Root cause analysis (e.g., the Five Whys) is used to drill down past 'human error' to a specific, management-controllable underlying cause, and a true preventive action (as opposed to a short-term correction) eliminates that root cause so the failure mode does not recur. Since the repeated failures are traced to the specimen-labeling step of phlebotomy, controlling that input/process (SOP revision, retraining) is the QA mechanism that stops the cascading risk at its source.
+> Pearl: Quality assurance prevents recurrence mechanistically by controlling process inputs/design through root cause analysis and true preventive action (eliminating the underlying systemic cause), which is fundamentally different from quality control's detection-based testing, a mere event-level correction, self-review, or proficiency testing of analytical accuracy.
+
+- *B wrong:* Distractor: more frequent confirmatory retyping only strengthens output-stage testing (QC), which detects errors after they occur; it does not correct the upstream process that is generating the mislabeling in the first place.
+- *E wrong:* Distractor: this describes exactly what already happened in the vignette - a short-term correction/remedial fix for each individual event with no investigation into the root cause, which by definition fails to prevent recurrence.
+- *D wrong:* Distractor: this violates the quality-department independence principle that staff must never review their own work; it addresses oversight structure, not the mechanism for eliminating a process's root cause.
+- *C wrong:* Distractor: proficiency testing (performed at least three times yearly) verifies analytical testing accuracy; it does not evaluate or correct the specimen-collection/labeling process implicated in this scenario.
+
+**Sources:** `SRC-052`, `SRC-053`, `SRC-033`, `SRC-043`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0570 — Process Control  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.ii.1` · support: high
+
+During an internal quality review, the medical director of a hospital transfusion service notes several recurring practices. Reagent red blood cells and antihuman globulin (antiglobulin) reagent are checked each day before they are used in patient testing, refrigerator/freezer temperatures are checked daily with alarm activation tested quarterly, and centrifuges undergo quarterly speed/timer checks. Separately, whenever a new antisera lot, instrument, or testing method is introduced, the laboratory performs a formal three-phase study (installation qualification, operational qualification using 'worst-case' challenges, and performance qualification) against predetermined acceptance criteria before the item is released into routine use. Which underlying quality assurance mechanism is best illustrated by this combination of practices?
+
+- **A.** Process control: validation of new processes combined with routine daily monitoring, built into operations to keep the system in a state of control before problems can reach a patient ✅
+- **B.** Management of nonconforming events: investigation and correction that occurs after an error, accident, or adverse reaction has already happened
+- **C.** Compliance-based inspection: periodic external review, such as a biennial reaccreditation inspection, performed to detect deficiencies after the fact
+- **D.** Process improvement (CAPA): root-cause analysis and corrective/preventive action undertaken in response to an already-identified nonconformance
+- **E.** Verification only: a single point-in-time confirmation that equipment or materials meet specifications, without any ongoing monitoring component
+
+**Correct (A):** The scenario combines two things the sources define together as one AABB Quality System Essential: 'Process Control,' described as validation plus daily operations. The daily reagent/equipment checks are the routine 'daily operations' component, while the IQ/OQ/PQ study with worst-case challenges and acceptance criteria before releasing a new lot, instrument, or method is the 'validation' component. The sources contrast this proactive, continuous approach (quality management, built in before problems reach the patient) with compliance, which is reactive and only finds errors at periodic inspection.
+> Pearl: Under the AABB Quality System Essentials, 'Process Control' is the umbrella category that unites formal validation of new processes/equipment (IQ/OQ/PQ, worst-case challenges, acceptance criteria) with routine daily quality control of reagents and equipment. This proactive, continuous model is what distinguishes quality management from reactive compliance-based inspection, and is distinct from the separate QSEs for nonconforming event management and process improvement (CAPA), which act only after a problem has already occurred.
+
+- *B wrong:* Incorrect: nonconforming event management is a separate QSE focused on capturing, investigating, and root-causing errors, accidents, or adverse reactions after they occur, which is not what daily QC checks or pre-use validation studies represent.
+- *C wrong:* Incorrect: the sources describe compliance as reactive periodic external review (e.g., inspections tied to the biennial policy/procedure review cycle) aimed at finding errors after the fact, distinct from the laboratory's own continuous internal QC and validation program.
+- *E wrong:* Incorrect: the sources define verification narrowly as confirming equipment or materials meet specifications at a single point in time, whereas the vignette also includes multi-phase validation of new processes and ongoing daily monitoring, which is broader than verification alone.
+- *D wrong:* Incorrect: process improvement/CAPA is the separate QSE involving root-cause analysis and corrective/preventive action in response to an already-identified problem, not the proactive daily QC and pre-implementation validation described in the stem.
+
+**Sources:** `SRC-003`, `SRC-027`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0571 — Improving Transfusion Practice  `AR` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.ii.3` · support: moderate
+
+A hospital's Transfusion Committee reviews utilization audit data showing that most hemodynamically stable, non-bleeding inpatients receive routine two-unit RBC orders with no clinical reassessment performed between units. As part of a Patient Blood Management (PBM) initiative to improve transfusion practice, the committee revises the ordering policy to require single-unit RBC transfusion with reassessment of the patient's hemoglobin and clinical status before any additional unit is issued. Which of the following physiologic mechanisms best supports the rationale for this single-unit transfusion strategy?
+
+- **A.** Stored RBC units contain elevated 2,3-DPG levels that immediately normalize oxygen unloading capacity upon transfusion, making reassessment between units unnecessary
+- **B.** Alkalosis that accompanies chronic anemia shifts the oxyhemoglobin dissociation curve to the right, facilitating oxygen unloading to peripheral tissues
+- **C.** Decreased 2,3-DPG produced during physiologic compensation for anemia shifts the oxyhemoglobin dissociation curve to the right, enhancing peripheral oxygen release
+- **D.** The FDA-mandated standard that at least 75% of transfused RBCs remain viable in the recipient's circulation 24 hours after transfusion ensures adequate tissue oxygenation regardless of the pretransfusion hemoglobin level
+- **E.** Compensatory increases in cardiac output and erythrocyte 2,3-DPG allow the anemic patient's tissues to maintain adequate oxygen delivery at a lower hemoglobin concentration, permitting reassessment before further transfusion ✅
+
+**Correct (E):** The body physiologically adapts to anemia by increasing cardiac output, increasing RBC 2,3-DPG, and redistributing blood flow to vital organs, which together preserve adequate tissue oxygen delivery at a hemoglobin level lower than the traditional transfusion trigger. Because a single unit can produce a physiologically meaningful rise in hemoglobin and the patient's own compensatory mechanisms support tolerance of a lower level, PBM/utilization-committee-driven programs favor single-unit orders with clinical reassessment over blanket two-unit orders, reducing unnecessary exposure while preserving inventory.
+> Pearl: Single-unit RBC ordering with clinical reassessment, a core Patient Blood Management/utilization-committee strategy to improve transfusion practice, is physiologically justified because anemic patients compensate via increased cardiac output and increased 2,3-DPG, which preserve tissue oxygen delivery at lower hemoglobin levels; know the correct direction of oxyhemoglobin curve shifts, since reversed 2,3-DPG/pH relationships are a classic board trap.
+
+- *C wrong:* Incorrect: the source specifies that increased (not decreased) 2,3-DPG, along with increased CO2, increased temperature, or decreased pH, shifts the curve rightward to favor oxygen release; decreased 2,3-DPG is described as causing a leftward, oxygen-retaining shift, so this option reverses the physiology.
+- *D wrong:* Incorrect: the 24-hour ≥75% posttransfusion RBC viability requirement is an FDA component-quality/regulatory standard for transfused cell survival, not a physiologic explanation for why stable patients tolerate a lower hemoglobin; it is unrelated to the oxygen-delivery rationale for single-unit dosing.
+- *B wrong:* Incorrect: increased pH (alkalosis) is explicitly listed as a cause of a leftward shift (increased oxygen retention, impairing delivery), not a rightward shift; this option states the opposite direction of the described mechanism.
+- *A wrong:* Incorrect: stored blood is described as having decreased, not elevated, 2,3-DPG, which produces a leftward shift that can impair rather than enhance immediate oxygen unloading after transfusion, so this option both reverses the stored-blood 2,3-DPG finding and its physiologic consequence.
+
+**Sources:** `SRC-002`, `SRC-027`, `SRC-004`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0572 — AABB  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.iii.2` · support: high
+
+A hospital transfusion service maintains AABB accreditation and structures its quality management system around the AABB Quality System Essentials (QSEs), including the QSE for 'Deviations, Nonconformances, and Adverse Events.' A root-cause investigation of a near-fatal acute hemolytic transfusion reaction finds that the patient's ABO/Rh type, antibody screen, and crossmatch had all been performed and interpreted correctly in the laboratory, but the patient nonetheless received a unit of red cells intended for a different patient because the two required staff members did not independently verify the patient's identifiers against the unit label at the bedside before starting the transfusion. This event illustrates the underlying failure mechanism that AABB's two-person (or validated electronic) bedside identity verification requirement is specifically designed to intercept. Which of the following best describes that mechanism?
+
+- **A.** Donor plasma antibodies directed against a recipient neutrophil antigen (e.g., anti-HNA-3a) that activate neutrophils within the pulmonary microvasculature
+- **B.** Clerical or patient-misidentification error at sample collection or bedside administration that results in an ABO-incompatible unit being given despite technically correct laboratory testing ✅
+- **C.** Engraftment and clonal proliferation of viable, immunocompetent donor T-lymphocytes that attack recipient tissue antigens
+- **D.** An acquired PIGA gene mutation causing loss of GPI-anchored complement-regulatory proteins (CD55/CD59) on the patient's own red cells
+- **E.** Failure of the pretransfusion antibody screen to detect a clinically significant alloantibody despite technically correct testing
+
+**Correct (B):** The sources state that the primary safety goal of transfusion administration is preventing the wrong blood from reaching a patient, and that most fatal ABO-incompatible transfusions result from clerical or identification errors rather than laboratory testing failures. Two-person (or validated electronic) bedside verification exists as the 'final check' precisely because correct ABO/Rh typing, antibody screening, and crossmatching in the laboratory cannot prevent a unit from being physically misdirected to the wrong patient; the safeguard targets this downstream clerical/identification error, which the vignette's root-cause analysis confirms was the actual failure point despite correct lab work.
+> Pearl: AABB-mandated bedside two-person (or validated electronic) identity verification exists to intercept clerical/identification errors, the dominant root cause of fatal ABO-incompatible transfusions, and must be distinguished on exam from distinct biologic mechanisms (TA-GVHD, TRALI, PNH) that require entirely different safeguards.
+
+- *E wrong:* Incorrect and a deliberate board trap: the vignette explicitly states testing was performed and interpreted correctly, and the source contrasts fatal ABO-incompatible events with laboratory testing failures, noting clerical/identification error is the dominant cause instead.
+- *D wrong:* Incorrect: this describes the pathophysiology of paroxysmal nocturnal hemoglobinuria (PNH), an acquired clonal disorder of the patient's own red cells causing chronic intravascular hemolysis; it is unrelated to bedside identity verification and is not corrected by that safeguard.
+- *C wrong:* Incorrect: this describes the mechanism of transfusion-associated graft-versus-host disease (TA-GVHD), which is prevented by gamma irradiation of cellular components to inactivate donor T-lymphocytes, not by bedside identity verification.
+- *A wrong:* Incorrect: this describes the antibody-mediated neutrophil-activation mechanism implicated in the most severe TRALI reactions (anti-HNA-3a antibodies), a donor-plasma-related hazard unrelated to bedside patient/unit identity checks.
+
+**Sources:** `SRC-003`, `SRC-010`, `SRC-004`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0573 — College of American Pathologists  `AR` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.iii.4` · support: moderate
+
+A hospital transfusion service undergoes a College of American Pathologists (CAP) on-site inspection. The inspector reviews the laboratory's personnel competency program and confirms that proficiency testing (PT) survey samples of unknown type/concentration are received three times per year and are tested by every bench technologist on a rotating basis, using the exact same handling, worksheets, and testing procedure applied to routine patient ABO/Rh typing and antibody detection specimens — no sample is ever diverted to a single 'PT-designated' senior technologist. The service's CAP accreditation confers 'deemed status,' satisfying the CLIA-mandated proficiency testing and competency requirements. Which of the following adverse events is this specific PT design (blinded samples, rotated among all staff, identical handling to patient specimens) most directly intended to prevent?
+
+- **A.** Transfusion-associated graft-versus-host disease (TA-GVHD) from non-irradiated cellular components
+- **B.** Transfusion-associated circulatory overload (TACO) from an excessively rapid infusion rate
+- **C.** Septic transfusion reaction from a bacterially contaminated platelet unit
+- **D.** Acute hemolytic transfusion reaction from an undetected ABO typing or clerical error by an individual technologist ✅
+- **E.** Transfusion-related acute lung injury (TRALI) from donor anti-HLA/anti-HNA antibodies
+
+**Correct (D):** The source material identifies clerical error as the number-one cause of acute hemolytic transfusion reactions (AHTR), with visible hemolysis as the hallmark finding. CAP's proficiency testing protocol is specifically designed so that PT samples are managed exactly like routine patient specimens and rotated among all staff, ensuring every individual technologist's ABO/Rh typing and antibody testing performance is periodically and blindly verified. This directly targets the clerical/testing-error mechanism that is the leading cause of AHTR, rather than mechanisms tied to donor antibodies, infusion rate, non-irradiated components, or bacterial contamination.
+> Pearl: CAP-mandated proficiency testing design (blinded samples, staff rotation, identical handling to patient specimens, thrice-yearly frequency) is a deemed-status CLIA requirement whose underlying purpose is to detect individual technologist clerical/testing errors — the documented leading cause of acute hemolytic transfusion reactions — before such errors reach a patient, distinguishing this QA mechanism from donor-antibody-mediated (TRALI), volume-mediated (TACO), irradiation-preventable (TA-GVHD), and donor-screening-related (bacterial contamination) adverse events.
+
+- *E wrong:* Distractor: TRALI is described as an inflammatory, noncardiogenic reaction typically related to donor antibody content, not to bench technologist testing competency — a PT program does not screen donor plasma.
+- *B wrong:* Distractor: TACO is a hydrostatic volume-overload reaction tied to infusion rate/volume, unrelated to whether staff are individually and blindly proficiency-tested.
+- *A wrong:* Distractor: TA-GVHD is prevented by gamma irradiation of cellular components to inactivate donor T lymphocytes, not by personnel competency/PT testing programs.
+- *C wrong:* Distractor: Bacterial contamination of platelets is described as the most significant infectious risk from room-temperature storage/collection, and is addressed by donor screening and component handling, not by technologist proficiency testing.
+
+**Sources:** `SRC-027`, `SRC-027`, `SRC-043`, `SRC-043`, `SRC-010`
+**Review:** auto-audited-pass · source-support: partial
+
+---
+
+## Q-0574 — Education  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.iv.4` · support: high
+
+The hospital Transfusion Committee's education subcommittee is revising the mandatory training module for anesthesiology and surgical staff who manage actively bleeding patients in the operating room. Under the prior curriculum, bleeding patients received a fixed empiric ratio of red cells, plasma, and platelets regardless of the individual patient's coagulation status. The revised module instead trains clinicians to obtain thromboelastography (TEG) or thromboelastometry (TEM) results intraoperatively and use those results to decide which specific coagulation factor(s), if any, to transfuse. Which of the following best explains the underlying rationale for this educational change?
+
+- **A.** TEG/TEM training satisfies the CLIA requirement for direct observation of testing personnel performing routine test procedures
+- **B.** TEG/TEM allows the clinician to assess the patient's own coagulation status and transfuse specific factors only when indicated, rather than administering a fixed empiric ratio regardless of actual need ✅
+- **C.** TEG/TEM's benefit comes from creating a dedicated staff position responsible for transfusion safety oversight and education
+- **D.** TEG/TEM works by restricting orders to a single red cell unit at a time based on clinical status rather than a traditional two-unit blanket order
+- **E.** TEG/TEM functions by auditing physicians' historical ordering practices and blood component discard rates to flag overutilization
+
+**Correct (B):** The source material identifies TEG/TEM as a patient blood management (PBM) tool whose purpose is to guide physicians on when to transfuse specific coagulation factors, replacing empirical, non-individualized transfusion 'recipes.' The mechanistic rationale for teaching this to bleeding-patient providers is that the assay reflects the individual patient's coagulation status in real time, so therapy can be targeted to a demonstrated deficiency instead of given reflexively in fixed ratios — reducing unnecessary component exposure while still treating true coagulopathy.
+> Pearl: Transfusion committee educational initiatives on patient blood management teach clinicians to replace empiric, ratio-based transfusion with goal-directed therapy using viscoelastic assays (TEG/TEM), which assess the patient's actual coagulation status so that specific factor replacement is given only when indicated — this is distinct from, though complementary to, other committee functions such as utilization auditing, single-unit ordering strategies, and the TSO's broader oversight role.
+
+- *D wrong:* Incorrect. Advocating single-unit orders over traditional two-unit blanket orders is a separate PBM clinical-impact strategy tied to data-driven ordering practices, not the mechanism by which TEG/TEM informs component selection.
+- *E wrong:* Incorrect. Auditing physician ordering practices and blood discard rates describes the function of multidisciplinary Utilization Committees, not the mechanistic basis of a TEG/TEM-guided transfusion decision at the bedside.
+- *A wrong:* Incorrect. Direct observation of routine test performance is one of the six CLIA-mandated methods for assessing testing-personnel competency in the laboratory; it is unrelated to why TEG/TEM changes a clinician's intraoperative transfusion decision-making.
+- *C wrong:* Incorrect. This describes the Transfusion Safety Officer role, which oversees safety, PBM implementation, and staff education generally, but it does not explain the mechanism by which TEG/TEM itself informs targeted component selection.
+
+**Sources:** `SRC-027`, `SRC-027`, `SRC-027`, `SRC-027`, `SRC-027`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0575 — Joint Commission  `AR` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.c.iii.3` · support: moderate
+
+During a Joint Commission survey evaluating a hospital's overall safety and performance, the surveyor reviews the transfusion service's investigation of a transfusion error. The quality manager explains that after the event was documented and any implicated in-house product was quarantined, the investigation team performed a specific step designed to move past the immediate circumstances of the error and identify the underlying, correctable cause that management has the ability to fix. Which step in the transfusion service's management of nonconforming events does the quality manager describe?
+
+- **A.** Reporting to external regulatory or accrediting agencies
+- **B.** Documentation of the event
+- **C.** Quarantine/recall of affected product
+- **D.** Root cause analysis ✅
+- **E.** Corrective action (CAPA)
+
+**Correct (D):** Root cause analysis (RCA) is the step in nonconforming event management that identifies the underlying, specific cause that management has the control to fix, rather than stopping at the immediate/proximate facts of the error. This is the mechanism by which a transfusion service moves from 'what happened' to 'why it happened at a fixable level,' which is what the quality manager is describing to the Joint Commission surveyor reviewing the hospital's safety and performance systems.
+
+- *B wrong:* Distractor: documentation only captures the facts of the error and classifies it by risk severity; it precedes RCA and does not itself identify the underlying cause, and the stem states this step was already completed.
+- *C wrong:* Distractor: quarantine/recall secures or removes affected product from use; it is a containment action, not a mechanism for determining why the error occurred, and the stem states this step was already completed.
+- *A wrong:* Distractor: reporting notifies external regulatory or accrediting agencies as required; it is a communication obligation, not the analytic step that uncovers the underlying cause.
+- *E wrong:* Distractor: CAPA implements short-term fixes and long-term preventive strategies based on what RCA finds; it acts on the identified cause rather than identifying it, so it is the step that follows, not the one described.
+
+**Sources:** `SRC-027`, `SRC-027`, `SRC-028`
+**Review:** auto-audited-pass · source-support: pass · flags: unsupported-claim
+
+---
+
+## Q-0576 — Cord Blood  `F` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.a.iv` · support: high
+
+A public cord blood bank collects an umbilical cord blood (UCB) unit immediately after an uncomplicated vaginal delivery for storage and potential release to an unrelated transplant recipient. Per FDA requirements, the laboratory does not test the UCB unit itself for transfusion-transmitted infectious disease markers (e.g., HIV, HBV, HCV). Instead, a blood sample is drawn from the birth mother within 7 days of the cord blood collection and tested as the donor specimen. What is the primary reason underlying this requirement?
+
+- **A.** Maternal IgG that crossed the placenta during pregnancy would passively coat cord blood cells and produce false-positive antibody results if the UCB unit itself were tested
+- **B.** Cryopreservation of the UCB unit prior to release testing degrades the antibody and antigen targets, invalidating serologic and nucleic acid testing if performed on the frozen product
+- **C.** Because a neonate cannot legally provide consent, FDA regulations substitute the mother's specimen for all donor eligibility determinations regardless of any testing limitation
+- **D.** The UCB unit's plasma volume is insufficient to complete the full panel of FDA-required infectious disease assays
+- **E.** No FDA-approved/cleared infectious disease testing assays have been validated for use directly on umbilical cord blood specimens, so the maternal sample serves as the required surrogate specimen for donor testing ✅
+
+**Correct (E):** The approved sources state explicitly that for cord blood, infectious disease testing is performed on a maternal sample taken within 7 days of collection because no approved tests exist for UCB. In other words, the FDA-cleared infectious disease marker assays (serology/NAT) used in blood banking have not been validated for use on the umbilical cord blood specimen matrix itself, so the mother is used as a testing surrogate for the donor unit. This is the source-stated mechanistic/regulatory basis for the practice, distinguishing it from consent-based, volume-based, or cryopreservation-based explanations that sound plausible but are not what the sources cite as the reason.
+> Pearl: Infectious disease marker testing for umbilical cord blood units is performed on a maternal specimen collected within 7 days of delivery because no FDA-approved/cleared assay has been validated for direct testing of the UCB specimen matrix — this is the source-grounded regulatory/procedural rationale, distinct from consent, volume, or cryopreservation-based explanations that are common board-trap distractors.
+
+- *A wrong:* Incorrect: transplacental passive IgG transfer is a real phenomenon, but the sources link passive antibody interference specifically to IVIG/RhIg causing a positive DAT or interfering with antibody screens — not to the stated rationale for why UCB infectious disease testing uses a maternal surrogate specimen. This is a plausible-sounding but non-source-grounded mechanism.
+- *D wrong:* Incorrect: the sources do not attribute the maternal surrogate testing requirement to insufficient UCB plasma volume; the stated reason is that no approved infectious disease tests exist for UCB specimens, not a volume constraint.
+- *C wrong:* Incorrect: this conflates informed consent/legal authorization (a genuine but separate legal consideration in cord blood banking) with the actual sourced reason for surrogate infectious disease testing, which concerns assay validation on the UCB specimen type, not consent capacity.
+- *B wrong:* Incorrect: the sources do not describe cryopreservation-induced degradation of infectious disease markers as the reason for maternal surrogate testing; testing on the fresh maternal sample is required because no approved assay exists for UCB, independent of the UCB unit's freeze status.
+
+**Sources:** `SRC-038`, `SRC-040`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0577 — Tissue Banking  `F` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.a.v` · support: high
+
+A 58-year-old man undergoes anterior cruciate ligament reconstruction using a cryopreserved tendon allograft obtained from a licensed tissue bank. Three weeks postoperatively he develops a deep surgical-site infection. The organism recovered is subsequently identified in tissue processed from two other recipients of allografts from the same donor. Investigators are able to rapidly identify every recipient who received tissue from this donor and initiate additional infectious-disease follow-up testing on all of them. Which regulatory mechanism, mandated under FDA 21 CFR Part 1271 for licensed tissue banks, is directly responsible for making this rapid recipient identification possible?
+
+- **A.** Bidirectional traceability linking donor identity to every tissue recipient (and vice versa) through unique identifiers recorded in the medical record ✅
+- **B.** FACT accreditation of the facility that processed the allograft
+- **C.** The informed consent process completed with the recipient before surgery
+- **D.** Application of strict product-liability doctrine to the allograft tissue
+- **E.** The redistribution ban applicable to cryopreserved reproductive tissue
+
+**Correct (A):** FDA 21 CFR Part 1271 regulates tissue banking specifically to prevent disease transmission, and tissue service activities are required to maintain bidirectional traceability between donor and recipient. In practice this means the tissue bank and transplanting facility record, for every tissue product, a numeric or alphanumeric identifier along with tissue type, quantity, expiration date, and date of use, so that any single donor's tissue can be traced forward to all recipients (and any recipient's adverse event traced backward to the donor) when a disease-transmission concern arises. This is the underlying mechanism that allowed investigators in the vignette to promptly identify all co-recipients of the implicated donor's tissue.
+> Pearl: 21 CFR Part 1271 governs human cells, tissues, and cellular/tissue-based products (HCT/Ps); its core purpose is prevention and investigation of disease transmission, and the operational mechanism enabling investigation after the fact is mandatory bidirectional donor-recipient traceability, not consent, liability doctrine, or cellular-therapy-specific accreditation.
+
+- *D wrong:* Strict liability is a distinct tort doctrine holding a provider liable for a defective product regardless of fault; the sources note it is rarely applied to blood (and by extension similarly regulated tissue) in most states, and it plays no role in identifying which patients received tissue from a given donor.
+- *C wrong:* Informed consent obligates the clinician to educate the recipient about the risks, benefits, and alternatives of the procedure before it occurs; it protects autonomy but does not create a mechanism for tracing tissue from a single donor to multiple recipients after the fact.
+- *E wrong:* The redistribution ban is a narrow rule specific to cryopreserved reproductive tissue (semen, oocytes, embryos) and does not apply to musculoskeletal allografts such as tendon, nor does it create donor-to-recipient traceability.
+- *B wrong:* FACT accreditation is associated with facilities processing immune effector cell and other cellular therapy products (e.g., CAR-T), not with general tissue allograft banking, and accreditation status itself is not the traceability mechanism required by 21 CFR 1271.
+
+**Sources:** `SRC-010`, `SRC-006`, `SRC-006`, `SRC-006`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0578 — Hematopoietic Progenitor Cells  `F` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.d.i` · support: moderate
+
+A FACT/AABB-accredited hematopoietic progenitor cell (HPC) processing laboratory receives an allogeneic HPC-A (peripheral blood stem cell) product collected by apheresis from a matched unrelated donor, intended for infusion into a patient with acute myeloid leukemia. Per the transfusion service's standing policy, all cellular blood components dispensed to immunocompromised transplant recipients are gamma-irradiated to prevent transfusion-associated graft-versus-host disease (TA-GVHD). A technologist unfamiliar with cellular therapy processing standards requests that the HPC product itself be irradiated before release, applying the same policy used for RBC and platelet components. The HPC laboratory's quality manager stops the request, citing the accreditation standards governing HPC processing, which prohibit irradiation of the graft. What is the mechanistic basis for this prohibition?
+
+- **A.** Irradiation would stimulate proliferation of the donor T-lymphocytes contained in the graft, paradoxically increasing the risk of GVHD after infusion.
+- **B.** Irradiation would trigger passenger lymphocyte syndrome by cross-linking donor lymphocyte DNA and inducing antibody production directed against the recipient's red cell antigens.
+- **C.** Irradiation of the HPC product would cause immediate hemolysis of red blood cells retained in the collection, precipitating a hyperacute hemolytic reaction on infusion.
+- **D.** Gamma irradiation nonselectively damages the DNA of proliferating cells; because the CD34+ progenitor cells must divide to reconstitute hematopoiesis, irradiating the graft would destroy this capacity, whereas irradiating mature RBC/platelet components only needs to inactivate the small number of contaminating passenger T-lymphocytes. ✅
+- **E.** The HPC graft is exempt from irradiation requirements because, unlike RBC and platelet components, it does not contain donor T-lymphocytes and therefore poses no risk of transmitting GVHD.
+
+**Correct (D):** HPC products must never be irradiated because doing so would destroy the stem cells' ability to proliferate. Irradiation functions as a TA-GVHD prevention measure for standard cellular blood components (RBCs, platelets) by damaging the DNA/proliferative capacity of the small number of contaminating donor T-lymphocytes, without impairing the components' function, since mature RBCs and platelets do not need to divide. The HPC graft, in contrast, depends entirely on the CD34+ progenitor cells' proliferative capacity to engraft and reconstitute hematopoiesis; applying the same DNA-damaging mechanism to the graft would equally abolish the stem cells' engraftment potential. This processing prohibition is enforced as part of the accreditation standards (e.g., FACT/AABB) that govern HPC collection and processing facilities.
+> Pearl: Irradiation of cellular blood products targets DNA of proliferating contaminating T-lymphocytes to prevent TA-GVHD without impairing anucleate/non-dividing RBCs or platelets. Because the therapeutic value of an HPC graft depends on the CD34+ progenitor cells' ability to proliferate and reconstitute hematopoiesis, the same irradiation dose applied to the graft would abolish engraftment capacity — this is why HPC products must never be irradiated, a processing rule enforced under accreditation standards (FACT/AABB) for HPC collection and processing programs.
+
+- *C wrong:* Incorrect — the sources do not identify hemolysis as the reason irradiation is avoided; the stated rationale is loss of stem cell proliferative capacity, not red cell lysis.
+- *A wrong:* Incorrect — this reverses the actual mechanism. Irradiation inactivates, rather than stimulates, lymphocyte proliferative capacity; the prohibition on irradiating the graft stems from its effect on the CD34+ stem cells, not paradoxical T-cell activation.
+- *E wrong:* Incorrect — allogeneic HPC grafts do contain donor T-lymphocytes; per the sources, GVHD is a syndrome caused by donor T-cells attacking recipient tissue. The graft is not irradiated because doing so would destroy stem cell proliferative capacity, not because it lacks T-lymphocytes.
+- *B wrong:* Incorrect — passenger lymphocyte syndrome arises when donor-origin lymphocytes in the graft produce antibodies against recipient RBC antigens in the setting of minor ABO incompatibility; it is unrelated to irradiation and is not the reason irradiation of the graft is prohibited.
+
+**Sources:** `SRC-035`, `SRC-035`, `SRC-035`, `SRC-035`, `SRC-028`, `SRC-006`
+**Review:** auto-audited-pass · source-support: partial · flags: unsupported-claim
+
+---
+
+## Q-0580 — HLA Matching  `F` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.d.i.3` · support: high
+
+A 45-year-old man with AML in remission undergoes myeloablative allogeneic HSCT from an HLA-matched unrelated donor. On day +25 post-transplant he develops a diffuse maculopapular rash, fever, watery diarrhea, and rising bilirubin and liver transaminases. Which of the following best describes the underlying immunologic mechanism responsible for this presentation?
+
+- **A.** ABO incompatibility between donor and recipient triggers immunologic rejection of the hematopoietic graft
+- **B.** Donor T lymphocytes contained within the graft recognize recipient tissue antigens as foreign and mount a multi-organ immune attack on skin, gut, and liver ✅
+- **C.** Donor-origin lymphocytes in the graft produce antibodies against the recipient's remaining RBC antigens, causing delayed hemolysis
+- **D.** Recipient antibodies persist after transplant and lyse developing donor erythroid precursors in the marrow, producing pure red cell aplasia
+- **E.** Recipient isoagglutinins directed against donor RBC antigens cause acute intravascular hemolysis as the graft is infused
+
+**Correct (B):** The rash, fever, diarrhea, and liver dysfunction described are the classic multi-system presentation of graft-versus-host disease (GVHD). The source material defines GVHD as a multi-system syndrome caused by donor T-cells attacking recipient tissues, and states that HLA compatibility is the paramount factor for engraftment and the prevention of GVHD in allogeneic HSCT. The pathophysiology is a one-way immunologic attack: immunocompetent donor T lymphocytes carried within the graft recognize recipient HLA/tissue antigens as foreign and mediate direct cytotoxic injury to target organs (classically skin, gastrointestinal tract, and liver), which is exactly the mechanism reflected in this vignette.
+> Pearl: In allogeneic HSCT, HLA disparity drives a bidirectional but mechanistically distinct set of complications: donor T-cells attacking recipient tissue produces GVHD (multi-system: skin, gut, liver), which must be distinguished from ABO-mismatch-driven hemolytic phenomena (acute hemolysis, PLS, PRCA) that are RBC-restricted and do not represent graft rejection.
+
+- *E wrong:* Incorrect. This describes major ABO incompatibility, which produces acute intravascular hemolysis (with hemoglobinuria-type findings) at the time of graft infusion when the graft contains excessive donor RBCs; it does not cause a rash/fever/diarrhea/hepatic syndrome and is a distinct process from GVHD.
+- *C wrong:* Incorrect. This describes Passenger Lymphocyte Syndrome (PLS), a minor-ABO-mismatch phenomenon presenting as delayed hemolysis (typically 5-16 days post-transplant) with a positive DAT and reactive eluate; it is a hemolytic process, not the multi-organ presentation described here.
+- *D wrong:* Incorrect. This describes pure red cell aplasia (PRCA), a complication of major ABO-mismatched HSCT in which persistent recipient antibodies lyse donor erythroid precursors, causing myeloid engraftment without erythroid recovery (reticulocytes <1% for >60 days); it does not explain rash, diarrhea, or liver dysfunction.
+- *A wrong:* Incorrect and a noted board trap: ABO incompatibility can cause hemolysis of RBCs but does not cause rejection of the HPC graft itself, so it cannot account for this clinical picture.
+
+**Sources:** `SRC-035`, `SRC-035`, `SRC-035`, `SRC-035`, `SRC-035`
+**Review:** auto-audited-pass · source-support: pass
+
+---
+
+## Q-0581 — Accreditation Organizations  `F` · moderate
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.d.i.5` · support: high
+
+A hospital-based hematopoietic progenitor cell (HPC) processing laboratory holds accreditation from the College of American Pathologists (CAP). During the facility's Clinical Laboratory Improvement Amendments of 1988 (CLIA) survey cycle, the state surveyor confirms that a separate, direct CMS on-site inspection of the laboratory's testing operations is not required, because the laboratory's current CAP accreditation status is accepted in its place. Which of the following best explains the regulatory mechanism responsible for this outcome?
+
+- **A.** CAP accreditation automatically fulfills the facility's obligation to report Biological Product Deviations to the FDA
+- **B.** CAP accreditation is itself a mandatory federal regulation that legally supersedes the CLIA '88 statute for all clinical laboratories
+- **C.** CAP accreditation exempts the laboratory from state department of health licensure requirements
+- **D.** CAP accreditation confers an exemption from FDA establishment registration and cGMP/cGTP oversight of the facility's HCT/P collection and processing activities under 21 CFR 1271
+- **E.** CMS has granted CAP 'deemed status,' meaning CAP's accreditation program is recognized as meeting or exceeding CLIA '88 requirements, so accreditation substitutes for a separate federal CLIA inspection ✅
+
+**Correct (E):** The approved sources define 'deemed status' as the specific mechanism by which CMS recognizes a voluntary accrediting organization's program (naming AABB or CAP) as meeting or exceeding CLIA requirements, so that accreditation by that body satisfies the federal CLIA inspection mandate in place of a separate CMS survey. A second source explicitly states that both AABB and CAP hold this deemed status under the CLIA '88 program, distinguishing this voluntary peer-review accreditation from the mandatory regulations enforced directly by FDA and CMS.
+> Pearl: Deemed status is the specific regulatory mechanism by which CMS recognizes voluntary accreditation (by AABB or CAP, per the sources) as satisfying CLIA requirements; it operates only within the CLIA/CMS laboratory-testing framework and does not substitute for separate mandatory FDA HCT/P regulation (21 CFR 1271), BPD reporting, or state licensure.
+
+- *D wrong:* Incorrect: HCT/P regulation under 21 CFR 1271 is a separate, mandatory FDA authority; the sources describe mandatory federal regulations (FDA/CMS) and voluntary accreditation as distinct systems, with no source statement that accreditation exempts FDA registration or cGMP/cGTP oversight.
+- *B wrong:* Incorrect: the sources classify accreditation explicitly as 'voluntary,' not a mandatory regulation, and deemed status means accreditation is recognized as satisfying CLIA, not that it legally replaces the CLIA statute.
+- *A wrong:* Incorrect: Biological Product Deviation reporting to FDA is a distinct, separately triggered obligation described in the sources and is not tied to CLIA deemed status.
+- *C wrong:* Incorrect: the sources list State Departments of Health as a separate mandatory licensing authority with its own state-specific health codes; deemed status in the sources pertains only to the federal CLIA/CMS relationship, not state licensure.
+
+**Sources:** `SRC-053`, `SRC-027`, `SRC-051`
+**Review:** auto-audited-pass · source-support: pass · flags: blueprint-mismatch
+
+---
+
+## Q-0582 — Other Cellular Therapies  `F` · hard
+*17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management* · node `S17.d.ii` · support: moderate
+
+A 58-year-old man with relapsed, refractory diffuse large B-cell lymphoma undergoes leukapheresis to collect his own T lymphocytes. The collected autologous T cells are shipped to a manufacturing facility, where they are genetically engineered ex vivo to express a synthetic antigen-directed receptor targeting CD19, expanded in culture, and then reinfused into the patient as an FDA-approved immune effector cell (IEC) product. The manufacturing facility maintains accreditation from the Foundation for the Accreditation of Cellular Therapy (FACT) for this program. Which of the following best describes the underlying mechanism by which this product produces its antitumor effect?
+
+- **A.** Passenger lymphocytes within the product produce antibodies directed against the recipient's red cell antigens, causing hemolysis of residual malignant cells
+- **B.** Donor-derived lymphocytes contained in the product are infused into the recipient, analogous to a donor lymphocyte infusion (DLI)
+- **C.** High-resolution HLA-matched hematopoietic progenitor cells engraft in the marrow and replace the malignant clone with normal donor-derived hematopoiesis
+- **D.** The patient's germline (reproductive cell) genome is modified to eliminate the malignant clone, with the genetic change transmissible to future offspring
+- **E.** New genetic material is introduced into the patient's own non-reproductive (somatic) T cells so that they express an antigen-directed receptor, enabling the cells to directly recognize and kill CD19-bearing tumor cells as an adoptive immunotherapy ✅
+
+**Correct (E):** Immune effector cell (IEC) products such as CAR-T cells are a form of adoptive immunotherapy created by introducing new genetic material into the patient's own somatic (non-reproductive) T lymphocytes so that the cells express a synthetic antigen-directed receptor. This is somatic gene therapy: because the modification is confined to non-reproductive cells, the change is not transmitted to future generations, and the engineered T cells act directly against target-antigen-bearing tumor cells. This pathway (antigen-directed T-cell processing, IEC nomenclature, and somatic vs. germline gene therapy distinction) is exactly what defines these specialized cellular therapy products.
+> Pearl: Immune effector cell (IEC) products such as CAR-T cells work via somatic gene therapy: ex vivo genetic engineering of the patient's own T cells to express an antigen-directed receptor for adoptive immunotherapy. This mechanism is distinct from - and must not be confused with - allogeneic HPC engraftment (HLA-dependent), donor lymphocyte infusion, passenger lymphocyte syndrome, or heritable germline gene therapy.
+
+- *B wrong:* Incorrect - donor lymphocyte infusion is a distinct cellular therapy (used, for example, in management of pure red cell aplasia after allogeneic HSCT) involving donor-derived cells; the vignette's product is autologous and gene-engineered, not a donor lymphocyte product.
+- *D wrong:* Incorrect - this describes germline gene therapy, which is explicitly distinguished from the somatic gene therapy used to manufacture IEC/CAR-T products; germline changes are heritable, whereas somatic changes used in CAR-T manufacturing are not.
+- *C wrong:* Incorrect - this describes the mechanism of allogeneic hematopoietic progenitor cell (HPC) transplantation, where HLA compatibility governs engraftment and donor-derived hematopoiesis replaces the recipient's marrow; it does not describe an autologous, antigen-directed IEC product.
+- *A wrong:* Incorrect - this describes passenger lymphocyte syndrome, in which donor-origin lymphocytes within an HPC graft produce antibodies against recipient RBC antigens causing hemolysis; it is unrelated to the antitumor mechanism of an engineered antigen-directed T-cell product.
+
+**Sources:** `SRC-011`, `SRC-035`
+**Review:** auto-audited-pass · source-support: pass · flags: blueprint-mismatch
 
 ---

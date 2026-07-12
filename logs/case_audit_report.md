@@ -1,6 +1,6 @@
 # Case Audit Report
 
-_Generated 2026-07-12T17:45:42.726711+00:00. Each item was independently re-read against its approved sources by an adversarial auditor._
+_Generated 2026-07-12T18:38:47.777921+00:00. Each item was independently re-read against its approved sources by an adversarial auditor._
 
 ## Summary
 

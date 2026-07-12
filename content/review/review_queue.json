@@ -1,6 +1,6 @@
 {
   "schema": "review-queue/v1",
-  "generated_at": "2026-07-12T17:45:22.959616+00:00",
+  "generated_at": "2026-07-12T18:38:18.563777+00:00",
   "questions_needing_review": [
     {
       "id": "Q-0003",
@@ -3025,6 +3025,1591 @@
         "severity": "medium",
         "verdict_notes": "The six CLIA elements and their definitions are accurately sourced (SRC-053 Sec.3 list; SRC-027 'CLIA Minimal Regulatory Requirements for Competency Assessment' table, which explicitly defines 'Problem-Solving Skills' as evaluating ability to handle discrepancies and technical issues - matching the ABO forward/reverse mismatch scenario). Items (1)-(3) in the stem cleanly map to three distinct elements: Direct Observation (item 1), Record/Recording Monitoring (item 2), and Test Performance Assessment via PT/previously-analyzed samples (item 3) - correctly eliminating options B, C, D. The intended answer (A, problem-solving) is clearly signaled by the assessor's explicit note about undocumented discrepancy-handling. However, strictly by elimination, a fourth element - 'Review of intermediate test results, QC, PT, and maintenance records' (option E) - is also never confirmed as documented in the file (item 2 maps to 'Record Monitoring,' a distinct element from 'Review of Records' per the SRC-027 table), and 'Maintenance Observation' (not offered as an option) is likewise unconfirmed. Because the stem's three documented items do not affirmatively rule out E, a rigorous test-taker doing strict elimination could argue E is also 'missing' from the file, creating a secondary defensible reading even though A is the clearly intended and best-supported answer given the assessor's specific flagged gap."
       }
+    },
+    {
+      "id": "Q-0449",
+      "domain": "1. Clinical Practice",
+      "subdomain": "Growth Factors",
+      "blueprint_node_id": "S1.c.iii.1",
+      "designation": "AR",
+      "difficulty": "moderate",
+      "cognitive_level": "analysis",
+      "stem": "A 58-year-old man with multiple myeloma in partial remission after induction chemotherapy is scheduled for autologous hematopoietic progenitor cell (HPC) transplantation. He receives filgrastim (G-CSF) for progenitor cell mobilization, but his peripheral blood CD34+ cell count remains inadequate on day 4 of mobilization. Plerixafor is added to the regimen, after which the circulating CD34+ cell count rises enough to permit a successful apheresis collection. What is the mechanism by which plerixafor increases the number of circulating hematopoietic progenitor cells in this setting?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It binds erythropoietin receptors on erythroid progenitors to directly stimulate red cell production"
+        },
+        {
+          "id": "B",
+          "text": "It antagonizes the CXCR4 receptor, disrupting the interaction that retains progenitor cells within the bone marrow niche"
+        },
+        {
+          "id": "C",
+          "text": "It irradiates contaminating lymphocytes within the collected product to reduce graft-versus-host disease risk"
+        },
+        {
+          "id": "D",
+          "text": "It increases red cell 2,3-DPG levels, shifting the oxygen dissociation curve rightward to enhance tissue oxygen delivery"
+        },
+        {
+          "id": "E",
+          "text": "It cross-links nucleic acids within residual pathogens to prevent their replication, a pathogen-reduction mechanism"
+        }
+      ],
+      "correct_option_id": "B",
+      "explanation_correct": "The approved sources describe plerixafor as a CXCR4 antagonist used together with G-CSF/filgrastim to mobilize hematopoietic progenitor cells out of the marrow and into the peripheral blood for apheresis collection. By blocking CXCR4, plerixafor disrupts the retention signal that anchors progenitors in the marrow niche, increasing the circulating CD34+ yield in a poor mobilizer such as this myeloma patient.",
+      "option_explanations": {
+        "A": "Incorrect. This conflates plerixafor/G-CSF (hematopoietic growth factors used for stem cell mobilization) with erythropoiesis-stimulating mechanisms; the sources describe plerixafor only as a CXCR4 antagonist that mobilizes progenitors, with no erythropoietin-receptor activity described.",
+        "D": "Incorrect. Increased 2,3-DPG is a physiologic compensatory adaptation to anemia that shifts the oxygen dissociation curve to the right to facilitate oxygen release to tissues; it is not a mechanism of plerixafor or any HPC mobilization agent.",
+        "B": "Correct. Plerixafor is explicitly identified as a CXCR4 antagonist used with G-CSF/filgrastim to move HPCs from the marrow into the peripheral blood for collection.",
+        "E": "Incorrect. Nucleic acid cross-linking upon UV exposure is the pathogen-inactivation mechanism of amotosalen+UVA (INTERCEPT) technology used for platelets and plasma, not a mechanism of plerixafor or progenitor mobilization.",
+        "C": "Incorrect. HPC grafts must never be irradiated or leukocyte reduced, as this would destroy the graft's ability to engraft; irradiation is reserved for standard cellular blood components given to the recipient, not the collected progenitor product, and is not a mechanism of plerixafor."
+      },
+      "teaching_point": "Growth-factor-based HPC mobilization (G-CSF plus the CXCR4 antagonist plerixafor) works by disrupting marrow retention signals to release progenitors into peripheral blood; this mechanism is distinct from erythropoiesis-stimulating action, physiologic oxygen-delivery adaptation to anemia, or pathogen-inactivation chemistry, and the HPC graft itself must never be irradiated.",
+      "source_references": [
+        {
+          "source_id": "SRC-038",
+          "source_type": "notebooklm",
+          "locator": "Management - Mobilization; Clinical Presentations - Malignant Indications; Common Board Traps - Irradiation Error",
+          "supports": "States plerixafor is a CXCR4 antagonist used with G-CSF/filgrastim for HPC mobilization to peripheral blood; lists multiple myeloma as a malignant HSCT indication; states the HPC graft must never be irradiated.",
+          "blueprint_node_id": "S1.c.iii.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-040",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 24 - Management: Mobilization; Prevention: Processing Rules",
+          "supports": "Corroborates that G-CSF (Filgrastim) or Plerixafor (CXCR4 antagonist) is used to move stem cells into peripheral blood for collection, and reiterates HPC grafts should never be irradiated.",
+          "blueprint_node_id": "S1.c.iii.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Node 46 - Mechanics of the Shift; Node 48 - Amotosalen + UVA (INTERCEPT)",
+          "supports": "Provides the 2,3-DPG/oxygen-dissociation-curve compensatory mechanism (used to build the distractor about physiologic adaptation to anemia) and the amotosalen+UVA nucleic-acid cross-linking mechanism (used to build the pathogen-inactivation distractor).",
+          "blueprint_node_id": "S1.c.iii.1",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "moderate",
+      "tags": [
+        "S1"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "CORE MECHANISM FACTS ARE GROUNDED: SRC-038 and SRC-040 both explicitly identify plerixafor as 'a CXCR4 antagonist' used together with G-CSF/filgrastim to move HPCs from marrow to peripheral blood for collection, and both explicitly state multiple myeloma is a malignant HSCT indication. Distractor B (2,3-DPG/oxygen-curve) is directly and accurately drawn from SRC-002 Node 46. Distractor D (amotosalen+UVA nucleic-acid cross-linking) is directly and accurately drawn from SRC-002 Node 48. Distractor E is directly supported by the explicit 'HPC graft must NEVER be irradiated' rule in both SRC-038 a"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "C",
+        "flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "severity": "high",
+        "verdict_notes": "CORE MECHANISM FACTS ARE GROUNDED: SRC-038 and SRC-040 both explicitly identify plerixafor as 'a CXCR4 antagonist' used together with G-CSF/filgrastim to move HPCs from marrow to peripheral blood for collection, and both explicitly state multiple myeloma is a malignant HSCT indication. Distractor B (2,3-DPG/oxygen-curve) is directly and accurately drawn from SRC-002 Node 46. Distractor D (amotosalen+UVA nucleic-acid cross-linking) is directly and accurately drawn from SRC-002 Node 48. Distractor E is directly supported by the explicit 'HPC graft must NEVER be irradiated' rule in both SRC-038 and SRC-040. Distractor A's rationale accurately states sources describe no EPO-receptor activity for plerixafor. However, two concerns: (1) UNSUPPORTED ELABORATION - the credited explanation states plerixafor 'disrupts the retention signal that anchors progenitors in the marrow niche' and option C's text similarly frames the mechanism as 'disrupting the interaction that retains progenitor cells within the bone marrow niche.' None of the four sources describe the CXCR4/SDF-1(CXCL12) retention-signal biology at all - they only label plerixafor 'a CXCR4 antagonist' used for mobilization, without explaining why CXCR4 antagonism causes mobilization. This is standard/true pharmacology but is an inference beyond what these specific sources state, consistent with the question author's own 'moderate' support_confidence rating. (2) BLUEPRINT MISMATCH (the more serious issue) - the targeted node is 'Anemia in Oncology Patients > Management > Growth Factors.' In BB/TM board content, 'growth factors' under an anemia-management heading conventionally means erythropoiesis-stimulating agents (epoetin alfa/darbepoetin) used to manage chemotherapy-induced anemia - a topic with its own well-known safety issues (thrombosis risk, iron repletion before starting, Hgb target ceilings, tumor-progression concerns). This question instead tests G-CSF/plerixafor-based CD34+ stem-cell mobilization for autologous HPC transplant collection - a myeloid/stem-cell-transplant topic entirely unrelated to erythropoiesis or RBC-focused anemia management. None of the four source documents contain any content on erythropoietin/ESA management of oncology-associated anemia; all the HPC/mobilization content sits in the HSCT-specific nodes (SRC-038 Domain VIII, SRC-040 Node 24), not an anemia-management context. The question is well-constructed and internally consistent, but it does not appear to test the specified blueprint node's actual clinical content (ESA management of cancer-associated anemia); it tests a different growth-factor class in a different clinical scenario (transplant mobilization, not anemia treatment). Recommend re-tagging to an HPC-transplantation/mobilization node or replacing with a question on erythropoiesis-stimulating agents to match the stated blueprint node. Answer key (C) is correct and is the single best answer among the options as written."
+      }
+    },
+    {
+      "id": "Q-0450",
+      "domain": "1. Clinical Practice",
+      "subdomain": "Immune Thrombocytopenic Purpura in Pregnancy",
+      "blueprint_node_id": "S1.d.v.5",
+      "designation": "AR",
+      "difficulty": "moderate",
+      "cognitive_level": "analysis",
+      "stem": "A 28-year-old woman at 22 weeks of gestation is found to have an isolated platelet count of 58,000/uL on routine prenatal screening. She is asymptomatic, blood pressure is normal, and a preconception platelet count one year ago was normal. Peripheral smear shows no schistocytes, coagulation studies are normal, and there is no history of heparin exposure or new medications. A presumptive diagnosis of immune thrombocytopenic purpura (ITP) is made, and HLA and HPA antibody assays are sent as part of the diagnostic workup. Which of the following best describes the pathophysiologic mechanism responsible for this patient's thrombocytopenia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IgG autoantibodies bind platelet surface antigens, resulting in immune-mediated destruction of the antibody-coated platelets"
+        },
+        {
+          "id": "B",
+          "text": "A maternal alloantibody forms against a paternally inherited platelet antigen absent from the mother's own platelets, destroying fetal platelets"
+        },
+        {
+          "id": "C",
+          "text": "Heparin exposure triggers formation of platelet-reactive antibodies that cause pathologic platelet activation and consumption"
+        },
+        {
+          "id": "D",
+          "text": "Deficiency of ADAMTS13 activity leads to accumulation of ultra-large von Willebrand factor multimers and microvascular platelet consumption"
+        }
+      ],
+      "correct_option_id": "A",
+      "explanation_correct": "The curriculum states that ITP involves platelet destruction, and that HLA and HPA antibody assays are critical to its investigation \u2014 reflecting an autoimmune process in which IgG autoantibodies coat the patient's own platelets, targeting them for immune-mediated destruction. This is the mechanism operative in this pregnant patient's own thrombocytopenia, and it is why antibody-directed assays (rather than tests for a consumptive or alloimmune process) are sent to support the diagnosis.",
+      "option_explanations": {
+        "D": "Incorrect: ADAMTS13 deficiency/inhibition with resultant microvascular platelet consumption is the mechanism of TTP, which classically presents with microangiopathic hemolysis (schistocytes), neurologic signs, fever, and renal dysfunction \u2014 findings absent here and mechanistically distinct from ITP's antibody-mediated platelet destruction.",
+        "C": "Incorrect: this describes heparin-induced thrombocytopenia (HIT), which the curriculum lists as a separate entity from ITP with its own classification and pathogenesis; this patient has no heparin exposure, and HIT's mechanism is not the one being investigated by HLA/HPA antibody testing here.",
+        "A": "Correct: matches the curriculum's description of ITP as antibody-mediated platelet destruction, with HLA and HPA antibody assays used to investigate the process.",
+        "B": "Incorrect: this describes neonatal alloimmune thrombocytopenia (NAIT), in which the curriculum identifies HPA-1a as the primary alloantigen target; NAIT is an alloimmune process directed at paternally-derived antigens on fetal/neonatal platelets, not the autoimmune process causing the mother's own thrombocytopenia."
+      },
+      "teaching_point": "ITP is an autoimmune, antibody-mediated process of platelet destruction (investigated via HLA/HPA antibody assays), mechanistically distinct from the alloimmune platelet destruction of NAIT (anti-HPA-1a against paternal antigen), the heparin/PF4-antibody-driven platelet activation of HIT, and the ADAMTS13-deficiency-driven microvascular consumption of TTP.",
+      "source_references": [
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain I Clinical Practice, High-Yield Facts (ITP line)",
+          "supports": "ITP mechanism is platelet destruction; HLA and HPA antibody assays are critical for its investigation",
+          "blueprint_node_id": "S1.d.v.5",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain I Clinical Practice, Major Concepts line",
+          "supports": "ITP and HIT are named as distinct entities each with their own classification/pathogenesis, supporting HIT as a mechanistically separate distractor",
+          "blueprint_node_id": "S1.d.v.5",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-044",
+          "source_type": "notebooklm",
+          "locator": "Platelet and Granulocyte Immunohematology section",
+          "supports": "HPA-1a is the primary alloantigen target in Neonatal Alloimmune Thrombocytopenia (NAIT), grounding the alloimmune distractor as mechanistically distinct from autoimmune ITP",
+          "blueprint_node_id": "S1.d.v.5",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain IV Apheresis, High-Yield Facts (TTP line)",
+          "supports": "TTP treatment (TPE) works by removing ADAMTS13 inhibitors, grounding the ADAMTS13-deficiency distractor as a distinct consumptive mechanism",
+          "blueprint_node_id": "S1.d.v.5",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-023",
+          "source_type": "notebooklm",
+          "locator": "TTP Pentad description",
+          "supports": "TTP's clinical pentad (MAHA, thrombocytopenia, neurologic signs, fever, renal dysfunction) supports excluding TTP given this patient's normal smear and absence of other pentad features",
+          "blueprint_node_id": "S1.d.v.5",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S1"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Blueprint node is the pregnancy-specific sub-topic 'Immune Thrombocytopenic Purpura in Pregnancy,' but none of the four approved sources contain any pregnancy-specific ITP content (no gestational thrombocytopenia differential, no pregnancy management thresholds, no neonatal/obstetric considerations). Grep of all four files for 'pregnan' and 'gestational thrombocytopenia' near ITP/platelet content returns nothing relevant (only unrelated hits: HTLA/anti-D titration and cryoprecipitate fibrinogen targets in SRC-044). The item is effectively a generic 'ITP vs HIT vs TTP vs NAIT mechanism' questio"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "C",
+        "flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "severity": "high",
+        "verdict_notes": "Blueprint node is the pregnancy-specific sub-topic 'Immune Thrombocytopenic Purpura in Pregnancy,' but none of the four approved sources contain any pregnancy-specific ITP content (no gestational thrombocytopenia differential, no pregnancy management thresholds, no neonatal/obstetric considerations). Grep of all four files for 'pregnan' and 'gestational thrombocytopenia' near ITP/platelet content returns nothing relevant (only unrelated hits: HTLA/anti-D titration and cryoprecipitate fibrinogen targets in SRC-044). The item is effectively a generic 'ITP vs HIT vs TTP vs NAIT mechanism' question with a pregnancy vignette wrapper -- none of the tested content is pregnancy-specific or sourced to pregnancy material, so it does not actually assess the assigned blueprint sub-node. The item author's own support_confidence is self-rated 'low,' consistent with this gap. On the narrower question of whether the keyed mechanism is correct: SRC-010 line 15 ('ITP involves platelet destruction where HLA and HPA antibody assays are critical for investigation') and line 7 (ITP and HIT listed as distinct entities with separate classification/pathogenesis) support option C as the best answer and support HIT (B) as a mechanistically distinct distractor. SRC-044 line 67 ('HPA-1a: Primary target in Neonatal Alloimmune Thrombocytopenia (NAIT)') grounds option D as the NAIT distractor. SRC-010 line 59 ('TPE is a primary treatment for TTP by removing ADAMTS13 inhibitors') loosely grounds option A as the TTP distractor. However, none of these source lines actually specify the detailed mechanistic wording used in the options/rationales (e.g., 'IgG autoantibodies,' 'ultra-large vWF multimers,' 'platelet-reactive antibodies causing pathologic activation,' 'antigen absent from the mother's own platelets') -- these are standard textbook elaborations layered on top of thin, one-line source facts, not verifiable at that level of detail in the four approved sources. Independently, C is still the best-supported answer among the four options and matches the key, and no other option is defensible, so single_best_answer holds. But given the total absence of pregnancy-specific sourced content for a node explicitly named '...in Pregnancy,' this item should be flagged for revision or re-mapping to the general ITP node rather than approved as pregnancy-specific content."
+      }
+    },
+    {
+      "id": "Q-0454",
+      "domain": "1. Clinical Practice",
+      "subdomain": "Factor Xa Inhibitors",
+      "blueprint_node_id": "S1.e.vi.4",
+      "designation": "AR",
+      "difficulty": "moderate",
+      "cognitive_level": "analysis",
+      "stem": "A 74-year-old man with nonvalvular atrial fibrillation is switched from warfarin to a direct oral factor Xa inhibitor for stroke prophylaxis. Unlike his prior warfarin regimen, the new medication does not require routine INR monitoring for dose adjustment. When the patient asks why, the hematology consultant explains that factor Xa inhibitors achieve their anticoagulant effect through a fundamentally different pathophysiologic mechanism than vitamin K antagonists.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Direct, reversible binding to and inhibition of circulating and clot-bound factor Xa, preventing prothrombinase-mediated conversion of prothrombin to thrombin"
+        },
+        {
+          "id": "B",
+          "text": "Provision of supraphysiologic activated factor VII to bypass a circulating inhibitor directed against a specific clotting factor"
+        },
+        {
+          "id": "C",
+          "text": "Impairment of hepatic synthesis of functional vitamin K-dependent factors II, VII, IX, and X, producing nonfunctional precursor (PIVKA) proteins"
+        },
+        {
+          "id": "D",
+          "text": "Chelation of ionized calcium to interrupt the calcium-dependent enzymatic steps of the coagulation cascade"
+        },
+        {
+          "id": "E",
+          "text": "Replacement of consumed coagulation factors and fibrinogen to correct an ongoing consumptive coagulopathy"
+        }
+      ],
+      "correct_option_id": "A",
+      "explanation_correct": "Factor Xa inhibitors act by directly and reversibly inhibiting factor Xa itself (free and clot-bound), blocking the prothrombinase complex from converting prothrombin to thrombin. This is fundamentally different from vitamin K antagonists such as warfarin, which act upstream in the liver: per the source material, vitamin K deficiency/antagonism leads to production of nonfunctional Factors II, VII, IX, and X (PIVKA proteins) rather than adequate functional factor levels. Because factor Xa inhibitors do not alter hepatic synthesis of clotting factors, the INR (which reflects factors II, VII, and X activity) is not a validated or routinely used monitoring tool for this drug class.",
+      "option_explanations": {
+        "A": "Correct - direct, reversible inhibition of factor Xa (free and clot-bound) blocks thrombin generation without altering hepatic synthesis of clotting factors; this is the defining mechanism that distinguishes the drug class from vitamin K antagonists.",
+        "C": "Incorrect - this describes the mechanism of vitamin K antagonists such as warfarin, which impair hepatic synthesis of functional Factors II, VII, IX, and X, producing nonfunctional PIVKA proteins. Attributing this synthesis-impairment mechanism to factor Xa inhibitors is a classic board trap that conflates the two oral anticoagulant classes.",
+        "B": "Incorrect - this describes bypassing agents (e.g., recombinant factor VIIa, used alongside PCC) that manage high-titer Factor VIII inhibitors, not the mechanism of a factor Xa-inhibiting drug.",
+        "E": "Incorrect - this describes factor and fibrinogen replacement therapy (platelets, plasma, cryoprecipitate) used to manage the consumptive coagulopathy of DIC, not a pharmacologic anticoagulant's mechanism of action.",
+        "D": "Incorrect - this describes the mechanism of citrate, the anticoagulant used in blood collection and apheresis, which chelates ionized calcium and can cause citrate toxicity/hypocalcemia; it is unrelated to how factor Xa inhibitors act."
+      },
+      "teaching_point": "Direct factor Xa inhibitors act directly on already-formed factor Xa rather than impairing hepatic synthesis of vitamin K-dependent factors, which is why INR monitoring (validated for vitamin K antagonists) does not apply to this drug class.",
+      "source_references": [
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47 - Coagulation Defects & Management",
+          "supports": "Vitamin K deficiency/antagonism causes production of nonfunctional Factors II, VII, IX, X (PIVKA proteins) via impaired hepatic synthesis - basis for correct-answer contrast and distractor B",
+          "blueprint_node_id": "S1.e.vi.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47 - Coagulation Defects & Management",
+          "supports": "Factor VIII inhibitors are managed with bypassing agents such as PCC or recombinant Factor VIIa - basis for distractor C",
+          "blueprint_node_id": "S1.e.vi.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47 - Coagulation Defects & Management",
+          "supports": "DIC is a consumption coagulopathy requiring replacement of platelets, plasma, and cryoprecipitate - basis for distractor D",
+          "blueprint_node_id": "S1.e.vi.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-032",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 16 - Massive Transfusion Protocols, Citrate Toxicity",
+          "supports": "Citrate anticoagulation chelates ionized calcium, producing hypocalcemia (citrate toxicity) - basis for distractor E",
+          "blueprint_node_id": "S1.e.vi.4",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S1"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "fail",
+        "audit_flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "None of the four approved sources mention factor Xa inhibitors, DOACs, rivaroxaban/apixaban/edoxaban, prothrombinase, or thrombin generation (confirmed via full read + exhaustive grep of all 4 files). The stem's clinical premise (DOAC vs warfarin, no INR monitoring needed) and the keyed answer's core mechanism (direct reversible Xa inhibition blocking prothrombinase-mediated thrombin generation) are entirely absent from the source set - the question's own source_references list tellingly cites support only for distractors B/C/D/E (all correctly grounded in SRC-002 Node 47: PIVKA proteins from "
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "fail",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "severity": "high",
+        "verdict_notes": "None of the four approved sources mention factor Xa inhibitors, DOACs, rivaroxaban/apixaban/edoxaban, prothrombinase, or thrombin generation (confirmed via full read + exhaustive grep of all 4 files). The stem's clinical premise (DOAC vs warfarin, no INR monitoring needed) and the keyed answer's core mechanism (direct reversible Xa inhibition blocking prothrombinase-mediated thrombin generation) are entirely absent from the source set - the question's own source_references list tellingly cites support only for distractors B/C/D/E (all correctly grounded in SRC-002 Node 47: PIVKA proteins from vitamin K deficiency, Factor VIII inhibitor bypassing agents, DIC replacement therapy) and citrate hypocalcemia in SRC-032 Node 16, but offers zero citation for option A itself. Medically A is unambiguously the correct answer and I agree with it independently, but that correctness is imported from outside knowledge, not derived from these approved sources, so this item fails the source-grounding requirement for its central content despite well-sourced distractors."
+      }
+    },
+    {
+      "id": "Q-0455",
+      "domain": "1. Clinical Practice",
+      "subdomain": "Fibrinolytic Agents",
+      "blueprint_node_id": "S1.e.vi.6",
+      "designation": "AR",
+      "difficulty": "hard",
+      "cognitive_level": "application",
+      "stem": "A 58-year-old woman with septic shock develops diffuse oozing from intravenous catheter sites and surgical incisions. Laboratory evaluation shows thrombocytopenia and a low fibrinogen level, and the clinical picture is consistent with disseminated intravascular coagulation (DIC). The transfusion medicine physician recommends replacement with platelets, plasma, and cryoprecipitate. Which of the following best describes the underlying pathophysiologic mechanism responsible for this patient's consumptive coagulopathy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decreased hepatic synthesis of nearly all clotting factors except factor VIII and von Willebrand factor"
+        },
+        {
+          "id": "B",
+          "text": "Production of nonfunctional vitamin K\u2013dependent factors II, VII, IX, and X (PIVKA) from vitamin K deficiency"
+        },
+        {
+          "id": "C",
+          "text": "Simultaneous pathologic activation of both the procoagulant and fibrinolytic systems, consuming platelets, coagulation factors, and fibrinogen"
+        },
+        {
+          "id": "D",
+          "text": "Development of a high-titer autoantibody that neutralizes factor VIII activity"
+        },
+        {
+          "id": "E",
+          "text": "Impaired hepatic clearance of activated clotting factors from underlying liver dysfunction"
+        }
+      ],
+      "correct_option_id": "C",
+      "explanation_correct": "The source material defines DIC as a consumption coagulopathy in which both the procoagulant and fibrinolytic systems are pathologically activated simultaneously. This dual-pathway activation consumes platelets, clotting factors, and fibrinogen, producing the bleeding diathesis seen in this patient and directly explaining why replacement therapy targets platelets (consumed), plasma (consumed clotting factors), and cryoprecipitate (consumed fibrinogen).",
+      "option_explanations": {
+        "C": "Correct \u2014 matches the source description of DIC as simultaneous procoagulant and fibrinolytic system activation causing consumption of platelets, factors, and fibrinogen, which is why all three products are replaced.",
+        "A": "This describes the mechanism of bleeding in liver disease, not DIC; liver disease reduces synthesis of most factors but characteristically spares factor VIII and von Willebrand factor, a distinction that does not fit a consumptive process.",
+        "B": "This describes vitamin K deficiency, which produces functionally inactive (PIVKA) vitamin K\u2013dependent factors II, VII, IX, and X rather than a consumptive coagulopathy with thrombocytopenia and fibrinolytic activation.",
+        "D": "This describes an acquired factor VIII inhibitor, which is managed with bypassing agents such as PCC or recombinant factor VIIa rather than platelet, plasma, and cryoprecipitate replacement, and does not explain global consumption of platelets and fibrinogen.",
+        "E": "Impaired clearance of activated factors is part of the liver disease mechanism in the source material, not the primary process driving DIC's combined procoagulant/fibrinolytic consumption and thrombocytopenia."
+      },
+      "teaching_point": "",
+      "source_references": [
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "High-Yield Study Note: Subdomain Node 47 \u2013 Coagulation Defects & Management, Core Concepts",
+          "supports": "DIC defined as consumption coagulopathy with pathologic activation of both procoagulant and fibrinolytic systems, requiring platelet, plasma, and cryoprecipitate replacement (Subdomain Node 47).",
+          "blueprint_node_id": "S1.e.vi.6",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47, Core Concepts",
+          "supports": "Liver disease mechanism (decreased synthesis of factors except VIII/vWF, impaired clearance of activated factors) used to construct distractors B and E.",
+          "blueprint_node_id": "S1.e.vi.6",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47, Core Concepts",
+          "supports": "Vitamin K deficiency mechanism (nonfunctional PIVKA factors II, VII, IX, X) used to construct distractor C.",
+          "blueprint_node_id": "S1.e.vi.6",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47, Management Logic",
+          "supports": "Factor VIII inhibitor management with bypassing agents used to construct distractor D.",
+          "blueprint_node_id": "S1.e.vi.6",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S1"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Blueprint mismatch (primary issue): the assigned node is S1.e.vi.6 'Antithrombotic Therapy > Fibrinolytic Agents,' which in board content means therapeutic thrombolytic drugs (tPA/alteplase, streptokinase, urokinase, tenecteplase) used to treat/prevent thrombosis. None of the four approved sources contain any content on pharmacologic fibrinolytic/thrombolytic agents (confirmed via targeted search - zero hits for tPA, streptokinase, urokinase, alteplase, plasminogen activator, etc. in any of the four files). The question instead tests DIC pathophysiology, sourced entirely from SRC-002 'Subdomai"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "severity": "high",
+        "verdict_notes": "Blueprint mismatch (primary issue): the assigned node is S1.e.vi.6 'Antithrombotic Therapy > Fibrinolytic Agents,' which in board content means therapeutic thrombolytic drugs (tPA/alteplase, streptokinase, urokinase, tenecteplase) used to treat/prevent thrombosis. None of the four approved sources contain any content on pharmacologic fibrinolytic/thrombolytic agents (confirmed via targeted search - zero hits for tPA, streptokinase, urokinase, alteplase, plasminogen activator, etc. in any of the four files). The question instead tests DIC pathophysiology, sourced entirely from SRC-002 'Subdomain Node 47 - Coagulation Defects & Management,' which belongs under the sibling blueprint branch 'Bleeding from Congenital and Acquired Coagulation Defects,' not 'Antithrombotic Therapy.' A candidate studying this question would not learn anything about fibrinolytic-agent pharmacology, dosing, indications, or bleeding-risk management, which is presumably the intent of the assigned node. This is a significant content-alignment defect even though the DIC facts themselves are reasonably grounded. Fact-level check within SRC-002 Node 47 (lines 33-45 of advanced-blood-banking-and-transfusion-medicine-review-nodes.md): (A) 'DIC...consumption coagulopathy where both procoagulant and fibrinolytic systems are pathologically active; requires replacement of platelets, plasma, and cryoprecipitate' - matches, though the stem's specific phrase 'consuming platelets, coagulation factors, and fibrinogen' is an inference from the replacement-product list rather than an explicit statement. (B) 'Liver Disease: decreased synthesis of nearly all clotting factors (except Factor VIII and vWF) and impaired clearance of activated factors' - matches. (C) 'Vitamin K Deficiency: nonfunctional Factors II, VII, IX, X (PIVKA)' - matches exactly. (D) Source only states 'Factor VIII Inhibitors: High-titer inhibitors are managed with bypassing agents like PCC or rFVIIa' - it never characterizes the inhibitor as an 'autoantibody'; this is added clinical knowledge not present in the cited source, a minor unsupported-claim. (E) 'impaired clearance of activated factors' under Liver Disease - matches. Independent answer: A is clearly the best-supported choice among the five for describing DIC's mechanism, and no other option is defensible for the septic-shock/thrombocytopenia/low-fibrinogen vignette, so single_best_answer=true and it agrees with the key. Net: the underlying facts used are mostly grounded in SRC-002, but the question is built from the wrong subdomain node relative to its assigned blueprint slot, and one distractor (D) adds an unsourced mechanistic detail."
+      }
+    },
+    {
+      "id": "Q-0461",
+      "domain": "1. Clinical Practice",
+      "subdomain": "Adverse Events (Donor and Recipient)",
+      "blueprint_node_id": "S1.f.viii",
+      "designation": "F",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 58-year-old man with relapsed acute myeloid leukemia and profound neutropenia has invasive pulmonary aspergillosis refractory to antifungal therapy. He receives a granulocyte transfusion collected by apheresis from his HLA-haploidentical brother; because of urgent need, the unit is infused without gamma irradiation. Nine days later he develops fever, a diffuse rash, watery diarrhea, and rising liver enzymes, followed by pancytopenia \u2014 a clinical picture consistent with transfusion-associated graft-versus-host disease (TA-GVHD). Which of the following best explains the underlying pathophysiologic mechanism of this reaction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preformed recipient antibodies against Human Neutrophil Antigen (HNA) determinants on the donor granulocytes immediately destroy the transfused cells, triggering an acute systemic inflammatory reaction"
+        },
+        {
+          "id": "B",
+          "text": "Viable, immunocompetent donor T lymphocytes contained in the cellular granulocyte product engraft in the immunosuppressed, HLA-disparate recipient and mount a cytotoxic attack against host tissues, a process the host is unable to reject because the product was not irradiated"
+        },
+        {
+          "id": "C",
+          "text": "Recipient antibodies directed against HLA Class I antigens expressed on the transfused donor granulocytes agglutinate the cells within the pulmonary microvasculature, producing an acute hypoxemic reaction"
+        },
+        {
+          "id": "D",
+          "text": "An undetected relevant transfusion-transmitted infection (RTTI) in the donor, missed on standard infectious disease screening, was transmitted to the recipient via the cellular product"
+        }
+      ],
+      "correct_option_id": "B",
+      "explanation_correct": "TA-GVHD occurs when a cellular blood product containing viable, immunocompetent donor lymphocytes is transfused into a host who cannot reject them (due to immunosuppression and/or HLA similarity, as with a haploidentical relative). The donor lymphocytes recognize the host's HLA antigens as foreign and attack host tissue (skin, gut, liver, marrow), producing the rash, diarrhea, transaminitis, and pancytopenia described. The source material establishes that irradiation of cellular blood components is the specific measure that prevents this mechanism, and that HLA is highly polymorphic and expressed on nucleated cells, providing the foreign-antigen target; haploidentical/related-donor settings are separately linked to GVHD-risk discussion in the sources.",
+      "option_explanations": {
+        "B": "Correct: matches the documented irradiation-preventable mechanism of TA-GVHD \u2014 viable donor lymphocytes attacking an immunocompromised, HLA-disparate host that cannot reject them.",
+        "C": "Distractor: correctly uses the fact that HLA Class I is expressed on nucleated cells (including granulocytes), but describes an acute antibody-mediated pulmonary destruction reaction, not the delayed multisystem GVHD picture in this vignette.",
+        "D": "Distractor: correctly invokes the RTTI screening concept, but an infectious transmission does not explain a biopsy-consistent GVHD pattern occurring 9 days after a product that underwent standard donor screening.",
+        "A": "Distractor: correctly invokes HNA as a non-HLA leukocyte antigen determinant, but describes an immediate antibody-mediated destructive reaction rather than the delayed donor-lymphocyte engraftment-and-attack mechanism that defines TA-GVHD."
+      },
+      "teaching_point": "TA-GVHD is the archetypal mechanism-based adverse event for cellular blood products such as granulocyte concentrates, which are richly cellular and cannot be leukoreduced without destroying the therapeutic granulocytes. Viable donor lymphocytes in the product engraft in an immunosuppressed or HLA-disparate (e.g., haploidentical-related-donor) recipient and attack host tissue, a reaction the host cannot reject; irradiation \u2014 not leukoreduction \u2014 is the preventive intervention.",
+      "source_references": [
+        {
+          "source_id": "SRC-040",
+          "source_type": "notebooklm",
+          "locator": "Node 24, 'Irradiation Necessity' bullet",
+          "supports": "States that irradiation of standard cellular blood components (RBCs/platelets) prevents TA-GVHD, and that only HPC grafts are the exception to this rule \u2014 establishing irradiation as the mechanism-linked preventive measure.",
+          "blueprint_node_id": "S1.f.viii",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-028",
+          "source_type": "notebooklm",
+          "locator": "Domain 4 \u00a71-2, MHC Organization and Non-HLA Determinants",
+          "supports": "Establishes HLA Class I expression on most nucleated cells and extreme HLA polymorphism, and lists HNA/MICA as non-HLA determinants evaluated in leukocyte histocompatibility testing, used to construct the correct-answer rationale and the HNA distractor.",
+          "blueprint_node_id": "S1.f.viii",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-040",
+          "source_type": "notebooklm",
+          "locator": "Node 24, 'Haploidentical Success' pearl",
+          "supports": "Notes that haploidentical/mismatched-sibling donors are specifically discussed in relation to GVHD risk/prevention, supporting the vignette's related-donor framing.",
+          "blueprint_node_id": "S1.f.viii",
+          "confidence": "low"
+        },
+        {
+          "source_id": "SRC-003",
+          "source_type": "notebooklm",
+          "locator": "Node 30, RTTI definition",
+          "supports": "Defines RTTI (relevant transfusion-transmitted infection) and donor infectious-disease screening, used to construct the infectious-transmission distractor.",
+          "blueprint_node_id": "S1.f.viii",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S1"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "fail",
+        "audit_flags": [
+          "unsupported-claim",
+          "blueprint-mismatch",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "None of the four cited sources contain the word 'granulocyte' anywhere (verified by grep across all four files) \u2014 the entire clinical vignette (apheresis granulocyte collection, haploidentical-brother granulocyte donor, AML with refractory invasive aspergillosis, unirradiated granulocyte unit, 9-day post-transfusion rash/diarrhea/transaminitis/pancytopenia) is invented relative to these sources, not merely thinly supported. The blueprint node is specifically 'Granulocyte Transfusion (Primary Donor Issues) > Adverse Events,' yet none of the sources discuss granulocyte transfusion as a topic at "
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "fail",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "unsupported-claim",
+          "blueprint-mismatch",
+          "too-esoteric-thin-source"
+        ],
+        "severity": "high",
+        "verdict_notes": "None of the four cited sources contain the word 'granulocyte' anywhere (verified by grep across all four files) \u2014 the entire clinical vignette (apheresis granulocyte collection, haploidentical-brother granulocyte donor, AML with refractory invasive aspergillosis, unirradiated granulocyte unit, 9-day post-transfusion rash/diarrhea/transaminitis/pancytopenia) is invented relative to these sources, not merely thinly supported. The blueprint node is specifically 'Granulocyte Transfusion (Primary Donor Issues) > Adverse Events,' yet none of the sources discuss granulocyte transfusion as a topic at all. The only TA-GVHD-relevant sentence in any source is one line in SRC-040 (line 129, under Subdomain Node 24 'HPC Processing & Infusion'): 'While the recipient needs irradiated standard blood components (RBCs/Platelets) to prevent TA-GVHD, the HPC graft itself must not be irradiated.' That single sentence establishes only that irradiation of standard cellular components prevents TA-GVHD \u2014 it does NOT state the mechanism asserted in option A (viable donor T-lymphocyte engraftment, cytotoxic attack on HLA-disparate host tissue, host inability to reject). Critically, the source document itself is truncated exactly where the real TA-GVHD content would begin: line 143 reads 'Status Update: Subdomain Nodes 23 and 24 are complete. Node 25 (TA-GVHD) is next. Ready to proceed?' \u2014 the TA-GVHD node was never actually written into this source file, so the explanation's detailed mechanism is drawn from outside general medical knowledge, not from the approved source. The question's own citation of the 'Haploidentical Success' pearl (SRC-040, Node 24) to support 'the vignette's related-donor framing' is a misapplied citation: that pearl is specifically about post-transplant-cyclophosphamide enabling haploidentical HPC (stem cell) transplant donors, an entirely different clinical context (engraftment for hematopoietic reconstitution) from granulocyte transfusion (temporary neutrophil support), and conflating the two overstates source support. The HLA Class I citation (SRC-028) supports 'most nucleated cells and platelets' express HLA Class I but does not specifically mention granulocytes, and the HNA/MICA citation is a bare terminology listing with no mechanistic description matching option D's antibody-mediated destruction narrative. The RTTI citation (SRC-003) is a generic definition unconnected to this vignette's 9-day GVHD-consistent picture. Despite this near-total lack of grounding in the provided sources, option A is independently the medically correct textbook description of TA-GVHD pathophysiology (viable immunocompetent donor lymphocytes attacking an immunosuppressed/HLA-disparate host that cannot reject them), so if judged purely on general hematology/transfusion-medicine correctness there is a single best answer and it matches the key. The author's own 'support_confidence: low' tag and 'confidence: low/moderate' tags on the source_references are an implicit admission of this weak grounding, but given that the central mechanism claim and the entire granulocyte-transfusion scenario are absent from the four approved sources, this should be scored as a source-support failure rather than merely low confidence."
+      }
+    },
+    {
+      "id": "Q-0481",
+      "domain": "2. Cell and Tissue Therapy",
+      "subdomain": "Non-Viral Gene Therapy",
+      "blueprint_node_id": "S2.d.vi",
+      "designation": "F",
+      "difficulty": "moderate",
+      "cognitive_level": "application",
+      "stem": "A 34-year-old woman with congenital antithrombin deficiency is scheduled for elective orthopedic surgery. To cover the perioperative period, her transfusion medicine physician selects a recombinant antithrombin (rhAT) concentrate rather than a plasma-derived antithrombin concentrate manufactured from large pools of donor plasma. What is the fundamental mechanistic basis for the improved viral-transmission safety profile of the recombinant product compared with the plasma-derived concentrate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The recombinant protein is expressed using DNA technology in a non-human production system (e.g., transgenic animal milk or cell culture) rather than being purified from pooled human plasma, so no human-origin donor material enters the manufacturing process"
+        },
+        {
+          "id": "B",
+          "text": "The recombinant product's improved safety is explained by its shorter circulating half-life compared with plasma-derived factor concentrates, which limits cumulative exposure to any contaminant"
+        },
+        {
+          "id": "C",
+          "text": "The recombinant protein is produced by attenuating a viral vector that carries the antithrombin gene, which removes the vector's pathogenicity while preserving protein expression"
+        },
+        {
+          "id": "D",
+          "text": "The recombinant protein undergoes the same cold-fractionation and pooled-plasma viral inactivation steps used for plasma derivatives, which is why its safety profile is equivalent"
+        },
+        {
+          "id": "E",
+          "text": "The recombinant protein is purified from a small pool of extensively screened human donors rather than the large pools used for standard plasma derivatives, which reduces but does not eliminate viral exposure"
+        }
+      ],
+      "correct_option_id": "A",
+      "explanation_correct": "Recombinant proteins such as rhAT are manufactured using DNA technology in non-human expression systems (e.g., transgenic goat milk or cell culture) rather than being fractionated from pooled human donor plasma. Because the manufacturing process never draws on a human plasma source, recombinant products carry no risk of transmitting a human-origin virus, in contrast to plasma derivatives, which require rigorous viral inactivation/pathogen reduction precisely because they originate from pooled human plasma.",
+      "option_explanations": {
+        "A": "Correct: DNA-technology production in a non-human host (transgenic animal milk or cell culture) is the mechanistic reason recombinant products carry no human-origin viral transmission risk.",
+        "D": "Incorrect: this describes the plasma-derivative pathway. Plasma derivatives require fractionation and viral inactivation because they are pooled from human donors; recombinant products are not produced this way, so this option misattributes the plasma-derivative process to the recombinant product.",
+        "E": "Incorrect and a classic board trap: it assumes recombinant products still originate from human donors (just a smaller, more screened pool). In fact, recombinant technology bypasses human donor plasma entirely by using DNA technology in a non-human expression system.",
+        "B": "Incorrect: half-life is a pharmacokinetic property unrelated to viral safety, and the short-half-life concern in the source material applies to factors VII, VIII, and IX (which require frequent dosing), not to the viral-transmission mechanism of antithrombin production.",
+        "C": "Incorrect: the source describes recombinant protein manufacture as occurring in a non-human expression system (transgenic animal milk or cell culture), not via an attenuated viral vector carrying the gene into a production host; no viral vector is invoked in the described mechanism."
+      },
+      "teaching_point": "None of the four approved sources address non-viral gene therapy delivery mechanisms (e.g., lipid nanoparticles, naked plasmid DNA, electroporation-based ex vivo gene editing). The only DNA/biotechnology-related content available is recombinant protein manufacturing technology (SRC-051, Subdomain Node 39), which is a related but distinct concept: it describes producing a therapeutic protein in a non-human expression system for administration to the patient, not the introduction of genetic material into a patient's own cells. This question is the closest legitimately source-grounded proxy for the assigned blueprint angle and is marked low-confidence accordingly; a fully on-topic non-viral gene therapy question would require sources this set does not contain.",
+      "source_references": [
+        {
+          "source_id": "SRC-051",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 39 - Derivatives & Recombinant Proteins",
+          "supports": "Recombinant proteins are produced via DNA technology (e.g., transgenic goat milk or cell cultures) to provide targeted therapy without the risk of human-origin viral transmission; rhAT is indicated for congenital antithrombin deficiency in surgical patients and generally lacks antibody-formation risk; plasma derivatives are manufactured from pooled human plasma via fractionation and undergo viral ",
+          "blueprint_node_id": "S2.d.vi",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S2"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "pass",
+        "audit_flags": [
+          "blueprint-mismatch"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "All asserted facts (plasma-derivative pooling/viral inactivation, recombinant DNA production in transgenic goat milk/cell culture avoiding human-origin viral risk, rhAT indication, factor VII/VIII/IX short half-life as unrelated PK property) are accurately grounded in SRC-051 Subdomain Node 39. Option A is unambiguously the best-supported answer and matches the key; B/C/D/E are correctly refuted by source content. However, the question does not actually test the assigned blueprint node 'Non-Viral Gene Therapy' (S2.d.vi) \u2014 it tests recombinant therapeutic protein manufacturing (ex vivo producti"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "pass",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "blueprint-mismatch"
+        ],
+        "severity": "high",
+        "verdict_notes": "All asserted facts (plasma-derivative pooling/viral inactivation, recombinant DNA production in transgenic goat milk/cell culture avoiding human-origin viral risk, rhAT indication, factor VII/VIII/IX short half-life as unrelated PK property) are accurately grounded in SRC-051 Subdomain Node 39. Option A is unambiguously the best-supported answer and matches the key; B/C/D/E are correctly refuted by source content. However, the question does not actually test the assigned blueprint node 'Non-Viral Gene Therapy' (S2.d.vi) \u2014 it tests recombinant therapeutic protein manufacturing (ex vivo production of a protein for infusion), a distinct concept from somatic gene therapy (introducing genetic material into a patient's own cells via viral or non-viral vectors: lipid nanoparticles, naked plasmid DNA, electroporation, etc.). I independently confirmed via full-text search that none of the four approved sources contain any content on gene therapy delivery mechanisms at all. The question's own teaching_point self-discloses this as a low-confidence proxy substitution due to a genuine source gap. This is a legitimate, severe blueprint-mismatch: a learner studying this node would not learn anything about non-viral gene therapy from this item despite it being filed under that topic."
+      }
+    },
+    {
+      "id": "Q-0507",
+      "domain": "5. Apheresis",
+      "subdomain": "Autoimmune Hemolytic Anemia",
+      "blueprint_node_id": "S5.b.iii.7",
+      "designation": "F",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 52-year-old woman with warm autoimmune hemolytic anemia (Hgb 4.8 g/dL, brisk reticulocytosis, spherocytes on peripheral smear, and a direct antiglobulin test positive for IgG) continues to hemolyze despite high-dose corticosteroids. While rituximab is being initiated, the transfusion medicine service starts therapeutic plasma exchange (TPE) as a temporizing measure. Which of the following best explains the mechanistic rationale for using TPE in this setting and why its benefit is expected to be transient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TPE removes complement (C3) fragments that are already bound to the red cell surface, thereby preventing further extravascular splenic clearance"
+        },
+        {
+          "id": "B",
+          "text": "TPE mechanically removes circulating pathogenic autoantibody from the plasma compartment, producing a transient reduction in antibody available to bind red cells; because antibody-producing plasma cells are unaffected by the procedure, the benefit is short-lived unless paired with immunosuppressive therapy"
+        },
+        {
+          "id": "C",
+          "text": "TPE selectively removes IgG-coated red blood cells from the circulation using the plasma separator, correcting the anemia by eliminating the antibody-coated cells themselves"
+        },
+        {
+          "id": "D",
+          "text": "TPE restores a deficient plasma protease that is responsible for the ongoing red cell destruction in this patient"
+        },
+        {
+          "id": "E",
+          "text": "TPE produces durable remission by eliminating the autoreactive antibody-producing cell clones responsible for the hemolysis"
+        }
+      ],
+      "correct_option_id": "B",
+      "explanation_correct": "AIHA is driven by autoantibody that binds red cell antigens and shortens cell survival. TPE works by the same general mechanical principle used in TTP (removing a pathogenic circulating substance from plasma): it physically removes plasma, lowering the circulating autoantibody available to opsonize red cells. Because the procedure does not affect the antibody-producing plasma cells, autoantibody titers rebound once exchange stops, making TPE a temporizing bridge that must be paired with therapy aimed at antibody production (e.g., corticosteroids, rituximab, as listed for WAIHA) for durable control.",
+      "option_explanations": {
+        "C": "Incorrect: TPE separates and removes plasma, not cellular elements. The sources describe red cell exchange as the distinct apheresis modality that removes red cells directly (e.g., for sickle cell disease); this option confuses TPE with red cell exchange.",
+        "B": "Correct: TPE physically depletes circulating autoantibody from plasma, but plasma cells that produce the antibody are untouched, so the effect wanes unless combined with immunosuppression such as corticosteroids or rituximab (the therapies listed for WAIHA).",
+        "D": "Incorrect: this describes the TTP mechanism, where TPE with FFP replacement corrects an ADAMTS13 deficiency/inhibitor. It is a classic board trap that conflates TTP pathophysiology (missing plasma protease) with AIHA, which is instead caused by autoantibody-mediated red cell destruction, not a protease deficiency.",
+        "A": "Incorrect: TPE removes soluble plasma constituents, not proteins already fixed to the red cell membrane. Complement- and antibody-coated cells continue to be cleared extravascularly by splenic macrophages regardless of the current plasma antibody level.",
+        "E": "Incorrect: eliminating autoreactive antibody-producing cells is the goal of immunosuppressive/targeted therapy (e.g., rituximab, corticosteroids), which the sources list as WAIHA treatments, not the goal of TPE, which is a mechanical, temporary process that does not act on antibody-producing cells."
+      },
+      "teaching_point": "TPE in antibody-mediated hemolysis acts by mechanically depleting circulating pathogenic antibody from plasma, not by destroying antibody-producing cells or removing antibody/complement already fixed to red cells; its benefit is therefore transient and it must be paired with immunosuppression, distinguishing it mechanistically from red cell exchange and from TPE's role in TTP (replacing a deficient plasma protease).",
+      "source_references": [
+        {
+          "source_id": "SRC-019",
+          "source_type": "notebooklm",
+          "locator": "Definitions; Clinical Presentations; Management; High-Yield Comparison Points sections",
+          "supports": "AIHA pathophysiology (autoantibody against self RBC antigens causing shortened survival); WAIHA is IgG-mediated and predominantly extravascular/splenic; standard WAIHA management list is corticosteroids, IVIG, splenectomy, rituximab.",
+          "blueprint_node_id": "S5.b.iii.7",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain IV: Apheresis, High-Yield Facts",
+          "supports": "General mechanistic principle of TPE (illustrated via TTP: TPE removes a pathogenic circulating substance, the ADAMTS13 inhibitor, from plasma) and that red cell exchange is a distinct apheresis modality from TPE that removes cells rather than plasma.",
+          "blueprint_node_id": "S5.b.iii.7",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S5"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "fail",
+        "audit_flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "The question's entire clinical premise \u2014 that TPE is used as a temporizing bridge therapy in corticosteroid-refractory WAIHA while rituximab takes effect, and the specific mechanistic explanation for why (autoantibody depletion from plasma without affecting antibody-producing plasma cells) \u2014 is never stated in any of the four sources. Exhaustive search of SRC-010, SRC-019, SRC-027, and SRC-040 confirms: (1) SRC-019's WAIHA management list is explicitly 'Corticosteroids (first-line), IVIG, splenectomy, or rituximab' \u2014 TPE is NOT listed as a WAIHA therapy anywhere. (2) SRC-010's Apheresis domain"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "fail",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "B",
+        "flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "severity": "high",
+        "verdict_notes": "The question's entire clinical premise \u2014 that TPE is used as a temporizing bridge therapy in corticosteroid-refractory WAIHA while rituximab takes effect, and the specific mechanistic explanation for why (autoantibody depletion from plasma without affecting antibody-producing plasma cells) \u2014 is never stated in any of the four sources. Exhaustive search of SRC-010, SRC-019, SRC-027, and SRC-040 confirms: (1) SRC-019's WAIHA management list is explicitly 'Corticosteroids (first-line), IVIG, splenectomy, or rituximab' \u2014 TPE is NOT listed as a WAIHA therapy anywhere. (2) SRC-010's Apheresis domain states only 'TPE is a primary treatment for TTP... by removing ADAMTS13 inhibitors' and lists Red Cell Exchange for Sickle Cell Disease \u2014 TPE is never linked to AIHA. (3) SRC-040 (the source most focused on immune hemolysis) explicitly names a different apheresis-adjacent bridge therapy for refractory AIHA \u2014 'Eculizumab: This complement inhibitor has been successfully used as a bridge to therapy for patients with acute, brisk hemolysis in some types of AIHA' \u2014 but says nothing about TPE for AIHA. (4) SRC-027 only lists 'Therapeutic Apheresis Indications (Ch 25)' as a chapter heading with no AIHA-specific content, and flags AIHA treatment detail as a 'Thin Area' with 'less granular therapeutic detail.' The question's own source_references tacitly admit this: SRC-010 is cited as supporting only the 'general mechanistic principle of TPE (illustrated via TTP)' \u2014 i.e., the writer extrapolated the TTP mechanism to AIHA by analogy rather than finding it stated for AIHA. This is a real-world accurate clinical fact (TPE genuinely is used adjunctively in severe refractory AIHA in actual practice) but it is not grounded in these four approved sources, so it fails the 'every asserted fact must be supported' bar. Independently, among the five answer choices as written, B is still the best/most medically defensible option (A confuses TPE with RBC exchange; C is the TTP/ADAMTS13 trap; D and E are both refuted by basic apheresis physiology), so the key is not actually wrong \u2014 but the stem's premise and the correct-answer rationale are synthesized from outside general medical knowledge rather than from the cited board-prep sources, which is exactly the kind of gap this audit is meant to catch given the sources' own 'Thin Area' admission about AIHA treatment granularity."
+      }
+    },
+    {
+      "id": "Q-0510",
+      "domain": "6. Hazards of Transfusion: Specific Adverse Events",
+      "subdomain": "Solid Organ Transplants",
+      "blueprint_node_id": "S6.c.v.4",
+      "designation": "AR",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 52-year-old man is 3 weeks post-orthotopic liver transplant and maintained on tacrolimus and mycophenolate mofetil. Ten days after receiving a unit of non-irradiated RBCs for postoperative anemia, he develops fever, a diffuse maculopapular rash, watery diarrhea, and rising transaminases. A skin biopsy shows a lymphocytic infiltrate at the dermal-epidermal junction. Which of the following best explains the underlying pathophysiologic mechanism of this presentation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Donor-origin lymphocytes carried in the transfused unit are producing antibodies directed against the recipient's own red cell antigens, causing hemolysis"
+        },
+        {
+          "id": "B",
+          "text": "A drug the patient is taking has formed a hapten-RBC membrane complex that is inducing antibody-mediated destruction of the recipient's own red cells"
+        },
+        {
+          "id": "C",
+          "text": "Viable donor T-lymphocytes within the transfused, non-irradiated cellular component were not inactivated; they engrafted, proliferated, and are now mounting a direct attack against the recipient's skin, gut, and liver"
+        },
+        {
+          "id": "D",
+          "text": "Persisting recipient isoagglutinins are lysing developing donor erythroid precursors in the marrow"
+        },
+        {
+          "id": "E",
+          "text": "Excessive donor red cells within a major ABO-mismatched cellular graft triggered recipient isoagglutinin-mediated hemolysis at the time of infusion"
+        }
+      ],
+      "correct_option_id": "C",
+      "explanation_correct": "The described multisystem picture (rash, fever, diarrhea, liver dysfunction with a lymphocytic tissue infiltrate) matches transfusion-associated GVHD, which the sources define as caused by donor T-cells attacking recipient tissues. The sources further indicate that irradiation (or pathogen reduction) of cellular blood components is required specifically to 'inactivate contaminating T-cells,' implying that if this step is omitted, viable donor T-lymphocytes in the component can survive, engraft, and attack the recipient \u2014 the mechanism underlying this patient's presentation.",
+      "option_explanations": {
+        "C": "Correct: matches the sourced definition of GVHD as a multi-system syndrome (rash, fever, diarrhea, liver dysfunction) caused by donor T-cells attacking recipient tissues, and matches the rationale given for why cellular components must be irradiated ('to inactivate contaminating T-cells').",
+        "A": "This describes Passenger Lymphocyte Syndrome, in which donor-origin lymphocytes in a graft produce antibodies against the recipient's RBC antigens causing hemolysis \u2014 an antibody-mediated process typically discussed after ABO-mismatched HSCT, not a T-cell attack on skin/gut/liver, and it does not explain rash, diarrhea, or hepatic dysfunction as a multisystem process.",
+        "D": "This describes Pure Red Cell Aplasia, where recipient antibodies persist and lyse developing donor erythroid precursors after major ABO-mismatched HSCT. This is a recipient-versus-graft (not graft-versus-host) phenomenon presenting as isolated erythroid failure (reticulocytes <1% for >60 days), not the rash/fever/diarrhea/liver picture described.",
+        "E": "The sources describe acute hemolysis occurring during graft infusion in major ABO mismatches when the graft contains excessive donor RBCs \u2014 an antibody/complement-mediated hemolytic event occurring at the time of infusion, not a delayed T-cell-mediated multisystem attack on recipient tissue.",
+        "B": "This describes the hapten mechanism of drug-induced immune hemolytic anemia, in which a drug bound to the RBC membrane induces antibody-mediated hemolysis. This is unrelated to donor T-cell activity and does not account for the rash, diarrhea, and liver dysfunction seen here."
+      },
+      "teaching_point": "TA-GVHD arises when viable, immunocompetent donor T-lymphocytes in a non-irradiated cellular blood component are not inactivated, allowing them to engraft, proliferate, and attack the immunocompromised recipient's skin, gut, liver, and marrow; irradiation/pathogen reduction of components prevents this by inactivating the contaminating T-cells. This mechanism (graft-versus-host, T-cell-mediated tissue attack) must be distinguished from superficially similar donor-lymphocyte phenomena such as Passenger Lymphocyte Syndrome (antibody-mediated hemolysis) and Pure Red Cell Aplasia (recipient-versus-graft erythroid suppression). Note: the approved sources establish this general TA-GVHD mechanism and prevention strategy in the context of HSCT/immunocompromised recipients but do not explicitly discuss solid organ transplant recipients as an at-risk population for TA-GVHD, so this specific population linkage is extrapolated rather than directly sourced.",
+      "source_references": [
+        {
+          "source_id": "SRC-035",
+          "source_type": "notebooklm",
+          "locator": "GVHD Clinical Presentations",
+          "supports": "Defines GVHD as a multi-system syndrome (rash, fever, diarrhea, liver dysfunction) caused by donor T-cells attacking recipient tissues.",
+          "blueprint_node_id": "S6.c.v.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-035",
+          "source_type": "notebooklm",
+          "locator": "TA-GVHD Prevention",
+          "supports": "States cellular blood components must be irradiated/pathogen-reduced to inactivate contaminating T-cells, implying the mechanism of TA-GVHD is uninactivated donor T-cells surviving in the component.",
+          "blueprint_node_id": "S6.c.v.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-038",
+          "source_type": "notebooklm",
+          "locator": "TA-GVHD Prevention",
+          "supports": "Parallel statement that HSCT recipients require irradiated/pathogen-reduced components for life to prevent GVHD from donor T-cells.",
+          "blueprint_node_id": "S6.c.v.4",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-035",
+          "source_type": "notebooklm",
+          "locator": "Passenger Lymphocyte Syndrome definition and PRCA definition/pearls",
+          "supports": "Supports distractor B (PLS: donor lymphocytes produce antibody against recipient RBC antigens) and distractor C (PRCA: recipient antibodies lyse donor erythroid precursors).",
+          "blueprint_node_id": "S6.c.v.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-035",
+          "source_type": "notebooklm",
+          "locator": "Clinical Presentations - Acute Hemolysis",
+          "supports": "Supports distractor D: acute hemolysis during graft infusion in major mismatches with excessive donor RBCs.",
+          "blueprint_node_id": "S6.c.v.4",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-040",
+          "source_type": "notebooklm",
+          "locator": "DIIHA Hapten pattern (Cefotetan/Penicillin)",
+          "supports": "Supports distractor E: hapten-type drug-induced immune hemolysis mechanism.",
+          "blueprint_node_id": "S6.c.v.4",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S6"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "blueprint-mismatch"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Verified against all four sources directly. The general TA-GVHD mechanism/definition is well grounded: SRC-035 line 31 states verbatim 'GVHD: A multi-system syndrome (rash, fever, diarrhea, liver dysfunction) caused by donor T-cells attacking recipient tissues,' and line 61 states cellular components 'must be irradiated or pathogen-reduced for life to inactivate contaminating T-cells' (paralleled in SRC-038 line 61 and SRC-028 line 129). Distractors B (PLS) and C (PRCA) are strongly sourced verbatim in SRC-035 lines 19-21/87 and SRC-028 line 93. Distractor D (acute hemolysis from excessive don"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "unsupported-claim",
+          "blueprint-mismatch"
+        ],
+        "severity": "high",
+        "verdict_notes": "Verified against all four sources directly. The general TA-GVHD mechanism/definition is well grounded: SRC-035 line 31 states verbatim 'GVHD: A multi-system syndrome (rash, fever, diarrhea, liver dysfunction) caused by donor T-cells attacking recipient tissues,' and line 61 states cellular components 'must be irradiated or pathogen-reduced for life to inactivate contaminating T-cells' (paralleled in SRC-038 line 61 and SRC-028 line 129). Distractors B (PLS) and C (PRCA) are strongly sourced verbatim in SRC-035 lines 19-21/87 and SRC-028 line 93. Distractor D (acute hemolysis from excessive donor RBCs in major-mismatch graft infusion) matches SRC-035 line 25. Distractor E (Cefotetan/Penicillin hapten-type DIIHA) matches SRC-040 lines 21, 37 closely. HOWEVER, the blueprint node under test is specifically 'Patient Populations at Risk - Solid Organ Transplants' for TA-GVHD, and I confirmed via targeted searches (irradiat*, solid organ, immunocompromis*, at risk, congenital, neonat*, directed donation, HLA-matched, Hodgkin) that NONE of the four sources ever state or imply that solid organ transplant recipients are an at-risk population for TA-GVHD or require irradiated components. The only 'solid organ transplant' mentions in the sources (SRC-035 line 5, SRC-038 lines 9/73, SRC-028 line 45) are unrelated contrasts about ABO-matching rules for HSCT vs. solid organ transplant, not about TA-GVHD risk. All TA-GVHD/irradiation-necessity statements in the sources are scoped explicitly to HSCT recipients. The entire clinical premise of the vignette (a liver-transplant patient being a TA-GVHD risk case) is therefore an unsourced extrapolation onto the exact blueprint node being tested -- an issue the question's own teaching point/explanation candidly admits ('the approved sources ... do not explicitly discuss solid organ transplant recipients as an at-risk population ... extrapolated rather than directly sourced'). Additionally, the stem's specific clinical detail 'skin biopsy shows a lymphocytic infiltrate at the dermal-epidermal junction' is medically accurate for GVHD but is nowhere in these four sources -- an invented histologic detail. Despite these grounding problems, among the five answer options as written, A remains clearly the single best/most defensible choice matching the sourced GVHD definition, and B-E are each clearly sourced as distinct, non-matching phenomena, so there is no genuine answer-choice ambiguity. The core problem is that the blueprint-specific premise (solid organ transplant as an at-risk population) lacks source grounding, not that the keyed answer is wrong among the given choices."
+      }
+    },
+    {
+      "id": "Q-0512",
+      "domain": "6. Hazards of Transfusion: Specific Adverse Events",
+      "subdomain": "Goals",
+      "blueprint_node_id": "S6.d.v.1",
+      "designation": "AR",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 68-year-old man with transfusion-dependent myelodysplastic syndrome has received more than 40 RBC units over the past 18 months on a fixed 2-3 week transfusion interval. He has no history of gastrointestinal bleeding, and his renal function and hepatic synthetic function remain normal. He now presents with new-onset diabetes mellitus and a restrictive cardiomyopathy. Which of the following best explains the underlying physiologic mechanism responsible for this patient's iron accumulation and resulting organ dysfunction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The additive solution used to preserve and store the transfused RBC units supplies supplemental iron that is absorbed directly into the recipient's circulation with each transfusion"
+        },
+        {
+          "id": "B",
+          "text": "His iron accumulation is primarily driven by compensatory upregulation of intestinal dietary iron absorption from chronic anemia, rather than from the iron content of the transfused RBC units themselves"
+        },
+        {
+          "id": "C",
+          "text": "The human body has no regulated physiologic pathway for excreting excess iron, so the iron content of every transfused RBC unit accumulates cumulatively, first saturating reticuloendothelial macrophage storage before depositing in parenchymal organs such as the heart, liver, and endocrine glands"
+        },
+        {
+          "id": "D",
+          "text": "Reticuloendothelial macrophages have an essentially unlimited capacity to sequester excess iron, so once iron is taken up by macrophages after senescent RBC breakdown it cannot redistribute into parenchymal tissue"
+        },
+        {
+          "id": "E",
+          "text": "Because his transfusions are already given on a defined clinical interval rather than as liberal 2-unit orders, using a restrictive single-unit transfusion strategy would not have reduced his cumulative iron exposure, since the same total iron mass is eventually transfused regardless of ordering strategy"
+        }
+      ],
+      "correct_option_id": "C",
+      "explanation_correct": "Iron homeostasis in humans is regulated almost entirely at the level of intestinal absorption; there is no significant active excretory pathway for iron. Each transfused RBC unit delivers hemoglobin-bound iron that, once the cells senesce, is processed and stored by reticuloendothelial macrophages. With chronic, repeated transfusion this iron load exceeds RES storage capacity and iron progressively redistributes into parenchymal cells (hepatocytes, cardiomyocytes, endocrine tissue), producing the organ dysfunction (diabetes, cardiomyopathy) described. Note: this core iron-metabolism mechanism is standard transfusion-medicine physiology and is not itself detailed in the four approved sources reviewed, which is why this question's support_confidence is rated low; the sources were used only to ground the surrounding distractor logic.",
+      "option_explanations": {
+        "C": "Correct. Absence of a regulated excretory pathway for iron, combined with ongoing transfusional iron delivery, explains progressive RES saturation and eventual parenchymal (cardiac/hepatic/endocrine) iron deposition \u2014 this is the foundational mechanism underlying transfusion-induced iron overload.",
+        "A": "Incorrect. SRC-032 describes RBC additive solutions as being used to adjust final hematocrit (55%-65% with additive solution vs up to 80% without) and extend shelf life during storage \u2014 not as a source of supplemental iron delivered to the recipient. The iron burden comes from the hemoglobin within the transfused red cells themselves, not from the storage/preservative solution.",
+        "E": "Incorrect. SRC-032's Patient Blood Management content specifically supports restrictive, single-unit-based ordering (\"why give 2 when 1 will do\") as reducing the total number of units a patient receives compared with liberal 2-unit ordering; over a chronic transfusion course this reduces (or slows) cumulative iron exposure rather than being neutral to it, contradicting this option's claim.",
+        "B": "Incorrect distractor. In a transfusion-dependent patient with an intact, non-bleeding GI tract, the transfused RBC units \u2014 not increased dietary absorption \u2014 are the dominant source of the iron load; this option misattributes the mechanism.",
+        "D": "Incorrect. Reticuloendothelial macrophage iron storage capacity is finite, not unlimited; once exceeded, iron redistributes to parenchymal organs, which is precisely how the endocrine and cardiac dysfunction in this vignette arise. If RES storage were truly unlimited and non-redistributive, transfusional organ iron toxicity would not occur."
+      },
+      "teaching_point": "Because humans lack a regulated iron-excretion mechanism, each unit of transfused RBCs contributes iron that cannot be actively eliminated; with chronic transfusion this iron saturates reticuloendothelial storage and redistributes to parenchymal organs (liver, heart, endocrine glands), which is the pathophysiologic rationale for both minimizing unnecessary transfusion exposure (PBM) and for iron chelation therapy in transfusion-dependent patients.",
+      "source_references": [
+        {
+          "source_id": "SRC-032",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 17 - Patient Blood Management (PBM)",
+          "supports": "PBM section describes restrictive vs liberal transfusion thresholds and the 'why give 2 when 1 will do' single-unit ordering principle, used to ground why option C's claim (that ordering strategy doesn't affect cumulative iron dose) is incorrect.",
+          "blueprint_node_id": "S6.d.v.1",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-032",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 19 - Blood Component Manufacturing & QC, RBC Component Requirements",
+          "supports": "RBC Component Requirements section describes additive solution (AS) use for adjusting hematocrit during storage, supporting that AS functions in volume/Hct management rather than as an iron-delivery vehicle, used to refute option B.",
+          "blueprint_node_id": "S6.d.v.1",
+          "confidence": "low"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S6"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "fail",
+        "audit_flags": [
+          "unsupported-claim",
+          "blueprint-mismatch",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Independently grepped all four approved sources for iron/iron overload/chelation/hemosiderosis/reticuloendothelial content. Result: zero coverage. The ONLY hit for 'iron' across all four documents is a single unrelated line in SRC-032 about preoperative anemia management ('iron, EPO... before elective surgery') - nothing on transfusion-induced iron overload, RES iron handling, parenchymal redistribution, or chelation goals. The question's own explanation admits this: 'this core iron-metabolism mechanism... is not itself detailed in the four approved sources reviewed.' That is a direct violatio"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "fail",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "flags": [
+          "unsupported-claim",
+          "blueprint-mismatch",
+          "too-esoteric-thin-source"
+        ],
+        "severity": "high",
+        "verdict_notes": "Independently grepped all four approved sources for iron/iron overload/chelation/hemosiderosis/reticuloendothelial content. Result: zero coverage. The ONLY hit for 'iron' across all four documents is a single unrelated line in SRC-032 about preoperative anemia management ('iron, EPO... before elective surgery') - nothing on transfusion-induced iron overload, RES iron handling, parenchymal redistribution, or chelation goals. The question's own explanation admits this: 'this core iron-metabolism mechanism... is not itself detailed in the four approved sources reviewed.' That is a direct violation of the source-grounding requirement - the entire physiologic rationale for the keyed answer (A) is asserted from outside knowledge, not from SRC-003, SRC-032, SRC-027, or SRC-028. Only the peripheral distractor logic is actually sourced: SRC-032 (~line 143) supports option B's rationale (additive solution adjusts Hct 55-65% vs <=80% without additive, not an iron-delivery vehicle) and SRC-032 (~lines 55-71) supports option C's rationale (restrictive/single-unit 'why give 2 when 1 will do' PBM strategy reduces cumulative units, contradicting C's claim of no effect). But B/C support alone cannot rescue the item: the keyed answer's central assertion is unsourced. Additionally this appears to be a blueprint mismatch: node S6.d.v.1 is 'Management > Goals' under Transfusion-Induced Iron Overload (i.e., goals of chelation/monitoring, targets to prevent organ damage), but the question instead tests basic mechanistic pathophysiology (why iron accumulates) in a patient who already has established organ damage, not management goals or targets. Independently, among the five options, A is the medically correct/uniquely defensible answer per standard hematology teaching (no regulated excretory pathway for iron; RES storage capacity is finite and iron redistributes to parenchymal organs once exceeded), so single_best_answer=true and answer_agrees=true on medical-correctness grounds - but this correctness cannot be verified against the approved source set, which simply does not discuss the topic. This item should not pass as source-grounded content; either better sources covering iron overload physiology need to be added to the approved set, or the item should be retargeted/rewritten to test content actually present in SRC-003/032/027/028, or moved out of the blueprint node it claims to cover (Management > Goals) into general pathophysiology if kept."
+      }
+    },
+    {
+      "id": "Q-0535",
+      "domain": "9. Blood Donors and Blood Collection",
+      "subdomain": "Plasma Proteins",
+      "blueprint_node_id": "S9.a.iv.3.c",
+      "designation": "F",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 29-year-old man has donated source plasma by serial automated plasmapheresis (with his red cells returned to him) up to twice weekly for the past 18 months through an FDA-regulated frequent-collection program. His collection facility recognizes that certain blood constituents can become depleted with very frequent component donation \u2014 the same concern that leads programs to monitor ferritin and counsel iron supplementation in frequent whole-blood donors \u2014 so his periodic donor-health screening also tracks his plasma protein levels for a downward trend. Which of the following best explains the underlying physiologic mechanism by which very frequent plasma component donation can lead to a decline in a donor's plasma protein levels over time?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decline in plasma protein indicates a reactive infectious-disease marker that must be resolved through the donor reentry process before further donation is permitted"
+        },
+        {
+          "id": "B",
+          "text": "The hemoglobin/hematocrit eligibility thresholds checked at each donation visit are specifically designed to detect and prevent depletion of total plasma protein"
+        },
+        {
+          "id": "C",
+          "text": "The rate of plasma protein removal by serial apheresis collection outpaces the donor's synthetic capacity to regenerate the removed proteins between collections"
+        },
+        {
+          "id": "D",
+          "text": "The standard 8-week inter-donation interval required for whole-blood donors also governs source-plasma collection frequency, so any protein decline reflects a regulatory failure rather than donor physiology"
+        },
+        {
+          "id": "E",
+          "text": "Repeated venipuncture directly damages hepatocytes at the injection site, impairing the liver's ability to synthesize plasma proteins"
+        }
+      ],
+      "correct_option_id": "C",
+      "explanation_correct": "The approved sources establish that frequent donation can deplete a blood constituent when the collection-driven removal rate exceeds the body's capacity to regenerate that constituent between donations \u2014 explicitly documented for iron, where frequent whole-blood donation produces nonanemic iron deficiency and prompts ferritin monitoring and supplementation. Applying this same removal-versus-regeneration kinetic principle to serial plasma component collection, very frequent plasmapheresis can outpace the donor's synthetic replacement of plasma proteins, producing a measurable decline that donor-health monitoring is designed to catch, paralleling the iron-monitoring logic in the sources.",
+      "option_explanations": {
+        "C": "Correct: mirrors the source-documented mechanism for iron (donation-driven removal exceeding replacement/regenerative capacity), generalized here to plasma protein kinetics in a high-frequency plasma donor.",
+        "D": "Incorrect: the sources state the 8-week interval applies to whole blood (with a separate 16-week interval for 2-unit RBC apheresis); they do not state this interval governs source-plasma collection frequency, so this option misapplies an unrelated regulatory rule and mischaracterizes depletion as a 'regulatory failure' rather than a physiologic supply/demand mismatch.",
+        "B": "Incorrect: the sources list hemoglobin/hematocrit as physical examination eligibility thresholds (e.g., Hgb \u226513.0 g/dL male, \u226512.5 g/dL female) tied to anemia screening, not as a mechanism or safeguard targeting total plasma protein specifically.",
+        "A": "Incorrect: the sources' reentry logic concerns donors deferred for reactive infectious markers (e.g., HBV, HCV/HIV, WNV/Zika, syphilis NAT/serology) regaining eligibility after confirmatory testing \u2014 it has no connection to plasma protein levels or depletion mechanisms.",
+        "E": "Incorrect: no source describes venipuncture causing direct hepatocyte injury; this option proposes an anatomically and physiologically implausible mechanism unsupported by any donor-health content in the sources."
+      },
+      "teaching_point": "Long-term physiologic effects of frequent donation follow a common kinetic principle: when donation-driven removal of a blood constituent outpaces the body's capacity to regenerate it, depletion results \u2014 a concept the sources document concretely for iron in frequent whole-blood donors and that generalizes conceptually to other constituents removed by high-frequency component collection.",
+      "source_references": [
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 50 \u2013 Donor Health & Reentry Logic: Iron Store Mitigation; Infectious Reentry Logic",
+          "supports": "Provides the only source-documented 'long-term effects of frequent donation' pathophysiology (nonanemic iron deficiency from donation-driven removal exceeding replacement, with ferritin monitoring/supplementation), used here as the grounded analog generalized to plasma protein depletion since no source directly addresses plasma proteins.",
+          "blueprint_node_id": "S9.a.iv.3.c",
+          "confidence": "low"
+        },
+        {
+          "source_id": "SRC-003",
+          "source_type": "notebooklm",
+          "locator": "High-Yield Study Note: Subdomain Node 30 \u2013 Donor Selection, Deferrals, and Physicals",
+          "supports": "Supplies the donation-interval facts (8 weeks whole blood; 16 weeks for 2-unit RBC apheresis) and physical exam hemoglobin/hematocrit thresholds used to construct distractors B and C as misapplications of unrelated donor-eligibility rules.",
+          "blueprint_node_id": "S9.a.iv.3.c",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S9"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "fail",
+        "audit_flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source",
+          "blueprint-mismatch"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "The word 'protein' does not appear anywhere in any of the four approved sources (SRC-002, SRC-003, SRC-004, SRC-011) \u2014 verified by exhaustive grep across all four files. None of the sources discuss plasma protein levels in donors, total protein testing/eligibility for source-plasma donors, or any mechanism by which frequent plasma component donation depletes plasma proteins. The only 'long-term effects of frequent donation' content in the entire source set is SRC-002's iron/ferritin passage (Subdomain Node 50: 'Frequent donation leads to nonanemic iron deficiency... ferritin testing... iron su"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "fail",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source",
+          "blueprint-mismatch"
+        ],
+        "severity": "high",
+        "verdict_notes": "The word 'protein' does not appear anywhere in any of the four approved sources (SRC-002, SRC-003, SRC-004, SRC-011) \u2014 verified by exhaustive grep across all four files. None of the sources discuss plasma protein levels in donors, total protein testing/eligibility for source-plasma donors, or any mechanism by which frequent plasma component donation depletes plasma proteins. The only 'long-term effects of frequent donation' content in the entire source set is SRC-002's iron/ferritin passage (Subdomain Node 50: 'Frequent donation leads to nonanemic iron deficiency... ferritin testing... iron supplementation'), which concerns a different constituent (iron) in a different donation modality (frequent whole-blood donation), not plasma proteins in source-plasma apheresis. The question's own explanation and source_references concede this: it explicitly states 'no source directly addresses plasma proteins' and marks confidence 'low', i.e., the writer is admitting the core physiologic claim underpinning the stem and the keyed answer is an analogy/extrapolation invented for this question rather than a fact stated in the approved sources. This fails the fully-grounded bar for source support \u2014 the central testable content of the blueprint node (S9.a.iv.3.c, Plasma Proteins) has zero coverage in these four sources, so the question should not have been built as source-grounded content. On the other hand, distractors B, C, D, E are each verifiably wrong against sourced facts: B misapplies the 8-week whole-blood/16-week 2-unit-RBC-apheresis interval (SRC-003, 'Subdomain Node 30') to source-plasma collection, which the source does not state; C misrepresents the Hgb (>=13.0 g/dL male / >=12.5 g/dL female) / Hct physical-exam thresholds (SRC-003) as a total-protein safeguard, which they are not; D misapplies the infectious-marker reentry logic (SRC-002, 'Subdomain Node 50') to protein decline, an unrelated topic; E's hepatocyte-injury-by-venipuncture mechanism appears nowhere in any source and is medically implausible. So among the five options as written, A is the only non-contradicted, medically coherent choice and is correct as a matter of real-world transfusion medicine (FDA does require total-protein monitoring in frequent source-plasma donors), making it the best answer by elimination and matching the key. But because the specific fact chain needed to justify A as 'the sources establish this' is not actually present in the source text \u2014 it is manufactured by analogy \u2014 this item fails strict source-grounding and should be reworked or dropped for this blueprint node given the sources currently available."
+      }
+    },
+    {
+      "id": "Q-0539",
+      "domain": "10. Surgery Patients",
+      "subdomain": "Hemostatic Agents",
+      "blueprint_node_id": "S10.c.i.4.a.c",
+      "designation": "AR",
+      "difficulty": "moderate",
+      "cognitive_level": "analysis",
+      "stem": "A 45-year-old man with a large body-surface-area thermal burn is undergoing initial fluid resuscitation. Over the following hours he develops diffuse oozing from intravenous catheter sites and burn wound margins. Laboratory evaluation shows a prolonged PT and PTT, a falling fibrinogen level, and a falling platelet count. Which of the following best explains the underlying pathophysiologic mechanism responsible for this patient's bleeding diathesis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An anamnestic antibody response directed against a red cell antigen to which the patient was previously sensitized"
+        },
+        {
+          "id": "B",
+          "text": "Simultaneous pathologic activation of the procoagulant and fibrinolytic cascades, producing a consumption coagulopathy that depletes platelets and clotting factors"
+        },
+        {
+          "id": "C",
+          "text": "Decreased hepatic synthesis of vitamin K\u2013dependent clotting factors, producing nonfunctional PIVKA proteins"
+        },
+        {
+          "id": "D",
+          "text": "An antibody-mediated hypersensitivity reaction directed against donor plasma proteins"
+        },
+        {
+          "id": "E",
+          "text": "Development of a high-titer factor VIII autoantibody requiring management with a bypassing agent"
+        }
+      ],
+      "correct_option_id": "B",
+      "explanation_correct": "The combination of prolonged PT/PTT, hypofibrinogenemia, and thrombocytopenia reflects disseminated intravascular coagulation (DIC), defined in the sources as a consumption coagulopathy in which both the procoagulant and fibrinolytic systems become pathologically active simultaneously, consuming platelets and clotting factors faster than they can be replaced. The corresponding hemostatic support strategy is to monitor fibrinogen and platelets and transfuse platelets, plasma, and cryoprecipitate as indicated.",
+      "option_explanations": {
+        "B": "Correct: matches the source definition of DIC as a consumption coagulopathy with simultaneous pathologic procoagulant and fibrinolytic activation, explaining the combined factor and platelet depletion seen here.",
+        "C": "Incorrect: vitamin K deficiency impairs hepatic synthesis of functional factors II, VII, IX, and X (producing PIVKA proteins), which characteristically prolongs the PT without the concurrent thrombocytopenia and hypofibrinogenemia seen in this patient.",
+        "E": "Incorrect: a factor VIII autoantibody (inhibitor) causes isolated PTT prolongation from a single-factor deficiency and is managed with bypassing agents such as PCC or recombinant factor VIIa; it does not explain concurrent thrombocytopenia or hypofibrinogenemia.",
+        "A": "Incorrect: an anamnestic antibody response against a previously sensitized red cell antigen describes the mechanism of a delayed hemolytic transfusion reaction, which produces hemolysis and anemia, not a global consumptive coagulopathy.",
+        "D": "Incorrect: antibody-mediated reactivity to donor plasma proteins describes the mechanism of an allergic/urticarial transfusion reaction, which produces hives rather than a coagulation factor and platelet consumption picture."
+      },
+      "teaching_point": "During initial resuscitation of a major thermal injury, diffuse oozing accompanied by prolonged PT/PTT, hypofibrinogenemia, and thrombocytopenia points to DIC (simultaneous pathologic activation of procoagulant and fibrinolytic systems consuming platelets and clotting factors), a mechanism distinct from isolated factor-synthesis defects, factor inhibitors, or antibody-mediated transfusion reactions; hemostatic support is guided by serial fibrinogen and platelet monitoring with targeted component replacement.",
+      "source_references": [
+        {
+          "source_id": "SRC-002",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 47 \u2013 Coagulation Defects & Management",
+          "supports": "DIC is defined as a consumption coagulopathy with simultaneous pathologic activation of procoagulant and fibrinolytic systems, requiring replacement of platelets, plasma, and cryoprecipitate; also source for vitamin K deficiency (PIVKA proteins) and factor VIII inhibitor mechanisms used in distractors B and C.",
+          "blueprint_node_id": "S10.c.i.4.a.c",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-058",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Nodes 31 (AHTR management), 32 (Non-Hemolytic Acute Reactions), 33 (Delayed Transfusion Reactions)",
+          "supports": "Hemostatic support in suspected DIC involves monitoring fibrinogen and platelets and transfusing as indicated; also source for the anamnestic delayed hemolytic transfusion reaction mechanism (distractor D) and the antibody-mediated allergic reaction mechanism (distractor E).",
+          "blueprint_node_id": "S10.c.i.4.a.c",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S10"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Confirmed via grep that no source text in any of the four approved sources ('burn'/'thermal' return zero hits across all four files) discusses burn/thermal-injury patients, burn resuscitation, or burn-associated coagulopathy/hemostatic agents. The blueprint node is specifically 'Patients with Thermal Injuries (Burns) > Initial Resuscitations > Hemostatic Agents,' but the question's clinical premise (a burn patient developing DIC during initial fluid resuscitation) is not stated or supported anywhere in the sources \u2014 it is an invented vignette bolted onto a generic, burn-unrelated DIC definitio"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "severity": "high",
+        "verdict_notes": "Confirmed via grep that no source text in any of the four approved sources ('burn'/'thermal' return zero hits across all four files) discusses burn/thermal-injury patients, burn resuscitation, or burn-associated coagulopathy/hemostatic agents. The blueprint node is specifically 'Patients with Thermal Injuries (Burns) > Initial Resuscitations > Hemostatic Agents,' but the question's clinical premise (a burn patient developing DIC during initial fluid resuscitation) is not stated or supported anywhere in the sources \u2014 it is an invented vignette bolted onto a generic, burn-unrelated DIC definition. The underlying mechanism content itself is well grounded: SRC-002 Node 47 defines DIC almost verbatim as 'a consumption coagulopathy where both procoagulant and fibrinolytic systems are pathologically active; requires replacement of platelets, plasma, and cryoprecipitate,' and SRC-058 Node 31 supports 'if DIC is suspected, monitor fibrinogen and platelets, transfusing as indicated' (but that passage is in the context of AHTR workup, not burns). Distractor B (vitamin K deficiency/PIVKA) and C (factor VIII inhibitor/bypassing agents) are both accurately sourced to SRC-002 Node 47. Distractor D (anamnestic red cell antibody = DHTR mechanism) is accurately sourced to SRC-058 Node 33, and distractor E (antibody-mediated reaction to donor plasma proteins = allergic reaction) is accurately sourced to SRC-058 Node 32. Every individual mechanism claim is grounded, but the item does not actually test or source anything about burns or about 'hemostatic agents' as a treatment category (the node's actual subject) \u2014 it is a generic DIC-recognition question relabeled to fit the burn blueprint slot. Among the five given options, A is unambiguously the best answer since it is the only one consistent with the combined PT/PTT prolongation + hypofibrinogenemia + thrombocytopenia triad described; no other defensible choice exists given the answer set. The authors' own support_confidence of 'low' is consistent with this gap."
+      }
+    },
+    {
+      "id": "Q-0541",
+      "domain": "10. Surgery Patients",
+      "subdomain": "Immunohematology",
+      "blueprint_node_id": "S10.d.iii",
+      "designation": "AR",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 38-year-old woman with blood group A receives a deceased-donor liver transplant from a blood group O donor because no ABO-identical organ is available in time. The perioperative course is uneventful with no signs of graft rejection. On postoperative day 9, her hemoglobin falls, indirect bilirubin rises, and the polyspecific direct antiglobulin test (DAT) is positive with reactivity confined to anti-IgG. An eluate prepared from her red cells reacts with A1 reagent red cells but is nonreactive with group O reagent red cells. Which of the following mechanisms best explains this patient's hemolysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preformed recipient antibody directed against antigens on the donor graft, mediating antibody-mediated rejection of the transplanted liver"
+        },
+        {
+          "id": "B",
+          "text": "A cold-reactive IgM antibody with anti-I specificity fixing complement on the red cell membrane after cold exposure, producing a DAT reactive only with anti-C3"
+        },
+        {
+          "id": "C",
+          "text": "Nonspecific adsorption of a drug-antibody immune complex onto the red cell membrane, an eluate that is typically nonreactive unless the offending drug is added to the test system"
+        },
+        {
+          "id": "D",
+          "text": "Antibody-producing lymphocytes transferred within the ABO-nonidentical donor liver that continue to synthesize antibody directed against an antigen present on the recipient's own red cells"
+        },
+        {
+          "id": "E",
+          "text": "Autoantibody directed against an antigen shared by all reagent red cells, producing a panreactive eluate typical of warm-type immune hemolysis"
+        }
+      ],
+      "correct_option_id": "D",
+      "explanation_correct": "This is minor ABO incompatibility (group O donor into a non-O recipient). Because the donor lacked the A antigen, per the reciprocal antibody relationship (Landsteiner's Rule) the donor possessed anti-A. Immunocompetent, antibody-producing lymphocytes carried within the transplanted liver persist after engraftment and continue to synthesize anti-A, which coats the recipient's own group A red cells. This produces an anti-IgG-positive DAT and an eluate reactive specifically with A1 cells (matching the recipient's own antigen type) rather than a panreactive, complement-only, or drug-dependent pattern, distinguishing it from warm autoimmune hemolysis, cold agglutinin-mediated hemolysis, and drug-induced immune hemolysis.",
+      "option_explanations": {
+        "E": "Incorrect: warm autoimmune hemolytic anemia classically produces a panreactive eluate against essentially all test red cells, not an eluate whose reactivity is confined to A1 cells and negative on group O cells.",
+        "B": "Incorrect: cold agglutinin syndrome produces a DAT that is positive for anti-C3 with a negative anti-IgG component and anti-I specificity; this patient's DAT reactivity is with anti-IgG, and the eluate shows anti-A rather than anti-I-type specificity.",
+        "C": "Incorrect: drug-induced immune hemolytic anemia typically yields an eluate that is nonreactive unless the causative drug is added to the test system; here the eluate is clearly reactive with A1 cells without any drug addition, and no drug exposure is described.",
+        "D": "Correct: donor-derived, antibody-producing lymphocytes transferred with the ABO-nonidentical (group O) graft continue producing anti-A, which binds the recipient's own group A red cells, consistent with the anti-IgG-positive DAT and the A1-specific eluate \u2014 the minor ABO incompatibility mechanism.",
+        "A": "Incorrect: this describes major (not minor) ABO incompatibility, in which recipient antibody attacks donor graft antigens; it does not explain destruction of the recipient's own red cells, and in this case the donor is group O and expresses no A/B antigen for recipient antibody to target."
+      },
+      "teaching_point": "In ABO-nonidentical solid organ transplantation, minor ABO incompatibility (group O donor into a non-O recipient) can lead to hemolysis of the recipient's own red cells because donor-derived, antibody-producing lymphocytes carried within the graft persist and synthesize isoagglutinin (e.g., anti-A) against the recipient's red cell antigens. This produces an antibody-specific, anti-IgG-positive DAT/eluate pattern that must be distinguished from warm autoimmune hemolysis (panreactive eluate), cold agglutinin-mediated hemolysis (anti-C3 only, anti-I specificity), drug-induced hemolysis (usually nonreactive eluate), and major ABO incompatibility (recipient antibody attacking the graft rather than causing recipient red cell destruction).",
+      "source_references": [
+        {
+          "source_id": "SRC-041",
+          "source_type": "notebooklm",
+          "locator": "line 17",
+          "supports": "Identifies 'serological management of Major vs. Minor ABO incompatibility' as a named high-yield transplantation immunohematology framework, used here as the mechanistic basis for the minor-incompatibility scenario (extrapolated from HSCT context to solid organ transplantation).",
+          "blueprint_node_id": "S10.d.iii",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-041",
+          "source_type": "notebooklm",
+          "locator": "lines 29-30",
+          "supports": "States the reciprocal antibody relationship (Landsteiner's Rule) \u2014 that individuals possess antibodies to the ABO antigens they lack \u2014 explaining why a group O donor (and cells transferred with the graft) would produce anti-A.",
+          "blueprint_node_id": "S10.d.iii",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-004",
+          "source_type": "notebooklm",
+          "locator": "lines 43-49",
+          "supports": "Describes DAT/eluate patterns distinguishing hemolysis mechanisms: WAIHA (anti-IgG positive DAT, panreactive eluate), cold agglutinin syndrome (anti-C3 positive/anti-IgG negative DAT, anti-I specificity), and drug-induced immune hemolytic anemia (typically nonreactive eluate unless drug is added) \u2014 used to construct the distractor rationales.",
+          "blueprint_node_id": "S10.d.iii",
+          "confidence": "high"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S10"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Independently verified against all four sources. Two distinct sourcing problems: (1) Core mechanism is essentially unsupported: the ONLY source content touching this exact scenario is a single table-of-contents-style heading in SRC-041 line 17, 'Transplantation Immunohematology: Serological management of Major vs. Minor ABO incompatibility in HSCT' \u2014 a bare topic label with zero explanatory content, and it names HSCT (hematopoietic stem cell transplant), not solid organ transplantation (liver, as in the stem). SRC-041 has a full 'High-Yield Study Note' only for Subdomain Node 1 (ABO Discrepanc"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "D",
+        "flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "severity": "high",
+        "verdict_notes": "Independently verified against all four sources. Two distinct sourcing problems: (1) Core mechanism is essentially unsupported: the ONLY source content touching this exact scenario is a single table-of-contents-style heading in SRC-041 line 17, 'Transplantation Immunohematology: Serological management of Major vs. Minor ABO incompatibility in HSCT' \u2014 a bare topic label with zero explanatory content, and it names HSCT (hematopoietic stem cell transplant), not solid organ transplantation (liver, as in the stem). SRC-041 has a full 'High-Yield Study Note' only for Subdomain Node 1 (ABO Discrepancy); no study note exists for the transplantation node, so the passenger-lymphocyte mechanism, the donor-derived-lymphocyte-produces-antibody explanation, and its extension to solid-organ (vs. HSCT) transplantation appear nowhere in the four sources \u2014 they are extrapolated/invented relative to the provided material. The question's own source_references candidly label this 'extrapolated from HSCT context to solid organ transplantation' with only 'moderate' confidence, and the question sets support_confidence:'low' \u2014 consistent with thin/absent grounding, not full grounding. (2) Citation misattribution: the DAT/eluate comparison table (WAIHA panreactive eluate/anti-IgG+; CAS/PCH anti-C3+/anti-IgG-, anti-I or anti-P specificity; DIIHA nonreactive eluate unless drug added) is real and verbatim-matches lines 43-49, but those lines are in SRC-019 (clinical-foundations-of-immunohematology-and-transfusion-medicine.md), NOT SRC-004 (advanced-immunohematology-and-transfusion-medicine-review.md) as cited \u2014 SRC-004 contains no DAT/eluate/WAIHA/CAS/DIIHA content at all (its content covers molecular testing, PNH, HNA, cell kinetics, medicolegal topics). This is a clear source-ID error, not a minor locator slip. Landsteiner's Rule citation (SRC-041 lines 29-30) is accurate and correctly used. Despite the sourcing gaps, the clinical vignette itself is internally coherent and medically unambiguous: group O donor liver into group A recipient is textbook minor ABO incompatibility (passenger lymphocyte syndrome), and the DAT-anti-IgG-positive/eluate-reactive-with-A1-only pattern cleanly discriminates D from the other four options (A panreactive-warm, B anti-C3-only/cold, C drug-eluate-nonreactive, E wrong-direction major incompatibility descriptor). So independently I reach the same key (D) as the single best answer purely on domain reasoning, but that reasoning is not actually traceable to the four approved sources for the load-bearing facts."
+      }
+    },
+    {
+      "id": "Q-0548",
+      "domain": "10. Surgery Patients",
+      "subdomain": "Plasma Exchange",
+      "blueprint_node_id": "S10.d.ii.c",
+      "designation": "F",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 45-year-old woman with end-stage renal disease is scheduled to receive a living-donor kidney from an ABO- and HLA-incompatible donor. As part of the pretransplant desensitization protocol, she undergoes a series of therapeutic plasma exchange (TPE) treatments to lower her circulating anti-A/anti-B isoagglutinin and donor-specific anti-HLA antibody levels before surgery. Which of the following best describes the underlying mechanism by which TPE reduces this patient's risk of antibody-mediated graft rejection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TPE permanently depletes antibody-producing plasma cells, halting further antibody synthesis"
+        },
+        {
+          "id": "B",
+          "text": "TPE selectively binds and inactivates complement component C3, blocking the classical complement cascade"
+        },
+        {
+          "id": "C",
+          "text": "TPE physically removes preformed circulating antibodies from the plasma compartment via centrifugation or membrane filtration, lowering the antibody titer available to bind donor antigens on the graft"
+        },
+        {
+          "id": "D",
+          "text": "TPE gamma-irradiates donor T lymphocytes circulating in the recipient, preventing a graft-versus-host reaction"
+        },
+        {
+          "id": "E",
+          "text": "TPE eliminates donor CD34+ hematopoietic progenitor cells from the recipient's circulation to prevent chimerism"
+        }
+      ],
+      "correct_option_id": "C",
+      "explanation_correct": "Apheresis works on the principle of centrifugation or membrane filtration to separate and remove a targeted plasma component. The sources illustrate this same physical-removal mechanism in two other antibody/immune-complex-mediated conditions: TPE is a primary treatment for TTP because it removes the circulating ADAMTS13 inhibitor, and in rapidly progressive glomerulonephritis TPE is used to rapidly reduce the level of circulating immune complexes to prevent irreversible organ damage. Applying this same mechanistic principle to a desensitization protocol, TPE lowers preformed isoagglutinin and anti-HLA antibody titers by bulk removal from the plasma, reducing the antibody available to engage donor antigens on the graft and trigger antibody-mediated injury.",
+      "option_explanations": {
+        "B": "Incorrect. Direct complement inactivation is the mechanism of targeted pharmacologic agents such as eculizumab (used for acute, brisk hemolysis in cold agglutinin syndrome), not of TPE, which acts by bulk physical removal of plasma constituents rather than selective molecular inactivation of a complement protein.",
+        "D": "Incorrect. Gamma irradiation of cellular blood components to inactivate donor T lymphocytes is the mechanism used to prevent transfusion-associated graft-versus-host disease (TA-GVHD), an entirely different intervention from plasma exchange and not how TPE reduces antibody-mediated rejection risk.",
+        "C": "Correct \u2014 see explanation_correct.",
+        "E": "Incorrect. CD34 is the antigen used to quantify hematopoietic progenitor cells in an HPC graft for hematopoietic (not solid organ) transplantation; TPE does not target or remove CD34+ cells, and this option confuses HPC transplant biology with the antibody-removal function of apheresis.",
+        "A": "Incorrect. This is a classic distractor: TPE removes antibody already present in the circulating plasma pool but does not deplete antibody-producing plasma cells or halt ongoing synthesis, which is why desensitization protocols typically pair TPE with agents such as rituximab that act on B cells to reduce antibody production going forward."
+      },
+      "teaching_point": "TPE's core mechanism across all its indications (TTP, RPGN, and by extension antibody-mediated barriers to transplantation) is bulk physical removal of preformed circulating antibody or immune complexes via centrifugation/membrane filtration \u2014 it transiently lowers titer but does not stop ongoing antibody production, distinguishing it from complement-inhibitor therapy, B-cell/plasma-cell-targeted therapy, or cellular irradiation.",
+      "source_references": [
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain IV: Apheresis",
+          "supports": "Apheresis operates via centrifugation or membrane filtration, and TPE is a primary treatment for TTP specifically because it removes the circulating ADAMTS13 inhibitor \u2014 establishing the general mechanism of physical antibody/inhibitor removal from plasma.",
+          "blueprint_node_id": "S10.d.ii.c",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-011",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 67 \u2013 Rheumatic & Renal Disorders in Apheresis",
+          "supports": "In rapidly progressive glomerulonephritis, TPE is used to rapidly reduce circulating immune complex levels to prevent irreversible organ damage, illustrating the same physical-removal rationale applied to prevent antibody/immune-complex-mediated tissue injury.",
+          "blueprint_node_id": "S10.d.ii.c",
+          "confidence": "moderate"
+        },
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain V: Hazards of Transfusion",
+          "supports": "TA-GVHD is prevented by gamma irradiation of cellular components to inactivate donor T lymphocytes, a distinct mechanism used to ground the incorrect irradiation distractor.",
+          "blueprint_node_id": "S10.d.ii.c",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-019",
+          "source_type": "notebooklm",
+          "locator": "Board Study Note: Domain I \u2013 Clinical Practice, Management section",
+          "supports": "Eculizumab (complement inhibition) and rituximab (B-cell targeting to reduce antibody production) are described as management options distinct from TPE, supporting the distractors about complement inactivation and permanent plasma-cell depletion.",
+          "blueprint_node_id": "S10.d.ii.c",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S10"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Confirmed by independent read of all four sources: none of SRC-010, SRC-011, SRC-012, or SRC-019 contain ANY statement about TPE/plasma exchange used for ABO- or HLA-incompatible solid organ transplant desensitization, isoagglutinin/anti-HLA antibody reduction pre-transplant, or antibody-mediated graft rejection prevention (searched 'transplant', 'isoagglutinin', 'donor-specific', 'graft rejection', 'desensitiz', 'ABO-incompatible', 'HLA-incompatible' across all four files \u2014 the only 'transplant' hits are an unrelated HPC-transplantation domain heading and a chimerism blurb). This is precisely"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "C",
+        "flags": [
+          "unsupported-claim",
+          "too-esoteric-thin-source"
+        ],
+        "severity": "high",
+        "verdict_notes": "Confirmed by independent read of all four sources: none of SRC-010, SRC-011, SRC-012, or SRC-019 contain ANY statement about TPE/plasma exchange used for ABO- or HLA-incompatible solid organ transplant desensitization, isoagglutinin/anti-HLA antibody reduction pre-transplant, or antibody-mediated graft rejection prevention (searched 'transplant', 'isoagglutinin', 'donor-specific', 'graft rejection', 'desensitiz', 'ABO-incompatible', 'HLA-incompatible' across all four files \u2014 the only 'transplant' hits are an unrelated HPC-transplantation domain heading and a chimerism blurb). This is precisely the blueprint node being tested (S10.d.ii.c/F: Plasma Exchange for ABO/HLA immunologic barriers in solid organ transplant), yet the sources are silent on it. The question instead stitches together the mechanism fact (SRC-010: apheresis works via centrifugation/membrane filtration; TPE removes ADAMTS13 inhibitor in TTP) with an analogous but different indication (SRC-011 Subdomain Node 67: TPE reduces circulating immune complexes in RPGN) and then extrapolates by general medical knowledge, not source text, to the transplant-desensitization scenario. The explanation itself concedes this ('Applying this same mechanistic principle to a desensitization protocol...') and the question's own support_confidence is self-rated 'low', which matches my finding. The distractor-grounding facts (TA-GVHD prevented by irradiation of donor T cells \u2014 SRC-010 Domain V; CD34 quantifies HPC grafts \u2014 SRC-010 Domain VIII; eculizumab used for acute brisk hemolysis in CAS, rituximab as CAS/WAIHA therapy \u2014 SRC-019) are each individually well supported, but none of them establish TPE's actual mechanistic role in transplant desensitization \u2014 they are used only to eliminate distractors by contrast, not to positively source the correct-answer premise. Despite this grounding gap, the mechanism described in option C (bulk physical removal of antibody via centrifugation/membrane filtration) is medically unambiguous and is the only physically/mechanistically coherent option among A/B/D/E, so the keyed answer is not in genuine clinical dispute \u2014 I independently select C as well, and no other option is defensible. The core issue is source support for the vignette's premise, not the correctness of the answer choice."
+      }
+    },
+    {
+      "id": "Q-0559",
+      "domain": "16. Hematopoietic Progenitor Cell (HPC) Transplantation",
+      "subdomain": "Flow Cytometry",
+      "blueprint_node_id": "S16.g.ii.1",
+      "designation": "F",
+      "difficulty": "moderate",
+      "cognitive_level": "analysis",
+      "stem": "A hematopathology laboratory performs flow cytometric immunophenotyping on a peripheral blood specimen submitted to evaluate for paroxysmal nocturnal hemoglobinuria (PNH). The assay is designed to enumerate the percentage of granulocytes that fail to express two glycosylphosphatidylinositol (GPI)-anchored surface proteins, CD55 and CD59, so the laboratory can quantify the abnormal clone as a percentage of the total granulocyte population. Which of the following underlying cellular mechanisms best explains why flow cytometry is able to identify and enumerate this double-negative population?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An acquired somatic mutation in the PIGA gene impairs synthesis of the GPI anchor, preventing CD55 and CD59 from being attached to the cell membrane"
+        },
+        {
+          "id": "B",
+          "text": "Complement-mediated lysis selectively destroys granulocytes that still express CD55 and CD59, leaving only antigen-negative cells to be counted"
+        },
+        {
+          "id": "C",
+          "text": "A deletion of the RHD gene eliminates a glycoprotein scaffold shared with CD55 and CD59, preventing their membrane expression"
+        },
+        {
+          "id": "D",
+          "text": "Prestorage leukoreduction filtration removes CD55/CD59-positive granulocytes before the sample reaches the flow cytometer"
+        },
+        {
+          "id": "E",
+          "text": "Circulating alloantibodies bind and strip CD55 and CD59 from the granulocyte surface before the sample is analyzed"
+        }
+      ],
+      "correct_option_id": "A",
+      "explanation_correct": "PNH results from an acquired clonal mutation in the PIGA gene in a hematopoietic stem cell, which impairs synthesis of the GPI anchor. Because CD55 and CD59 (along with Yta/Ytb, Hy/Joa/Gya, Cromer antigens, and Emm) are GPI-linked, the mutant clone's progeny cannot display these proteins on the membrane. Flow cytometry is the modern gold-standard method that directly identifies and quantifies this GPI-anchor-deficient (CD55/CD59 double-negative) population, which is the mechanistic basis for using flow cytometry as an enumeration tool in PNH.",
+      "option_explanations": {
+        "A": "Correct: the source explicitly identifies an acquired PIGA gene mutation causing GPI anchor deficiency as the defect underlying loss of GPI-linked antigens including CD55 and CD59, which flow cytometry is used to quantify.",
+        "E": "Incorrect distractor: PNH is described as an intrinsic membrane-synthesis defect, not an antibody-mediated process; no alloantibody-mediated stripping of CD55/CD59 is described for PNH in the source material.",
+        "C": "Incorrect distractor mixing systems: RHD gene deletion is the mechanism producing the D-negative Rh phenotype, an entirely separate gene and antigen system with no described relationship to GPI-anchor biosynthesis or CD55/CD59 expression.",
+        "B": "Incorrect: complement-mediated lysis (via loss of the complement regulators CD55/CD59) is described as the clinical consequence of GPI-anchor deficiency causing chronic intravascular hemolysis, not the reason the antigen-negative population is detectable by flow cytometry; flow cytometry directly measures antigen absence, not selective lysis of antigen-positive cells.",
+        "D": "Incorrect: leukoreduction filtration is described as reducing WBC content of blood components to lower the risk of primary HLA alloimmunization and is unrelated to PNH clone detection or GPI-anchor biology."
+      },
+      "teaching_point": "Flow cytometric enumeration of a defined cell population relies on antibody-based detection of surface antigen presence or absence; in PNH this reflects an intrinsic GPI-anchor synthesis defect (PIGA mutation) rather than an immune, filtration, or unrelated-gene mechanism. Note: the approved source set does not contain direct content on CD34+ HPC enumeration by flow cytometry (e.g., ISHAGE gating, viability assessment); this question uses the closest source-grounded flow-cytometric cell-enumeration mechanism (PNH clone quantification) as an analog, hence the low support-confidence rating.",
+      "source_references": [
+        {
+          "source_id": "SRC-004",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 42 \u2013 PNH: Core Concepts / Antigen Deficiencies in PNH / Diagnostic Logic",
+          "supports": "PIGA gene mutation causes GPI anchor deficiency; CD55/CD59 are GPI-linked and absent in PNH; flow cytometry is the modern gold-standard method used to quantify the population of cells lacking CD55 and CD59.",
+          "blueprint_node_id": "S16.g.ii.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-020",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 2 \u2013 Rh Variants & RhIg: Core Concepts / Genetic Basis",
+          "supports": "RHD gene deletion is the mechanism of the D-negative Rh phenotype, used here as an unrelated distractor gene/antigen system.",
+          "blueprint_node_id": "S16.g.ii.1",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-026",
+          "source_type": "notebooklm",
+          "locator": "Subdomain Node 10 \u2013 Platelet Refractoriness: Prevention",
+          "supports": "Leukoreduction reduces WBC content to lower HLA alloimmunization risk, used as an unrelated distractor mechanism.",
+          "blueprint_node_id": "S16.g.ii.1",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S16"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Core mechanistic facts are grounded in SRC-004 Node 42 (PIGA mutation -> GPI anchor deficiency -> loss of CD55/CD59 -> flow cytometry as gold-standard quantification method), and the RHD-deletion and leukoreduction/HLA-alloimmunization distractor facts are correctly sourced from SRC-020 and SRC-026 respectively. Option A is unambiguously the only defensible answer; B, C, D, E are each directly contradicted or unrelated per source content (D in particular inverts the source's actual mechanism, since complement lyses the CD55/CD59-NEGATIVE cells, not the positive ones). However, this item has a "
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "blueprint-mismatch",
+          "unsupported-claim"
+        ],
+        "severity": "high",
+        "verdict_notes": "Core mechanistic facts are grounded in SRC-004 Node 42 (PIGA mutation -> GPI anchor deficiency -> loss of CD55/CD59 -> flow cytometry as gold-standard quantification method), and the RHD-deletion and leukoreduction/HLA-alloimmunization distractor facts are correctly sourced from SRC-020 and SRC-026 respectively. Option A is unambiguously the only defensible answer; B, C, D, E are each directly contradicted or unrelated per source content (D in particular inverts the source's actual mechanism, since complement lyses the CD55/CD59-NEGATIVE cells, not the positive ones). However, this item has a critical alignment problem: the blueprint node it is filed under (16. HPC Transplantation > HPC Assessment > HPC Measurement and Enumeration > Flow Cytometry) concerns CD34+ hematopoietic progenitor cell enumeration for stem-cell products (e.g., ISHAGE gating, viability/7-AAD assessment, dual-platform counting) -- a completely different clinical/technical domain from PNH clone detection. The question's own teaching_point explicitly admits the source set contains no content on CD34+ HPC enumeration and that PNH clone quantification is being used merely as an 'analog' flow-cytometry mechanism. This means the item does not actually test the assigned blueprint topic at all; it tests an unrelated diagnostic application of flow cytometry from a different subdomain (PNH/immunohematology, SRC-004 Node 42), which was itself explicitly flagged in the source document as one of several 'remaining' topics outside the main subdomain structure. Additionally, the stem's specific framing of 'granulocytes' as the analyzed cell population is not stated in the source, which frames PNH antigen loss in terms of RBC-membrane GPI-anchored antigens (Yta/Ytb, Hy/Joa/Gya, Cromer, CD59, Emm) -- granulocyte-based clinical flow testing is real-world accurate but goes beyond what SRC-004 states, so this is an added, source-unsupported specific detail layered onto an already off-topic item. Recommend rejecting or reassigning this item; it should not be used to certify coverage of the HPC Measurement/Enumeration/Flow Cytometry blueprint node."
+      }
+    },
+    {
+      "id": "Q-0560",
+      "domain": "16. Hematopoietic Progenitor Cell (HPC) Transplantation",
+      "subdomain": "Engraftment Failure \u2013 Causes and Management",
+      "blueprint_node_id": "S16.k.iii",
+      "designation": "F",
+      "difficulty": "hard",
+      "cognitive_level": "analysis",
+      "stem": "A 54-year-old woman with AML in remission undergoes myeloablative allogeneic HSCT from her HLA-identical sibling. The donor is blood group O; the recipient is blood group A (major ABO incompatibility), and the marrow graft underwent red cell reduction prior to infusion per protocol. On post-transplant day +18, her absolute neutrophil count has recovered to 800/\u00b5L and the platelet count is trending upward, but she remains transfusion-dependent for red cells. Reticulocyte count is <1%, and a bone marrow biopsy shows normal myeloid maturation with absent erythroid precursors. Which of the following best explains this patient's isolated failure of red cell engraftment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DMSO-mediated cytotoxicity to the infused cryopreserved stem cells"
+        },
+        {
+          "id": "B",
+          "text": "An inadequate CD34+ cell dose was infused, resulting in insufficient stem cell engraftment"
+        },
+        {
+          "id": "C",
+          "text": "Graft-versus-host disease with donor T-cell-mediated destruction of the marrow stroma"
+        },
+        {
+          "id": "D",
+          "text": "Persistent recipient isoagglutinins (anti-A) are lysing developing donor-derived erythroid precursors in the marrow"
+        },
+        {
+          "id": "E",
+          "text": "Host-versus-graft rejection driven by HLA disparity between donor and recipient"
+        }
+      ],
+      "correct_option_id": "D",
+      "explanation_correct": "This is pure red cell aplasia (PRCA) following major ABO-mismatched HSCT, which occurs in 3%-29% of such transplants. The recipient's preexisting isoagglutinins (here, anti-A, since the group-A recipient received a group-O graft) persist after transplant and lyse the developing donor-derived (group A) erythroid precursors in the marrow. Because these antibodies target red cell antigens specifically, myeloid and megakaryocytic lineages engraft normally (as seen here with ANC recovery and rising platelets) while erythropoiesis fails, producing reticulocytopenia (<1%) and absent erythroid precursors on marrow biopsy despite otherwise successful engraftment.",
+      "option_explanations": {
+        "D": "Correct: matches the described mechanism of PRCA in major ABO-mismatched HSCT-recipient isoagglutinins lyse donor RBC precursors, sparing myeloid and platelet engraftment since those lineages lack the targeted ABO antigens.",
+        "C": "GVHD requires immunosuppression to prevent donor T-cells from attacking host tissue, but it classically involves skin, gut, and liver and would not selectively destroy only erythroid precursors while sparing myeloid recovery; it does not explain this lineage-restricted pattern.",
+        "E": "HLA disparity is the primary barrier to engraftment and drives graft rejection, but this patient received an HLA-identical sibling graft, and true rejection would impair all hematopoietic lineages rather than causing an isolated erythroid defect.",
+        "B": "The recognized threshold for successful engraftment is a CD34+ dose of roughly 2-6 x 10^6 cells/kg; an inadequate dose would cause global (all-lineage) delayed or failed engraftment, not a selective absence of erythroid precursors with normal myeloid recovery.",
+        "A": "DMSO toxicity is an infusion-related reaction (coughing, flushing, rash, cardiovascular instability) occurring at the time cryopreserved product is administered; it is not a cause of delayed marrow engraftment failure occurring weeks later."
+      },
+      "teaching_point": "Isolated failure of red cell engraftment with normal myeloid/platelet recovery after major ABO-mismatched HSCT points to PRCA caused by persistent recipient isoagglutinins lysing donor erythroid precursors, distinct from global graft failure mechanisms like HLA mismatch rejection, GVHD, or inadequate CD34+ dose.",
+      "source_references": [
+        {
+          "source_id": "SRC-038",
+          "source_type": "notebooklm",
+          "locator": "",
+          "supports": "States PRCA occurs in 3%-29% of major ABO-mismatched transplants, characterized by reticulocytes <1% and absence of erythroid precursors despite myeloid engraftment; also defines the HLA barrier and the ~2x10^6 CD34+/kg engraftment dosing goal used in distractors.",
+          "blueprint_node_id": "S16.k.iii",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-040",
+          "source_type": "notebooklm",
+          "locator": "",
+          "supports": "States PRCA in HSCT occurs in 3%-29% of major ABO-mismatched transplants and that recipient antibodies (isoagglutinins) lyse developing donor RBC precursors in the marrow, directly grounding the mechanism in the correct answer; also describes DMSO toxicity symptoms used in a distractor.",
+          "blueprint_node_id": "S16.k.iii",
+          "confidence": "high"
+        },
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "",
+          "supports": "Confirms major/minor ABO incompatibility management and HLA matching are core HPC transplantation concepts, providing general topic context.",
+          "blueprint_node_id": "S16.k.iii",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "high",
+      "tags": [
+        "S16"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "fail",
+        "audit_flags": [
+          "unsupported-claim",
+          "ambiguous-stem"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "General PRCA mechanism (3-29% of major ABO-mismatched HSCT, retic <1%, absent erythroid precursors despite myeloid engraftment, recipient isoagglutinins lysing donor-derived RBC precursors) is verbatim supported by SRC-038 and SRC-040. However, the specific ABO setup in the stem is internally wrong: donor group O / recipient group A is, by standard definition and by the sources' own worked examples, a MINOR ABO mismatch (SRC-038 defines Passenger Lymphocyte Syndrome using exactly this donor-O/recipient-A pattern, and states minor mismatch is managed by plasma reduction, not the 'red cell reduc"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "fail",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "A",
+        "flags": [
+          "unsupported-claim",
+          "ambiguous-stem"
+        ],
+        "severity": "high",
+        "verdict_notes": "General PRCA mechanism (3-29% of major ABO-mismatched HSCT, retic <1%, absent erythroid precursors despite myeloid engraftment, recipient isoagglutinins lysing donor-derived RBC precursors) is verbatim supported by SRC-038 and SRC-040. However, the specific ABO setup in the stem is internally wrong: donor group O / recipient group A is, by standard definition and by the sources' own worked examples, a MINOR ABO mismatch (SRC-038 defines Passenger Lymphocyte Syndrome using exactly this donor-O/recipient-A pattern, and states minor mismatch is managed by plasma reduction, not the 'red cell reduction' the stem describes, which the source ties specifically to major mismatch). A group-A recipient has anti-B, not anti-A, antibodies (basic ABO self-tolerance), so the explanation's claim of persistent recipient 'anti-A' isoagglutinins is factually impossible for this patient. The explanation also self-contradicts the stem by calling the target cells 'donor-derived (group A) erythroid precursors' when the donor is stated to be group O. The item needs the ABO group assignment (or the major-mismatch framing/antibody specificity) corrected. Despite this flaw, among the five given options A remains the only one that fits the isolated-erythroid-failure marrow picture; B, C, D, and E are each well-contradicted by the sources (HLA-identical sibling rules out C; GVHD/DMSO/CD34-dose mechanisms don't produce a lineage-restricted erythroid defect per SRC-038/SRC-040), so I independently also select A, but flag the underlying rationale as internally inconsistent and factually flawed as written."
+      }
+    },
+    {
+      "id": "Q-0579",
+      "domain": "17. Blood Bank/Transfusion Medicine-Specific Administration and Laboratory Management",
+      "subdomain": "Sources",
+      "blueprint_node_id": "S17.d.i.1",
+      "designation": "F",
+      "difficulty": "moderate",
+      "cognitive_level": "application",
+      "stem": "A 52-year-old man with multiple myeloma is scheduled for autologous hematopoietic stem cell transplantation. His hematopoietic progenitor cells could be collected from any of three possible sources: bone marrow aspirate, mobilized peripheral blood via apheresis, or (in an allogeneic setting) banked umbilical cord blood. Before the product is cryopreserved, the processing laboratory must quantify the hematopoietic stem/progenitor cell content of the graft to confirm it is adequate for engraftment, using a single cell-surface marker that is expressed on immature progenitor cells common to all three of these sources. Which antigen is used for this quantification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CD3"
+        },
+        {
+          "id": "B",
+          "text": "HLA-DR"
+        },
+        {
+          "id": "C",
+          "text": "CD45"
+        },
+        {
+          "id": "D",
+          "text": "CD34"
+        },
+        {
+          "id": "E",
+          "text": "CD133"
+        }
+      ],
+      "correct_option_id": "D",
+      "explanation_correct": "Regardless of whether the graft is collected from bone marrow, mobilized peripheral blood, or umbilical cord blood, the laboratory identifies and enumerates the hematopoietic progenitor cell population using CD34, which the source curriculum designates as the primary antigen used to quantify HPCs in a graft prior to processing and cryopreservation.",
+      "option_explanations": {
+        "A": "CD3 marks T lymphocytes and is relevant to assessing graft T-cell content (a factor in graft-versus-host disease risk), not to quantifying the hematopoietic progenitor cell dose itself.",
+        "D": "Correct. CD34 is the primary antigen used to quantify hematopoietic progenitor cells in a graft, serving as the common source-independent marker across marrow, peripheral blood, and cord blood products.",
+        "C": "CD45 is a pan-leukocyte marker expressed broadly on white blood cells and is not specific for the immature progenitor population that defines graft adequacy.",
+        "E": "CD133 is a distractor representing another stem cell-associated marker, but the source material specifies CD34, not CD133, as the primary antigen used for HPC graft quantification.",
+        "B": "HLA-DR is a class II MHC molecule used in donor-recipient matching and antigen presentation, not in enumerating the hematopoietic progenitor cell dose of a graft."
+      },
+      "teaching_point": "",
+      "source_references": [
+        {
+          "source_id": "SRC-010",
+          "source_type": "notebooklm",
+          "locator": "Domain VIII, lines 105-113",
+          "supports": "States CD34 is the primary antigen used to quantify HPCs in a graft, within the Domain VIII subdomain covering HPC Sources (Marrow, Peripheral Blood, Cord).",
+          "blueprint_node_id": "S17.d.i.1",
+          "confidence": "moderate"
+        }
+      ],
+      "support_confidence": "low",
+      "tags": [
+        "S17"
+      ],
+      "learner_note": null,
+      "review": {
+        "status": "needs-human-review",
+        "source_support": "partial",
+        "audit_flags": [
+          "unsupported-claim",
+          "blueprint-mismatch"
+        ],
+        "auditor": "bbtm-generate-audit/sonnet",
+        "audited_at": "2026-07-12T18:38:18.563477+00:00",
+        "notes": "Only one atomic fact is actually grounded: SRC-010 line 113 states verbatim 'CD34 is the primary antigen used to quantify HPCs in a graft' under Domain VIII (HPC Transplantation), subdomain 'Sources (Marrow, Peripheral Blood, Cord)'. That single line supports the keyed answer B (CD34) and the core explanation_correct claim. However: (1) none of the four distractor rationales are sourced anywhere in the four approved documents \u2014 CD3/T-cell content/GVHD-risk, CD45 pan-leukocyte marker, CD133 as 'another stem cell marker', and HLA-DR's role in donor-recipient matching are never mentioned in SRC-0"
+      },
+      "created_at": "2026-07-12T18:38:18.563477+00:00",
+      "generator": "bbtm-generate-audit/sonnet",
+      "_audit": {
+        "question_index": 0,
+        "source_support": "partial",
+        "single_best_answer": true,
+        "answer_agrees": true,
+        "independent_answer": "B",
+        "flags": [
+          "unsupported-claim",
+          "blueprint-mismatch"
+        ],
+        "severity": "high",
+        "verdict_notes": "Only one atomic fact is actually grounded: SRC-010 line 113 states verbatim 'CD34 is the primary antigen used to quantify HPCs in a graft' under Domain VIII (HPC Transplantation), subdomain 'Sources (Marrow, Peripheral Blood, Cord)'. That single line supports the keyed answer B (CD34) and the core explanation_correct claim. However: (1) none of the four distractor rationales are sourced anywhere in the four approved documents \u2014 CD3/T-cell content/GVHD-risk, CD45 pan-leukocyte marker, CD133 as 'another stem cell marker', and HLA-DR's role in donor-recipient matching are never mentioned in SRC-010, SRC-002, SRC-006, or SRC-001 (verified via targeted grep across all four files: zero hits for CD133, CD45, CD3, or HLA-DR-matching in any HPC/stem-cell context). These rationales are true from general hematology knowledge but are invented relative to the cited sources. (2) The stem's specific claim that CD34 marks progenitor cells 'common to all three of these sources' is an inference beyond the literal source text, which only lists Marrow/Peripheral Blood/Cord as subdomain headings alongside the CD34 fact without explicitly stating cross-source marker commonality. (3) The elaborate clinical vignette (52-year-old man, multiple myeloma, autologous HSCT candidate) is invented scenario-dressing with no source basis. (4) Possible blueprint mismatch: the blueprint node targets Domain 17 'Transplant Organizations and Networks in the Regulation of Cellular and Tissue Therapy Programs' (an administrative/regulatory topic \u2014 e.g., FACT/AABB/NMDP accreditation of HPC source facilities), but the actual grounding fact comes from Domain VIII 'HPC Transplantation' (a biology/lab-processing domain covering Biology, Sources, Processing, Storage, Engraftment) \u2014 a different domain than the administration/regulatory one named in the blueprint topic string. The question tests a lab marker fact, not organizational/regulatory content about HPC sources. Despite these grounding gaps, CD34 is unambiguously the correct real-world answer for HPC graft quantification, so the keyed answer itself is not in dispute \u2014 this is a sourcing-rigor problem, not a correctness problem. The candidate's own metadata (support_confidence: low) already signals this weakness."
+      }
     }
   ],
   "cases_needing_review": [
@@ -3540,9 +5125,9 @@
     }
   ],
   "summary": {
-    "questions_total": 442,
-    "questions_accepted": 411,
-    "questions_flagged": 31,
+    "questions_total": 582,
+    "questions_accepted": 535,
+    "questions_flagged": 47,
     "cases_total": 26,
     "cases_accepted": 23,
     "cases_flagged": 3

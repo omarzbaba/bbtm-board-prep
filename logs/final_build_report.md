@@ -1,6 +1,6 @@
 # Final Build Report — BB/TM Board Prep Platform
 
-_Generated: 2026-07-12T17:46:09.452831+00:00_
+_Generated: 2026-07-12T18:38:47.832265+00:00_
 
 ## What was built
 
@@ -26,11 +26,11 @@ web app — in ten phases, all artifacts reproducible on disk.
 - Generation-eligible (covered + strong-partial): **590 / 813**.
 
 ### Pilot content (Phase 5–7)
-- **411 board questions** accepted into the bank (200 Core / 191 AR / 20 Fellow);
-  31 routed to human review.
+- **535 board questions** accepted into the bank (201 Core / 247 AR / 69 Fellow);
+  47 routed to human review.
 - **23 teaching cases** accepted; 3 routed to review.
 - Every item was independently re-read against its sources by an adversarial auditor.
-  Question source-support: 252 pass, 180 partial. Every accepted question's auditor
+  Question source-support: 317 pass, 249 partial. Every accepted question's auditor
   independently agreed with the keyed answer.
 
 ### Web app (Phase 8)
@@ -60,7 +60,7 @@ See `logs/coverage_gap_report.md` for the full Core/AR gap list.
 
 ## What needs human review
 
-31 questions and 3 cases were held back from the bank by the audit gate
+47 questions and 3 cases were held back from the bank by the audit gate
 (correctness-critical flags or unresolved source support). They live, with their audit verdicts,
 in `content/review/review_queue.json`. Summary of flagged items:
 
@@ -95,6 +95,22 @@ in `content/review/review_queue.json`. Summary of flagged items:
 - **Q-0409** (16. Hematopoietic Progenitor) — fail, flags: unsupported-claim, too-esoteric-thin-source, numeric-value-unverified
 - **Q-0411** (16. Hematopoietic Progenitor) — fail, flags: unsupported-claim, overclaims-as-policy, too-esoteric-thin-source
 - **Q-0432** (17. Blood Bank/Transfusion M) — pass, flags: ambiguous-stem, multiple-defensible-answers
+- **Q-0449** (1. Clinical Practice) — partial, flags: blueprint-mismatch, unsupported-claim
+- **Q-0450** (1. Clinical Practice) — partial, flags: blueprint-mismatch, unsupported-claim
+- **Q-0454** (1. Clinical Practice) — fail, flags: unsupported-claim, too-esoteric-thin-source
+- **Q-0455** (1. Clinical Practice) — partial, flags: blueprint-mismatch, unsupported-claim
+- **Q-0461** (1. Clinical Practice) — fail, flags: unsupported-claim, blueprint-mismatch, too-esoteric-thin-source
+- **Q-0481** (2. Cell and Tissue Therapy) — pass, flags: blueprint-mismatch
+- **Q-0507** (5. Apheresis) — fail, flags: unsupported-claim, too-esoteric-thin-source
+- **Q-0510** (6. Hazards of Transfusion: S) — partial, flags: unsupported-claim, blueprint-mismatch
+- **Q-0512** (6. Hazards of Transfusion: S) — fail, flags: unsupported-claim, blueprint-mismatch, too-esoteric-thin-source
+- **Q-0535** (9. Blood Donors and Blood Co) — fail, flags: unsupported-claim, too-esoteric-thin-source, blueprint-mismatch
+- **Q-0539** (10. Surgery Patients) — partial, flags: blueprint-mismatch, unsupported-claim
+- **Q-0541** (10. Surgery Patients) — partial, flags: unsupported-claim, too-esoteric-thin-source
+- **Q-0548** (10. Surgery Patients) — partial, flags: unsupported-claim, too-esoteric-thin-source
+- **Q-0559** (16. Hematopoietic Progenitor) — partial, flags: blueprint-mismatch, unsupported-claim
+- **Q-0560** (16. Hematopoietic Progenitor) — fail, flags: unsupported-claim, ambiguous-stem
+- **Q-0579** (17. Blood Bank/Transfusion M) — partial, flags: unsupported-claim, blueprint-mismatch
 - **C-004** (6. Hazards of Transfusion: S) — partial, flags: unrealistic-scenario, incorrect-answer-key, unsupported-claim
 - **C-009** (3. RBCs and RBC Components) — partial, flags: unsupported-claim, incorrect-answer-key, missing-decision-logic
 - **C-010** (3. RBCs and RBC Components) — partial, flags: incorrect-answer-key

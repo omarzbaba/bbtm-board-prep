@@ -1,36 +1,36 @@
 # Question Audit Report
 
-_Generated 2026-07-12T17:45:42.726711+00:00. Each item was independently re-read against its approved sources by an adversarial auditor._
+_Generated 2026-07-12T18:38:47.777921+00:00. Each item was independently re-read against its approved sources by an adversarial auditor._
 
 ## Summary
 
-- Generated: **442**
-- Accepted into bank: **411**
-- Routed to review queue: **31**
+- Generated: **582**
+- Accepted into bank: **535**
+- Routed to review queue: **47**
 
 ### Source-support distribution
 
-- pass: 252
-- partial: 180
-- fail: 10
+- pass: 317
+- partial: 249
+- fail: 16
 
 ### Severity
 
-- none: 136
-- low: 184
-- medium: 93
-- high: 29
+- none: 163
+- low: 248
+- medium: 126
+- high: 45
 
 ### Audit flags raised
 
-- `unsupported-claim`: 204
-- `blueprint-mismatch`: 102
-- `too-esoteric-thin-source`: 35
-- `weak-distractor`: 30
+- `unsupported-claim`: 299
+- `blueprint-mismatch`: 128
+- `too-esoteric-thin-source`: 53
+- `weak-distractor`: 35
 - `duplicate-coverage`: 28
-- `numeric-value-unverified`: 18
-- `ambiguous-stem`: 17
-- `overclaims-as-policy`: 17
+- `numeric-value-unverified`: 24
+- `ambiguous-stem`: 19
+- `overclaims-as-policy`: 18
 - `multiple-defensible-answers`: 2
 
 ## Items routed to human review
@@ -68,3 +68,19 @@ _Generated 2026-07-12T17:45:42.726711+00:00. Each item was independently re-read
 | Q-0409 | 16 | fail | high | unsupported-claim, too-esoteric-thin-source, numeric-value-unverified |
 | Q-0411 | 16 | fail | high | unsupported-claim, overclaims-as-policy, too-esoteric-thin-source |
 | Q-0432 | 17 | pass | medium | ambiguous-stem, multiple-defensible-answers |
+| Q-0449 | 1 | partial | high | blueprint-mismatch, unsupported-claim |
+| Q-0450 | 1 | partial | high | blueprint-mismatch, unsupported-claim |
+| Q-0454 | 1 | fail | high | unsupported-claim, too-esoteric-thin-source |
+| Q-0455 | 1 | partial | high | blueprint-mismatch, unsupported-claim |
+| Q-0461 | 1 | fail | high | unsupported-claim, blueprint-mismatch, too-esoteric-thin-source |
+| Q-0481 | 2 | pass | high | blueprint-mismatch |
+| Q-0507 | 5 | fail | high | unsupported-claim, too-esoteric-thin-source |
+| Q-0510 | 6 | partial | high | unsupported-claim, blueprint-mismatch |
+| Q-0512 | 6 | fail | high | unsupported-claim, blueprint-mismatch, too-esoteric-thin-source |
+| Q-0535 | 9 | fail | high | unsupported-claim, too-esoteric-thin-source, blueprint-mismatch |
+| Q-0539 | 10 | partial | high | blueprint-mismatch, unsupported-claim |
+| Q-0541 | 10 | partial | high | unsupported-claim, too-esoteric-thin-source |
+| Q-0548 | 10 | partial | high | unsupported-claim, too-esoteric-thin-source |
+| Q-0559 | 16 | partial | high | blueprint-mismatch, unsupported-claim |
+| Q-0560 | 16 | fail | high | unsupported-claim, ambiguous-stem |
+| Q-0579 | 17 | partial | high | unsupported-claim, blueprint-mismatch |
