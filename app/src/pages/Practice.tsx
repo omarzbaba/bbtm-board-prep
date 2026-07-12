@@ -5,7 +5,7 @@ import { useLearner } from "../store/learnerStore";
 import type { BoardQuestion } from "../types";
 import { DesignationBadge, Empty } from "../components/ui";
 import { NoteEditor, SourceTrace, WeakStar } from "../components/ItemControls";
-import { domainNumber, domainShort, stableShuffle } from "../lib/util";
+import { domainNumber, domainShort } from "../lib/util";
 
 export function Practice() {
   const { bundle } = useContent();
@@ -57,7 +57,9 @@ export function Practice() {
   useEffect(() => { setIdx(0); setChosen(null); }, [domainFilter, difficulty, weakOnly, unseenOnly, focusId]);
 
   const q: BoardQuestion | undefined = pool[idx];
-  const options = useMemo(() => (q ? stableShuffle(q.options, q.id) : []), [q]);
+  // Options are pre-ordered A..E with a de-biased correct position at bank-build
+  // time (see scripts/optnorm.py), so display them exactly as stored.
+  const options = q ? q.options : [];
 
   if (pool.length === 0) {
     return <Empty title="No questions match these filters" body="Try clearing a filter or turning off weak / unseen only." />;

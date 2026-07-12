@@ -19,6 +19,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from optnorm import normalize_option_order
+
 ROOT = Path("/Users/omarbaba/Library/CloudStorage/OneDrive-Personal/tala blood bank")
 WF = ROOT / "scratch_wf_output.json"
 NOW = datetime.now(tz=timezone.utc).isoformat()
@@ -112,7 +114,7 @@ def build_question(rec):
     rationales = {r["id"]: r["text"] for r in q.get("option_rationales", []) if r.get("id") in ids}
     review, accept = q_review(audit)
     subdomain = item.get("entity") or item.get("node_title") or item["domain"]
-    return {
+    obj = {
         "id": item["id"],
         "domain": item["domain"],
         "subdomain": subdomain,
@@ -134,7 +136,9 @@ def build_question(rec):
         "created_at": NOW,
         "generator": GEN_LABEL,
         "_audit": audit,
-    }, accept
+    }
+    normalize_option_order(obj)
+    return obj, accept
 
 
 def build_case(rec):
