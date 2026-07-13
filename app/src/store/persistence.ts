@@ -93,6 +93,51 @@ export async function saveCloud(learnerId: string, state: LearnerState): Promise
   }
 }
 
+// ---- Manual file backup / restore ----
+// A portable third copy on top of localStorage + optional cloud sync — lets the
+// learner keep a dated snapshot anywhere (external drive, email to self, etc.) and
+// restore it later on any device, even with cloud sync off.
+function isLearnerState(v: unknown): v is LearnerState {
+  if (!v || typeof v !== "object") return false;
+  const o = v as Record<string, unknown>;
+  return o.version === 1 && typeof o.notes === "object" && typeof o.weak_marks === "object"
+    && typeof o.attempts === "object";
+}
+
+export function downloadBackupFile(state: LearnerState, learnerId: string) {
+  const payload = { ...state, learner_id: learnerId, exported_at: new Date().toISOString() };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const date = new Date().toISOString().slice(0, 10);
+  a.href = url;
+  a.download = `bbtm-progress-backup-${learnerId}-${date}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+export function readBackupFile(file: File): Promise<LearnerState> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Could not read the file."));
+    reader.onload = () => {
+      try {
+        const parsed: unknown = JSON.parse(String(reader.result));
+        if (!isLearnerState(parsed)) {
+          reject(new Error("This doesn't look like a BB/TM progress backup file."));
+          return;
+        }
+        resolve(parsed);
+      } catch {
+        reject(new Error("This file isn't valid JSON."));
+      }
+    };
+    reader.readAsText(file);
+  });
+}
+
 // Merge two states preferring the most recent per-item (best-effort: cloud wins on
 // counts, union of notes/marks). Simple last-write-wins on scalars.
 export function mergeStates(a: LearnerState, b: LearnerState): LearnerState {

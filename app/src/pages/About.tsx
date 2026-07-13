@@ -1,12 +1,38 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useContent } from "../store/contentStore";
 import { useLearner } from "../store/learnerStore";
 
 export function About() {
   const { bundle } = useContent();
-  const { learnerId, changeLearnerId, resetAll, cloudEnabled, syncStatus } = useLearner();
+  const {
+    learnerId, changeLearnerId, resetAll, cloudEnabled, syncStatus,
+    downloadBackup, restoreFromFile,
+  } = useLearner();
   const [idInput, setIdInput] = useState(learnerId);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [restoreMsg, setRestoreMsg] = useState<{ ok: boolean; text: string } | null>(null);
+  const [restoring, setRestoring] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const onFileChosen = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow re-choosing the same file later
+    if (!file) return;
+    setRestoring(true);
+    setRestoreMsg(null);
+    try {
+      const summary = await restoreFromFile(file);
+      setRestoreMsg({
+        ok: true,
+        text: `Restored — you now have ${summary.notesTotal} notes, ${summary.weakTotal} weak-marked items, `
+          + `and attempt history on ${summary.attemptsTotal} questions. Nothing already here was deleted.`,
+      });
+    } catch (err) {
+      setRestoreMsg({ ok: false, text: err instanceof Error ? err.message : "Could not restore this file." });
+    } finally {
+      setRestoring(false);
+    }
+  };
 
   return (
     <div className="stack gap-5" style={{ maxWidth: 720 }}>
@@ -45,6 +71,35 @@ export function About() {
           </div>
           {cloudEnabled && <p className="muted" style={{ fontSize: 11, margin: 0 }}>Use the same ID on another device to load your saved progress.</p>}
         </div>
+      </section>
+
+      <section className="card pad stack gap-3">
+        <span className="eyebrow">Backup & restore</span>
+        <p className="dim" style={{ margin: 0, fontSize: "var(--text-sm)" }}>
+          Download a copy of your progress as a file — a portable backup you keep yourself
+          (on this computer, a drive, cloud storage, wherever). Restoring a file never deletes
+          anything already here; it merges the file in, keeping whichever notes and attempts are newest.
+        </p>
+        <div className="row gap-2 wrap">
+          <button className="btn primary" onClick={downloadBackup}>⬇ Download backup file</button>
+          <button className="btn" onClick={() => fileInputRef.current?.click()} disabled={restoring}>
+            {restoring ? "Restoring…" : "⬆ Restore from file"}
+          </button>
+          <input ref={fileInputRef} type="file" accept="application/json,.json" onChange={onFileChosen}
+            style={{ display: "none" }} aria-label="Choose a backup file to restore" />
+        </div>
+        {restoreMsg && (
+          <p className={restoreMsg.ok ? "notice" : "notice warn"} style={{ margin: 0 }}>
+            {restoreMsg.ok ? "✓ " : "⚠ "}{restoreMsg.text}
+          </p>
+        )}
+        {cloudEnabled && (
+          <p className="muted" style={{ fontSize: 11, margin: 0 }}>
+            Your progress already backs up automatically to the cloud on every change — this file is an
+            extra, offline copy for peace of mind (e.g. before clearing your browser, or moving devices
+            without cloud access).
+          </p>
+        )}
       </section>
 
       <section className="card pad stack gap-3">

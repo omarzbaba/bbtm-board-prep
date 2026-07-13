@@ -5,12 +5,18 @@ sources/notebooklm-exports/raw_extracted/
 content/normalized/normalized_sources/
 # keep the ABPath blueprint PDF out of the public repo too (redistribution)
 sources/abpath/*.pdf
+# retrieved textbook excerpts (substantial verbatim passages) — regenerable cache, not for publication
+sources/reference-texts/retrieved/
 
 # ---- Scratch / temp ----
 scratch_*.txt
 scratch_*.json
 scratch_*.mjs
+scratch_cases/
 *.tmp
+
+# ---- Supabase CLI local state ----
+supabase/.temp/
 
 # ---- Node / build ----
 app/node_modules/

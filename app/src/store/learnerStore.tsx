@@ -4,9 +4,15 @@ import {
 import type { ReactNode } from "react";
 import type { AttemptState, LearnerState } from "../types";
 import {
-  cloudEnabled, emptyState, getLearnerId, loadCloud, loadLocal, mergeStates,
-  saveCloud, saveLocal, setLearnerId as persistId,
+  cloudEnabled, downloadBackupFile, emptyState, getLearnerId, loadCloud, loadLocal,
+  mergeStates, readBackupFile, saveCloud, saveLocal, setLearnerId as persistId,
 } from "./persistence";
+
+export interface ImportSummary {
+  notesTotal: number;
+  weakTotal: number;
+  attemptsTotal: number;
+}
 
 interface LearnerCtx {
   state: LearnerState;
@@ -19,6 +25,8 @@ interface LearnerCtx {
   markCaseStage: (cid: string, stage: number, completed?: boolean) => void;
   changeLearnerId: (id: string) => void;
   resetAll: () => void;
+  downloadBackup: () => void;
+  restoreFromFile: (file: File) => Promise<ImportSummary>;
 }
 
 const Ctx = createContext<LearnerCtx | null>(null);
@@ -30,6 +38,10 @@ export function LearnerProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<LearnerState>(() => loadLocal());
   const [syncStatus, setSyncStatus] = useState<LearnerCtx["syncStatus"]>(cloudEnabled ? "syncing" : "local");
   const saveTimer = useRef<number | null>(null);
+  // Kept in sync with `state` so restoreFromFile can read the latest value
+  // synchronously (setState's functional updater doesn't run inline).
+  const stateRef = useRef(state);
+  useEffect(() => { stateRef.current = state; }, [state]);
 
   // Initial cloud hydrate + merge
   useEffect(() => {
@@ -132,10 +144,32 @@ export function LearnerProvider({ children }: { children: ReactNode }) {
     persist(fresh);
   }, [learnerId, persist]);
 
+  const downloadBackup = useCallback(() => {
+    downloadBackupFile(state, learnerId);
+  }, [state, learnerId]);
+
+  // Restore NEVER discards current progress — it merges the file into whatever is
+  // already here (union of notes/weak-marks, higher attempt counts win), so a stale
+  // or partial backup can't accidentally erase newer work.
+  const restoreFromFile = useCallback(async (file: File): Promise<ImportSummary> => {
+    const imported = await readBackupFile(file);
+    const merged = mergeStates(stateRef.current, imported);
+    stateRef.current = merged;
+    setState(merged);
+    persist(merged);
+    return {
+      notesTotal: Object.keys(merged.notes).length,
+      weakTotal: Object.keys(merged.weak_marks).length,
+      attemptsTotal: Object.keys(merged.attempts).length,
+    };
+  }, [persist]);
+
   const value = useMemo<LearnerCtx>(() => ({
     state, learnerId, syncStatus, cloudEnabled,
     setNote, toggleWeak, recordAttempt, markCaseStage, changeLearnerId, resetAll,
-  }), [state, learnerId, syncStatus, setNote, toggleWeak, recordAttempt, markCaseStage, changeLearnerId, resetAll]);
+    downloadBackup, restoreFromFile,
+  }), [state, learnerId, syncStatus, setNote, toggleWeak, recordAttempt, markCaseStage,
+      changeLearnerId, resetAll, downloadBackup, restoreFromFile]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
