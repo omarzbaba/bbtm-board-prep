@@ -69,7 +69,10 @@ export function About() {
               Save ID
             </button>
           </div>
-          {cloudEnabled && <p className="muted" style={{ fontSize: 11, margin: 0 }}>Use the same ID on another device to load your saved progress.</p>}
+          <p className="muted" style={{ fontSize: 11, margin: 0 }}>
+            Each device gets its own private profile automatically, so if someone else uses this same
+            link, your progress never mixes with theirs. {cloudEnabled && "Want your OWN progress on more than one device (like a phone and a laptop)? Set the same profile ID on each one."}
+          </p>
         </div>
       </section>
 
