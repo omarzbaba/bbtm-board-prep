@@ -52,18 +52,32 @@ export function Practice() {
     return qs;
   }, [questions, domainFilter, difficulty, weakOnly, unseenOnly, state]);
 
-  const [idx, setIdx] = useState(0);
+  // Track the CURRENT question by its stable id, not by array position. `pool` is
+  // re-sorted (spaced-repetition ordering) every time `state` changes, and
+  // recordAttempt updates `state` the instant an answer is chosen — so an
+  // index-based pointer could silently point at a different question the moment
+  // you answered (the reorder happens before "Next" is ever clicked), making it
+  // look like the wrong answer was highlighted. Looking the question up by id in
+  // the unfiltered, never-reordered `questions` list is immune to that.
+  const [currentId, setCurrentId] = useState<string | null>(null);
   const [chosen, setChosen] = useState<string | null>(null);
-  useEffect(() => { setIdx(0); setChosen(null); }, [domainFilter, difficulty, weakOnly, unseenOnly, focusId]);
+  useEffect(() => {
+    setChosen(null);
+    setCurrentId(pool[0]?.id ?? null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [domainFilter, difficulty, weakOnly, unseenOnly, focusId]);
 
-  const q: BoardQuestion | undefined = pool[idx];
+  const byId = useMemo(() => new Map(questions.map((qq) => [qq.id, qq])), [questions]);
+  const q: BoardQuestion | undefined = currentId ? byId.get(currentId) : undefined;
   // Options are pre-ordered A..E with a de-biased correct position at bank-build
   // time (see scripts/optnorm.py), so display them exactly as stored.
   const options = q ? q.options : [];
 
-  if (pool.length === 0) {
+  if (!q) {
     return <Empty title="No questions match these filters" body="Try clearing a filter or turning off weak / unseen only." />;
   }
+
+  const posInPool = pool.findIndex((x) => x.id === currentId);
 
   const answered = chosen !== null;
   const onChoose = (id: string) => {
@@ -73,7 +87,10 @@ export function Practice() {
   };
   const next = () => {
     setChosen(null);
-    setIdx((i) => (i + 1) % pool.length);
+    if (pool.length === 0) { setCurrentId(null); return; }
+    const from = posInPool >= 0 ? posInPool : -1;
+    const nextQ = pool[(from + 1) % pool.length];
+    setCurrentId(nextQ.id);
   };
 
   const rationaleFor = (oid: string) => q!.option_explanations?.[oid as keyof typeof q.option_explanations];
@@ -106,7 +123,9 @@ export function Practice() {
         <button className={`chip ${weakOnly ? "on" : ""}`} onClick={() => setParam("weak", weakOnly ? "" : "1")}>★ Weak only</button>
         <button className={`chip ${unseenOnly ? "on" : ""}`} onClick={() => setParam("unseen", unseenOnly ? "" : "1")}>◇ Unseen only</button>
         <span className="spacer" />
-        <span className="muted" style={{ fontSize: "var(--text-sm)" }}>{idx + 1} / {pool.length}</span>
+        <span className="muted" style={{ fontSize: "var(--text-sm)" }}>
+          {posInPool >= 0 ? posInPool + 1 : Math.min(pool.length, 1)} / {pool.length}
+        </span>
       </div>
 
       {/* Question */}
